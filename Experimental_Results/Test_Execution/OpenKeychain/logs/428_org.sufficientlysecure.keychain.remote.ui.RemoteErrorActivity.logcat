@@ -1,0 +1,6 @@
+--------- beginning of system
+--------- beginning of main
+03-10 01:19:23.622 10152 10152 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 01:19:23.644 10152 10152 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:19:23.660 10152 10152 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/RemoteErrorActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:19:23.663 10152 10152 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onResume()V

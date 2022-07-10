@@ -1,0 +1,4 @@
+com.integreight.onesheeld.plugin.condition.ConditionActivity
+com.integreight.onesheeld.MainActivity
+com.integreight.onesheeld.plugin.action.ActionActivity
+com.integreight.onesheeld.shields.controller.utils.NfcUtils

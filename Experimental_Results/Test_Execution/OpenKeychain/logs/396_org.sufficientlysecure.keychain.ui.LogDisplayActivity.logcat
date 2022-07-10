@@ -1,0 +1,11 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:10:14.779  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 01:10:14.803  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:10:14.818  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/LogDisplayFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:10:14.823  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/RecyclerFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 01:10:14.824  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/LogDisplayActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:10:14.826  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/LogDisplayFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 01:10:14.832  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 01:10:15.267  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/RecyclerFragment;--->onDestroy()V
+03-10 01:10:15.268  4857  4857 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

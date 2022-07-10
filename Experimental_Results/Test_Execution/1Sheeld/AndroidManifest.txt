@@ -1,0 +1,370 @@
+manifest
+- package: com.integreight.onesheeld
+- platformBuildVersionName: 7.1.1
+- versionName: 1.9.0
+- platformBuildVersionCode: 25
+- versionCode: 190401
+	uses-sdk
+	- minSdkVersion: 9
+	- targetSdkVersion: 26
+	uses-permission
+	- name: android.permission.BLUETOOTH_ADMIN
+	uses-permission
+	- name: android.permission.BLUETOOTH
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.VIBRATE
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.ACCESS_FINE_LOCATION
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.CAMERA
+	uses-permission
+	- name: android.permission.RECORD_AUDIO
+	uses-permission
+	- name: android.permission.SYSTEM_ALERT_WINDOW
+	uses-permission
+	- name: android.permission.FLASHLIGHT
+	- protectionLevel: 0
+	- permissionGroup: android.permission-group.HARDWARE_CONTROLS
+	uses-permission
+	- name: android.permission.CALL_PHONE
+	uses-permission
+	- name: android.permission.READ_PHONE_STATE
+	uses-permission
+	- name: android.permission.READ_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.GET_TASKS
+	uses-permission
+	- name: android.permission.GET_ACCOUNTS
+	uses-permission
+	- name: com.google.android.c2dm.permission.RECEIVE
+	uses-permission
+	- name: android.permission.NFC
+	uses-permission
+	- name: android.permission.MANAGE_ACCOUNTS
+	uses-permission
+	- name: android.permission.USE_CREDENTIALS
+	permission
+	- name: com.integreight.onesheeld.permission.C2D_MESSAGE
+	- protectionLevel: 2
+	uses-permission
+	- name: com.integreight.onesheeld.permission.C2D_MESSAGE
+	uses-feature
+	- name: android.hardware.telephony
+	- required: false
+	uses-feature
+	- name: android.hardware.bluetooth
+	- required: true
+	uses-feature
+	- name: android.hardware.camera
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.front
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.autofocus
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.flash
+	- required: false
+	uses-feature
+	- name: android.hardware.location
+	- required: false
+	uses-feature
+	- name: android.hardware.location.network
+	- required: false
+	uses-feature
+	- name: android.hardware.location.gps
+	- required: false
+	uses-feature
+	- name: android.hardware.microphone
+	- required: false
+	uses-feature
+	- name: android.hardware.nfc
+	- required: false
+	uses-feature
+	- name: android.hardware.touchscreen
+	- required: false
+	meta-data
+	- name: android.support.VERSION
+	- value: 25.3.1
+	application
+	- allowClearUserData: true
+	- allowBackup: true
+	- hardwareAccelerated: true
+	- icon: 2130837642
+	- name: com.integreight.onesheeld.OneSheeldApplication
+	- theme: 2131361800
+	- label: 2131165243
+	- largeHeap: true
+	- resizeableActivity: false
+		activity
+		- windowSoftInputMode: 32
+		- screenOrientation: 1
+		- name: com.integreight.onesheeld.MainActivity
+		- launchMode: 1
+		- configChanges: 1073754036
+		- theme: 2131361800
+		- label: 2131165243
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: com.facebook.FacebookActivity
+		- configChanges: 1456
+		- theme: 16973840
+		- label: 2131165243
+		meta-data
+		- name: com.facebook.sdk.ApplicationName
+		- value: 2131165243
+		provider
+		- exported: true
+		- name: com.facebook.FacebookContentProvider
+		- authorities: com.facebook.app.FacebookContentProvider1423548367865538
+		receiver
+		- name: com.integreight.onesheeld.utils.FacebookBroadcastReceiver
+			intent-filter
+				action
+				- name: com.facebook.platform.AppCallResultBroadcast
+		service
+		- exported: false
+		- name: com.integreight.onesheeld.services.OneSheeldService
+		- singleUser: false
+		activity
+		- exported: true
+		- windowSoftInputMode: 16
+		- screenOrientation: 1
+		- icon: 2130837642
+		- name: com.integreight.onesheeld.plugin.action.ActionActivity
+		- configChanges: 128
+		- theme: 16973836
+		- label: 2131165452
+		- uiOptions: 1
+			intent-filter
+				action
+				- name: com.twofortyfouram.locale.intent.action.EDIT_SETTING
+		activity
+		- exported: true
+		- windowSoftInputMode: 16
+		- screenOrientation: 1
+		- icon: 2130837642
+		- name: com.integreight.onesheeld.plugin.condition.ConditionActivity
+		- configChanges: 128
+		- theme: 16973836
+		- label: 2131165452
+		- uiOptions: 1
+			intent-filter
+				action
+				- name: com.twofortyfouram.locale.intent.action.EDIT_CONDITION
+		activity
+		- name: com.integreight.onesheeld.shields.controller.utils.NfcUtils
+		- launchMode: 3
+		- theme: 2131361834
+		- excludeFromRecents: true
+		- taskAffinity: :nfc
+		- allowTaskReparenting: true
+		activity-alias
+		- exported: true
+		- name: com.integreight.onesheeld.NFCUtils-alias
+		- targetActivity: com.integreight.onesheeld.shields.controller.utils.NfcUtils
+		- enabled: true
+			intent-filter
+				action
+				- name: android.nfc.action.NDEF_DISCOVERED
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: */*
+			intent-filter
+				action
+				- name: android.nfc.action.NDEF_DISCOVERED
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- scheme: tel
+				data
+				- scheme: mailto
+				data
+				- scheme: ftp
+				data
+				- scheme: ftps
+				data
+				- scheme: sftp
+				data
+				- scheme: smb
+				data
+				- scheme: nfs
+				data
+				- scheme: dav
+				data
+				- scheme: news
+				data
+				- scheme: telnet
+				data
+				- scheme: imap
+				data
+				- scheme: rtsp
+				data
+				- scheme: urn
+				data
+				- scheme: pop
+				data
+				- scheme: sip
+				data
+				- scheme: sips
+				data
+				- scheme: tftp
+				data
+				- scheme: btspp
+				data
+				- scheme: btl2cap
+				data
+				- scheme: btgoep
+				data
+				- scheme: tcpobex
+				data
+				- scheme: irdaobex
+				data
+				- scheme: file
+				data
+				- scheme: urn:epc:id
+				data
+				- scheme: urn:epc:tag
+				data
+				- scheme: urn:epc:pat
+				data
+				- scheme: urn:epc:raw
+				data
+				- scheme: urn:epc
+				data
+				- scheme: urn:nfc
+			intent-filter
+				action
+				- name: android.nfc.action.TAG_DISCOVERED
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: android.nfc.action.TECH_DISCOVERED
+				category
+				- name: android.intent.category.DEFAULT
+			meta-data
+			- name: android.nfc.action.TECH_DISCOVERED
+			- resource: 2131034113
+		receiver
+		- exported: true
+		- name: com.integreight.onesheeld.plugin.action.FireReceiver
+			intent-filter
+				action
+				- name: com.twofortyfouram.locale.intent.action.FIRE_SETTING
+		receiver
+		- exported: true
+		- name: com.integreight.onesheeld.plugin.condition.QueryReceiver
+			intent-filter
+				action
+				- name: com.twofortyfouram.locale.intent.action.QUERY_CONDITION
+		service
+		- name: com.integreight.onesheeld.shields.controller.utils.CameraHeadService
+		- process: :camera
+		- label: My CameraHeadService
+		- singleUser: true
+		meta-data
+		- name: com.google.android.gms.version
+		- value: 2131296262
+		activity
+		- name: com.integreight.onesheeld.Tutorial
+		- launchMode: 3
+		- theme: 16973833
+		- screenOrientation: 1
+		service
+		- name: com.integreight.onesheeld.shields.controller.utils.SpeechRecognitionService
+		service
+		- name: com.integreight.onesheeld.push.PushMessagesReceiver
+			intent-filter
+				action
+				- name: com.google.firebase.MESSAGING_EVENT
+		provider
+		- exported: false
+		- name: android.support.v4.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: com.integreight.onesheeld.provider
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2131034114
+		activity
+		- exported: false
+		- name: com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+		- theme: 16973840
+		- excludeFromRecents: true
+		service
+		- exported: true
+		- name: com.google.android.gms.auth.api.signin.RevocationBoundService
+		- permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+		activity
+		- exported: false
+		- name: com.google.android.gms.common.api.GoogleApiActivity
+		- theme: 16973840
+		receiver
+		- exported: false
+		- name: com.google.android.gms.measurement.AppMeasurementReceiver
+		- enabled: true
+		receiver
+		- name: com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+		- permission: android.permission.INSTALL_PACKAGES
+		- enabled: true
+			intent-filter
+				action
+				- name: com.android.vending.INSTALL_REFERRER
+		service
+		- exported: false
+		- name: com.google.android.gms.measurement.AppMeasurementService
+		- enabled: true
+		service
+		- exported: true
+		- name: com.google.firebase.messaging.FirebaseMessagingService
+			intent-filter
+			- priority: -500
+				action
+				- name: com.google.firebase.MESSAGING_EVENT
+		receiver
+		- exported: true
+		- name: com.google.firebase.iid.FirebaseInstanceIdReceiver
+		- permission: com.google.android.c2dm.permission.SEND
+			intent-filter
+				action
+				- name: com.google.android.c2dm.intent.RECEIVE
+				action
+				- name: com.google.android.c2dm.intent.REGISTRATION
+				category
+				- name: com.integreight.onesheeld
+		receiver
+		- exported: false
+		- name: com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+		service
+		- exported: true
+		- name: com.google.firebase.iid.FirebaseInstanceIdService
+			intent-filter
+			- priority: -500
+				action
+				- name: com.google.firebase.INSTANCE_ID_EVENT
+		provider
+		- exported: false
+		- name: com.google.firebase.provider.FirebaseInitProvider
+		- authorities: com.integreight.onesheeld.firebaseinitprovider
+		- initOrder: 100
+		meta-data
+		- name: io.fabric.ApiKey
+		- value: 64d505421ef6fa71772afc4b19b259643e53e1f1

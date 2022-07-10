@@ -1,0 +1,33 @@
+--------- beginning of system
+--------- beginning of main
+03-10 08:03:56.522 27019 27019 D M_InsDal: Leu/siacs/conversations/ui/MemorizingActivity;--->onResume()V
+--------- beginning of crash
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: Process: eu.siacs.conversations, PID: 27019
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: java.lang.RuntimeException: Unable to resume activity {eu.siacs.conversations/eu.siacs.conversations.ui.MemorizingActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.eu.siacs.conversations.MyParcelable
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4789)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4832)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:190)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.eu.siacs.conversations.MyParcelable
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.os.BaseBundle.getInt(BaseBundle.java:1039)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.content.Intent.getIntExtra(Intent.java:7993)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at eu.siacs.conversations.ui.MemorizingActivity.onResume(MemorizingActivity.java:66)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1465)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.Activity.performResume(Activity.java:8223)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4779)
+03-10 08:03:56.524 27019 27019 E AndroidRuntime: 	... 11 more

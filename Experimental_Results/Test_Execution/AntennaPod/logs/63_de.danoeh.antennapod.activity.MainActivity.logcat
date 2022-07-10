@@ -1,0 +1,44 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:38:52.759 15768 15768 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V
+03-10 08:38:52.803 15768 15768 D M_InsDal: Lde/danoeh/antennapod/activity/CastEnabledActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:38:52.840 15768 15768 D M_InsDal: Lde/danoeh/antennapod/fragment/QueueFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:38:52.840 15768 15768 D M_InsDal: Lde/danoeh/antennapod/fragment/QueueFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 08:38:52.850 15768 15768 D M_InsDal: Lde/danoeh/antennapod/fragment/ExternalPlayerFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 08:38:52.855 15768 15768 D M_InsDal: Lde/danoeh/antennapod/fragment/QueueFragment;--->onStart()V
+03-10 08:38:52.855 15768 15768 D M_InsDal: Lde/danoeh/antennapod/activity/MainActivity;--->onStart()V
+03-10 08:38:52.855 15768 15768 D M_InsDal: Lde/danoeh/antennapod/core/feed/EventDistributor;--->addObserver(Ljava/util/Observer;)V
+03-10 08:38:52.858 15768 15768 D M_InsDal: Lde/danoeh/antennapod/activity/MainActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 08:38:52.858 15768 15768 D M_InsDal: Lde/danoeh/antennapod/activity/CastEnabledActivity;--->onResume()V
+03-10 08:38:52.858 15768 15768 D M_InsDal: Lde/danoeh/antennapod/activity/MainActivity;--->onResume()V
+--------- beginning of crash
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 15768
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: java.lang.RuntimeException: Unable to resume activity {de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.de.danoeh.antennapod.MyParcelable
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4789)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4832)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:190)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.de.danoeh.antennapod.MyParcelable
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.os.BaseBundle.containsKey(BaseBundle.java:513)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.content.Intent.hasExtra(Intent.java:7868)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at de.danoeh.antennapod.activity.MainActivity.onResume(MainActivity.java:477)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1465)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.Activity.performResume(Activity.java:8223)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4779)
+03-10 08:38:52.863 15768 15768 E AndroidRuntime: 	... 11 more
+03-10 08:38:53.961 15828 15828 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V

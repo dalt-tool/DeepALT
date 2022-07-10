@@ -1,0 +1,247 @@
+manifest
+- installLocation: 0
+- package: nl.sogeti.android.gpstracker
+- versionName: 1.3.5
+- versionCode: 85
+	uses-sdk
+	- minSdkVersion: 4
+	- targetSdkVersion: 4
+	supports-screens
+	- normalScreens: true
+	- smallScreens: true
+	- largeScreens: true
+	uses-permission
+	- name: android.permission.ACCESS_COARSE_LOCATION
+	uses-permission
+	- name: android.permission.ACCESS_FINE_LOCATION
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.READ_PHONE_STATE
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	uses-permission
+	- name: android.permission.ACCESS_WIFI_STATE
+	uses-feature
+	- name: android.hardware.location.gps
+	- required: true
+	application
+	- icon: 2130837519
+	- description: 2131230732
+	- allowClearUserData: true
+	- label: 2131230732
+	- hardwareAccelerated: true
+		uses-library
+		- name: com.google.android.maps
+		meta-data
+		- name: org.openintents.metadata.COMMENTS
+		- value: 2131230975
+		meta-data
+		- name: org.openintents.metadata.COPYRIGHT
+		- value: 2131230724
+		meta-data
+		- name: org.openintents.metadata.AUTHORS
+		- resource: 2131165200
+		meta-data
+		- name: org.openintents.metadata.DOCUMENTERS
+		- resource: 2131165201
+		meta-data
+		- name: org.openintents.metadata.TRANSLATORS
+		- resource: 2131165194
+		meta-data
+		- name: org.openintents.metadata.ARTISTS
+		- resource: 2131165202
+		meta-data
+		- name: org.openintents.metadata.WEBSITE_LABEL
+		- value: 2131230727
+		meta-data
+		- name: org.openintents.metadata.WEBSITE_URL
+		- value: 2131230725
+		meta-data
+		- name: org.openintents.metadata.LICENSE
+		- resource: 2131099648
+		meta-data
+		- name: org.openintents.metadata.EMAIL
+		- value: 2131230726
+		meta-data
+		- name: android.app.default_searchable
+		- value: .viewer.TrackList
+		meta-data
+		- name: CLOUDMADE_KEY
+		- value: 534dfce474894e218f363a5473248ff6
+		activity
+		- name: .viewer.LoggerMap
+		- launchMode: 2
+		- theme: 2131296256
+		- label: 2131230732
+		- hardwareAccelerated: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+			intent-filter
+			- label: Show track on map
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: content
+				data
+				- host: nl.sogeti.android.gpstracker
+				data
+				- mimeType: vnd.android.cursor.item/vnd.nl.sogeti.android.track
+		activity
+		- name: .viewer.ApplicationPreferenceActivity
+		- label: 2131230828
+		activity
+		- name: .actions.NameTrack
+		- theme: 16973840
+		activity
+		- name: .actions.DescribeTrack
+		- theme: 16973840
+		activity
+		- name: .actions.ControlTracking
+		- theme: 16973840
+		activity
+		- name: .actions.InsertNote
+		- theme: 16973840
+		activity
+		- name: .viewer.TrackList
+		- launchMode: 1
+		- label: 2131230921
+			intent-filter
+				action
+				- name: android.intent.action.SEARCH
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- mimeType: */*
+				data
+				- pathPattern: .*\.gpx
+				data
+				- host: *
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: text/xml
+			meta-data
+			- name: android.app.searchable
+			- resource: 2131034113
+		activity
+		- icon: 2130837519
+		- name: .viewer.TracksLiveFolder
+		- label: 2131230921
+			intent-filter
+				action
+				- name: android.intent.action.CREATE_LIVE_FOLDER
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: .actions.Statistics
+		- label: 2131230834
+		activity
+		- exported: false
+		- name: .actions.ShareTrack
+		- windowSoftInputMode: 1
+		- label: 2131230855
+			intent-filter
+				action
+				- name: android.intent.action.RUN
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: vnd.android.cursor.item/vnd.nl.sogeti.android.track
+		activity
+		- exported: true
+		- name: .oauth.PrepareRequestTokenActivity
+		- launchMode: 2
+		- theme: 16973835
+		- label: 2131230791
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: x-oauthflow-opengpstracker
+				- host: callback
+		service
+		- name: .logger.GPSLoggerService
+		- permission: android.permission.ACCESS_FINE_LOCATION
+		- enabled: true
+			intent-filter
+			- label: GPS logger
+				action
+				- name: nl.sogeti.android.gpstracker.intent.action.GPSLoggerService
+		service
+		- name: .breadcrumbs.BreadcrumbsService
+		provider
+		- name: .db.GPStrackingProvider
+		- permission: android.permission.ACCESS_FINE_LOCATION
+		- enabled: true
+		- authorities: nl.sogeti.android.gpstracker
+			grant-uri-permission
+			- pathPrefix: /tracks/
+			path-permission
+			- path: /search_suggest_query
+			- readPermission: android.permission.GLOBAL_SEARCH
+			path-permission
+			- path: /live_folders/tracks
+			- readPermission: android.permission.BIND_APPWIDGET
+		receiver
+		- exported: false
+		- name: .util.BootReceiver
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+		receiver
+		- exported: false
+		- name: .util.DockReceiver
+			intent-filter
+				action
+				- name: android.intent.action.DOCK_EVENT
+		receiver
+		- exported: false
+		- name: .util.PowerReceiver
+			intent-filter
+				action
+				- name: android.intent.action.ACTION_POWER_CONNECTED
+				action
+				- name: android.intent.action.ACTION_POWER_DISCONNECTED
+		receiver
+		- exported: false
+		- name: .widget.ControlWidgetProvider
+		- label: Logger control
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+			intent-filter
+				action
+				- name: nl.sogeti.android.gpstracker.LOGGING_STATE_CHANGED
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131034112

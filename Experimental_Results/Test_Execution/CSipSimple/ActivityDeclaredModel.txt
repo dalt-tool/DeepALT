@@ -1,0 +1,158 @@
+app_name: CSipSimple
+package_name: com.csipsimple
+
+act_name: com.csipsimple.ui.prefs.hc.MainPrefs
+permission: android.permission.CONFIGURE_SIP
+mIntentFilter
+intent_filter: 
+action: "com.csipsimple.ui.action.PREFS_GLOBAL" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: com.csipsimple.ui.prefs.PrefsFast
+permission: android.permission.CONFIGURE_SIP
+mIntentFilter
+intent_filter: 
+action: "com.csipsimple.ui.action.PREFS_FAST" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: com.csipsimple.widgets.ShortcutWidgetConfigure
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.csipsimple.ui.filters.EditFilter
+permission: 
+
+act_name: com.csipsimple.wizards.BasePrefsWizard
+permission: 
+
+act_name: com.csipsimple.ui.SipHome
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "com.csipsimple.phone.action.DIALER" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.DIAL" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["csip", "sip"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "com.csipsimple.phone.action.CALLLOG" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "com.csipsimple.phone.action.FAVORITES" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "com.csipsimple.phone.action.MESSAGES" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: com.csipsimple.wizards.WizardChooser
+permission: 
+
+act_name: com.csipsimple.ui.PickupSipUri
+permission: 
+
+act_name: com.csipsimple.ui.calllog.CallLogDetailsActivity
+permission: 
+
+act_name: com.csipsimple.ui.prefs.cupcake.MainPrefs
+permission: android.permission.CONFIGURE_SIP
+mIntentFilter
+intent_filter: 
+action: "com.csipsimple.ui.action.PREFS_GLOBAL" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: com.csipsimple.ui.prefs.cupcake.PrefsLoaderActivity
+permission: 
+
+act_name: com.csipsimple.ui.prefs.Codecs
+permission: 
+
+act_name: com.csipsimple.ui.filters.AccountFilters
+permission: 
+
+act_name: com.csipsimple.ui.incall.InCallMediaControl
+permission: 
+
+act_name: com.csipsimple.ui.prefs.AudioTester
+permission: 
+
+act_name: com.csipsimple.ui.prefs.PrefsFilters
+permission: 
+
+act_name: com.csipsimple.widgets.AccountWidgetConfigure
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.csipsimple.ui.messages.MessageActivity
+permission: 
+
+act_name: com.csipsimple.ui.outgoingcall.OutgoingCallChooser
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.CALL" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["csip", "sips", "sip"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["csip", "sips", "sip"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.phone.extra.NEW_CALL_INTENT" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["csip", "sips", "sip"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.SENDTO" action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["csip", "sips", "sip", "imto"]://host: ["skype", "csip", host, "sip"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.CALL_PRIVILEGED" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["sip"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.CALL_PRIVILEGED" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["tel"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.CALL_PRIVILEGED" 
+category: "android.intent.category.DEFAULT" 
+mime: "vnd.android.cursor.item/phone" mime: "vnd.android.cursor.item/phone_v2" mime: "vnd.android.cursor.item/person" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.SENDTO" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["smsto"]://host: [host]: [port]/[path]
+
+act_name: com.csipsimple.ui.incall.InCallActivity
+permission: android.permission.CONFIGURE_SIP
+mIntentFilter
+intent_filter: 
+action: "com.csipsimple.phone.action.INCALL" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: com.csipsimple.ui.account.AccountsEditList
+permission: 
+
+act_name: com.csipsimple.ui.account.AccountEdit
+permission: 
+
+act_name: com.csipsimple.wizards.impl.MondotalkCreate
+permission: 

@@ -1,0 +1,50 @@
+app_name: 1Sheeld
+package_name: com.integreight.onesheeld
+
+act_name: com.integreight.onesheeld.plugin.condition.ConditionActivity
+mExported
+permission: 
+mIntentFilter
+intent_filter: 
+action: "com.twofortyfouram.locale.intent.action.EDIT_CONDITION" 
+scheme: []://host: []: []/[]
+
+act_name: com.integreight.onesheeld.MainActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: com.integreight.onesheeld.plugin.action.ActionActivity
+mExported
+permission: 
+mIntentFilter
+intent_filter: 
+action: "com.twofortyfouram.locale.intent.action.EDIT_SETTING" 
+scheme: []://host: []: []/[]
+
+act_name: com.integreight.onesheeld.Tutorial
+permission: 
+
+act_name: com.integreight.onesheeld.shields.controller.utils.NfcUtils
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.nfc.action.NDEF_DISCOVERED" 
+category: "android.intent.category.DEFAULT" 
+mime: "*/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.nfc.action.NDEF_DISCOVERED" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["rtsp", "pop", "urn:epc:raw", "urn:nfc", "dav", "tftp", "urn:epc", "http", "irdaobex", "sips", "news", "urn:epc:tag", "ftps", "file", "sftp", "urn:epc:id", "tel", "https", "btl2cap", "mailto", "btspp", "urn", "telnet", "btgoep", "urn:epc:pat", "smb", "tcpobex", "ftp", "imap", "nfs", "sip"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.nfc.action.TAG_DISCOVERED" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.nfc.action.TECH_DISCOVERED" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]

@@ -1,0 +1,389 @@
+--------- beginning of system
+--------- beginning of main
+03-10 04:34:23.606 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:23.606 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:23.606 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:23.607 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:23.607 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:23.608 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:23.608 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:23.610 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:23.630 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:23.630 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:23.632 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:23.632 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:23.632 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:23.632 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:23.632 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:23.640 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:23.640 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:23.640 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:23.669 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;---><init>()V
+03-10 04:34:23.671 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:23.671 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getInstance(Landroid/content/Context;)Lfelixwiemuth/lincal/Calendars;
+03-10 04:34:23.671 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/Calendars;---><init>(Landroid/content/Context;)V
+03-10 04:34:23.671 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;---><init>(Landroid/content/Context;)V
+03-10 04:34:23.671 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->update(Landroid/content/Context;)Z
+03-10 04:34:23.671 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getVersionPref(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 04:34:23.672 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->load(Landroid/content/Context;ILjava/lang/Runnable;)V
+03-10 04:34:23.672 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->lockConfigFile(Landroid/content/Context;)V
+03-10 04:34:23.673 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->unlockConfigFile(Landroid/content/Context;)V
+03-10 04:34:23.673 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:23.673 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getCalendarByPos(Landroid/content/Context;I)Lfelixwiemuth/lincal/data/LinCal;
+03-10 04:34:23.673 24280 24280 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+--------- beginning of crash
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 24280
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: java.lang.RuntimeException: Illegal calendar position used.
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at felixwiemuth.lincal.Calendars.getCalendarByPos(Calendars.java:100)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewFragment.onCreate(CalendarViewFragment.java:126)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2339)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1377)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1109)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:996)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:99)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2364)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2322)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2229)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3221)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3171)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:192)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:560)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:23.675 24280 24280 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:23.754 24352 24352 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:23.754 24352 24352 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:23.754 24352 24352 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:23.754 24352 24352 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:23.754 24352 24352 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:23.756 24352 24352 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:23.757 24352 24352 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:23.758 24352 24352 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:23.791 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:23.792 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:23.792 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:23.792 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:23.792 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:23.794 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:23.794 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:23.795 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:23.836 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:23.836 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:23.838 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:23.838 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:23.838 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:23.838 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:23.838 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:23.847 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:23.848 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:23.848 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:23.874 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;---><init>()V
+03-10 04:34:23.878 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:23.878 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getInstance(Landroid/content/Context;)Lfelixwiemuth/lincal/Calendars;
+03-10 04:34:23.878 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/Calendars;---><init>(Landroid/content/Context;)V
+03-10 04:34:23.878 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;---><init>(Landroid/content/Context;)V
+03-10 04:34:23.878 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->update(Landroid/content/Context;)Z
+03-10 04:34:23.878 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getVersionPref(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 04:34:23.880 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->load(Landroid/content/Context;ILjava/lang/Runnable;)V
+03-10 04:34:23.880 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->lockConfigFile(Landroid/content/Context;)V
+03-10 04:34:23.880 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->unlockConfigFile(Landroid/content/Context;)V
+03-10 04:34:23.880 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:23.880 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getCalendarByPos(Landroid/content/Context;I)Lfelixwiemuth/lincal/data/LinCal;
+03-10 04:34:23.880 24376 24376 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 24376
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: java.lang.RuntimeException: Illegal calendar position used.
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at felixwiemuth.lincal.Calendars.getCalendarByPos(Calendars.java:100)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewFragment.onCreate(CalendarViewFragment.java:126)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2339)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1377)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1109)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:996)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:99)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2364)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2322)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2229)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3221)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3171)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:192)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:560)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:23.882 24376 24376 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:24.012 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:24.012 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:24.012 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:24.012 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:24.012 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.014 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:24.014 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:24.015 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:24.031 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:24.031 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:24.032 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:24.032 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:24.032 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.033 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:24.033 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:24.041 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.041 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.041 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.068 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;---><init>()V
+03-10 04:34:24.070 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.070 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getInstance(Landroid/content/Context;)Lfelixwiemuth/lincal/Calendars;
+03-10 04:34:24.070 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/Calendars;---><init>(Landroid/content/Context;)V
+03-10 04:34:24.071 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;---><init>(Landroid/content/Context;)V
+03-10 04:34:24.071 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->update(Landroid/content/Context;)Z
+03-10 04:34:24.071 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getVersionPref(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 04:34:24.072 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->load(Landroid/content/Context;ILjava/lang/Runnable;)V
+03-10 04:34:24.072 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->lockConfigFile(Landroid/content/Context;)V
+03-10 04:34:24.072 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->unlockConfigFile(Landroid/content/Context;)V
+03-10 04:34:24.072 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:24.072 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getCalendarByPos(Landroid/content/Context;I)Lfelixwiemuth/lincal/data/LinCal;
+03-10 04:34:24.072 24434 24434 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 24434
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: java.lang.RuntimeException: Illegal calendar position used.
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at felixwiemuth.lincal.Calendars.getCalendarByPos(Calendars.java:100)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewFragment.onCreate(CalendarViewFragment.java:126)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2339)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1377)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1109)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:996)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:99)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2364)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2322)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2229)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3221)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3171)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:192)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:560)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:24.074 24434 24434 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:24.198 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:24.199 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:24.199 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:24.199 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:24.199 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.201 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:24.201 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:24.202 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:24.218 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:24.218 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:24.219 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:24.219 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:24.219 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.219 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:24.219 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:24.227 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.227 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.228 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.253 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;---><init>()V
+03-10 04:34:24.255 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.255 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getInstance(Landroid/content/Context;)Lfelixwiemuth/lincal/Calendars;
+03-10 04:34:24.255 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/Calendars;---><init>(Landroid/content/Context;)V
+03-10 04:34:24.256 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;---><init>(Landroid/content/Context;)V
+03-10 04:34:24.256 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->update(Landroid/content/Context;)Z
+03-10 04:34:24.256 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getVersionPref(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 04:34:24.256 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->load(Landroid/content/Context;ILjava/lang/Runnable;)V
+03-10 04:34:24.256 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->lockConfigFile(Landroid/content/Context;)V
+03-10 04:34:24.257 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->unlockConfigFile(Landroid/content/Context;)V
+03-10 04:34:24.257 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:24.257 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getCalendarByPos(Landroid/content/Context;I)Lfelixwiemuth/lincal/data/LinCal;
+03-10 04:34:24.257 24475 24475 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 24475
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: java.lang.RuntimeException: Illegal calendar position used.
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at felixwiemuth.lincal.Calendars.getCalendarByPos(Calendars.java:100)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewFragment.onCreate(CalendarViewFragment.java:126)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2339)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1377)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1109)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:996)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:99)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2364)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2322)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2229)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3221)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3171)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:192)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:560)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:24.258 24475 24475 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:24.362 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:24.362 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:24.362 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:24.362 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:24.362 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.364 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:24.364 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:24.365 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:24.379 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:24.380 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:24.381 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:24.381 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:24.381 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.381 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:24.381 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:24.389 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.389 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.389 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.415 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;---><init>()V
+03-10 04:34:24.417 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.417 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getInstance(Landroid/content/Context;)Lfelixwiemuth/lincal/Calendars;
+03-10 04:34:24.417 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/Calendars;---><init>(Landroid/content/Context;)V
+03-10 04:34:24.417 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;---><init>(Landroid/content/Context;)V
+03-10 04:34:24.417 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->update(Landroid/content/Context;)Z
+03-10 04:34:24.417 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getVersionPref(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 04:34:24.418 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->load(Landroid/content/Context;ILjava/lang/Runnable;)V
+03-10 04:34:24.418 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->lockConfigFile(Landroid/content/Context;)V
+03-10 04:34:24.419 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->unlockConfigFile(Landroid/content/Context;)V
+03-10 04:34:24.419 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:24.419 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getCalendarByPos(Landroid/content/Context;I)Lfelixwiemuth/lincal/data/LinCal;
+03-10 04:34:24.419 24515 24515 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 24515
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: java.lang.RuntimeException: Illegal calendar position used.
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at felixwiemuth.lincal.Calendars.getCalendarByPos(Calendars.java:100)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewFragment.onCreate(CalendarViewFragment.java:126)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2339)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1377)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1109)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:996)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:99)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2364)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2322)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2229)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3221)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3171)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:192)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:560)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:24.421 24515 24515 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:24.539 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:24.539 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:24.539 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:24.539 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:24.539 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.540 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:24.540 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:24.542 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:24.555 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:24.555 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:24.557 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:24.557 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:24.557 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.557 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:24.557 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:24.565 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.565 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:24.565 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.591 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;---><init>()V
+03-10 04:34:24.593 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:24.593 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getInstance(Landroid/content/Context;)Lfelixwiemuth/lincal/Calendars;
+03-10 04:34:24.593 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/Calendars;---><init>(Landroid/content/Context;)V
+03-10 04:34:24.593 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;---><init>(Landroid/content/Context;)V
+03-10 04:34:24.593 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->update(Landroid/content/Context;)Z
+03-10 04:34:24.593 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getVersionPref(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 04:34:24.594 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->load(Landroid/content/Context;ILjava/lang/Runnable;)V
+03-10 04:34:24.594 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->lockConfigFile(Landroid/content/Context;)V
+03-10 04:34:24.595 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->unlockConfigFile(Landroid/content/Context;)V
+03-10 04:34:24.595 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:24.595 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/Calendars;--->getCalendarByPos(Landroid/content/Context;I)Lfelixwiemuth/lincal/data/LinCal;
+03-10 04:34:24.595 24557 24557 D M_InsDal: Lfelixwiemuth/lincal/data/LinCalConfigStore;--->getEntries()Ljava/util/List;
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 24557
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: java.lang.RuntimeException: Illegal calendar position used.
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at felixwiemuth.lincal.Calendars.getCalendarByPos(Calendars.java:100)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewFragment.onCreate(CalendarViewFragment.java:126)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreate(Fragment.java:2339)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1377)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.addToFirstInLastOut(FragmentTransition.java:1109)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.calculateFragments(FragmentTransition.java:996)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentTransition.startTransitions(FragmentTransition.java:99)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2364)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2322)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2229)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3221)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3171)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:192)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:560)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:24.596 24557 24557 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)

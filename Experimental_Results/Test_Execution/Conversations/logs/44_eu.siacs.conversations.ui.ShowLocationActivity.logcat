@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:13:31.083 26362 26362 D M_InsDal: Leu/siacs/conversations/ui/LocationActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:13:31.109 26362 26362 D M_InsDal: Leu/siacs/conversations/ui/ShowLocationActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:13:31.142 26362 26362 D M_InsDal: Leu/siacs/conversations/ui/ShowLocationActivity;--->updateLocationMarkers()V
+03-10 07:13:31.145 26362 26362 D M_InsDal: Leu/siacs/conversations/ui/LocationActivity;--->onResume()V
+03-10 07:13:31.153 26362 26362 D M_InsDal: Leu/siacs/conversations/ui/ShowLocationActivity;--->updateLocationMarkers()V

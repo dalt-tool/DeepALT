@@ -1,0 +1,2 @@
+es.usc.citius.servando.calendula.activities.UpdateFromFileActivity
+es.usc.citius.servando.calendula.activities.StartActivity

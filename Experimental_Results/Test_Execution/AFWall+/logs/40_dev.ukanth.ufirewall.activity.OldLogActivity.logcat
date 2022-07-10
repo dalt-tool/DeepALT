@@ -1,0 +1,4 @@
+--------- beginning of system
+--------- beginning of main
+03-10 08:15:40.781  1700  1700 D M_InsDal: Ldev/ukanth/ufirewall/activity/DataDumpActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:15:40.851  1700  1700 D M_InsDal: Ldev/ukanth/ufirewall/activity/OldLogActivity;--->onCreate(Landroid/os/Bundle;)V

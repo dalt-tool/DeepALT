@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:12:14.936  6126  6126 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 01:12:14.960  6126  6126 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:12:14.975  6126  6126 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:12:14.975  6126  6126 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptTextActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:12:14.991  6126  6126 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 01:12:14.992  6126  6126 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptModeAsymmetricFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:12:15.447  6126  6126 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

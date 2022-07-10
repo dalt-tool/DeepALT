@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+03-10 02:38:05.518 22053 22053 D M_InsDal: Lcom/etesync/syncadapter/App;--->attachBaseContext(Landroid/content/Context;)V
+03-10 02:38:05.578 22053 22053 D M_InsDal: Lcom/etesync/syncadapter/App;--->onCreate()V
+03-10 02:38:05.609 22053 22053 D M_InsDal: Lcom/etesync/syncadapter/ui/AccountsActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 02:38:05.637 22053 22053 D M_InsDal: Lcom/etesync/syncadapter/ui/AccountListFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 02:38:05.729 22053 22053 D M_InsDal: Lcom/etesync/syncadapter/ui/AccountsActivity;--->onResume()V
+03-10 02:38:05.735 22053 22053 D M_InsDal: Lcom/etesync/syncadapter/ui/AccountsActivity;--->onPause()V
+03-10 02:38:05.899 22053 22053 D M_InsDal: Lcom/etesync/syncadapter/ui/AccountsActivity;--->onResume()V

@@ -1,0 +1,19 @@
+--------- beginning of system
+--------- beginning of main
+03-10 05:15:26.267 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 05:15:26.387 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:15:26.387 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/HomePagerActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:15:26.547 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/HomePagerActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 05:15:26.548 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onResume()V
+03-10 05:15:26.548 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/HomePagerActivity;--->onResume()V
+03-10 05:15:26.569 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/util/view/CustomDigitalClock;--->onAttachedToWindow()V
+03-10 05:15:26.576 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/DailyAgendaFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:15:26.576 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicinesListFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 05:15:26.576 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicinesListFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:15:26.576 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/RoutinesListFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 05:15:26.576 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/ScheduleListFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 05:15:26.611 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/DailyAgendaFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 05:15:26.636 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicinesListFragment;--->onStart()V
+03-10 05:15:26.637 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/RoutinesListFragment;--->onStart()V
+03-10 05:15:26.637 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/ScheduleListFragment;--->onStart()V
+03-10 05:15:26.770 22741 22741 D M_InsDal: Les/usc/citius/servando/calendula/fragments/RoutinesListFragment$ReloadItemsTask;--->onPostExecute(Ljava/lang/Void;)V

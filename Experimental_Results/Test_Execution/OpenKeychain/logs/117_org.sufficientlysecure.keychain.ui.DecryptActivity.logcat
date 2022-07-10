@@ -1,0 +1,30 @@
+--------- beginning of system
+--------- beginning of main
+03-09 23:50:30.304 20423 20423 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-09 23:50:30.328 20423 20423 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:50:30.346 20423 20423 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/DecryptActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: FATAL EXCEPTION: main
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: Process: org.sufficientlysecure.keychain, PID: 20423
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.DecryptActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.util.Iterator java.util.ArrayList.iterator()' on a null object reference
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.util.Iterator java.util.ArrayList.iterator()' on a null object reference
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.DecryptActivity.handleActions(DecryptActivity.java:114)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.DecryptActivity.onCreate(DecryptActivity.java:57)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-09 23:50:30.349 20423 20423 E AndroidRuntime: 	... 11 more
+03-09 23:50:31.459 20478 20478 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V

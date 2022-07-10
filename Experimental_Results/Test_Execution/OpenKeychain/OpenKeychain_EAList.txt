@@ -1,0 +1,13 @@
+org.sufficientlysecure.keychain.ui.MainActivity
+org.sufficientlysecure.keychain.ui.EncryptTextActivity
+org.sufficientlysecure.keychain.ui.RedirectImportKeysActivity
+org.sufficientlysecure.keychain.ui.ImportKeysActivity
+org.sufficientlysecure.keychain.ui.SettingsActivity
+org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity
+org.sufficientlysecure.keychain.ui.EncryptFilesActivity
+org.sufficientlysecure.keychain.ui.DebugActionsActivity
+org.sufficientlysecure.keychain.ui.DecryptActivity
+org.sufficientlysecure.keychain.ui.CreateKeyActivity
+org.sufficientlysecure.keychain.ui.UsbEventReceiverActivity
+org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity
+org.sufficientlysecure.keychain.ui.PanicResponderActivity

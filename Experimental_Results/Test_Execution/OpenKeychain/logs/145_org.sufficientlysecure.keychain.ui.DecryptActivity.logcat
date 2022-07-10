@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-09 23:58:30.411 25012 25012 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-09 23:58:30.432 25012 25012 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:58:30.447 25012 25012 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/DecryptActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:58:30.917 25012 25012 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

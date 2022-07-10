@@ -1,0 +1,18 @@
+--------- beginning of system
+--------- beginning of main
+03-10 07:54:11.904 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationActivity;---><clinit>()V
+03-10 07:54:11.916 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:54:11.954 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:54:11.961 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationsActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:54:11.972 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationsOverviewFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 07:54:11.972 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationsOverviewFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:54:11.977 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationsOverviewFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 07:54:11.978 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:54:11.984 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationsOverviewFragment;--->onStart()V
+03-10 07:54:11.985 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:54:11.985 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationsActivity;--->onResume()V
+03-10 07:54:11.985 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/ConversationsOverviewFragment;--->onResume()V
+03-10 07:54:12.119  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:54:12.145 21451 21451 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+03-10 07:54:24.089  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 07:54:24.132  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

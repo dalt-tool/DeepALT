@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:05:05.496 27603 27603 D M_InsDal: Ldev/ukanth/ufirewall/activity/AppDetailActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:05:07.476 24337 24337 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

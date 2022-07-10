@@ -1,0 +1,28 @@
+--------- beginning of system
+--------- beginning of main
+03-10 07:04:55.238 20100 20100 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:04:55.244 20100 20100 D M_InsDal: Leu/siacs/conversations/ui/ContactDetailsActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: Process: eu.siacs.conversations, PID: 20100
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{eu.siacs.conversations/eu.siacs.conversations.ui.ContactDetailsActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'java.lang.String java.lang.CharSequence.toString()' on a null object reference
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'java.lang.String java.lang.CharSequence.toString()' on a null object reference
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at rocks.xmpp.addr.Jid$-CC.of(Jid.java:160)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at eu.siacs.conversations.ui.ContactDetailsActivity.onCreate(ContactDetailsActivity.java:187)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 07:04:55.246 20100 20100 E AndroidRuntime: 	... 11 more

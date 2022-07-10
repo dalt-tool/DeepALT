@@ -1,0 +1,1224 @@
+manifest
+- installLocation: 0
+- package: org.sufficientlysecure.keychain
+- versionName: 5.2
+- versionCode: 52009
+	uses-sdk
+	- minSdkVersion: 15
+	- targetSdkVersion: 28
+	uses-permission
+	- name: com.android.vending.BILLING
+	uses-feature
+	- name: android.hardware.wifi
+	- required: false
+	uses-feature
+	- name: android.hardware.telephony
+	- required: false
+	uses-feature
+	- name: android.hardware.microphone
+	- required: false
+	uses-feature
+	- name: android.hardware.touchscreen
+	- required: false
+	uses-feature
+	- name: android.hardware.screen.portrait
+	- required: false
+	uses-feature
+	- name: android.hardware.usb.host
+	- required: false
+	permission
+	- name: org.sufficientlysecure.keychain.WRITE_TEMPORARY_STORAGE
+	- protectionLevel: 2
+	uses-permission
+	- name: android.permission.AUTHENTICATE_ACCOUNTS
+	uses-permission
+	- name: android.permission.MANAGE_ACCOUNTS
+	uses-permission
+	- name: android.permission.READ_PROFILE
+	uses-permission
+	- name: android.permission.WRITE_PROFILE
+	uses-permission
+	- name: android.permission.GET_ACCOUNTS
+	uses-permission
+	- name: android.permission.READ_CONTACTS
+	uses-permission
+	- name: android.permission.WRITE_CONTACTS
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.READ_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.ACCESS_WIFI_STATE
+	uses-permission
+	- name: android.permission.NFC
+	uses-permission
+	- name: android.permission.READ_SYNC_SETTINGS
+	uses-permission
+	- name: android.permission.WRITE_SYNC_SETTINGS
+	uses-permission
+	- name: android.permission.FOREGROUND_SERVICE
+	uses-permission
+	- name: android.permission.CAMERA
+	uses-feature
+	- name: android.hardware.camera
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.front
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.autofocus
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.flash
+	- required: false
+	uses-feature
+	- name: android.hardware.screen.landscape
+	- required: false
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	application
+	- allowBackup: false
+	- hardwareAccelerated: true
+	- fullBackupContent: false
+	- icon: 2131623936
+	- name: org.sufficientlysecure.keychain.KeychainApplication
+	- theme: 2131886458
+	- label: 2131820613
+		receiver
+		- name: org.sufficientlysecure.keychain.network.orbot.OrbotStatusReceiver
+			intent-filter
+				action
+				- name: org.torproject.android.intent.action.STATUS
+		receiver
+		- name: org.sufficientlysecure.keychain.remote.PackageUninstallReceiver
+			intent-filter
+				action
+				- name: android.intent.action.PACKAGE_FULLY_REMOVED
+				data
+				- scheme: package
+		activity
+		- name: org.sufficientlysecure.keychain.ui.MainActivity
+		- launchMode: 1
+		- configChanges: 1200
+		- label: 2131820613
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+			meta-data
+			- name: android.app.shortcuts
+			- resource: 2132082695
+		activity
+		- windowSoftInputMode: 16
+		- name: org.sufficientlysecure.keychain.ui.CreateKeyActivity
+		- launchMode: 1
+		- label: 2131823859
+		- parentActivityName: org.sufficientlysecure.keychain.ui.MainActivity
+		- allowTaskReparenting: true
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+			intent-filter
+			- label: 2131820613
+				action
+				- name: android.nfc.action.NDEF_DISCOVERED
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- host: my.yubico.com
+				- scheme: https
+				- pathPrefix: /neo
+		activity
+		- name: org.sufficientlysecure.keychain.ui.EditKeyActivity
+		- configChanges: 1200
+		- label: 2131823842
+		activity
+		- name: org.sufficientlysecure.keychain.ui.linked.LinkedIdWizard
+		- configChanges: 1200
+		- label: 2131823856
+		- parentActivityName: org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.QrCodeViewActivity
+		- label: 2131823778
+		activity
+		- name: org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity
+		- configChanges: 1200
+		- label: 2131823852
+		- parentActivityName: org.sufficientlysecure.keychain.ui.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: vnd.android.cursor.item/vnd.org.sufficientlysecure.keychain.key
+		activity
+		- name: org.sufficientlysecure.keychain.ui.SafeSlingerActivity
+		- windowSoftInputMode: 2
+		- configChanges: 1200
+		- label: 2131823847
+		- parentActivityName: org.sufficientlysecure.keychain.ui.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.EncryptFilesActivity
+		- windowSoftInputMode: 2
+		- configChanges: 1200
+		- label: 2131823844
+		- parentActivityName: org.sufficientlysecure.keychain.ui.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+			intent-filter
+				action
+				- name: org.sufficientlysecure.keychain.action.ENCRYPT_DATA
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: */*
+			intent-filter
+			- label: 2131822586
+				action
+				- name: android.intent.action.SEND
+				action
+				- name: android.intent.action.SEND_MULTIPLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: image/*
+				data
+				- mimeType: audio/*
+				data
+				- mimeType: video/*
+				data
+				- mimeType: application/*
+				data
+				- mimeType: multipart/*
+		activity
+		- name: org.sufficientlysecure.keychain.ui.EncryptTextActivity
+		- windowSoftInputMode: 2
+		- configChanges: 1200
+		- label: 2131823845
+		- parentActivityName: org.sufficientlysecure.keychain.ui.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+			intent-filter
+				action
+				- name: org.sufficientlysecure.keychain.action.ENCRYPT_TEXT
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+			- label: 2131822586
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/*
+				data
+				- mimeType: message/*
+			intent-filter
+				action
+				- name: android.intent.action.PROCESS_TEXT
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/plain
+		activity
+		- name: org.sufficientlysecure.keychain.ui.DisplayTextActivity
+		- windowSoftInputMode: 2
+		- configChanges: 1200
+		- label: 2131823838
+		- parentActivityName: org.sufficientlysecure.keychain.ui.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.DecryptActivity
+		- windowSoftInputMode: 2
+		- configChanges: 1200
+		- label: 2131823838
+		- parentActivityName: org.sufficientlysecure.keychain.ui.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+			intent-filter
+			- label: 2131822585
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: application/pgp-message
+				data
+				- mimeType: application/octet-stream
+				data
+				- mimeType: application/pgp
+				data
+				- mimeType: text/pgp
+				data
+				- mimeType: text/plain
+			intent-filter
+				action
+				- name: org.sufficientlysecure.keychain.action.DECRYPT_DATA
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: */*
+			intent-filter
+				action
+				- name: org.sufficientlysecure.keychain.action.DECRYPT_TEXT
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+			- label: 2131822585
+				action
+				- name: android.intent.action.SEND
+				action
+				- name: android.intent.action.SEND_MULTIPLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/*
+				data
+				- mimeType: message/*
+				data
+				- mimeType: image/*
+				data
+				- mimeType: audio/*
+				data
+				- mimeType: video/*
+				data
+				- mimeType: application/*
+				data
+				- mimeType: multipart/*
+			intent-filter
+			- label: 2131822583
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- pathPattern: .*\.asc
+				data
+				- pathPattern: .*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\.gpg
+				data
+				- pathPattern: .*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\.pgp
+				data
+				- pathPattern: .*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\.bin
+				data
+				- pathPattern: .*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.bin
+			intent-filter
+			- label: 2131822583
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- mimeType: */*
+				data
+				- pathPattern: .*\.asc
+				data
+				- pathPattern: .*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\.gpg
+				data
+				- pathPattern: .*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\.pgp
+				data
+				- pathPattern: .*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\.bin
+				data
+				- pathPattern: .*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.bin
+			intent-filter
+			- label: 2131822582
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/autocrypt-setup
+		activity
+		- name: org.sufficientlysecure.keychain.ui.UploadKeyActivity
+		- configChanges: 1200
+		- label: 2131823862
+		- parentActivityName: org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.keyview.ViewKeyActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.ViewKeyAdvActivity
+		- configChanges: 1200
+		- label: 2131823831
+		activity
+		- name: org.sufficientlysecure.keychain.ui.SettingsActivity
+		- configChanges: 1200
+		- label: 2131823860
+			intent-filter
+				action
+				- name: org.sufficientlysecure.keychain.ui.PREFS_GEN
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: org.sufficientlysecure.keychain.ui.PREFS_ADV
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: org.sufficientlysecure.keychain.ui.SettingsKeyServerActivity
+		- windowSoftInputMode: 2
+		- configChanges: 1200
+		- label: 2131823854
+		activity
+		- name: org.sufficientlysecure.keychain.ui.SettingsSmartPGPAuthoritiesActivity
+		- windowSoftInputMode: 2
+		- configChanges: 1200
+		- label: 2131823868
+		activity
+		- name: org.sufficientlysecure.keychain.ui.BackupActivity
+		- configChanges: 48
+		- label: 2131823834
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.CertifyKeyActivity
+		- configChanges: 1200
+		- label: 2131823835
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.CertifyFingerprintActivity
+		- configChanges: 1200
+		- label: 2131823835
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity
+		- windowSoftInputMode: 2
+		- configChanges: 1200
+		- theme: 2131886461
+		- label: 2131820613
+			intent-filter
+			- label: 2131822584
+				action
+				- name: org.sufficientlysecure.keychain.action.IMPORT_KEY_FROM_QR_CODE
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: android.nfc.action.NDEF_DISCOVERED
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: application/pgp-keys
+		activity
+		- name: org.sufficientlysecure.keychain.ui.QrCodeCaptureActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.ImportKeysActivity
+		- configChanges: 1200
+		- label: 2131823851
+			intent-filter
+			- label: 2131822584
+				action
+				- name: android.intent.action.VIEW
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: application/pgp-keys
+				data
+				- mimeType: text/plain
+			intent-filter
+			- label: 2131822584
+				action
+				- name: android.intent.action.VIEW
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- pathPattern: .*\.asc
+				data
+				- pathPattern: .*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\.gpg
+				data
+				- pathPattern: .*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\.pgp
+				data
+				- pathPattern: .*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\.bin
+				data
+				- pathPattern: .*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.bin
+			intent-filter
+			- label: 2131822584
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- mimeType: */*
+				data
+				- pathPattern: .*\.asc
+				data
+				- pathPattern: .*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.asc
+				data
+				- pathPattern: .*\.gpg
+				data
+				- pathPattern: .*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.gpg
+				data
+				- pathPattern: .*\.pgp
+				data
+				- pathPattern: .*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pgp
+				data
+				- pathPattern: .*\.bin
+				data
+				- pathPattern: .*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\.bin
+				data
+				- pathPattern: .*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.bin
+			intent-filter
+			- label: 2131822584
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- scheme: http
+				data
+				- host: *
+				data
+				- pathPattern: /pks/lookup.*
+			intent-filter
+			- label: 2131822584
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- scheme: http
+				data
+				- host: www.facebook.com
+				data
+				- host: facebook.com
+				data
+				- pathPattern: /..*/publickey/download
+			intent-filter
+			- label: 2131822584
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- host: *
+				data
+				- pathPattern: /.well-known/openpgpkey/hu/.*
+			intent-filter
+			- label: 2131822584
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- host: *
+				data
+				- pathPattern: /.well-known/openpgpkey/hu/.*
+				data
+				- mimeType: application/octet-stream
+				data
+				- mimeType: application/pgp-keys
+			intent-filter
+			- label: 2131822584
+				action
+				- name: org.sufficientlysecure.keychain.action.IMPORT_KEY
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: */*
+			intent-filter
+				action
+				- name: org.sufficientlysecure.keychain.action.IMPORT_KEY
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: application/pgp-keys
+			intent-filter
+			- label: 2131822584
+				action
+				- name: org.sufficientlysecure.keychain.action.IMPORT_KEY
+				action
+				- name: org.sufficientlysecure.keychain.action.IMPORT_KEY_FROM_KEYSERVER
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: android.nfc.action.NDEF_DISCOVERED
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: openpgp4fpr
+				data
+				- scheme: OPENPGP4FPR
+				data
+				- scheme: OpenPGP4FPR
+				data
+				- scheme: OpenPGP4Fpr
+				data
+				- scheme: OpenPGP4fpr
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+		activity
+		- name: org.sufficientlysecure.keychain.ui.RedirectImportKeysActivity
+		- configChanges: 1200
+		- theme: 2131886461
+		- label: 2131823851
+			intent-filter
+			- label: 2131822584
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: openpgp4fpr
+				data
+				- scheme: OPENPGP4FPR
+				data
+				- scheme: OpenPGP4FPR
+				data
+				- scheme: OpenPGP4Fpr
+				data
+				- scheme: OpenPGP4fpr
+		activity
+		- name: org.sufficientlysecure.keychain.ui.LogDisplayActivity
+		- configChanges: 1200
+		- label: 2131823858
+		activity
+		- name: org.sufficientlysecure.keychain.ui.PassphraseDialogActivity
+		- theme: 2131886461
+		activity
+		- name: org.sufficientlysecure.keychain.ui.RetryUploadDialogActivity
+		- theme: 2131886461
+		activity
+		- name: org.sufficientlysecure.keychain.ui.DeleteKeyDialogActivity
+		- theme: 2131886461
+		activity
+		- name: org.sufficientlysecure.keychain.ui.OrbotRequiredDialogActivity
+		- theme: 2131886461
+		activity
+		- name: org.sufficientlysecure.keychain.ui.SecurityTokenOperationActivity
+		- launchMode: 1
+		- theme: 2131886459
+		- taskAffinity: :Nfc
+		- allowTaskReparenting: true
+		activity
+		- name: org.sufficientlysecure.keychain.ui.SecurityTokenChangePinOperationActivity
+		- launchMode: 1
+		- theme: 2131886459
+		- taskAffinity: :Nfc
+		- allowTaskReparenting: true
+		activity
+		- name: org.sufficientlysecure.keychain.ui.HelpActivity
+		- label: 2131823850
+		activity
+		- name: org.sufficientlysecure.keychain.ui.PanicResponderActivity
+		- noHistory: true
+		- theme: 16973909
+			intent-filter
+				action
+				- name: info.guardianproject.panic.action.TRIGGER
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: org.sufficientlysecure.keychain.ui.PanicExitActivity
+		- theme: 16973909
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.ui.ShowNfcSweetspotActivity
+		- theme: 2131886454
+		service
+		- exported: false
+		- name: org.sufficientlysecure.keychain.service.PassphraseCacheService
+		- process: :passphrase_cache
+		service
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.CryptoInputParcelCacheService
+		- process: :remote_api
+		provider
+		- exported: false
+		- name: org.sufficientlysecure.keychain.provider.KeychainProvider
+		- authorities: org.sufficientlysecure.keychain.provider
+		provider
+		- exported: true
+		- name: org.sufficientlysecure.keychain.remote.KeychainExternalProvider
+		- authorities: org.sufficientlysecure.keychain.provider.exported
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.RemoteErrorActivity
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.RemoteRegisterActivity
+		- theme: 2131886461
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.RemoteSecurityProblemDialogActivity
+		- theme: 2131886461
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.dialog.RemoteDeduplicateActivity
+		- theme: 2131886461
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.RemoteSelectPubKeyActivity
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.dialog.RemoteSelectIdKeyActivity
+		- theme: 2131886461
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.SelectSignKeyIdActivity
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.dialog.RemoteSelectAuthenticationKeyActivity
+		- theme: 2131886461
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.RequestKeyPermissionActivity
+		- theme: 2131886461
+		- label: 2131820613
+		activity
+		- exported: false
+		- name: org.sufficientlysecure.keychain.remote.ui.AppSettingsActivity
+		- configChanges: 1200
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.MainActivity
+		activity
+		- name: org.sufficientlysecure.keychain.remote.ui.RemotePassphraseDialogActivity
+		- theme: 2131886461
+		activity
+		- name: org.sufficientlysecure.keychain.remote.ui.RemoteSecurityTokenOperationActivity
+		- launchMode: 1
+		- theme: 2131886459
+		- taskAffinity: :Nfc
+		- allowTaskReparenting: true
+		activity
+		- name: org.sufficientlysecure.keychain.remote.ui.RemoteImportKeysActivity
+		- configChanges: 1200
+		- label: 2131823851
+		activity
+		- name: org.sufficientlysecure.keychain.remote.ui.RemoteBackupActivity
+		- configChanges: 48
+		- label: 2131823834
+		activity
+		- name: org.sufficientlysecure.keychain.remote.ui.RemoteDisplayTransferCodeActivity
+		- theme: 2131886461
+		activity
+		- name: org.sufficientlysecure.keychain.ui.DebugActionsActivity
+			intent-filter
+				action
+				- name: org.sufficientlysecure.keychain.debug
+		activity
+		- exported: false
+		- noHistory: true
+		- process: :UsbEventReceiverActivityProcess
+		- name: org.sufficientlysecure.keychain.ui.UsbEventReceiverActivity
+		- theme: 2131886461
+		- excludeFromRecents: true
+		- label: 2131820613
+		- taskAffinity: com.example.taskAffinityUsbEventReceiver
+			meta-data
+			- name: android.hardware.usb.action.USB_DEVICE_ATTACHED
+			- resource: 2132082700
+			intent-filter
+				action
+				- name: android.hardware.usb.action.USB_DEVICE_ATTACHED
+		service
+		- exported: true
+		- name: org.sufficientlysecure.keychain.remote.OpenPgpService
+		- process: :remote_api
+		- enabled: true
+			intent-filter
+				action
+				- name: org.openintents.openpgp.IOpenPgpService
+		service
+		- exported: true
+		- name: org.sufficientlysecure.keychain.remote.OpenPgpService2
+		- process: :remote_api_2
+		- enabled: true
+			intent-filter
+				action
+				- name: org.openintents.openpgp.IOpenPgpService2
+		service
+		- exported: true
+		- name: org.sufficientlysecure.keychain.remote.SshAuthenticationService
+		- process: :remote_ssh_api
+		- enabled: true
+			intent-filter
+				action
+				- name: org.openintents.ssh.authentication.ISshAuthenticationService
+		service
+		- exported: true
+		- name: org.sufficientlysecure.keychain.service.DummyAccountService
+			intent-filter
+				action
+				- name: android.accounts.AccountAuthenticator
+			meta-data
+			- name: android.accounts.AccountAuthenticator
+			- resource: 2132082688
+		service
+		- exported: true
+		- name: org.sufficientlysecure.keychain.service.ContactSyncAdapterService
+		- process: :sync
+			intent-filter
+				action
+				- name: android.content.SyncAdapter
+			meta-data
+			- name: android.content.SyncAdapter
+			- resource: 2132082696
+			meta-data
+			- name: android.provider.CONTACTS_STRUCTURE
+			- resource: 2132082697
+		provider
+		- exported: true
+		- name: org.sufficientlysecure.keychain.provider.TemporaryFileProvider
+		- writePermission: org.sufficientlysecure.keychain.WRITE_TEMPORARY_STORAGE
+		- authorities: org.sufficientlysecure.keychain.tempstorage
+		activity
+		- windowSoftInputMode: 3
+		- clearTaskOnLaunch: true
+		- screenOrientation: 6
+		- stateNotNeeded: true
+		- name: com.journeyapps.barcodescanner.CaptureActivity
+		- theme: 2131886559
+		provider
+		- exported: false
+		- name: androidx.work.impl.WorkManagerInitializer
+		- multiprocess: true
+		- authorities: org.sufficientlysecure.keychain.workmanager-init
+		service
+		- exported: false
+		- name: androidx.work.impl.background.systemalarm.SystemAlarmService
+		- enabled: 2131034116
+		service
+		- exported: true
+		- name: androidx.work.impl.background.systemjob.SystemJobService
+		- permission: android.permission.BIND_JOB_SERVICE
+		- enabled: 2131034117
+		receiver
+		- exported: false
+		- name: androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+		- enabled: true
+		receiver
+		- name: androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.ACTION_POWER_CONNECTED
+				action
+				- name: android.intent.action.ACTION_POWER_DISCONNECTED
+		receiver
+		- name: androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.BATTERY_OKAY
+				action
+				- name: android.intent.action.BATTERY_LOW
+		receiver
+		- name: androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.DEVICE_STORAGE_LOW
+				action
+				- name: android.intent.action.DEVICE_STORAGE_OK
+		receiver
+		- name: androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+		- enabled: false
+			intent-filter
+				action
+				- name: android.net.conn.CONNECTIVITY_CHANGE
+		receiver
+		- name: androidx.work.impl.background.systemalarm.RescheduleReceiver
+		- enabled: 2131034116
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.intent.action.TIME_SET
+				action
+				- name: android.intent.action.TIMEZONE_CHANGED
+		receiver
+		- exported: false
+		- name: androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+		- enabled: 2131034116
+			intent-filter
+				action
+				- name: androidx.work.impl.background.systemalarm.UpdateProxies
+		receiver
+		- exported: true
+		- name: org.piwik.sdk.extra.InstallReferrerReceiver
+			intent-filter
+				action
+				- name: com.android.vending.INSTALL_REFERRER
+		provider
+		- exported: false
+		- name: android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+		- multiprocess: true
+		- authorities: org.sufficientlysecure.keychain.lifecycle-trojan
+		activity
+		- name: edu.cmu.cylab.starslinger.exchange.ExchangeActivity
+		- label: 2131822813
+		- screenOrientation: 1
+		activity
+		- name: edu.cmu.cylab.starslinger.exchange.GroupingActivity
+		- label: 2131822813
+		- screenOrientation: 1
+		activity
+		- name: edu.cmu.cylab.starslinger.exchange.VerifyActivity
+		- label: 2131822813
+		- screenOrientation: 1

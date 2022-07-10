@@ -1,0 +1,32 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:30:31.751 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 06:30:31.751 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 06:30:31.751 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 06:30:31.752 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 06:30:31.759 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack;---><init>()V
+03-10 06:30:31.760 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack$1;---><init>(Lnl/sogeti/android/gpstracker/actions/DescribeTrack;)V
+03-10 06:30:31.760 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack$2;---><init>(Lnl/sogeti/android/gpstracker/actions/DescribeTrack;)V
+03-10 06:30:31.765 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:30:31.778 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack;--->onStart()V
+03-10 06:30:31.781 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack;--->onResume()V
+03-10 06:30:31.788 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;---><init>()V
+03-10 06:30:31.788 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService$LocalBinder;---><init>(Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;)V
+03-10 06:30:31.788 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;--->onCreate()V
+03-10 06:30:31.791 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsTracks;---><clinit>()V
+03-10 06:30:31.791 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsTracks;--->initCacheVariables()V
+03-10 06:30:31.791 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsTracks;---><init>(Landroid/content/ContentResolver;)V
+03-10 06:30:31.791 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;--->connectionSetup()Z
+03-10 06:30:31.793 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;--->onBind(Landroid/content/Intent;)Landroid/os/IBinder;
+03-10 06:30:31.795 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack;--->onPause()V
+03-10 06:30:31.804 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack$1;--->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
+03-10 06:30:31.804 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService$LocalBinder;--->getService()Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;
+03-10 06:30:31.804 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack;--->setUiEnabled()V
+03-10 06:30:31.804 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;--->isAuthorized()Z
+03-10 06:30:31.807 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack;--->onStop()V
+03-10 06:30:31.818 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/DescribeTrack;--->onDestroy()V
+03-10 06:30:31.821 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;--->onDestroy()V
+03-10 06:30:31.822 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService$1;---><init>(Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService;)V
+03-10 06:30:31.822 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService$1;--->executeOn(Ljava/util/concurrent/Executor;)V
+03-10 06:30:31.822 32570 32570 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsTracks;--->persistCache(Landroid/content/Context;)V
+03-10 06:30:31.822 32570 32606 D M_InsDal: Lnl/sogeti/android/gpstracker/breadcrumbs/BreadcrumbsService$1;--->doInBackground([Ljava/lang/Void;)Ljava/lang/Void;

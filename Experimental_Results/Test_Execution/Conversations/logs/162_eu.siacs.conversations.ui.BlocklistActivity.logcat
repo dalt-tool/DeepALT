@@ -1,0 +1,35 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:47:19.117 17690 17690 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:47:19.124 17690 17690 D M_InsDal: Leu/siacs/conversations/ui/AbstractSearchableListItemActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:47:19.147 17690 17690 D M_InsDal: Leu/siacs/conversations/ui/BlocklistActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:47:19.149 17690 17690 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:47:19.154 17690 17690 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:47:19.302  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:47:19.331 17690 17690 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+--------- beginning of crash
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: Process: eu.siacs.conversations, PID: 17690
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.eu.siacs.conversations.MyParcelable
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.BaseBundle.getString(BaseBundle.java:1164)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.content.Intent.getStringExtra(Intent.java:8058)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at eu.siacs.conversations.ui.BlocklistActivity.onBackendConnected(BlocklistActivity.java:36)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at eu.siacs.conversations.ui.XmppActivity$1.onServiceConnected(XmppActivity.java:112)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:2066)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:2098)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:888)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 07:47:19.349 17690 17690 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 07:47:19.470  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 07:47:20.725  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:47:31.145  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

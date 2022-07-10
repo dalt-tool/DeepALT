@@ -1,0 +1,29 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:57:20.072 11202 11202 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 04:57:20.184 11202 11202 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:57:20.184 11202 11202 D M_InsDal: Les/usc/citius/servando/calendula/pinlock/PinLockActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: Process: es.usc.citius.servando.calendula, PID: 11202
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{es.usc.citius.servando.calendula/es.usc.citius.servando.calendula.pinlock.PinLockActivity}: java.lang.IllegalStateException: This activity can only be called for result
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: Caused by: java.lang.IllegalStateException: This activity can only be called for result
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at es.usc.citius.servando.calendula.pinlock.PinLockActivity.onCreate(Unknown Source:230)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:57:20.226 11202 11202 E AndroidRuntime: 	... 11 more
+03-10 04:57:21.331 11262 11262 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V

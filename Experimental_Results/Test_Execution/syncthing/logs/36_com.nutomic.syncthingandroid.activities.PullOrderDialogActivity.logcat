@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:04:20.959  5816  5816 D M_InsDal: Lcom/nutomic/syncthingandroid/SyncthingApp;--->onCreate()V
+03-10 04:04:21.082  5816  5816 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/PullOrderDialogActivity;--->onCreate(Landroid/os/Bundle;)V

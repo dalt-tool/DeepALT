@@ -1,0 +1,3 @@
+com.nutomic.syncthingandroid.activities.ShareActivity
+com.nutomic.syncthingandroid.activities.FirstStartActivity
+com.nutomic.syncthingandroid.activities.LogActivity

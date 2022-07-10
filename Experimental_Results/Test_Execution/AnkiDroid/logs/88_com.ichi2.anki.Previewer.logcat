@@ -1,0 +1,171 @@
+--------- beginning of main
+--------- beginning of system
+03-10 03:42:52.900 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:42:52.900 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:42:52.902 22744 22744 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:42:52.903 22744 22744 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:42:52.903 22744 22744 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:42:52.903 22744 22744 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:42:52.903 22744 22744 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:42:52.904 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:42:52.904 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:52.908 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:42:52.908 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:42:52.908 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:42:52.909 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:42:52.909 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:42:52.909 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:42:52.909 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:52.909 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:42:52.909 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:42:52.960 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:42:52.960 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:42:52.960 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:42:52.960 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:42:52.967 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer;---><clinit>()V
+03-10 03:42:52.967 22744 22744 D M_InsDal: Lcom/ichi2/anki/Previewer;---><init>()V
+03-10 03:42:52.967 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer;---><init>()V
+03-10 03:42:52.967 22744 22744 D M_InsDal: Lcom/ichi2/anki/NavigationDrawerActivity;---><init>()V
+03-10 03:42:52.967 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;---><init>()V
+03-10 03:42:52.967 22744 22744 D M_InsDal: Lcom/ichi2/anki/dialogs/DialogHandler;---><init>(Lcom/ichi2/anki/AnkiActivity;)V
+03-10 03:42:52.967 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$1;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$2;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$3;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$4;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$5;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$6;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$7;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$8;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$9;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$10;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$11;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$18;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$19;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer$21;---><init>(Lcom/ichi2/anki/AbstractFlashcardViewer;)V
+03-10 03:42:52.968 22744 22744 D M_InsDal: Lcom/ichi2/anki/Previewer$1;---><init>(Lcom/ichi2/anki/Previewer;)V
+03-10 03:42:52.971 22744 22744 D M_InsDal: Lcom/ichi2/anki/Previewer;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:42:52.972 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->e(Ljava/lang/String;[Ljava/lang/Object;)V
+03-10 03:42:52.972 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->createTag()Ljava/lang/String;
+03-10 03:42:52.972 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->formatString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+03-10 03:42:52.977 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->finishWithoutAnimation()V
+03-10 03:42:52.977 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->disableActivityAnimation()V
+03-10 03:42:52.977 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:42:52.977 22744 22744 D M_InsDal: Lcom/ichi2/anki/reviewer/ReviewerExtRegistry;---><init>(Landroid/content/Context;)V
+03-10 03:42:52.977 22744 22744 D M_InsDal: Lcom/ichi2/anki/reviewer/CustomFontsReviewerExt;---><init>(Landroid/content/Context;)V
+03-10 03:42:52.977 22744 22744 D M_InsDal: Lcom/ichi2/anki/reviewer/CustomFontsReviewerExt;--->getCustomFontsMap(Landroid/content/Context;)Ljava/util/Map;
+03-10 03:42:52.978 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:42:52.978 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:42:52.980 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;---><clinit>()V
+03-10 03:42:52.980 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->createAnkiFont(Landroid/content/Context;Ljava/lang/String;Z)Lcom/ichi2/anki/AnkiFont;
+03-10 03:42:52.980 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getTypeface(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Typeface;
+03-10 03:42:52.984 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;---><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+03-10 03:42:52.984 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:52.984 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->createAnkiFont(Landroid/content/Context;Ljava/lang/String;Z)Lcom/ichi2/anki/AnkiFont;
+03-10 03:42:52.984 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getTypeface(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Typeface;
+03-10 03:42:52.987 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;---><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+03-10 03:42:52.987 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:52.987 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->createAnkiFont(Landroid/content/Context;Ljava/lang/String;Z)Lcom/ichi2/anki/AnkiFont;
+03-10 03:42:52.987 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getTypeface(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Typeface;
+03-10 03:42:52.989 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;---><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+03-10 03:42:52.989 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:52.989 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->createAnkiFont(Landroid/content/Context;Ljava/lang/String;Z)Lcom/ichi2/anki/AnkiFont;
+03-10 03:42:52.989 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getTypeface(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Typeface;
+03-10 03:42:52.991 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;---><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+03-10 03:42:52.991 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:52.991 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->createAnkiFont(Landroid/content/Context;Ljava/lang/String;Z)Lcom/ichi2/anki/AnkiFont;
+03-10 03:42:52.991 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getTypeface(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Typeface;
+03-10 03:42:52.994 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;---><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+03-10 03:42:52.994 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:52.994 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->createAnkiFont(Landroid/content/Context;Ljava/lang/String;Z)Lcom/ichi2/anki/AnkiFont;
+03-10 03:42:52.995 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getTypeface(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Typeface;
+03-10 03:42:52.998 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;---><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+03-10 03:42:52.998 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:52.998 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->createAnkiFont(Landroid/content/Context;Ljava/lang/String;Z)Lcom/ichi2/anki/AnkiFont;
+03-10 03:42:52.998 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getTypeface(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Typeface;
+03-10 03:42:53.000 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;---><init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V
+03-10 03:42:53.000 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getName()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getName()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/reviewer/CustomFontsReviewerExt;--->getCustomFontsStyle(Ljava/util/Map;)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getDeclaration()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getCSS(Z)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getDeclaration()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getCSS(Z)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getDeclaration()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getCSS(Z)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getDeclaration()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getCSS(Z)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getDeclaration()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getCSS(Z)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getDeclaration()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getCSS(Z)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getDeclaration()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiFont;--->getCSS(Z)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/reviewer/CustomFontsReviewerExt;--->getDominantFontStyle(Landroid/content/Context;Ljava/util/Map;)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/reviewer/CustomFontsReviewerExt;--->getOverrideFontStyle(Landroid/content/Context;Ljava/util/Map;)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/reviewer/CustomFontsReviewerExt;--->getDefaultFontStyle(Landroid/content/Context;Ljava/util/Map;)Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/reviewer/CustomFontsReviewerExt;--->getThemeFontStyle()Ljava/lang/String;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer;--->restorePreferences()Landroid/content/SharedPreferences;
+03-10 03:42:53.001 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->initiateGestures(Landroid/content/SharedPreferences;)Z
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->getCol()Lcom/ichi2/libanki/Collection;
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getInstance()Lcom/ichi2/anki/CollectionHelper;
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper$LazyHolder;---><clinit>()V
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;---><init>()V
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCol(Landroid/content/Context;)Lcom/ichi2/libanki/Collection;
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCollectionPath(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->colIsOpen()Z
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getParentDirectory(Ljava/lang/String;)Ljava/lang/String;
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->i(Ljava/lang/String;[Ljava/lang/Object;)V
+03-10 03:42:53.002 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->formatString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+03-10 03:42:53.006 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:42:53.009 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->getCol()Lcom/ichi2/libanki/Collection;
+03-10 03:42:53.009 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getInstance()Lcom/ichi2/anki/CollectionHelper;
+03-10 03:42:53.009 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCol(Landroid/content/Context;)Lcom/ichi2/libanki/Collection;
+03-10 03:42:53.009 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCollectionPath(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:42:53.009 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:42:53.009 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:42:53.010 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->colIsOpen()Z
+03-10 03:42:53.010 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:42:53.010 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:53.013 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer;--->getContentViewAttr(I)I
+03-10 03:42:53.066 22744 22744 D M_InsDal: Lcom/ichi2/anki/NavigationDrawerActivity;--->initNavigationDrawer(Landroid/view/View;)V
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/NavigationDrawerActivity$1;---><init>(Lcom/ichi2/anki/NavigationDrawerActivity;)V
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/NavigationDrawerActivity$2;---><init>(Lcom/ichi2/anki/NavigationDrawerActivity;Landroid/content/SharedPreferences;)V
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/NavigationDrawerActivity$3;---><init>(Lcom/ichi2/anki/NavigationDrawerActivity;Landroid/app/Activity;Landroid/support/v4/widget/DrawerLayout;II)V
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->startLoadingCollection()V
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->colIsOpen()Z
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getInstance()Lcom/ichi2/anki/CollectionHelper;
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->colIsOpen()Z
+03-10 03:42:53.067 22744 22744 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->onCreateLoader(ILandroid/os/Bundle;)Landroid/support/v4/content/Loader;
+03-10 03:42:53.068 22744 22744 D M_InsDal: Lcom/ichi2/anki/NavigationDrawerActivity;--->showBackIcon()V
+03-10 03:42:53.068 22744 22744 D M_InsDal: Lcom/ichi2/anki/NavigationDrawerActivity;--->disableDrawerSwipe()V
+03-10 03:42:53.166 22744 22744 D M_InsDal: Lcom/ichi2/anki/AbstractFlashcardViewer;--->onDestroy()V
+--------- beginning of crash
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: Process: com.ichi2.anki, PID: 22744
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: java.lang.RuntimeException: Unable to destroy activity {com.ichi2.anki/com.ichi2.anki.Previewer}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.FrameLayout.removeAllViews()' on a null object reference
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:5567)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:5597)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.servertransaction.DestroyActivityItem.execute(DestroyActivityItem.java:44)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:190)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.FrameLayout.removeAllViews()' on a null object reference
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at com.ichi2.anki.AbstractFlashcardViewer.onDestroy(AbstractFlashcardViewer.java:963)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.Activity.performDestroy(Activity.java:8350)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1348)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:5552)
+03-10 03:42:53.171 22744 22744 E AndroidRuntime: 	... 11 more

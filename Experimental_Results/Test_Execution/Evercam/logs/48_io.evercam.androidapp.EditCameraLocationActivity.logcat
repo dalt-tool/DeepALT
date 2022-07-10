@@ -1,0 +1,25 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:48:43.711  4756  4756 D M_InsDal: Lio/evercam/androidapp/EvercamPlayApplication;--->onCreate()V
+03-10 04:48:43.751  4756  4756 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:48:43.769  4756  4756 D M_InsDal: Lio/evercam/androidapp/EditCameraLocationActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:48:44.120  4756  4756 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onStart()V
+--------- beginning of crash
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: Process: io.evercam.androidapp, PID: 4756
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'double io.evercam.androidapp.dto.EvercamCamera.getLatitude()' on a null object reference
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at io.evercam.androidapp.EditCameraLocationActivity.addMarkerOnMap(EditCameraLocationActivity.java:191)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at io.evercam.androidapp.EditCameraLocationActivity.onMapReady(EditCameraLocationActivity.java:101)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at com.google.android.gms.maps.zzak.zza(Unknown Source:7)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at com.google.android.gms.maps.internal.zzaq.dispatchTransaction(Unknown Source:31)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at com.google.android.gms.internal.maps.zzb.onTransact(Unknown Source:22)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at android.os.Binder.transact(Binder.java:921)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at dx.aZ(:com.google.android.gms.dynamite_mapsdynamite@212621083@21.26.21 (120408-0):2)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at com.google.maps.api.android.lib6.impl.bk.run(:com.google.android.gms.dynamite_mapsdynamite@212621083@21.26.21 (120408-0):1)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:888)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:48:44.152  4756  4756 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)

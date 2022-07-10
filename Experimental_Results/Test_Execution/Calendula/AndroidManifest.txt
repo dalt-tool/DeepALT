@@ -1,0 +1,254 @@
+manifest
+- package: es.usc.citius.servando.calendula
+- platformBuildVersionName: 2.5.11
+- versionName: 2.5.11
+- platformBuildVersionCode: 42
+- versionCode: 42
+	uses-sdk
+	- minSdkVersion: 18
+	- targetSdkVersion: 26
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.VIBRATE
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.USE_FINGERPRINT
+	supports-screens
+	- normalScreens: true
+	- smallScreens: true
+	- resizeable: true
+	- largeScreens: true
+	- xlargeScreens: true
+	uses-permission
+	- name: android.permission.CAMERA
+	uses-feature
+	- name: android.hardware.camera
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.front
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.autofocus
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.flash
+	- required: false
+	uses-feature
+	- name: android.hardware.screen.landscape
+	- required: false
+	uses-feature
+	- name: android.hardware.wifi
+	- required: false
+	application
+	- supportsRtl: true
+	- allowBackup: true
+	- icon: 2131558400
+	- name: es.usc.citius.servando.calendula.CalendulaApp
+	- theme: 2131820558
+	- label: 2131755063
+		activity
+		- name: es.usc.citius.servando.calendula.activities.MaterialIntroActivity
+		- theme: 2131820970
+		activity
+		- name: es.usc.citius.servando.calendula.activities.SchedulesHelpActivity
+		- theme: 2131820970
+		activity
+		- name: es.usc.citius.servando.calendula.activities.RoutinesActivity
+		- windowSoftInputMode: 16
+		- theme: 2131820558
+		- label: 2131757141
+		- screenOrientation: 1
+		activity
+		- name: es.usc.citius.servando.calendula.HomePagerActivity
+		- launchMode: 2
+		- theme: 2131820558
+		- label: 2131755063
+		- screenOrientation: 1
+		activity
+		- name: es.usc.citius.servando.calendula.activities.MedicineInfoActivity
+		- theme: 2131820558
+		- label: 2131757136
+		- screenOrientation: 1
+		activity
+		- name: es.usc.citius.servando.calendula.activities.MedicinesActivity
+		- windowSoftInputMode: 32
+		- label: 2131757136
+		- screenOrientation: 1
+		activity
+		- name: es.usc.citius.servando.calendula.activities.MedicinesSearchActivity
+		- windowSoftInputMode: 4
+		- label: 2131757137
+		- screenOrientation: 1
+		activity
+		- name: es.usc.citius.servando.calendula.activities.ScheduleCreationActivity
+		- windowSoftInputMode: 2
+		- theme: 2131820963
+		- label: 2131757142
+		- screenOrientation: 1
+		activity
+		- name: es.usc.citius.servando.calendula.activities.StartActivity
+		- theme: 2131820869
+		- screenOrientation: 1
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: es.usc.citius.servando.calendula.activities.SummaryCalendarActivity
+		- windowSoftInputMode: 2
+		- theme: 2131820963
+		- label: 2131757142
+		- screenOrientation: 1
+		receiver
+		- name: es.usc.citius.servando.calendula.scheduling.AlarmReceiver
+		receiver
+		- name: es.usc.citius.servando.calendula.scheduling.PickupAlarmReceiver
+		receiver
+		- name: es.usc.citius.servando.calendula.scheduling.NotificationEventReceiver
+		receiver
+		- name: es.usc.citius.servando.calendula.scheduling.BootReceiver
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.intent.action.MY_PACKAGE_REPLACED
+		receiver
+		- name: es.usc.citius.servando.calendula.drugdb.download.DBDownloadReceiver
+			intent-filter
+				action
+				- name: android.intent.action.DOWNLOAD_COMPLETE
+		meta-data
+		- name: AEMPS_DB_VERSION
+		- value: 3
+		activity
+		- name: es.usc.citius.servando.calendula.activities.CalendarActivity
+		- configChanges: 1152
+		- label: 2131757134
+		activity
+		- name: es.usc.citius.servando.calendula.activities.ScanActivity
+		- configChanges: 1152
+		- label: ScanActivity
+		activity
+		- name: es.usc.citius.servando.calendula.activities.UpdateFromFileActivity
+		- configChanges: 1152
+		- label: Calendula
+			intent-filter
+				data
+				- mimeType: text/plain
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: es.usc.citius.servando.calendula.activities.ConfirmSchedulesActivity
+		- label: 2131757135
+		- screenOrientation: 1
+		activity
+		- name: es.usc.citius.servando.calendula.activities.PatientsActivity
+		- theme: 2131820558
+		- label: 2131757139
+		activity
+		- name: es.usc.citius.servando.calendula.activities.PatientDetailActivity
+		- windowSoftInputMode: 16
+		- theme: 2131820558
+		- label: 2131757138
+		- screenOrientation: 1
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: es.usc.citius.servando.calendula.activities.PatientsActivity
+		activity
+		- name: es.usc.citius.servando.calendula.activities.AboutActivity
+		- label: 2131757131
+		activity
+		- name: es.usc.citius.servando.calendula.activities.ConfirmActivity
+		- launchMode: 2
+		- theme: 2131820558
+		service
+		- name: es.usc.citius.servando.calendula.scheduling.AlarmIntentService
+		- permission: android.permission.BIND_JOB_SERVICE
+		- label: AlarmIntentService
+		service
+		- exported: false
+		- name: es.usc.citius.servando.calendula.drugdb.download.InstallDatabaseService
+		- permission: android.permission.BIND_JOB_SERVICE
+		service
+		- exported: false
+		- name: es.usc.citius.servando.calendula.drugdb.download.UpdateDatabaseService
+		activity
+		- name: es.usc.citius.servando.calendula.activities.WebViewActivity
+		- configChanges: 1152
+		- label: 2131757144
+		activity
+		- name: es.usc.citius.servando.calendula.activities.AllergiesActivity
+		- label: 2131757132
+		activity
+		- name: es.usc.citius.servando.calendula.activities.AllergiesSearchActivity
+		- label: 2131757133
+		activity
+		- noHistory: true
+		- screenOrientation: 1
+		- showOnLockScreen: true
+		- name: es.usc.citius.servando.calendula.notifications.LockScreenAlarmActivity
+		- launchMode: 3
+		- label: 2131757133
+		activity
+		- name: es.usc.citius.servando.calendula.pinlock.PinLockActivity
+		activity
+		- name: es.usc.citius.servando.calendula.settings.CalendulaSettingsActivity
+		- theme: 2131820868
+		activity
+		- name: com.mikepenz.aboutlibraries.ui.LibsActivity
+		service
+		- exported: false
+		- name: com.evernote.android.job.v21.PlatformJobService
+		- permission: android.permission.BIND_JOB_SERVICE
+		service
+		- exported: false
+		- name: com.evernote.android.job.v14.PlatformAlarmService
+		receiver
+		- exported: false
+		- name: com.evernote.android.job.v14.PlatformAlarmReceiver
+			intent-filter
+				action
+				- name: com.evernote.android.job.v14.RUN_JOB
+				action
+				- name: net.vrallev.android.job.v14.RUN_JOB
+		receiver
+		- exported: false
+		- name: com.evernote.android.job.JobBootReceiver
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.intent.action.QUICKBOOT_POWERON
+				action
+				- name: com.htc.intent.action.QUICKBOOT_POWERON
+				action
+				- name: android.intent.action.MY_PACKAGE_REPLACED
+		service
+		- exported: true
+		- name: com.evernote.android.job.gcm.PlatformGcmService
+		- permission: com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE
+		- enabled: false
+			intent-filter
+				action
+				- name: com.google.android.gms.gcm.ACTION_TASK_READY
+		service
+		- exported: false
+		- name: com.evernote.android.job.JobRescheduleService
+		activity
+		- windowSoftInputMode: 3
+		- clearTaskOnLaunch: true
+		- screenOrientation: 6
+		- stateNotNeeded: true
+		- name: com.journeyapps.barcodescanner.CaptureActivity
+		- theme: 2131821105

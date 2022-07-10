@@ -1,0 +1,94 @@
+com.csipsimple.ui.prefs.hc.MainPrefs
+---------------------------------------
+
+com.csipsimple.ui.prefs.PrefsFast
+---------------------------------------
+
+com.csipsimple.widgets.ShortcutWidgetConfigure
+extra: Extras-,(,int-"appWidgetId",),
+---------------------------------------
+
+com.csipsimple.ui.filters.EditFilter
+extra: long-"android.intent.extra.UID",long-"account",
+---------------------------------------
+
+com.csipsimple.wizards.BasePrefsWizard
+extra: long-"id",String-"wizard",
+---------------------------------------
+
+com.csipsimple.ui.SipHome
+action: "com.csipsimple.phone.action.DIALER"
+action: "com.csipsimple.phone.action.CALLLOG"
+action: "notEmpty"
+action: "android.intent.action.DIAL"
+action: "com.csipsimple.phone.action.FAVORITES"
+action: "com.csipsimple.phone.action.MESSAGES"
+data: "notEmpty"
+data: "notEmpty://h:1/p"
+---------------------------------------
+
+com.csipsimple.wizards.WizardChooser
+---------------------------------------
+
+com.csipsimple.ui.PickupSipUri
+extra: Extras-,(,),
+---------------------------------------
+
+com.csipsimple.ui.calllog.CallLogDetailsActivity
+extra: Extras-,(,),
+---------------------------------------
+
+com.csipsimple.ui.prefs.cupcake.MainPrefs
+---------------------------------------
+
+com.csipsimple.ui.prefs.cupcake.PrefsLoaderActivity
+extra: int-"preference_type",
+---------------------------------------
+
+com.csipsimple.ui.prefs.Codecs
+---------------------------------------
+
+com.csipsimple.ui.filters.AccountFilters
+extra: Extras-,(,long-"id",),
+---------------------------------------
+
+com.csipsimple.ui.incall.InCallMediaControl
+extra: int-"android.intent.extra.KEY_EVENT",
+---------------------------------------
+
+com.csipsimple.ui.prefs.AudioTester
+---------------------------------------
+
+com.csipsimple.ui.prefs.PrefsFilters
+---------------------------------------
+
+com.csipsimple.widgets.AccountWidgetConfigure
+extra: Extras-,(,int-"appWidgetId",),
+---------------------------------------
+
+com.csipsimple.ui.messages.MessageActivity
+extra: Extras-,(,),
+---------------------------------------
+
+com.csipsimple.ui.outgoingcall.OutgoingCallChooser
+action: "notEmpty"
+action: "android.intent.action.SENDTO"
+data: "notEmpty"
+data: "notEmpty://h:1/p"
+data: "smsto://h:1/p"
+data: "tel://h:1/p"
+---------------------------------------
+
+com.csipsimple.ui.incall.InCallActivity
+extra: Parcelable-"call_info",
+---------------------------------------
+
+com.csipsimple.ui.account.AccountsEditList
+---------------------------------------
+
+com.csipsimple.ui.account.AccountEdit
+---------------------------------------
+
+com.csipsimple.wizards.impl.MondotalkCreate
+---------------------------------------
+

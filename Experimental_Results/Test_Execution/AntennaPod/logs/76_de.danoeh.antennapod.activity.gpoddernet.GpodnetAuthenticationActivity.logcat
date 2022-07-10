@@ -1,0 +1,23 @@
+--------- beginning of system
+--------- beginning of main
+03-10 08:42:36.190 18283 18283 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V
+--------- beginning of crash
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 18283
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: java.lang.VerifyError: Verifier rejected class de.danoeh.antennapod.core.gpoddernet.GpodnetService: java.lang.String de.danoeh.antennapod.core.gpoddernet.GpodnetService.executeRequestWithAuthentication(okhttp3.Request$Builder, java.lang.String, java.lang.String) failed to verify: java.lang.String de.danoeh.antennapod.core.gpoddernet.GpodnetService.executeRequestWithAuthentication(okhttp3.Request$Builder, java.lang.String, java.lang.String): [0x2A] 'this' argument 'Precise Reference: okhttp3.Request$Builder' not instance of 'Unresolved Reference: okhttv5.Request$Builder' (declaration of 'de.danoeh.antennapod.core.gpoddernet.GpodnetService' appears in /data/app/de.danoeh.antennapod-cpgp-Nz2CLLTKI3Znd6Gew==/base.apk)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity.onCreate(GpodnetAuthenticationActivity.java:71)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 08:42:36.263 18283 18283 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)

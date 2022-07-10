@@ -1,0 +1,11 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:21:14.697 31547 31547 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:21:14.705 31547 31547 D M_InsDal: Leu/siacs/conversations/ui/AbstractSearchableListItemActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:21:14.726 31547 31547 D M_InsDal: Leu/siacs/conversations/ui/ChooseContactActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:21:14.729 31547 31547 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:21:14.733 31547 31547 D M_InsDal: Leu/siacs/conversations/ui/ChooseContactActivity;--->onStart()V
+03-10 07:21:14.734 31547 31547 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:21:14.806 17827 17827 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:21:14.921 31547 31547 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+03-10 07:21:14.949 31547 31547 D M_InsDal: Leu/siacs/conversations/ui/ChooseContactActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z

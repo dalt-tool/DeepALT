@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:28:50.048 15098 15098 D M_InsDal: Lcom/mikifus/padland/PadlandApp;--->onCreate()V
+03-10 01:28:50.059 15098 15098 D M_InsDal: Lcom/mikifus/padland/PadLandActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:28:50.059 15098 15098 D M_InsDal: Lcom/mikifus/padland/PadLandDataActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:28:50.060 15098 15098 D M_InsDal: Lcom/mikifus/padland/PadInfoActivity;--->onCreate(Landroid/os/Bundle;)V

@@ -1,0 +1,62 @@
+com.etesync.syncadapter.ui.CollectionMembersActivity
+extra: Extras-,(,Serializable-"collectionInfo",),Extras-,(,Parcelable-"account",),
+---------------------------------------
+
+com.etesync.syncadapter.ui.DebugInfoActivity
+extra: Extras-,(,),
+---------------------------------------
+
+com.etesync.syncadapter.ui.ViewCollectionActivity
+extra: Extras-,(,Serializable-"collectionInfo",),Extras-,(,Parcelable-"account",),
+---------------------------------------
+
+com.etesync.syncadapter.ui.AccountActivity
+extra: Extras-,(,),Parcelable-"account",
+---------------------------------------
+
+com.etesync.syncadapter.ui.AppSettingsActivity
+---------------------------------------
+
+com.etesync.syncadapter.ui.JournalItemActivity
+extra: Extras-,(,Serializable-"collectionInfo",),Extras-,(,Serializable-"syncEntry",),Extras-,(,Parcelable-"account",),
+---------------------------------------
+
+com.etesync.syncadapter.ui.AboutActivity
+---------------------------------------
+
+com.etesync.syncadapter.ui.setup.LoginActivity
+---------------------------------------
+
+com.etesync.syncadapter.ui.WebViewActivity
+extra: Parcelable-"url",
+---------------------------------------
+
+com.etesync.syncadapter.syncadapter.SyncNotification$NotificationHandlerActivity
+extra: Extras-,(,String-"throwable",),Extras-,(,),
+---------------------------------------
+
+com.etesync.syncadapter.ui.CreateCollectionActivity
+extra: Extras-,(,Parcelable-"account",),Extras-,(,Serializable-"collectionInfo",),
+---------------------------------------
+
+com.etesync.syncadapter.ui.importlocal.ImportActivity
+extra: Extras-,(,Serializable-"collectionInfo",),Extras-,(,Parcelable-"account",),
+---------------------------------------
+
+com.etesync.syncadapter.ui.ChangeEncryptionPasswordActivity
+extra: Extras-,(,Parcelable-"account",),
+---------------------------------------
+
+com.etesync.syncadapter.ui.PermissionsActivity
+---------------------------------------
+
+com.etesync.syncadapter.ui.EditCollectionActivity
+---------------------------------------
+
+com.etesync.syncadapter.ui.AccountSettingsActivity
+extra: Extras-,(,),Parcelable-"account",
+---------------------------------------
+
+com.etesync.syncadapter.ui.AccountsActivity
+---------------------------------------
+

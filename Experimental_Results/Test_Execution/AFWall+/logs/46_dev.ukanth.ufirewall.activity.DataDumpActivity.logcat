@@ -1,0 +1,24 @@
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: Process: dev.ukanth.ufirewall, PID: 3174
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{dev.ukanth.ufirewall/dev.ukanth.ufirewall.activity.DataDumpActivity}: java.lang.InstantiationException: java.lang.Class<dev.ukanth.ufirewall.activity.DataDumpActivity> cannot be instantiated
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3700)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: Caused by: java.lang.InstantiationException: java.lang.Class<dev.ukanth.ufirewall.activity.DataDumpActivity> cannot be instantiated
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1257)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3685)
+03-10 08:17:23.807  3174  3174 E AndroidRuntime: 	... 11 more

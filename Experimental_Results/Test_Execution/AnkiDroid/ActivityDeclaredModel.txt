@@ -1,0 +1,101 @@
+app_name: AnkiDroid
+package_name: com.ichi2.anki
+
+act_name: com.ichi2.anki.DeckPicker
+permission: 
+
+act_name: com.ichi2.anki.ModelFieldEditor
+permission: 
+
+act_name: com.ichi2.anki.Info
+permission: 
+
+act_name: com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity
+permission: 
+
+act_name: com.ichi2.anki.VideoPlayer
+permission: 
+
+act_name: com.ichi2.anki.FilteredDeckOptions
+permission: 
+
+act_name: com.ichi2.anki.IntentHandler
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" category: "android.intent.category.MULTIWINDOW_LAUNCHER" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["file", "http", "https", "content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+mime: "application/apkg" mime: "application/vnd.anki" mime: "application/x-apkg" mime: "application/octet-stream" mime: "application/zip" 
+scheme: [scheme, "content"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "com.ichi2.anki.DO_SYNC" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: com.ichi2.anki.dialogs.AnkiDroidCrashReportDialog
+permission: 
+
+act_name: com.ichi2.anki.multimediacard.activity.LoadPronounciationActivity
+permission: 
+
+act_name: com.ichi2.anki.CardBrowser
+permission: 
+
+act_name: com.ichi2.anki.MyAccount
+permission: 
+
+act_name: com.ichi2.anki.CardTemplateEditor
+permission: 
+
+act_name: com.ichi2.anki.StudyOptionsActivity
+permission: 
+
+act_name: com.ichi2.anki.Reviewer
+mExported
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: com.ichi2.anki.Statistics
+permission: 
+
+act_name: com.ichi2.anki.Previewer
+permission: 
+
+act_name: com.ichi2.anki.multimediacard.activity.TranslationActivity
+permission: 
+
+act_name: com.ichi2.anki.NoteEditor
+mExported
+permission: 
+mIntentFilter
+intent_filter: 
+action: "org.openintents.action.CREATE_FLASHCARD" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.SEND" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: com.ichi2.anki.Preferences
+permission: 
+
+act_name: com.ichi2.anki.DeckOptions
+permission: 
+
+act_name: com.ichi2.anki.ModelBrowser
+permission: 

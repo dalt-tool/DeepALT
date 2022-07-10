@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:16:30.560  3690  3690 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:16:30.580  3690  3690 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:16:30.596  3690  3690 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/ImportKeysActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:16:30.599  3690  3690 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onResume()V
+03-10 00:16:30.599  3690  3690 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/ImportKeysActivity;--->onResumeFragments()V
+03-10 00:16:30.600  3690  3690 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/ImportKeysSearchFragment;--->onAttach(Landroid/content/Context;)V
+03-10 00:16:30.611  3690  3690 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/ImportKeysListFragment;--->onAttach(Landroid/content/Context;)V

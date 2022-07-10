@@ -1,0 +1,38 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:36:52.595 14599 14599 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V
+03-10 08:36:52.639 14599 14599 D M_InsDal: Lde/danoeh/antennapod/activity/CastEnabledActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:36:52.679 14599 14599 D M_InsDal: Lde/danoeh/antennapod/fragment/QueueFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:36:52.680 14599 14599 D M_InsDal: Lde/danoeh/antennapod/fragment/QueueFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 08:36:52.689 14599 14599 D M_InsDal: Lde/danoeh/antennapod/fragment/ExternalPlayerFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 08:36:52.694 14599 14599 D M_InsDal: Lde/danoeh/antennapod/fragment/QueueFragment;--->onStart()V
+03-10 08:36:52.694 14599 14599 D M_InsDal: Lde/danoeh/antennapod/activity/MainActivity;--->onStart()V
+03-10 08:36:52.694 14599 14599 D M_InsDal: Lde/danoeh/antennapod/core/feed/EventDistributor;--->addObserver(Ljava/util/Observer;)V
+03-10 08:36:52.697 14599 14599 D M_InsDal: Lde/danoeh/antennapod/activity/MainActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 08:36:52.697 14599 14599 D M_InsDal: Lde/danoeh/antennapod/activity/CastEnabledActivity;--->onResume()V
+03-10 08:36:52.697 14599 14599 D M_InsDal: Lde/danoeh/antennapod/activity/MainActivity;--->onResume()V
+--------- beginning of crash
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: Process: de.danoeh.antennapod, PID: 14599
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: java.lang.RuntimeException: Unable to resume activity {de.danoeh.antennapod/de.danoeh.antennapod.activity.MainActivity}: java.lang.NullPointerException: Attempt to read from field 'long de.danoeh.antennapod.core.feed.FeedComponent.id' on a null object reference
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4789)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4832)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:190)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to read from field 'long de.danoeh.antennapod.core.feed.FeedComponent.id' on a null object reference
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at de.danoeh.antennapod.activity.MainActivity.loadFragment(MainActivity.java:3017)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at de.danoeh.antennapod.activity.MainActivity.handleNavIntent(MainActivity.java:805)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at de.danoeh.antennapod.activity.MainActivity.onResume(MainActivity.java:480)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1465)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.Activity.performResume(Activity.java:8223)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4779)
+03-10 08:36:52.709 14599 14599 E AndroidRuntime: 	... 11 more
+03-10 08:36:53.828 14656 14656 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V

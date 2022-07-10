@@ -1,0 +1,11 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:46:44.755 17343 17343 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:46:44.762 17343 17343 D M_InsDal: Leu/siacs/conversations/ui/AbstractSearchableListItemActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:46:44.785 17343 17343 D M_InsDal: Leu/siacs/conversations/ui/BlocklistActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:46:44.788 17343 17343 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:46:44.793 17343 17343 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:46:44.872 17343 17343 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+03-10 07:46:44.944  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:46:56.928  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 07:46:57.048  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

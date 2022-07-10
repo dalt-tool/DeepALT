@@ -1,0 +1,86 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:24:47.830 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 06:24:47.830 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 06:24:47.830 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 06:24:47.830 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 06:24:47.840 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/Statistics;---><init>()V
+03-10 06:24:47.840 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/Statistics$1;---><init>(Lnl/sogeti/android/gpstracker/actions/Statistics;Landroid/os/Handler;)V
+03-10 06:24:47.840 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/Statistics$2;---><init>(Lnl/sogeti/android/gpstracker/actions/Statistics;)V
+03-10 06:24:47.844 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/Statistics;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:24:47.844 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/Statistics$3;---><init>(Lnl/sogeti/android/gpstracker/actions/Statistics;)V
+03-10 06:24:47.844 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;---><init>(Landroid/content/Context;Lnl/sogeti/android/gpstracker/util/UnitsI18n$UnitsChangeListener;)V
+03-10 06:24:47.844 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;---><init>(Landroid/content/Context;)V
+03-10 06:24:47.844 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n$1;---><init>(Lnl/sogeti/android/gpstracker/util/UnitsI18n;)V
+03-10 06:24:47.845 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->initBasedOnPreferences(Landroid/content/SharedPreferences;)V
+03-10 06:24:47.846 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->setToDefault()V
+03-10 06:24:47.846 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->init(Landroid/content/res/Resources;)V
+03-10 06:24:47.860 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/DateView;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 06:24:47.860 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/DateView;--->setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V
+03-10 06:24:47.863 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/DateView;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 06:24:47.863 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/util/DateView;--->setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V
+03-10 06:24:47.865 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/ViewFlipper;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 06:24:47.865 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 06:24:47.865 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+03-10 06:24:47.866 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 06:24:47.866 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+03-10 06:24:47.866 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 06:24:47.866 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+03-10 06:24:47.866 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 06:24:47.866 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;--->setType(I)V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;--->renderGraph()V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;--->setType(I)V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;--->renderGraph()V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;--->setType(I)V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;--->renderGraph()V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;--->setType(I)V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/GraphCanvas;--->renderGraph()V
+03-10 06:24:47.867 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/Statistics$MyGestureDetector;---><init>(Lnl/sogeti/android/gpstracker/actions/Statistics;)V
+03-10 06:24:47.870 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/Statistics;--->onResume()V
+03-10 06:24:47.870 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/Statistics;--->drawTrackingStatistics()V
+03-10 06:24:47.870 29389 29389 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/StatisticsCalulator;---><init>(Landroid/content/Context;Lnl/sogeti/android/gpstracker/util/UnitsI18n;Lnl/sogeti/android/gpstracker/actions/utils/StatisticsDelegate;)V
+03-10 06:24:47.871 29389 29426 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/StatisticsCalulator;--->doInBackground([Landroid/net/Uri;)Ljava/lang/Void;
+03-10 06:24:47.871 29389 29426 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/utils/StatisticsCalulator;--->updateCalculations(Landroid/net/Uri;)V
+--------- beginning of crash
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: Process: nl.sogeti.android.gpstracker, PID: 29389
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: java.lang.RuntimeException: Unable to resume activity {nl.sogeti.android.gpstracker/nl.sogeti.android.gpstracker.actions.Statistics}: java.lang.NullPointerException: uri
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4789)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4832)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:190)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: Caused by: java.lang.NullPointerException: uri
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:133)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.content.ContentResolver.registerContentObserver(ContentResolver.java:2287)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at nl.sogeti.android.gpstracker.actions.Statistics.onResume(Statistics.java:282)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1465)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.Activity.performResume(Activity.java:8223)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4779)
+03-10 06:24:47.872 29389 29389 E AndroidRuntime: 	... 11 more
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: FATAL EXCEPTION: AsyncTask #1
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: Process: nl.sogeti.android.gpstracker, PID: 29389
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: java.lang.RuntimeException: An error occurred while executing doInBackground()
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at android.os.AsyncTask$4.done(AsyncTask.java:399)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:383)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at java.util.concurrent.FutureTask.setException(FutureTask.java:252)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:271)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:929)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.net.Uri$Builder android.net.Uri.buildUpon()' on a null object reference
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at android.net.Uri.withAppendedPath(Uri.java:2348)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at nl.sogeti.android.gpstracker.actions.utils.StatisticsCalulator.updateCalculations(StatisticsCalulator.java:97)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at nl.sogeti.android.gpstracker.actions.utils.StatisticsCalulator.doInBackground(StatisticsCalulator.java:426)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at nl.sogeti.android.gpstracker.actions.utils.StatisticsCalulator.doInBackground(StatisticsCalulator.java:1)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at android.os.AsyncTask$3.call(AsyncTask.java:378)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-10 06:24:47.872 29389 29426 E AndroidRuntime: 	... 3 more

@@ -1,0 +1,38 @@
+--------- beginning of system
+--------- beginning of main
+03-10 00:44:48.273 21165 21165 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:44:48.298 21165 21165 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:44:48.336 21165 21165 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseSecurityTokenActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:44:48.337 21165 21165 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/SecurityTokenOperationActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: Process: org.sufficientlysecure.keychain, PID: 21165
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.SecurityTokenOperationActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.org.sufficientlysecure.keychain.MyParcelable
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.org.sufficientlysecure.keychain.MyParcelable
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.os.Bundle.getParcelable(Bundle.java:951)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.content.Intent.getParcelableExtra(Intent.java:8086)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.SecurityTokenOperationActivity.onCreate(SecurityTokenOperationActivity.java:105)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 00:44:48.339 21165 21165 E AndroidRuntime: 	... 11 more
+03-10 00:44:49.434 21217 21217 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V

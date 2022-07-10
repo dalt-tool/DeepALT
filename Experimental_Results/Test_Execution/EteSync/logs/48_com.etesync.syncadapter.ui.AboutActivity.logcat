@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+03-10 02:22:55.384 14039 14039 D M_InsDal: Lcom/etesync/syncadapter/App;--->attachBaseContext(Landroid/content/Context;)V
+03-10 02:22:55.443 14039 14039 D M_InsDal: Lcom/etesync/syncadapter/App;--->onCreate()V
+03-10 02:22:55.473 14039 14039 D M_InsDal: Lcom/etesync/syncadapter/ui/AboutActivity;--->onCreate(Landroid/os/Bundle;)V

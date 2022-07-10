@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:57:40.160 28694 28694 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:57:40.181 28694 28694 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:57:40.205 28694 28694 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/AppSettingsActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:57:40.648 28694 28694 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

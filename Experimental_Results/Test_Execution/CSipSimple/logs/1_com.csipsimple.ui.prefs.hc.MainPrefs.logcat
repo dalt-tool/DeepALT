@@ -1,0 +1,25 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:34:16.109 17730 17730 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><clinit>()V
+03-10 01:34:16.109 17730 17730 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><init>()V
+03-10 01:34:16.110 17730 17730 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->onCreate()Z
+03-10 01:34:16.110 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><clinit>()V
+03-10 01:34:16.110 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$1;---><init>()V
+03-10 01:34:16.110 17730 17730 D M_InsDal: Lcom/csipsimple/utils/CustomDistribution;--->getUserAgent()Ljava/lang/String;
+03-10 01:34:16.111 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$2;---><init>()V
+03-10 01:34:16.112 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$3;---><init>()V
+03-10 01:34:16.112 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><init>(Landroid/content/Context;)V
+03-10 01:34:16.113 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->needUpgrade()Ljava/lang/Integer;
+03-10 01:34:16.113 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;--->getCurrentPackageInfos(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
+03-10 01:34:16.115 17730 17730 D M_InsDal: Lcom/csipsimple/utils/Log;---><clinit>()V
+03-10 01:34:16.115 17730 17730 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:34:16.115 17730 17730 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:34:16.115 17730 17730 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->getApiLevel()I
+03-10 01:34:16.124 17730 17730 D M_InsDal: Lcom/csipsimple/ui/prefs/hc/MainPrefs;---><init>()V
+03-10 01:34:16.166 17730 17730 D M_InsDal: Lcom/csipsimple/ui/prefs/hc/MainPrefs;--->onBuildHeaders(Ljava/util/List;)V
+03-10 01:34:16.171 17730 17730 D M_InsDal: Lcom/csipsimple/ui/prefs/hc/MainPrefs;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:34:16.171 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><init>(Landroid/content/Context;)V
+03-10 01:34:16.272 17730 17730 D M_InsDal: Lcom/csipsimple/ui/prefs/hc/MainPrefs;--->onCreateOptionsMenu(Lcom/actionbarsherlock/view/Menu;)Z
+03-10 01:34:16.275 17730 17730 D M_InsDal: Lcom/csipsimple/ui/prefs/hc/MainPrefs;--->onPrepareOptionsMenu(Lcom/actionbarsherlock/view/Menu;)Z
+03-10 01:34:16.276 17730 17730 D M_InsDal: Lcom/csipsimple/ui/prefs/PrefsLogic;--->onMainActivityPrepareOptionMenu(Lcom/actionbarsherlock/view/Menu;Landroid/content/Context;Lcom/csipsimple/utils/PreferencesWrapper;)V
+03-10 01:34:16.276 17730 17730 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->isAdvancedUser()Z

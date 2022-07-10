@@ -1,0 +1,115 @@
+manifest
+- package: net.mabako.steamgifts
+- platformBuildVersionName: 7.1.1
+- versionName: 1.5.11
+- platformBuildVersionCode: 25
+- versionCode: 1005511
+	uses-sdk
+	- minSdkVersion: 15
+	- targetSdkVersion: 25
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	application
+	- supportsRtl: false
+	- allowBackup: false
+	- icon: 2130903040
+	- name: net.mabako.steamgifts.Application
+	- theme: 2131361984
+	- label: 2131230764
+		activity
+		- exported: false
+		- name: net.mabako.steamgifts.activities.LoginActivity
+		- theme: 2131361983
+		activity
+		- name: net.mabako.steamgifts.activities.MainActivity
+		- configChanges: 1152
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: net.mabako.steamgifts.activities.DetailActivity
+		- configChanges: 1152
+		activity
+		- exported: false
+		- name: net.mabako.steamgifts.activities.WriteCommentActivity
+		- windowSoftInputMode: 21
+		activity
+		- exported: false
+		- name: net.mabako.steamgifts.activities.AboutActivity
+		- theme: 2131361983
+		- parentActivityName: net.mabako.steamgifts.activities.MainActivity
+		- screenOrientation: 1
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: net.mabako.steamgifts.activities.MainActivity
+		activity
+		- exported: false
+		- name: net.mabako.steamgifts.activities.WebViewActivity
+		- configChanges: 1152
+		activity
+		- exported: false
+		- name: net.mabako.steamgifts.activities.SyncActivity
+		- theme: 2131361983
+		- screenOrientation: 1
+		activity
+		- name: net.mabako.steamgifts.activities.UrlHandlingActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: www.steamgifts.com
+				data
+				- host: steamgifts.com
+				data
+				- pathPattern: /giveaway/.....
+				data
+				- pathPattern: /giveaway/...../.*
+				data
+				- pathPattern: /discussion/.....
+				data
+				- pathPattern: /discussion/...../.*
+				data
+				- pathPattern: /user/.*
+				data
+				- path: /giveaways/search
+		activity
+		- name: net.mabako.steamgifts.activities.SettingsActivity
+		- configChanges: 1152
+		- label: 2131231672
+		- parentActivityName: net.mabako.steamgifts.activities.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: net.mabako.steamgifts.activities.MainActivity
+		activity
+		- exported: false
+		- name: net.mabako.sgtools.SGToolsLoginActivity
+		- theme: 2131361983
+		activity
+		- exported: false
+		- name: net.mabako.steamgifts.intro.IntroActivity
+		- theme: 2131361984
+		receiver
+		- name: net.mabako.steamgifts.receivers.BootReceiver
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.intent.action.QUICKBOOT_POWERON
+		receiver
+		- name: net.mabako.steamgifts.receivers.CheckForNewMessages
+		receiver
+		- name: net.mabako.steamgifts.receivers.CheckForWonGiveaways

@@ -1,0 +1,33 @@
+--------- beginning of system
+--------- beginning of main
+03-10 07:03:29.445 19229 19229 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:03:29.454 19229 19229 D M_InsDal: Leu/siacs/conversations/ui/ShareViaAccountActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:03:29.472 19229 19229 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:03:29.476 19229 19229 D M_InsDal: Leu/siacs/conversations/ui/ShareViaAccountActivity;--->onStart()V
+03-10 07:03:29.477 19229 19229 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:03:29.550 17827 17827 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:03:29.637 19229 19229 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+--------- beginning of crash
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: Process: eu.siacs.conversations, PID: 19229
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.eu.siacs.conversations.MyParcelable
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.BaseBundle.getString(BaseBundle.java:1164)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.content.Intent.getStringExtra(Intent.java:8058)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at eu.siacs.conversations.ui.ShareViaAccountActivity.onBackendConnected(ShareViaAccountActivity.java:77)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at eu.siacs.conversations.ui.XmppActivity$1.onServiceConnected(XmppActivity.java:112)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:2066)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:2098)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:888)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 07:03:29.662 19229 19229 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 07:03:30.952 17827 17827 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V

@@ -1,0 +1,35 @@
+net.mabako.steamgifts.activities.DetailActivity
+extra: Serializable-"notifications",Serializable-"giveaway-details",String-"user",Serializable-"giveaway",Serializable-"whitelist-blacklist-type",Serializable-"discussion",Serializable-"uuid",Serializable-"comment-context",
+---------------------------------------
+
+net.mabako.steamgifts.activities.UrlHandlingActivity
+data: "notEmpty"
+---------------------------------------
+
+net.mabako.steamgifts.activities.AboutActivity
+---------------------------------------
+
+net.mabako.steamgifts.activities.MainActivity
+extra: boolean-"no-drawer",Serializable-"type",String-"query",
+---------------------------------------
+
+net.mabako.steamgifts.activities.LoginActivity
+---------------------------------------
+
+net.mabako.steamgifts.activities.WebViewActivity
+extra: String-"url",
+---------------------------------------
+
+net.mabako.steamgifts.activities.SettingsActivity
+---------------------------------------
+
+net.mabako.steamgifts.intro.IntroActivity
+---------------------------------------
+
+net.mabako.steamgifts.activities.WriteCommentActivity
+extra: String-"title",Serializable-"parent",String-"giveaway-id",String-"xsrf-token",Serializable-"comment-to-edit",
+---------------------------------------
+
+net.mabako.steamgifts.activities.SyncActivity
+---------------------------------------
+

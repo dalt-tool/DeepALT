@@ -1,0 +1,48 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:53:05.862 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:53:05.884 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:53:05.899 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:53:05.899 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptFilesActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:53:05.902 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptModeAsymmetricFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:53:05.930 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptModeAsymmetricFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 00:53:05.930 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptFilesFragment;--->onAttach(Landroid/content/Context;)V
+03-10 00:53:05.931 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/QueueingCryptoOperationFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:53:05.931 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/CachingCryptoOperationFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:53:05.931 26177 26177 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptFilesFragment;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: Process: org.sufficientlysecure.keychain, PID: 26177
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment.checkAndRequestReadPermission(EncryptFilesFragment.java:283)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment.processPendingInputUris(EncryptFilesFragment.java:253)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment.onCreateView(EncryptFilesFragment.java:168)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.Fragment.performCreateView(Fragment.java:2346)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1428)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1759)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1827)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.BackStackRecord.executeOps(BackStackRecord.java:797)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOps(FragmentManager.java:2596)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2383)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3248)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3200)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:195)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:597)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 00:53:05.935 26177 26177 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 00:53:07.051 26242 26242 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V

@@ -1,0 +1,8 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:10:21.271  9054  9054 D M_InsDal: Lcom/nutomic/syncthingandroid/SyncthingApp;--->onCreate()V
+03-10 04:10:21.395  9054  9054 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/DeviceActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:10:21.431  9054  9054 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/SyncthingActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 04:10:21.432  9054  9054 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/SyncthingActivity;--->onResume()V
+03-10 04:10:21.557  9054  9054 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/DeviceActivity;--->onPause()V
+03-10 04:10:22.000  9054  9054 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/DeviceActivity;--->onDestroy()V

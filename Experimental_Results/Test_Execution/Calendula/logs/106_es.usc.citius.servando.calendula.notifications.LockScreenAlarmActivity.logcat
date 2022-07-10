@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:24:19.936 28067 28067 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 05:24:20.051 28067 28067 D M_InsDal: Les/usc/citius/servando/calendula/notifications/LockScreenAlarmActivity;--->onCreate(Landroid/os/Bundle;)V

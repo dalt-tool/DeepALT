@@ -1,0 +1,86 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:40:39.893  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App;---><clinit>()V
+03-10 05:40:39.894  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$Companion;---><init>()V
+03-10 05:40:39.895  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App;---><init>()V
+03-10 05:40:39.903  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App;--->onCreate()V
+03-10 05:40:39.904  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$onCreate$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:40:39.904  6276  6276 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt;--->a(Landroid/content/Context;)Lcom/github/salomonbrys/kodein/Kodein$Module;
+03-10 05:40:39.905  6276  6276 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:40:39.905  6276  6276 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$$special$$inlined$bind$1;---><init>()V
+03-10 05:40:39.906  6276  6276 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$$special$$inlined$singleton$1;---><init>()V
+03-10 05:40:39.906  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App;--->a()Lcom/github/salomonbrys/kodein/Kodein$Module;
+03-10 05:40:39.906  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:40:39.906  6276  6276 D M_InsDal: Lorg/ligi/passandroid/json_adapter/ZonedTimeAdapter;---><init>()V
+03-10 05:40:39.908  6276  6276 D M_InsDal: Lorg/ligi/passandroid/json_adapter/ColorAdapter;---><init>()V
+03-10 05:40:39.909  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$1;---><init>()V
+03-10 05:40:39.909  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$1;---><init>()V
+03-10 05:40:39.909  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$2;---><init>()V
+03-10 05:40:39.909  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$2;---><init>()V
+03-10 05:40:39.909  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$3;---><init>()V
+03-10 05:40:39.909  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$3;---><init>()V
+03-10 05:40:39.910  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App;--->b()V
+03-10 05:40:39.910  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App;--->g()V
+03-10 05:40:39.911  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$onCreate$$inlined$instance$1;---><init>()V
+03-10 05:40:39.911  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$2;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/model/AndroidSettings;
+03-10 05:40:39.911  6276  6276 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;---><init>(Landroid/content/Context;)V
+03-10 05:40:39.911  6276  6276 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getNightMode()I
+03-10 05:40:39.911  6276  6276 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings$sharedPreferences$2;--->invoke()Landroid/content/SharedPreferences;
+03-10 05:40:39.911  6276  6276 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getContext()Landroid/content/Context;
+03-10 05:40:39.920  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/PassViewActivityBase$Companion;---><init>()V
+03-10 05:40:39.920  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/FullscreenBarcodeActivity;---><init>()V
+03-10 05:40:39.920  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/PassViewActivityBase;---><init>()V
+03-10 05:40:39.920  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity;---><init>()V
+03-10 05:40:39.921  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$Companion;--->a()Lcom/github/salomonbrys/kodein/Kodein;
+03-10 05:40:39.921  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity$$special$$inlined$instance$1;---><init>()V
+03-10 05:40:39.921  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$1;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;
+03-10 05:40:39.921  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$1$$special$$inlined$instance$1;---><init>()V
+03-10 05:40:39.921  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$1$$special$$inlined$instance$2;---><init>()V
+03-10 05:40:39.921  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$3;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/greenrobot/eventbus/EventBus;
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;---><init>(Landroid/content/Context;Lorg/ligi/passandroid/model/Settings;Lcom/squareup/moshi/Moshi;Lorg/greenrobot/eventbus/EventBus;)V
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getPassesDir()Ljava/io/File;
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$Companion;--->a()Lcom/github/salomonbrys/kodein/Kodein;
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity$$special$$inlined$instance$2;---><init>()V
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$Companion;--->a()Lcom/github/salomonbrys/kodein/Kodein;
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity$$special$$inlined$instance$3;---><init>()V
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/App$Companion;--->a()Lcom/github/salomonbrys/kodein/Kodein;
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity$$special$$inlined$instance$4;---><init>()V
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$1;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/AnalyticsTracker;
+03-10 05:40:39.922  6276  6276 D M_InsDal: Lorg/ligi/passandroid/AnalyticsTracker;---><init>(Landroid/content/Context;)V
+03-10 05:40:39.943  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/PassViewActivityBase;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:40:39.944  6276  6276 D M_InsDal: Lorg/ligi/passandroid/ui/FullscreenBarcodeActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: Process: org.ligi.passandroid, PID: 6276
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.org.ligi.passandroid.MyParcelable
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.BaseBundle.getString(BaseBundle.java:1164)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.content.Intent.getStringExtra(Intent.java:8058)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at com.google.android.gms.analytics.Tracker.a(Unknown Source:13)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at com.google.android.gms.analytics.Tracker$zza.a(Unknown Source:89)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at com.google.android.gms.analytics.GoogleAnalytics.a(Unknown Source:18)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at com.google.android.gms.analytics.GoogleAnalytics$zzb.onActivityStarted(Unknown Source:2)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.Application.dispatchActivityStarted(Application.java:413)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.Activity.dispatchActivityStarted(Activity.java:1284)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.Activity.onStart(Activity.java:1781)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(SourceFile:595)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(SourceFile:178)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 05:40:39.969  6276  6276 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)

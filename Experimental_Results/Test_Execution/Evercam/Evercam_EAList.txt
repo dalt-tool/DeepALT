@@ -1,0 +1,3 @@
+io.evercam.androidapp.MainActivity
+io.evercam.androidapp.video.VideoActivity
+io.evercam.androidapp.DeepLinkedActivity

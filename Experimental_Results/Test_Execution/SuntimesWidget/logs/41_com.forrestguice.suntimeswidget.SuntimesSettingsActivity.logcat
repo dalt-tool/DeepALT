@@ -1,0 +1,69 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:00:26.789 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/SuntimesApplication;---><init>()V
+03-10 06:00:26.793 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/calculator/CalculatorProvider;---><clinit>()V
+03-10 06:00:26.794 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/calculator/CalculatorProvider;---><init>()V
+03-10 06:00:26.794 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/calculator/CalculatorProvider;--->onCreate()Z
+03-10 06:00:26.804 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/SuntimesApplication;--->onCreate()V
+03-10 06:00:26.823 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/SuntimesSettingsActivity;---><clinit>()V
+03-10 06:00:26.823 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/SuntimesSettingsActivity;---><init>()V
+03-10 06:00:26.823 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/SuntimesSettingsActivity$1;---><init>(Lcom/forrestguice/suntimeswidget/SuntimesSettingsActivity;)V
+03-10 06:00:26.823 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/SuntimesSettingsActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 06:00:26.823 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;---><clinit>()V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;---><clinit>()V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;---><init>(Ljava/lang/String;ILjava/lang/String;)V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;---><init>(Ljava/lang/String;ILjava/lang/String;)V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$DateTapAction;---><clinit>()V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$DateTapAction;---><init>(Ljava/lang/String;ILjava/lang/String;)V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$DateTapAction;---><init>(Ljava/lang/String;ILjava/lang/String;)V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$ClockTapAction;---><clinit>()V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$ClockTapAction;---><init>(Ljava/lang/String;ILjava/lang/String;)V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$ClockTapAction;---><init>(Ljava/lang/String;ILjava/lang/String;)V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/WidgetTimezones$TimeZoneSort;---><clinit>()V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/WidgetTimezones$TimeZoneSort;---><init>(Ljava/lang/String;ILjava/lang/String;)V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/WidgetTimezones$TimeZoneSort;---><init>(Ljava/lang/String;ILjava/lang/String;)V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;--->initLocale(Landroid/content/Context;)Landroid/content/Context;
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleInfo;---><init>()V
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;--->initLocale(Landroid/content/Context;Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleInfo;)Landroid/content/Context;
+03-10 06:00:26.824 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;--->loadLocaleModePref(Landroid/content/Context;)Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;
+03-10 06:00:26.825 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;--->loadLocaleModePref(Landroid/content/SharedPreferences;)Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;
+03-10 06:00:26.825 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;--->valueOf(Ljava/lang/String;)Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;
+03-10 06:00:26.825 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;--->values()[Lcom/forrestguice/suntimeswidget/settings/AppSettings$LocaleMode;
+03-10 06:00:26.825 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;--->resetLocale(Landroid/content/Context;)Landroid/content/Context;
+03-10 06:00:26.829 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/SuntimesSettingsActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:00:26.829 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;--->loadThemePref(Landroid/content/Context;)Ljava/lang/String;
+03-10 06:00:26.829 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;--->themePrefToStyleId(Landroid/content/Context;Ljava/lang/String;)I
+03-10 06:00:26.829 16194 16194 D M_InsDal: Lcom/forrestguice/suntimeswidget/settings/AppSettings;--->themePrefToStyleId(Landroid/content/Context;Ljava/lang/String;Lcom/forrestguice/suntimeswidget/calculator/SuntimesRiseSetData;)I
+--------- beginning of crash
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: Process: com.forrestguice.suntimeswidget, PID: 16194
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesSettingsActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.forrestguice.suntimeswidget.MyParcelable
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.forrestguice.suntimeswidget.MyParcelable
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.os.BaseBundle.getBoolean(BaseBundle.java:903)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.content.Intent.getBooleanExtra(Intent.java:7925)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.preference.PreferenceActivity.onIsHidingHeaders(PreferenceActivity.java:763)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.preference.PreferenceActivity.onCreate(PreferenceActivity.java:569)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at com.forrestguice.suntimeswidget.SuntimesSettingsActivity.onCreate(SuntimesSettingsActivity.java:123)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 06:00:26.843 16194 16194 E AndroidRuntime: 	... 11 more

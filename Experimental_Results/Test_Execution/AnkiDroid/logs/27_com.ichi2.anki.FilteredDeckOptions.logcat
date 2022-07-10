@@ -1,0 +1,293 @@
+--------- beginning of main
+--------- beginning of system
+03-10 03:25:25.693  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:25:25.693  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:25:25.695  9843  9843 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:25:25.695  9843  9843 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:25:25.695  9843  9843 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:25:25.695  9843  9843 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:25:25.696  9843  9843 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:25:25.697  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:25:25.697  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:25.701  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:25.755  9843  9843 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:25:25.756  9843  9843 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:25:25.756  9843  9843 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:25:25.756  9843  9843 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:25:25.761  9843  9843 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;---><init>()V
+03-10 03:25:25.765  9843  9843 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:25:25.765  9843  9843 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+--------- beginning of crash
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: Process: com.ichi2.anki, PID: 9843
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.FilteredDeckOptions}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.os.BaseBundle.getBoolean(BaseBundle.java:903)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.content.Intent.getBooleanExtra(Intent.java:7925)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.preference.PreferenceActivity.onIsHidingHeaders(PreferenceActivity.java:763)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.preference.PreferenceActivity.onCreate(PreferenceActivity.java:569)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at com.ichi2.ui.AppCompatPreferenceActivity.onCreate(AppCompatPreferenceActivity.java:46)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at com.ichi2.anki.FilteredDeckOptions.onCreate(FilteredDeckOptions.java:353)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:25:25.791  9843  9843 E AndroidRuntime: 	... 11 more
+03-10 03:25:25.985  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:25:25.985  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:25:25.987  9908  9908 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:25:25.987  9908  9908 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:25:25.987  9908  9908 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:25:25.987  9908  9908 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:25:25.987  9908  9908 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:25:25.988  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:25:25.988  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:25.993  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:25:25.993  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:25:25.993  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:25:25.993  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:25:25.993  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:25.993  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:25.994  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:25.994  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:25.994  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.050  9908  9908 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:25:26.050  9908  9908 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:25:26.051  9908  9908 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:25:26.051  9908  9908 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:25:26.057  9908  9908 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;---><init>()V
+03-10 03:25:26.065  9908  9908 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:25:26.065  9908  9908 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: Process: com.ichi2.anki, PID: 9908
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.FilteredDeckOptions}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.os.BaseBundle.getBoolean(BaseBundle.java:903)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.content.Intent.getBooleanExtra(Intent.java:7925)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.preference.PreferenceActivity.onIsHidingHeaders(PreferenceActivity.java:763)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.preference.PreferenceActivity.onCreate(PreferenceActivity.java:569)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at com.ichi2.ui.AppCompatPreferenceActivity.onCreate(AppCompatPreferenceActivity.java:46)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at com.ichi2.anki.FilteredDeckOptions.onCreate(FilteredDeckOptions.java:353)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:25:26.093  9908  9908 E AndroidRuntime: 	... 11 more
+03-10 03:25:26.251  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:25:26.251  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:25:26.253  9956  9956 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:25:26.253  9956  9956 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:25:26.253  9956  9956 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:25:26.253  9956  9956 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:25:26.253  9956  9956 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:25:26.255  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:25:26.255  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.258  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.309  9956  9956 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:25:26.309  9956  9956 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:25:26.309  9956  9956 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:25:26.309  9956  9956 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:25:26.314  9956  9956 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;---><init>()V
+03-10 03:25:26.318  9956  9956 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:25:26.318  9956  9956 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: Process: com.ichi2.anki, PID: 9956
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.FilteredDeckOptions}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.os.BaseBundle.getBoolean(BaseBundle.java:903)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.content.Intent.getBooleanExtra(Intent.java:7925)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.preference.PreferenceActivity.onIsHidingHeaders(PreferenceActivity.java:763)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.preference.PreferenceActivity.onCreate(PreferenceActivity.java:569)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at com.ichi2.ui.AppCompatPreferenceActivity.onCreate(AppCompatPreferenceActivity.java:46)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at com.ichi2.anki.FilteredDeckOptions.onCreate(FilteredDeckOptions.java:353)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:25:26.341  9956  9956 E AndroidRuntime: 	... 11 more
+03-10 03:25:26.498 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:25:26.498 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:25:26.500 10003 10003 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:25:26.501 10003 10003 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:25:26.501 10003 10003 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:25:26.501 10003 10003 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:25:26.501 10003 10003 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:25:26.502 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:25:26.502 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.505 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.558 10003 10003 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:25:26.558 10003 10003 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:25:26.558 10003 10003 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:25:26.558 10003 10003 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:25:26.563 10003 10003 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;---><init>()V
+03-10 03:25:26.567 10003 10003 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:25:26.567 10003 10003 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: Process: com.ichi2.anki, PID: 10003
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.FilteredDeckOptions}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.os.BaseBundle.getBoolean(BaseBundle.java:903)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.content.Intent.getBooleanExtra(Intent.java:7925)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.preference.PreferenceActivity.onIsHidingHeaders(PreferenceActivity.java:763)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.preference.PreferenceActivity.onCreate(PreferenceActivity.java:569)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at com.ichi2.ui.AppCompatPreferenceActivity.onCreate(AppCompatPreferenceActivity.java:46)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at com.ichi2.anki.FilteredDeckOptions.onCreate(FilteredDeckOptions.java:353)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:25:26.593 10003 10003 E AndroidRuntime: 	... 11 more
+03-10 03:25:26.748 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:25:26.748 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:25:26.750 10053 10053 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:25:26.750 10053 10053 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:25:26.750 10053 10053 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:25:26.750 10053 10053 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:25:26.750 10053 10053 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:25:26.752 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:25:26.752 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.755 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:25:26.806 10053 10053 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:25:26.807 10053 10053 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:25:26.807 10053 10053 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:25:26.807 10053 10053 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:25:26.811 10053 10053 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;---><init>()V
+03-10 03:25:26.815 10053 10053 D M_InsDal: Lcom/ichi2/anki/FilteredDeckOptions;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:25:26.815 10053 10053 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: Process: com.ichi2.anki, PID: 10053
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.FilteredDeckOptions}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.ichi2.anki.MyParcelable
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.os.BaseBundle.getBoolean(BaseBundle.java:903)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.content.Intent.getBooleanExtra(Intent.java:7925)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.preference.PreferenceActivity.onIsHidingHeaders(PreferenceActivity.java:763)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.preference.PreferenceActivity.onCreate(PreferenceActivity.java:569)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at com.ichi2.ui.AppCompatPreferenceActivity.onCreate(AppCompatPreferenceActivity.java:46)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at com.ichi2.anki.FilteredDeckOptions.onCreate(FilteredDeckOptions.java:353)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:25:26.844 10053 10053 E AndroidRuntime: 	... 11 more

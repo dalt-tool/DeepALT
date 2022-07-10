@@ -1,0 +1,10 @@
+com.mikifus.padland.NewPadActivity
+com.mikifus.padland.PadLandDataActivity
+com.mikifus.padland.SplashActivity
+com.mikifus.padland.SettingsActivity
+com.mikifus.padland.PadViewActivity
+com.mikifus.padland.PadInfoActivity
+com.mikifus.padland.IntroActivity
+com.mikifus.padland.PadListActivity
+com.mikifus.padland.About
+com.mikifus.padland.ServerListActivity

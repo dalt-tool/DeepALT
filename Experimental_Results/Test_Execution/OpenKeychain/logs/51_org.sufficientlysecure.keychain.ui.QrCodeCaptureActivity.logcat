@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+03-09 23:31:39.021  9044  9044 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-09 23:31:39.041  9044  9044 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/QrCodeCaptureActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:31:39.059  9044  9044 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/QrCodeCaptureActivity;--->onResume()V

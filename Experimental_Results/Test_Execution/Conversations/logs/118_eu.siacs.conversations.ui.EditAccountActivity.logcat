@@ -1,0 +1,16 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:34:42.652  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:34:42.658  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/EditAccountActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:34:42.719  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:34:42.723  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/EditAccountActivity;--->onStart()V
+03-10 07:34:42.725  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:34:42.733  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+03-10 07:34:42.787  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:34:42.909  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/EditAccountActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z
+03-10 07:34:42.922  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/EditAccountActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z
+03-10 07:34:46.795  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/EditAccountActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z
+03-10 07:34:47.286  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/EditAccountActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z
+03-10 07:34:47.796  9705  9705 D M_InsDal: Leu/siacs/conversations/ui/EditAccountActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z
+03-10 07:34:54.809  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 07:34:54.832  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

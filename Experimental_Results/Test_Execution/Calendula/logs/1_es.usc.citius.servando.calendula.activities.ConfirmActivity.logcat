@@ -1,0 +1,51 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:54:10.699  9238  9238 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 04:54:10.835  9238  9238 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:54:10.835  9238  9238 D M_InsDal: Les/usc/citius/servando/calendula/activities/ConfirmActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: Process: es.usc.citius.servando.calendula, PID: 9238
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{es.usc.citius.servando.calendula/es.usc.citius.servando.calendula.activities.ConfirmActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'int java.lang.CharSequence.length()' on a null object reference
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'int java.lang.CharSequence.length()' on a null object reference
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at org.joda.time.format.DateTimeFormatterBuilder$NumberFormatter.parseInto(Unknown Source:8)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at org.joda.time.format.DateTimeFormatterBuilder$Composite.parseInto(Unknown Source:12)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at org.joda.time.format.DateTimeFormatter.parseLocalDateTime(Unknown Source:29)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at org.joda.time.format.DateTimeFormatter.parseLocalTime(Unknown Source:0)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at org.joda.time.LocalTime.parse(Unknown Source:0)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at es.usc.citius.servando.calendula.activities.ConfirmActivity.processIntent(Unknown Source:187)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at es.usc.citius.servando.calendula.activities.ConfirmActivity.onCreate(Unknown Source:16)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:54:10.850  9238  9238 E AndroidRuntime: 	... 11 more
+03-10 04:54:10.956  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 04:54:11.070  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:54:11.070  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/HomePagerActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:54:11.236  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/HomePagerActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 04:54:11.236  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onResume()V
+03-10 04:54:11.236  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/HomePagerActivity;--->onResume()V
+03-10 04:54:11.257  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/util/view/CustomDigitalClock;--->onAttachedToWindow()V
+03-10 04:54:11.265  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/DailyAgendaFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:54:11.265  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicinesListFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 04:54:11.265  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicinesListFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:54:11.265  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/RoutinesListFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 04:54:11.265  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/ScheduleListFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 04:54:11.298  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/DailyAgendaFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 04:54:11.327  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicinesListFragment;--->onStart()V
+03-10 04:54:11.327  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/RoutinesListFragment;--->onStart()V
+03-10 04:54:11.327  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/ScheduleListFragment;--->onStart()V
+03-10 04:54:11.562  9286  9286 D M_InsDal: Les/usc/citius/servando/calendula/fragments/RoutinesListFragment$ReloadItemsTask;--->onPostExecute(Ljava/lang/Void;)V

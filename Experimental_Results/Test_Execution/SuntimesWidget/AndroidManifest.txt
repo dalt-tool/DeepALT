@@ -1,0 +1,400 @@
+manifest
+- installLocation: 1
+- package: com.forrestguice.suntimeswidget
+- versionName: 0.11.3
+- versionCode: 44
+	uses-sdk
+	- minSdkVersion: 10
+	- targetSdkVersion: 25
+	uses-permission
+	- name: android.permission.ACCESS_COARSE_LOCATION
+	uses-permission
+	- name: android.permission.ACCESS_FINE_LOCATION
+	uses-permission
+	- name: com.android.alarm.permission.SET_ALARM
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	- maxSdkVersion: 18
+	uses-permission
+	- name: android.permission.VIBRATE
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	permission
+	- name: suntimes.permission.READ_CALCULATOR
+	- protectionLevel: 0
+	application
+	- supportsRtl: true
+	- allowBackup: true
+	- fullBackupContent: 2131951616
+	- icon: 2131623936
+	- name: com.forrestguice.suntimeswidget.SuntimesApplication
+	- theme: 2131820549
+	- label: 2131755086
+		activity
+		- icon: 2131623936
+		- name: com.forrestguice.suntimeswidget.SuntimesActivity
+		- label: 2131755086
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.DEFAULT
+			meta-data
+			- name: android.app.shortcuts
+			- resource: 2131951626
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: geo
+		provider
+		- exported: true
+		- name: com.forrestguice.suntimeswidget.calculator.CalculatorProvider
+		- permission: suntimes.permission.READ_CALCULATOR
+		- syncable: false
+		- authorities: suntimeswidget.calculator.provider
+		activity
+		- icon: 2131623936
+		- name: com.forrestguice.suntimeswidget.SuntimesSettingsActivity
+		- label: 2131755086
+		activity
+		- icon: 2131623936
+		- name: com.forrestguice.suntimeswidget.SuntimesWidgetListActivity
+		- label: 2131755086
+		activity
+		- icon: 2131623936
+		- name: com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity
+		- label: 2131755086
+		activity
+		- icon: 2131623936
+		- name: com.forrestguice.suntimeswidget.themes.WidgetThemeConfigActivity
+		- label: 2131755086
+		provider
+		- exported: false
+		- name: android.support.v4.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: com.forrestguice.suntimeswidget.fileprovider
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2131951617
+		activity
+		- icon: 2131623937
+		- name: com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity
+		- launchMode: 1
+		- label: 2131755087
+		- taskAffinity: .alarmclock.ui.AlarmClockActivity
+			intent-filter
+				action
+				- name: android.intent.action.SET_ALARM
+				category
+				- name: android.intent.category.DEFAULT
+		activity-alias
+		- name: com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivityLauncher
+		- targetActivity: com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity
+		- enabled: true
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+			meta-data
+			- name: android.app.shortcuts
+			- resource: 2131951627
+		activity
+		- exported: true
+		- icon: 2131623937
+		- name: com.forrestguice.suntimeswidget.alarmclock.ui.AlarmDismissActivity
+		- launchMode: 3
+		- excludeFromRecents: true
+		- label: 2131755087
+		- taskAffinity: .alarmclock.ui.AlarmDismissActivity
+		service
+		- name: com.forrestguice.suntimeswidget.alarmclock.AlarmNotifications$NotificationService
+		receiver
+		- name: com.forrestguice.suntimeswidget.alarmclock.AlarmNotifications
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.intent.action.TIME_SET
+			intent-filter
+				action
+				- name: suntimeswidget.alarm.show
+				action
+				- name: suntimeswidget.alarm.silent
+				action
+				- name: suntimeswidget.alarm.dismiss
+				action
+				- name: suntimeswidget.alarm.snooze
+				action
+				- name: suntimeswidget.alarm.schedule
+				action
+				- name: suntimeswidget.alarm.disable
+				action
+				- name: suntimeswidget.alarm.timeout
+				data
+				- scheme: content
+		receiver
+		- icon: 2131623936
+		- name: com.forrestguice.suntimeswidget.SuntimesWidget0
+		- label: 2131755091
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_WIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951634
+		activity
+		- name: com.forrestguice.suntimeswidget.SuntimesConfigActivity0
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131623936
+		- name: com.forrestguice.suntimeswidget.SuntimesWidget0_2x1
+		- label: 2131755091
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_WIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951635
+		activity
+		- name: com.forrestguice.suntimeswidget.SuntimesConfigActivity0_2x1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131623936
+		- name: com.forrestguice.suntimeswidget.SuntimesWidget1
+		- label: 2131755092
+		- enabled: 2131034117
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_WIDGET_UPDATE1
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951636
+		service
+		- name: com.forrestguice.suntimeswidget.SuntimesWidget1Service
+		- permission: android.permission.BIND_REMOTEVIEWS
+		- enabled: 2131034117
+		activity
+		- name: com.forrestguice.suntimeswidget.SuntimesConfigActivity1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131230923
+		- name: com.forrestguice.suntimeswidget.SuntimesWidget2
+		- label: 2131755093
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_WIDGET_UPDATE2
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951637
+		activity
+		- name: com.forrestguice.suntimeswidget.SuntimesConfigActivity2
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131230923
+		- name: com.forrestguice.suntimeswidget.SuntimesWidget2_3x1
+		- label: 2131755093
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_WIDGET_UPDATE2
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951638
+		activity
+		- name: com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131230865
+		- name: com.forrestguice.suntimeswidget.SuntimesWidget2_3x2
+		- label: 2131755093
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_WIDGET_UPDATE2
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951639
+		activity
+		- name: com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x2
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131230909
+		- name: com.forrestguice.suntimeswidget.SolsticeWidget0
+		- label: 2131755090
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.SOLSTICE_WIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951633
+		activity
+		- name: com.forrestguice.suntimeswidget.SolsticeWidget0ConfigActivity
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131230910
+		- name: com.forrestguice.suntimeswidget.MoonWidget0
+		- label: 2131755089
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.MOON_WIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951630
+		activity
+		- name: com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131230910
+		- name: com.forrestguice.suntimeswidget.MoonWidget0_2x1
+		- label: 2131755089
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.MOON_WIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951631
+		activity
+		- name: com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_2x1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131230910
+		- name: com.forrestguice.suntimeswidget.MoonWidget0_3x1
+		- label: 2131755089
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.MOON_WIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951632
+		activity
+		- name: com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_3x1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131623937
+		- name: com.forrestguice.suntimeswidget.ClockWidget0
+		- label: 2131755088
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.CLOCK_WIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951628
+		activity
+		- name: com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- icon: 2131623937
+		- name: com.forrestguice.suntimeswidget.ClockWidget0_3x1
+		- label: 2131755088
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: suntimes.CLOCK_WIDGET_UPDATE
+				action
+				- name: suntimes.SUNTIMES_THEME_UPDATE
+				action
+				- name: suntimes.SUNTIMES_ALARM_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951629
+		activity
+		- name: com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_3x1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		meta-data
+		- name: android.support.VERSION
+		- value: 25.4.0

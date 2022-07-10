@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:55:03.508 21921 21921 D M_InsDal: Leu/siacs/conversations/ui/UriHandlerActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:55:03.524 21921 21921 D M_InsDal: Leu/siacs/conversations/ui/UriHandlerActivity;--->onStart()V
+03-10 07:55:03.572 21921 21921 D M_InsDal: Leu/siacs/conversations/ui/ScanActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:55:03.579 21921 21921 D M_InsDal: Leu/siacs/conversations/ui/ScanActivity;--->onResume()V

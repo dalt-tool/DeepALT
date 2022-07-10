@@ -1,0 +1,22 @@
+--------- beginning of main
+--------- beginning of system
+03-09 23:25:56.357  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-09 23:25:56.384  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:25:56.404  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/BackupActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:25:56.426  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/RemoteBackupActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:25:56.484  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onResume()V
+03-09 23:25:56.509  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.509  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.510  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->onMeasure(II)V
+03-09 23:25:56.515  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.515  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.515  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->onMeasure(II)V
+03-09 23:25:56.525  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.525  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.525  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->onMeasure(II)V
+03-09 23:25:56.527  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.527  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.527  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->onMeasure(II)V
+03-09 23:25:56.530  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.539  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->getCompoundPaddingLeft()I
+03-09 23:25:56.540  5503  5503 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/widget/PrefixedEditText;--->onDraw(Landroid/graphics/Canvas;)V

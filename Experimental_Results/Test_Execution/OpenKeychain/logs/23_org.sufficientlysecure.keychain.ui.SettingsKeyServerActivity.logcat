@@ -1,0 +1,35 @@
+--------- beginning of main
+--------- beginning of system
+03-09 23:23:38.819  4042  4042 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-09 23:23:38.866  4042  4042 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:23:38.890  4042  4042 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/SettingsKeyServerActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:23:38.901  4042  4042 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/SettingsKeyserverFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+--------- beginning of crash
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: FATAL EXCEPTION: main
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: Process: org.sufficientlysecure.keychain, PID: 4042
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke interface method 'java.lang.Object[] java.util.Collection.toArray()' on a null object reference
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at java.util.ArrayList.<init>(ArrayList.java:191)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.SettingsKeyserverFragment.onViewCreated(SettingsKeyserverFragment.java:91)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1439)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1759)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1827)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3244)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3200)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:195)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:597)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-09 23:23:38.901  4042  4042 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-09 23:23:40.002  4099  4099 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V

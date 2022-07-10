@@ -1,0 +1,62 @@
+app_name: AFWall+
+package_name: dev.ukanth.ufirewall
+
+act_name: dev.ukanth.ufirewall.activity.AppDetailActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.activity.LogDetailActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.activity.LogActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.widget.ToggleWidgetActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: dev.ukanth.ufirewall.preferences.PreferencesActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.activity.HelpActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.MainActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.LAUNCHER" category: "android.intent.category.MULTIWINDOW_LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: dev.ukanth.ufirewall.widget.ToggleWidgetOldActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: dev.ukanth.ufirewall.activity.RulesActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.activity.OldLogActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.activity.CustomScriptActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.activity.DataDumpActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.activity.ProfileActivity
+permission: 
+
+act_name: dev.ukanth.ufirewall.plugin.LocaleEdit
+mExported
+permission: 
+mIntentFilter
+intent_filter: 
+action: "com.twofortyfouram.locale.intent.action.EDIT_SETTING" 
+scheme: []://host: []: []/[]

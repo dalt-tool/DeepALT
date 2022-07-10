@@ -1,0 +1,66 @@
+app_name: syncthing
+package_name: com.nutomic.syncthingandroid
+
+act_name: com.nutomic.syncthingandroid.activities.FolderPickerActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.VersioningDialogActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.RestartActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.LogActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: ".activities.LogActivity" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: com.nutomic.syncthingandroid.activities.ShareActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.SEND" 
+category: "android.intent.category.DEFAULT" 
+mime: "*/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.SEND_MULTIPLE" 
+category: "android.intent.category.DEFAULT" 
+mime: "*/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: com.nutomic.syncthingandroid.activities.SettingsActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.PullOrderDialogActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.MainActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.WebGuiActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.DeviceActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.FolderTypeDialogActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.FolderActivity
+permission: 
+
+act_name: com.nutomic.syncthingandroid.activities.FirstStartActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LEANBACK_LAUNCHER" 
+scheme: []://host: []: []/[]

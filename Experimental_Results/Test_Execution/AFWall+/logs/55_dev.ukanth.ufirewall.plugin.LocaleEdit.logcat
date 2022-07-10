@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:19:58.550  4797  4797 D M_InsDal: Ldev/ukanth/ufirewall/plugin/LocaleEdit;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:19:58.664  4797  4797 D M_InsDal: Ldev/ukanth/ufirewall/plugin/LocaleEdit;--->onCreateOptionsMenu(Landroid/view/Menu;)Z

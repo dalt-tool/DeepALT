@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:02:32.014 31433 31433 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 01:02:32.035 31433 31433 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:02:32.055 31433 31433 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/SettingsSmartPGPAuthoritiesActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:02:32.060 31433 31433 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/SettingsSmartPGPAuthorityFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 01:02:32.082 31433 31433 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onResume()V

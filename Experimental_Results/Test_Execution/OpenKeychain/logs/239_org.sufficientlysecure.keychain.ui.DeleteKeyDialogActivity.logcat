@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:25:21.912  8842  8842 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:25:21.932  8842  8842 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/DeleteKeyDialogActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:25:21.936  8842  8842 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainDatabase$1;--->onOpen(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+03-10 00:25:21.979  8842  8842 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

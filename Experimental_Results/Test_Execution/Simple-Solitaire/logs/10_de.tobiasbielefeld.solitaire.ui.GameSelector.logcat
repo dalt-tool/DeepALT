@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:44:57.947  8341  8341 D M_InsDal: Lde/tobiasbielefeld/solitaire/ui/GameSelector;---><clinit>()V
+03-10 05:44:57.960  8341  8341 D M_InsDal: Lde/tobiasbielefeld/solitaire/classes/c;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:44:57.962  8341  8341 D M_InsDal: Lde/tobiasbielefeld/solitaire/ui/GameSelector;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:44:58.004  8341  8341 D M_InsDal: Lde/tobiasbielefeld/solitaire/classes/c;--->onResume()V
+03-10 05:44:58.005  8341  8341 D M_InsDal: Lde/tobiasbielefeld/solitaire/ui/GameSelector;--->onResume()V

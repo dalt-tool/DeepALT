@@ -1,0 +1,14 @@
+felixwiemuth.lincal.ui.SettingsActivity
+---------------------------------------
+
+felixwiemuth.lincal.ui.AddCalendarActivity
+data: "notEmpty"
+---------------------------------------
+
+felixwiemuth.lincal.ui.CalendarListActivity
+---------------------------------------
+
+felixwiemuth.lincal.ui.CalendarViewActivity
+extra: int-"felixwiemuth.lincal.CalendarListActivity.EXTRA_ARG_CALENDAR_POS",
+---------------------------------------
+

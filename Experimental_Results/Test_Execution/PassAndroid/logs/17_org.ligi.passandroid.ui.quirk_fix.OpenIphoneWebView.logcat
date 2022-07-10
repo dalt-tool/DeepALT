@@ -1,0 +1,56 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:32:55.472  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App;---><clinit>()V
+03-10 05:32:55.473  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$Companion;---><init>()V
+03-10 05:32:55.473  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App;---><init>()V
+03-10 05:32:55.487  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App;--->onCreate()V
+03-10 05:32:55.488  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$onCreate$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:32:55.488  1152  1152 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt;--->a(Landroid/content/Context;)Lcom/github/salomonbrys/kodein/Kodein$Module;
+03-10 05:32:55.488  1152  1152 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:32:55.489  1152  1152 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$$special$$inlined$bind$1;---><init>()V
+03-10 05:32:55.490  1152  1152 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$$special$$inlined$singleton$1;---><init>()V
+03-10 05:32:55.490  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App;--->a()Lcom/github/salomonbrys/kodein/Kodein$Module;
+03-10 05:32:55.490  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:32:55.490  1152  1152 D M_InsDal: Lorg/ligi/passandroid/json_adapter/ZonedTimeAdapter;---><init>()V
+03-10 05:32:55.491  1152  1152 D M_InsDal: Lorg/ligi/passandroid/json_adapter/ColorAdapter;---><init>()V
+03-10 05:32:55.492  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$1;---><init>()V
+03-10 05:32:55.493  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$1;---><init>()V
+03-10 05:32:55.493  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$2;---><init>()V
+03-10 05:32:55.493  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$2;---><init>()V
+03-10 05:32:55.493  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$3;---><init>()V
+03-10 05:32:55.493  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$3;---><init>()V
+03-10 05:32:55.493  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App;--->b()V
+03-10 05:32:55.494  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App;--->g()V
+03-10 05:32:55.494  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$onCreate$$inlined$instance$1;---><init>()V
+03-10 05:32:55.495  1152  1152 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$2;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/model/AndroidSettings;
+03-10 05:32:55.495  1152  1152 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;---><init>(Landroid/content/Context;)V
+03-10 05:32:55.495  1152  1152 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getNightMode()I
+03-10 05:32:55.495  1152  1152 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings$sharedPreferences$2;--->invoke()Landroid/content/SharedPreferences;
+03-10 05:32:55.495  1152  1152 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getContext()Landroid/content/Context;
+03-10 05:32:55.501  1152  1152 D M_InsDal: Lorg/ligi/passandroid/ui/quirk_fix/OpenIphoneWebView;---><init>()V
+03-10 05:32:55.506  1152  1152 D M_InsDal: Lorg/ligi/passandroid/ui/quirk_fix/OpenIphoneWebView;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:32:55.643  1152  1152 D M_InsDal: Lorg/ligi/passandroid/functions/InputStreamProviderKt;---><clinit>()V
+03-10 05:32:55.643  1152  1152 D M_InsDal: Lorg/ligi/passandroid/functions/InputStreamProviderKt;--->a()Ljava/lang/String;
+--------- beginning of crash
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: Process: org.ligi.passandroid, PID: 1152
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{org.ligi.passandroid/org.ligi.passandroid.ui.quirk_fix.OpenIphoneWebView}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.toString()' on a null object reference
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.toString()' on a null object reference
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at org.ligi.passandroid.ui.quirk_fix.OpenIphoneWebView.onCreate(SourceFile:24)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 05:32:55.645  1152  1152 E AndroidRuntime: 	... 11 more

@@ -1,0 +1,49 @@
+com.nutomic.syncthingandroid.activities.FolderPickerActivity
+extra: String-"com.nutomic.syncthingandroid.activities.FolderPickerActivity.ROOT_DIRECTORY",String-"com.nutomic.syncthingandroid.activities.FolderPickerActivity.INITIAL_DIRECTORY",
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.VersioningDialogActivity
+extra: Extras-,(,String-"type",),Extras-,(,),
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.RestartActivity
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.LogActivity
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.ShareActivity
+action: "android.intent.action.SEND_MULTIPLE"
+action: "android.intent.action.SEND"
+extra: Parcelable-"android.intent.extra.STREAM",ParcelableArrayList-"android.intent.extra.STREAM",
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.SettingsActivity
+extra: String-"com.nutomic.syncthingandroid.activities.SettingsActivity.OPEN_SUB_PREF_SCREEN",
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.PullOrderDialogActivity
+extra: String-"com.nutomic.syncthinandroid.activities.PullOrderDialogActivity.PULL_ORDER",
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.MainActivity
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.WebGuiActivity
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.DeviceActivity
+extra: boolean-"com.nutomic.syncthingandroid.activities.DeviceActivity.IS_CREATE",String-"com.nutomic.syncthingandroid.activities.DeviceActivity.DEVICE_ID",String-"com.nutomic.syncthingandroid.activities.DeviceActivity.DEVICE_NAME",int-"com.nutomic.syncthingandroid.activities.DeviceActivity.NOTIFICATION_ID",
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.FolderTypeDialogActivity
+extra: String-"com.nutomic.syncthinandroid.activities.FolderTypeDialogActivity.FOLDER_TYPE",
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.FolderActivity
+extra: String-"com.nutomic.syncthingandroid.activities.FolderActivity.FOLDER_ID",boolean-"com.nutomic.syncthingandroid.activities.FolderActivity.IS_CREATE",String-"com.nutomic.syncthingandroid.activities.FolderActivity.FOLDER_LABEL",int-"com.nutomic.syncthingandroid.activities.FolderActivity.NOTIFICATION_ID",String-"com.nutomic.syncthingandroid.activities.FolderActivity.DEVICE_ID",
+---------------------------------------
+
+com.nutomic.syncthingandroid.activities.FirstStartActivity
+---------------------------------------
+

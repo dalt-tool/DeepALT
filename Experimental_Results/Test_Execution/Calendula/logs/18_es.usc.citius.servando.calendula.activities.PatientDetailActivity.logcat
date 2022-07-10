@@ -1,0 +1,39 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:59:03.541 12197 12197 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 04:59:03.657 12197 12197 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:59:03.657 12197 12197 D M_InsDal: Les/usc/citius/servando/calendula/activities/PatientDetailActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: Process: es.usc.citius.servando.calendula, PID: 12197
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{es.usc.citius.servando.calendula/es.usc.citius.servando.calendula.activities.PatientDetailActivity}: com.e.a.t: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: Caused by: com.e.a.t: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.e.a.b.a.i$a.b(Unknown Source:69)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.e.a.f.a(Unknown Source:20)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.e.a.f.a(Unknown Source:4)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.e.a.f.a(Unknown Source:9)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.e.a.f.a(Unknown Source:0)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at es.usc.citius.servando.calendula.activities.PatientDetailActivity.lookForQrData(Unknown Source:21)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at es.usc.citius.servando.calendula.activities.PatientDetailActivity.onCreate(Unknown Source:102)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	... 11 more
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.e.a.d.a.c(Unknown Source:49)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	at com.e.a.b.a.i$a.b(Unknown Source:19)
+03-10 04:59:03.738 12197 12197 E AndroidRuntime: 	... 21 more
+03-10 04:59:04.871 12258 12258 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V

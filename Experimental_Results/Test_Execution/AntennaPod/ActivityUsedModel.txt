@@ -1,0 +1,76 @@
+de.danoeh.antennapod.activity.CastplayerActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.StorageErrorActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.FeedInfoActivity
+extra: long-"de.danoeh.antennapod.extra.feedId",
+---------------------------------------
+
+de.danoeh.antennapod.activity.FeedSettingsActivity
+extra: long-"de.danoeh.antennapod.extra.feedId",
+---------------------------------------
+
+de.danoeh.antennapod.activity.AboutActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.OpmlImportFromPathActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.VideoplayerActivity
+action: "android.intent.action.VIEW"
+data: "notEmpty"
+---------------------------------------
+
+de.danoeh.antennapod.activity.FlattrAuthActivity
+data: "notEmpty"
+---------------------------------------
+
+de.danoeh.antennapod.activity.DownloadAuthenticationActivity
+extra: boolean-"send_to_downloadrequester",Parcelable-"request",
+---------------------------------------
+
+de.danoeh.antennapod.activity.OpmlFeedChooserActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.ImportExportActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.SplashActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.DirectoryChooserActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.StatisticsActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.MainActivity
+extra: Bundle-"fragment_args",(,),int-"nav_index",String-"fragment_tag",long-"fragment_feed_id",
+---------------------------------------
+
+de.danoeh.antennapod.activity.AudioplayerActivity
+action: "android.intent.action.VIEW"
+data: "notEmpty"
+---------------------------------------
+
+de.danoeh.antennapod.activity.PreferenceActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity
+---------------------------------------
+
+de.danoeh.antennapod.activity.OnlineFeedViewActivity
+action: "android.intent.action.VIEW"
+action: "android.intent.action.SEND"
+data: "notEmpty"
+extra: String-"arg.feedurl",String-"title",String-"android.intent.extra.TEXT",
+---------------------------------------
+
+de.danoeh.antennapod.activity.OpmlImportFromIntentActivity
+data: "/"
+data: "notEmpty"
+extra: String-"android.intent.extra.TEXT",
+---------------------------------------
+

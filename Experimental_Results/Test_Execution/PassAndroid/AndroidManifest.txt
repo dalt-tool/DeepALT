@@ -1,0 +1,1826 @@
+manifest
+- installLocation: 0
+- package: org.ligi.passandroid
+- platformBuildVersionName: 7.1.1
+- versionName: 3.4.7
+- platformBuildVersionCode: 25
+- versionCode: 347
+	uses-sdk
+	- minSdkVersion: 9
+	- targetSdkVersion: 25
+	uses-permission
+	- name: com.google.android.providers.gsf.permission.READ_GSERVICES
+	permission
+	- name: org.ligi.passandroid.permission.MAPS_RECEIVE
+	- protectionLevel: 2
+	uses-permission
+	- name: org.ligi.passandroid.permission.MAPS_RECEIVE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.READ_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission-sdk-23
+	- name: com.android.launcher.permission.INSTALL_SHORTCUT
+	uses-permission-sdk-23
+	- name: android.permission.ACCESS_COARSE_LOCATION
+	meta-data
+	- name: android.support.VERSION
+	- value: 25.3.1
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-feature
+	- required: true
+	- glEsVersion: 131072
+	application
+	- icon: 2130837647
+	- name: org.ligi.passandroid.App
+	- theme: 2131427499
+	- label: 2131230765
+	- allowBackup: true
+		meta-data
+		- name: com.google.android.maps.v2.API_KEY
+		- value: AIzaSyBzfj-2jYRg4aak86F3YTOZ2cRB6igrjZs
+		meta-data
+		- name: com.google.android.gms.version
+		- value: 2131623942
+		activity
+		- name: org.ligi.passandroid.FullscreenMapActivity
+		receiver
+		- exported: true
+		- name: org.ligi.passandroid.InstallListener
+			intent-filter
+				action
+				- name: com.android.vending.INSTALL_REFERRER
+		provider
+		- exported: false
+		- name: android.support.v4.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: 2131230901
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2131099649
+		service
+		- name: org.ligi.passandroid.ui.SearchPassesIntentService
+		activity
+		- name: org.ligi.passandroid.ui.PassListActivity
+		- theme: 2131427498
+		- label: 2131230765
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: org.ligi.passandroid.ui.PreferenceActivity
+		activity
+		- name: org.ligi.passandroid.ui.HelpActivity
+		- theme: 2131427498
+		activity
+		- name: org.ligi.passandroid.ui.PassEditActivity
+		activity
+		- name: org.ligi.passandroid.ui.PassImportActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.espass
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.espass
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.espass
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.espass
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/vnd.espass-espass
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/vnd.espass-espass+zip
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/vnd.apple.pkpass
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/pkpass
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/vndapplepkpass
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/vnd-com.apple.pkpass
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.espass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.espass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.espass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.espass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.espass
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pdf
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pdf
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pdf
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pdf
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/x-pdf
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/pdf
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pdf
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pkpass
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pkpass
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pkpass
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pkpass
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/vnd.apple.pkpass
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: application/vnd-com.apple.pkpass
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- pathPattern: /.*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: /.*\..*\..*\..*\..*\..*\..*\..*\..*\.pkpass
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: www.eventbrite.com
+				- pathPattern: /passes/order/.*
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: www.eventbrite.com
+				- pathPattern: /passes/order/.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				- host: mbk.thy.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: https
+				- host: mbk.thy.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: passbook.heathrow.com
+				- pathPattern: /getpass/.*
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: passbook.heathrow.com
+				- pathPattern: /getpass/.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: checkin.si.amadeus.net
+				- pathPattern: /.*
+				- scheme: https
+		activity
+		- name: org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				- host: pass-cloud.appspot.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: pass2u
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: passandroid
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				- host: mci.aircanada.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: https
+				- host: mci.aircanada.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				- host: services.aircanada.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: https
+				- host: services.aircanada.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: m.aircanada.ca
+				- pathPattern: /ebp/.*
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: m.aircanada.ca
+				- pathPattern: /ebp/.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: www.cathaypacific.com
+				- pathPattern: /icheckin2/mbp.do.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: mbp.swiss.com
+				- pathPattern: /mobiqa/wap/.*
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: mbp.swiss.com
+				- pathPattern: /mobiqa/wap/.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: prod.wap.ncrwebhost.mobi
+				- pathPattern: /mobiqa/wap/.*
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: prod.wap.ncrwebhost.mobi
+				- pathPattern: /mobiqa/wap/.*
+				- scheme: https
+		activity
+		- name: org.ligi.passandroid.ui.quirk_fix.OpenIphoneWebView
+		activity
+		- name: org.ligi.passandroid.ui.TouchImageActivity
+		activity
+		- name: org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: www.usairwaysmobile.com
+				- pathPattern: /mobiqa/wap/.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: www.usairwaysmobile.com
+				- pathPattern: /mobiqa/wap/.*
+				- scheme: http
+		activity
+		- name: org.ligi.passandroid.ui.ExtractURLAsIphoneActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: mobile.aegeanair.com
+				- pathPattern: /mbp.do.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: mobile.virginaustralia.com
+				- pathPattern: /virginaustralia/.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: mobile.virginaustralia.com
+				- pathPattern: /virginaustralia/.*
+				- scheme: http
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: check-in.virginaustralia.com
+				- pathPattern: /checkin/CheckInApiIntegration/.*
+				- scheme: https
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: check-in.virginaustralia.com
+				- pathPattern: /checkin/CheckInApiIntegration/.*
+				- scheme: http
+		activity
+		- exported: true
+		- name: org.ligi.passandroid.ui.PassViewActivity
+		- theme: 2131427498
+		- label: 2131230765
+		- parentActivityName: org.ligi.passandroid.ui.PassListActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.PassListActivity
+		activity
+		- name: org.ligi.passandroid.ui.FullscreenBarcodeActivity
+		- label: 2131230765
+		provider
+		- exported: false
+		- name: com.chibatching.kotpref.initializer.KotprefInitProvider
+		- enabled: true
+		- authorities: org.ligi.passandroid.kotprefinitprovider
+		activity
+		- exported: false
+		- name: com.google.android.gms.common.api.GoogleApiActivity
+		- theme: 16973840

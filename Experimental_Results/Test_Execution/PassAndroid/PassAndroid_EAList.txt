@@ -1,0 +1,6 @@
+org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity
+org.ligi.passandroid.ui.ExtractURLAsIphoneActivity
+org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity
+org.ligi.passandroid.ui.PassViewActivity
+org.ligi.passandroid.ui.PassListActivity
+org.ligi.passandroid.ui.PassImportActivity

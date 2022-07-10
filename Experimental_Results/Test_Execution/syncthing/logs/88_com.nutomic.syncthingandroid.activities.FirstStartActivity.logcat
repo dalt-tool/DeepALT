@@ -1,0 +1,22 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:19:13.871 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/SyncthingApp;--->onCreate()V
+03-10 04:19:13.990 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/FirstStartActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:19:14.032 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/StateDialogActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:19:14.033 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/MainActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:19:14.065 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/fragments/DrawerFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 04:19:14.067 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/SyncthingActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 04:19:14.068 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/MainActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 04:19:14.068 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/SyncthingActivity;--->onResume()V
+03-10 04:19:14.070 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/StateDialogActivity;--->onResume()V
+03-10 04:19:14.071 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/fragments/DrawerFragment;--->onResume()V
+03-10 04:19:14.102 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/fragments/FolderListFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 04:19:14.103 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/fragments/DeviceListFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 04:19:14.178 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/MainActivity;--->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
+03-10 04:19:14.194 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/fragments/FolderListFragment;--->onPause()V
+03-10 04:19:14.194 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/fragments/DeviceListFragment;--->onPause()V
+03-10 04:19:14.194 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/StateDialogActivity;--->onPause()V
+03-10 04:19:14.647 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/fragments/DrawerFragment;--->onDestroy()V
+03-10 04:19:14.648 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/StateDialogActivity;--->onDestroy()V
+03-10 04:19:14.648 13886 13886 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/MainActivity;--->onDestroy()V

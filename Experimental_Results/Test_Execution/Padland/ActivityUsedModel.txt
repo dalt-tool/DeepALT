@@ -1,0 +1,34 @@
+com.mikifus.padland.NewPadActivity
+---------------------------------------
+
+com.mikifus.padland.PadLandDataActivity
+---------------------------------------
+
+com.mikifus.padland.SplashActivity
+---------------------------------------
+
+com.mikifus.padland.SettingsActivity
+---------------------------------------
+
+com.mikifus.padland.PadViewActivity
+action: "android.intent.action.VIEW"
+data: "notEmpty"
+extra: String-"padLocalName",String-"padUrl",String-"padName",long-"pad_id",String-"padServer",
+---------------------------------------
+
+com.mikifus.padland.PadInfoActivity
+---------------------------------------
+
+com.mikifus.padland.IntroActivity
+---------------------------------------
+
+com.mikifus.padland.PadListActivity
+extra: String-"action",Extras-,(,long-"focus_pad",),StringArrayList-"pad_id",String-"android.intent.extra.TEXT",
+---------------------------------------
+
+com.mikifus.padland.About
+---------------------------------------
+
+com.mikifus.padland.ServerListActivity
+---------------------------------------
+

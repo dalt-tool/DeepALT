@@ -1,0 +1,306 @@
+manifest
+- installLocation: 0
+- package: com.ichi2.anki
+- platformBuildVersionName: 7.1.1
+- versionName: 2.8.4
+- platformBuildVersionCode: 25
+- versionCode: 20804300
+	uses-sdk
+	- minSdkVersion: 10
+	- targetSdkVersion: 25
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.VIBRATE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.RECORD_AUDIO
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	permission
+	- name: com.ichi2.anki.permission.READ_WRITE_DATABASE
+	- description: 2131296778
+	- label: 2131296779
+	- protectionLevel: 1
+	supports-screens
+	- anyDensity: true
+	- largeScreens: true
+	- xlargeScreens: true
+	- normalScreens: true
+	- smallScreens: true
+	- resizeable: true
+	uses-permission
+	- name: com.ichi2.anki.permission.READ_WRITE_DATABASE
+	application
+	- windowSoftInputMode: 16
+	- allowBackup: true
+	- icon: 2130903040
+	- name: com.ichi2.anki.AnkiDroidApp
+	- roundIcon: 2130903041
+	- label: 2131297063
+	- largeHeap: true
+		activity
+		- name: com.ichi2.anki.IntentHandler
+		- configChanges: 1188
+		- theme: 16973840
+		- label: 2131297063
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.MULTIWINDOW_LAUNCHER
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: .*\.apkg
+				- scheme: http
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: .*\.apkg
+				- scheme: https
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: .*\.apkg
+				- scheme: content
+				data
+				- host: *
+				- mimeType: */*
+				- pathPattern: .*\.apkg
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: application/apkg
+				data
+				- mimeType: application/vnd.anki
+				data
+				- mimeType: application/x-apkg
+				data
+				- scheme: content
+				- mimeType: application/octet-stream
+				data
+				- scheme: content
+				- mimeType: application/zip
+			intent-filter
+				action
+				- name: com.ichi2.anki.DO_SYNC
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- exported: false
+		- name: com.ichi2.anki.DeckPicker
+		- configChanges: 1188
+		- theme: 2131558734
+		- label: 2131297063
+		activity
+		- exported: false
+		- name: com.ichi2.anki.StudyOptionsActivity
+		- configChanges: 1188
+		- label: StudyOptions
+		- parentActivityName: com.ichi2.anki.DeckPicker
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: com.ichi2.anki.DeckPicker
+		activity
+		- exported: false
+		- name: com.ichi2.anki.CardBrowser
+		- configChanges: 1188
+		- label: Card Browser
+		- parentActivityName: com.ichi2.anki.DeckPicker
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: com.ichi2.anki.DeckPicker
+		activity
+		- exported: false
+		- name: com.ichi2.anki.ModelBrowser
+		- configChanges: 1188
+		- label: 2131296665
+		activity
+		- name: com.ichi2.anki.ModelFieldEditor
+		- configChanges: 1188
+		- label: 2131296672
+		activity
+		- exported: true
+		- name: com.ichi2.anki.Reviewer
+		- windowSoftInputMode: 16
+		- configChanges: 1188
+		- parentActivityName: com.ichi2.anki.DeckPicker
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: com.ichi2.anki.DeckPicker
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- exported: false
+		- name: com.ichi2.anki.VideoPlayer
+		- configChanges: 1188
+		- theme: 16973831
+		activity
+		- exported: false
+		- name: com.ichi2.anki.MyAccount
+		- configChanges: 1188
+		- label: 2131296654
+		activity
+		- exported: false
+		- name: com.ichi2.anki.Preferences
+		- configChanges: 1188
+		- theme: 2131558639
+		- label: 2131296776
+		activity
+		- exported: false
+		- name: com.ichi2.anki.DeckOptions
+		- configChanges: 1188
+		- theme: 2131558639
+		- label: 2131296490
+		activity
+		- exported: false
+		- name: com.ichi2.anki.FilteredDeckOptions
+		- configChanges: 1188
+		- theme: 2131558639
+		- label: 2131296490
+		activity
+		- exported: false
+		- name: com.ichi2.anki.Info
+		- configChanges: 4
+		- label: 2131296283
+		activity
+		- exported: true
+		- name: com.ichi2.anki.NoteEditor
+		- configChanges: 1188
+		- label: 2131296563
+			intent-filter
+				action
+				- name: org.openintents.action.CREATE_FLASHCARD
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/plain
+		activity
+		- name: com.ichi2.anki.dialogs.AnkiDroidCrashReportDialog
+		- finishOnTaskLaunch: true
+		- launchMode: 3
+		- theme: 2131558453
+		- excludeFromRecents: true
+		activity
+		- exported: false
+		- name: com.ichi2.anki.Statistics
+		- configChanges: 1188
+		- parentActivityName: com.ichi2.anki.DeckPicker
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: com.ichi2.anki.DeckPicker
+		activity
+		- exported: false
+		- name: com.ichi2.anki.Previewer
+		- configChanges: 4
+		- label: 2131296777
+		service
+		- name: com.ichi2.anki.services.NotificationService
+		receiver
+		- name: com.ichi2.widget.AnkiDroidWidgetSmall
+		- label: 2131297045
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131230734
+		receiver
+		- name: com.ichi2.widget.AddNoteWidget
+		- label: 2131297039
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131230733
+		service
+		- name: com.ichi2.widget.AnkiDroidWidgetSmall$UpdateService
+		receiver
+		- exported: true
+		- name: com.ichi2.anki.receiver.SdCardReceiver
+		- enabled: true
+			intent-filter
+				action
+				- name: android.intent.action.MEDIA_MOUNTED
+				data
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.MEDIA_EJECT
+				data
+				- scheme: file
+		activity
+		- exported: false
+		- name: com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity
+		- configChanges: 1188
+		- label: 2131297004
+		activity
+		- exported: false
+		- name: com.ichi2.anki.multimediacard.activity.TranslationActivity
+		- configChanges: 1188
+		- label: 2131297007
+		activity
+		- exported: false
+		- name: com.ichi2.anki.multimediacard.activity.LoadPronounciationActivity
+		- configChanges: 1188
+		- label: 2131297005
+		activity
+		- exported: false
+		- name: com.ichi2.anki.CardTemplateEditor
+		- windowSoftInputMode: 35
+		- configChanges: 1188
+		- label: 2131297006
+		uses-library
+		- name: com.sec.android.app.multiwindow
+		- required: false
+		meta-data
+		- name: com.sec.android.support.multiwindow
+		- value: true
+		meta-data
+		- name: com.sec.minimode.icon.portrait.normal
+		- resource: 2130837587
+		meta-data
+		- name: com.sec.minimode.icon.landscape.normal
+		- resource: 2130837587
+		provider
+		- exported: true
+		- name: com.ichi2.anki.provider.CardContentProvider
+		- enabled: true
+		- authorities: com.ichi2.anki.flashcards
+			meta-data
+			- name: com.ichi2.anki.provider.spec
+			- value: 2
+		provider
+		- exported: false
+		- name: android.support.v4.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: com.ichi2.anki.apkgfileprovider
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2131230722

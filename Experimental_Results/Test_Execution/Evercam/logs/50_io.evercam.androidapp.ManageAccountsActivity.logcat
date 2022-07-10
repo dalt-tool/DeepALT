@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:49:17.991  5588  5588 D M_InsDal: Lio/evercam/androidapp/EvercamPlayApplication;--->onCreate()V
+03-10 04:49:18.034  5588  5588 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:49:18.049  5588  5588 D M_InsDal: Lio/evercam/androidapp/ManageAccountsActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:49:18.076  5588  5588 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onStart()V

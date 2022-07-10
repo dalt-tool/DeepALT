@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:39:50.586 28876 28876 D M_InsDal: Lio/evercam/androidapp/EvercamPlayApplication;--->onCreate()V
+03-10 04:39:50.632 28876 28876 D M_InsDal: Lio/evercam/androidapp/CameraPrefsActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:39:50.654 28876 28876 D M_InsDal: Lio/evercam/androidapp/CameraPrefsActivity$MyPreferenceFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:39:50.664 28876 28876 D M_InsDal: Lio/evercam/androidapp/CameraPrefsActivity$MyPreferenceFragment;--->onActivityCreated(Landroid/os/Bundle;)V

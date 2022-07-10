@@ -1,0 +1,154 @@
+app_name: Conversations
+package_name: eu.siacs.conversations
+
+act_name: eu.siacs.conversations.ui.ManageAccountActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ChangePasswordActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ShareViaAccountActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ContactDetailsActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ShortcutActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.CREATE_SHORTCUT" 
+scheme: []://host: []: []/[]
+
+act_name: eu.siacs.conversations.ui.ShowLocationActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ChooseContactActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.RecordingActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ShareWithActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.SEND" action: "android.intent.action.SEND_MULTIPLE" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.SEND" action: "android.intent.action.SEND_MULTIPLE" 
+category: "android.intent.category.DEFAULT" 
+mime: "*/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: eu.siacs.conversations.ui.ConferenceDetailsActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.PickServerActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ScanActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ConversationsActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.StartConversationActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+scheme: []://host: []: []/[]
+
+act_name: eu.siacs.conversations.ui.ShareLocationActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ChooseAccountForProfilePictureActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.ATTACH_DATA" 
+category: "android.intent.category.DEFAULT" 
+mime: "image/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: eu.siacs.conversations.ui.EditAccountActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ChannelDiscoveryActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.MagicCreateActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ImportBackupActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.SettingsActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.NOTIFICATION_PREFERENCES" 
+scheme: []://host: []: []/[]
+
+act_name: eu.siacs.conversations.ui.AboutActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.PREFERENCE" 
+scheme: []://host: []: []/[]
+
+act_name: eu.siacs.conversations.ui.MediaBrowserActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.WelcomeActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.MucUsersActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.SearchActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.BlocklistActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.TrustKeysActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.ConversationActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: eu.siacs.conversations.ui.UriHandlerActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["xmpp"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: [host, "conversations.im"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.SENDTO" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["imto"]://host: [host, "jabber"]: [port]/[path]
+
+act_name: eu.siacs.conversations.ui.PublishProfilePictureActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.PublishGroupChatProfilePictureActivity
+permission: 
+
+act_name: eu.siacs.conversations.ui.MemorizingActivity
+permission: 

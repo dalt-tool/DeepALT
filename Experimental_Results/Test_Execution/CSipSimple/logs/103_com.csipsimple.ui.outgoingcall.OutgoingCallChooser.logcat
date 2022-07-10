@@ -1,0 +1,36 @@
+--------- beginning of main
+--------- beginning of system
+03-10 02:03:26.738  3196  3196 D M_InsDal: Lcom/csipsimple/db/DBProvider;---><clinit>()V
+03-10 02:03:26.739  3196  3196 D M_InsDal: Lcom/csipsimple/db/DBProvider;---><init>()V
+03-10 02:03:26.739  3196  3196 D M_InsDal: Lcom/csipsimple/db/DBProvider;--->onCreate()Z
+03-10 02:03:26.739  3196  3196 D M_InsDal: Lcom/csipsimple/db/DBAdapter$DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 02:03:26.748  3196  3196 D M_InsDal: Lcom/csipsimple/ui/outgoingcall/OutgoingCallChooser;---><init>()V
+03-10 02:03:26.748  3196  3196 D M_InsDal: Lcom/csipsimple/ui/outgoingcall/OutgoingCallChooser$1;---><init>(Lcom/csipsimple/ui/outgoingcall/OutgoingCallChooser;)V
+03-10 02:03:26.754  3196  3196 D M_InsDal: Lcom/csipsimple/ui/outgoingcall/OutgoingCallChooser;--->onCreate(Landroid/os/Bundle;)V
+03-10 02:03:26.754  3196  3196 D M_InsDal: Lcom/csipsimple/ui/outgoingcall/OutgoingCallChooser;--->resetInternals()V
+03-10 02:03:26.754  3196  3196 D M_InsDal: Lcom/csipsimple/ui/outgoingcall/OutgoingCallChooser;--->getPhoneNumber()Ljava/lang/String;
+--------- beginning of crash
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: Process: com.csipsimple:sipStack, PID: 3196
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.csipsimple/com.csipsimple.ui.outgoingcall.OutgoingCallChooser}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.telephony.PhoneNumberUtils.getNumberFromIntent(PhoneNumberUtils.java:202)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at com.csipsimple.ui.outgoingcall.OutgoingCallChooser.getPhoneNumber(OutgoingCallChooser.java:85)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at com.csipsimple.ui.outgoingcall.OutgoingCallChooser.onCreate(OutgoingCallChooser.java:56)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 02:03:26.755  3196  3196 E AndroidRuntime: 	... 11 more

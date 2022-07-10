@@ -1,0 +1,13 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:37:32.775 27114 27114 D M_InsDal: Lio/evercam/androidapp/EvercamPlayApplication;--->onCreate()V
+03-10 04:37:32.815 27114 27114 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:37:32.829 27114 27114 D M_InsDal: Lio/evercam/androidapp/video/VideoActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:37:32.855 27114 27114 D M_InsDal: Lio/evercam/androidapp/custom/OfflineLayoutView;--->onFinishInflate()V
+03-10 04:37:32.913 27114 27114 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:37:32.913 27114 27114 D M_InsDal: Lio/evercam/androidapp/MainActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:37:32.943 27114 27114 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onStart()V
+03-10 04:37:33.042 27114 27114 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:37:33.043 27114 27114 D M_InsDal: Lio/evercam/androidapp/OnBoardingActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:37:33.051 27114 27114 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onStart()V
+03-10 04:37:33.434 27114 27114 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onStop()V

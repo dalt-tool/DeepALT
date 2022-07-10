@@ -1,0 +1,14 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:29:23.035 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 06:29:23.035 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 06:29:23.035 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 06:29:23.035 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 06:29:23.044 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/oauth/PrepareRequestTokenActivity;---><init>()V
+03-10 06:29:23.051 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/oauth/PrepareRequestTokenActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:29:23.068 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/oauth/OAuthRequestTokenTask;---><init>(Landroid/content/Context;Loauth/signpost/OAuthConsumer;Loauth/signpost/OAuthProvider;)V
+03-10 06:29:23.068 32004 32035 D M_InsDal: Lnl/sogeti/android/gpstracker/oauth/OAuthRequestTokenTask;--->doInBackground([Ljava/lang/Void;)Ljava/lang/Void;
+03-10 06:29:23.070 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/oauth/PrepareRequestTokenActivity;--->onResume()V
+03-10 06:29:23.095 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/oauth/PrepareRequestTokenActivity;--->onNewIntent(Landroid/content/Intent;)V
+03-10 06:29:23.095 32004 32004 D M_InsDal: Lnl/sogeti/android/gpstracker/oauth/RetrieveAccessTokenTask;---><init>(Landroid/content/Context;Loauth/signpost/OAuthConsumer;Loauth/signpost/OAuthProvider;Landroid/content/SharedPreferences;Ljava/lang/String;Ljava/lang/String;)V
+03-10 06:29:23.095 32004 32035 D M_InsDal: Lnl/sogeti/android/gpstracker/oauth/RetrieveAccessTokenTask;--->doInBackground([Landroid/net/Uri;)Ljava/lang/Void;

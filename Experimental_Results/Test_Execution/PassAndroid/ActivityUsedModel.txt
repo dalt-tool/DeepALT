@@ -1,0 +1,45 @@
+org.ligi.passandroid.FullscreenMapActivity
+---------------------------------------
+
+org.ligi.passandroid.ui.PassEditActivity
+---------------------------------------
+
+org.ligi.passandroid.ui.HelpActivity
+---------------------------------------
+
+org.ligi.passandroid.ui.TouchImageActivity
+extra: String-"IMAGE",
+---------------------------------------
+
+org.ligi.passandroid.ui.quirk_fix.OpenIphoneWebView
+data: "notEmpty"
+---------------------------------------
+
+org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity
+data: "notEmpty"
+---------------------------------------
+
+org.ligi.passandroid.ui.ExtractURLAsIphoneActivity
+data: "notEmpty"
+---------------------------------------
+
+org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity
+data: "notEmpty"
+---------------------------------------
+
+org.ligi.passandroid.ui.PreferenceActivity
+---------------------------------------
+
+org.ligi.passandroid.ui.PassViewActivity
+---------------------------------------
+
+org.ligi.passandroid.ui.PassListActivity
+---------------------------------------
+
+org.ligi.passandroid.ui.FullscreenBarcodeActivity
+---------------------------------------
+
+org.ligi.passandroid.ui.PassImportActivity
+data: "notEmpty"
+---------------------------------------
+

@@ -1,0 +1,136 @@
+eu.siacs.conversations.ui.ManageAccountActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.ChangePasswordActivity
+extra: String-"account",String-"password",
+---------------------------------------
+
+eu.siacs.conversations.ui.ShareViaAccountActivity
+extra: String-"body",String-"contact",
+---------------------------------------
+
+eu.siacs.conversations.ui.ContactDetailsActivity
+action: "view_contact"
+extra: String-"fingerprint",Extras-,(,String-"contact",),Extras-,(,String-"account",),
+---------------------------------------
+
+eu.siacs.conversations.ui.ShortcutActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.ShowLocationActivity
+action: "notEmpty"
+action: "eu.siacs.conversations.location.show"
+action: "android.intent.action.VIEW"
+data: "notEmpty"
+data: "notEmpty://h:1/p"
+extra: double-"latitude",double-"longitude",
+---------------------------------------
+
+eu.siacs.conversations.ui.ChooseContactActivity
+extra: int-"extra_title_res_id",String-"extra_group_chat_name",boolean-"extra_show_enter_jid",String-"extra_conversation",String-"account",boolean-"extra_select_multiple",StringArray-"extra_filtered_contacts",boolean-"direct_search",
+---------------------------------------
+
+eu.siacs.conversations.ui.RecordingActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.ShareWithActivity
+action: "android.intent.action.SEND_MULTIPLE"
+action: "android.intent.action.SEND"
+type: "notEmpty"
+type: "text/plain"
+extra: Parcelable-"android.intent.extra.STREAM",ParcelableArrayList-"android.intent.extra.STREAM",String-"android.intent.extra.TEXT",
+---------------------------------------
+
+eu.siacs.conversations.ui.ConferenceDetailsActivity
+action: "view_muc"
+extra: Extras-,(,String-"uuid",),
+---------------------------------------
+
+eu.siacs.conversations.ui.PickServerActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.ScanActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.ConversationsActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.StartConversationActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.ShareLocationActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.ChooseAccountForProfilePictureActivity
+data: "notEmpty"
+---------------------------------------
+
+eu.siacs.conversations.ui.EditAccountActivity
+data: "notEmpty"
+extra: boolean-"init",boolean-"scanned",Extras-,(,),String-"jid",boolean-"force_register",boolean-"opened_from_notification",String-"fingerprint",
+---------------------------------------
+
+eu.siacs.conversations.ui.ChannelDiscoveryActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.MagicCreateActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.ImportBackupActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.SettingsActivity
+action: "android.intent.action.VIEW"
+extra: Extras-,(,String-"page",),Extras-,(,),
+---------------------------------------
+
+eu.siacs.conversations.ui.AboutActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.MediaBrowserActivity
+extra: String-"jid",String-"account",
+---------------------------------------
+
+eu.siacs.conversations.ui.WelcomeActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.MucUsersActivity
+extra: String-"uuid",
+---------------------------------------
+
+eu.siacs.conversations.ui.SearchActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.BlocklistActivity
+extra: String-"account",
+---------------------------------------
+
+eu.siacs.conversations.ui.TrustKeysActivity
+extra: String-"conversation",String-"account",StringArray-"contacts",int-"choice",
+---------------------------------------
+
+eu.siacs.conversations.ui.ConversationActivity
+---------------------------------------
+
+eu.siacs.conversations.ui.UriHandlerActivity
+action: "notEmpty"
+action: "scan_qr_code"
+action: "android.intent.action.VIEW"
+action: "android.intent.action.SENDTO"
+data: "notEmpty"
+---------------------------------------
+
+eu.siacs.conversations.ui.PublishProfilePictureActivity
+data: "notEmpty"
+extra: String-"account",boolean-"setup",
+---------------------------------------
+
+eu.siacs.conversations.ui.PublishGroupChatProfilePictureActivity
+extra: String-"uuid",
+---------------------------------------
+
+eu.siacs.conversations.ui.MemorizingActivity
+data: "notEmpty"
+extra: int-"de.duenndns.ssl.DECISION.decisionId",int-"de.duenndns.ssl.DECISION.titleId",Extras-,(,),String-"de.duenndns.ssl.DECISION.cert",
+---------------------------------------
+

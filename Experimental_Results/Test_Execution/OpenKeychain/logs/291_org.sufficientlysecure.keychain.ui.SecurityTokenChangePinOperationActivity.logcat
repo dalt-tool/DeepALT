@@ -1,0 +1,76 @@
+--------- beginning of system
+--------- beginning of main
+03-10 00:40:14.065 18616 18616 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:40:14.091 18616 18616 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:40:14.136 18616 18616 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseSecurityTokenActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:40:14.137 18616 18616 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/SecurityTokenChangePinOperationActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: Process: org.sufficientlysecure.keychain, PID: 18616
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.SecurityTokenChangePinOperationActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.org.sufficientlysecure.keychain.MyParcelable
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.org.sufficientlysecure.keychain.MyParcelable
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.os.Bundle.getParcelable(Bundle.java:951)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.content.Intent.getParcelableExtra(Intent.java:8086)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.SecurityTokenChangePinOperationActivity.onCreate(SecurityTokenChangePinOperationActivity.java:126)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 00:40:14.140 18616 18616 E AndroidRuntime: 	... 11 more
+03-10 00:40:24.452 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 00:40:24.453 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 00:40:24.453 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 00:40:24.455 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 00:40:24.462 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;---><clinit>()V
+03-10 00:40:24.463 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;---><init>()V
+03-10 00:40:24.463 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$1;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 00:40:24.463 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$2;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 00:40:24.464 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$3;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 00:40:24.464 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/IGPSLoggerServiceRemote$Stub;---><init>()V
+03-10 00:40:24.464 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->onCreate()V
+03-10 00:40:24.464 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 00:40:24.465 18675 18701 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;--->run()V
+03-10 00:40:24.466 18675 18701 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread$1;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;)V
+03-10 00:40:24.470 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->stopNotification()V
+03-10 00:40:24.470 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->stopForegroundReflected(Z)V
+03-10 00:40:24.478 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->crashRestoreState()V
+03-10 00:40:24.479 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->broadCastLoggingState()V
+03-10 00:40:24.482 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->isLogging()Z
+03-10 00:40:24.482 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/StreamUtils;--->shutdownStreams(Landroid/content/Context;)V
+03-10 00:40:24.482 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/VoiceOver;---><clinit>()V
+03-10 00:40:24.482 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/VoiceOver;--->shutdownStreaming(Landroid/content/Context;)V
+03-10 00:40:24.483 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/CustomUpload;---><clinit>()V
+03-10 00:40:24.483 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/CustomUpload;--->shutdownStreaming(Landroid/content/Context;)V
+03-10 00:40:24.489 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;---><clinit>()V
+03-10 00:40:24.489 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;---><init>()V
+03-10 00:40:24.490 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+03-10 00:40:24.490 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateWidget(Landroid/content/Context;)V
+03-10 00:40:24.490 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->buildUpdate(Landroid/content/Context;I)Landroid/widget/RemoteViews;
+03-10 00:40:24.490 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 00:40:24.491 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 00:40:24.492 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateButtons(Landroid/widget/RemoteViews;Landroid/content/Context;)V
+03-10 00:40:24.492 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->setEnableInsertNote(Landroid/widget/RemoteViews;Z)V
+03-10 00:40:24.496 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateWidget(Landroid/content/Context;)V
+03-10 00:40:24.496 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->buildUpdate(Landroid/content/Context;I)Landroid/widget/RemoteViews;
+03-10 00:40:24.496 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 00:40:24.497 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 00:40:24.498 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateButtons(Landroid/widget/RemoteViews;Landroid/content/Context;)V
+03-10 00:40:24.498 18675 18675 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->setEnableInsertNote(Landroid/widget/RemoteViews;Z)V

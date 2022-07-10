@@ -1,0 +1,29 @@
+app_name: Lincal
+package_name: felixwiemuth.lincal
+
+act_name: felixwiemuth.lincal.ui.SettingsActivity
+permission: 
+
+act_name: felixwiemuth.lincal.ui.AddCalendarActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: felixwiemuth.lincal.ui.CalendarListActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: felixwiemuth.lincal.ui.CalendarViewActivity
+permission: 

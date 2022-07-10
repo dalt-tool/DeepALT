@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:01:56.165 26028 26028 D M_InsDal: Leu/siacs/conversations/ui/MemorizingActivity;--->onResume()V
+03-10 08:02:08.224 24337 24337 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

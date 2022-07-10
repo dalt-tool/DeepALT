@@ -1,0 +1,32 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:27:58.468 14715 14715 D M_InsDal: Lcom/mikifus/padland/PadlandApp;--->onCreate()V
+03-10 01:27:58.479 14715 14715 D M_InsDal: Lcom/mikifus/padland/PadLandActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:27:58.479 14715 14715 D M_InsDal: Lcom/mikifus/padland/PadLandDataActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:27:58.481 14715 14715 D M_InsDal: Lcom/mikifus/padland/PadViewActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: Process: com.mikifus.padland, PID: 14715
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.mikifus.padland/com.mikifus.padland.PadViewActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.mikifus.padland.Models.Pad.g()' on a null object reference
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String com.mikifus.padland.Models.Pad.g()' on a null object reference
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at com.mikifus.padland.PadViewActivity.d(SourceFile:5)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at com.mikifus.padland.PadViewActivity.k(SourceFile:1)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at com.mikifus.padland.PadViewActivity.n(SourceFile:1)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at com.mikifus.padland.PadViewActivity.onCreate(SourceFile:2)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 01:27:58.482 14715 14715 E AndroidRuntime: 	... 11 more

@@ -1,0 +1,36 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:00:19.963 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/Application;---><init>()V
+03-10 07:00:19.963 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/ApplicationTemplate;---><init>()V
+03-10 07:00:19.964 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/ApplicationTemplate;--->onCreate()V
+03-10 07:00:19.964 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;---><clinit>()V
+03-10 07:00:19.964 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;--->scheduleAllTasks(Landroid/content/Context;)V
+03-10 07:00:19.964 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;---><clinit>()V
+03-10 07:00:19.964 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;---><init>(Ljava/lang/String;IJLjava/lang/Class;)V
+03-10 07:00:19.964 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;--->values()[Lnet/mabako/steamgifts/PeriodicTasks$Task;
+03-10 07:00:19.964 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;--->scheduleTask(Lnet/mabako/steamgifts/PeriodicTasks$Task;Landroid/content/Context;)V
+03-10 07:00:19.971 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$TaskData;---><init>(Landroid/app/AlarmManager;Landroid/app/PendingIntent;)V
+03-10 07:00:19.980 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/CommonActivity;---><clinit>()V
+03-10 07:00:19.980 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/SyncActivity;---><init>()V
+03-10 07:00:19.980 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/CommonActivity;---><init>()V
+03-10 07:00:19.980 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;---><init>()V
+03-10 07:00:19.980 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/CommonActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 07:00:19.985 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:00:19.985 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->setTheme()Z
+03-10 07:00:19.989 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><clinit>()V
+03-10 07:00:19.989 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><init>()V
+03-10 07:00:19.989 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;--->clear()V
+03-10 07:00:19.989 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><init>()V
+03-10 07:00:19.989 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/SyncActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:00:20.004 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/behavior/ScrollAwareFABBehavior;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 07:00:20.004 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/fragments/SyncFragment;---><init>()V
+03-10 07:00:20.004 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->loadFragment(ILandroid/support/v4/app/Fragment;Ljava/lang/String;)V
+03-10 07:00:20.006 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/fragments/SyncFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:00:20.006 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/fragments/SyncFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 07:00:20.018 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;---><clinit>()V
+03-10 07:00:20.018 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;--->getCurrent(Landroid/content/Context;)Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;
+03-10 07:00:20.018 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;---><init>()V
+03-10 07:00:20.019 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;--->clear()V
+03-10 07:00:20.019 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;---><init>()V
+03-10 07:00:20.019 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;--->isLoggedIn()Z
+03-10 07:00:20.460 17399 17399 D M_InsDal: Lnet/mabako/steamgifts/fragments/SyncFragment;--->onDestroyView()V

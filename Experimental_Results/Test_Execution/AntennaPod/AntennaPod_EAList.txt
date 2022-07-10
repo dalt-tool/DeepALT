@@ -1,0 +1,7 @@
+de.danoeh.antennapod.activity.AudioplayerActivity
+de.danoeh.antennapod.activity.VideoplayerActivity
+de.danoeh.antennapod.activity.FlattrAuthActivity
+de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity
+de.danoeh.antennapod.activity.OnlineFeedViewActivity
+de.danoeh.antennapod.activity.OpmlImportFromIntentActivity
+de.danoeh.antennapod.activity.SplashActivity

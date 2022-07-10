@@ -1,0 +1,8 @@
+--------- beginning of system
+--------- beginning of main
+03-10 00:19:04.869  5392  5392 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:19:04.922  5392  5392 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/SettingsActivity;--->onBuildHeaders(Ljava/util/List;)V
+03-10 00:19:04.930  5392  5392 D M_InsDal: Lorg/sufficientlysecure/keychain/compatibility/AppCompatPreferenceActivity;--->onTitleChanged(Ljava/lang/CharSequence;I)V
+03-10 00:19:04.930  5392  5392 D M_InsDal: Lorg/sufficientlysecure/keychain/compatibility/AppCompatPreferenceActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 00:19:04.930  5392  5392 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/SettingsActivity;--->onResume()V
+03-10 00:19:04.930  5392  5392 D M_InsDal: Lorg/sufficientlysecure/keychain/compatibility/AppCompatPreferenceActivity;--->onPostResume()V

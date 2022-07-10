@@ -1,0 +1,28 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:38:13.982 17185 17185 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:38:14.003 17185 17185 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/dialog/RemoteDeduplicateActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:38:14.031 17185 17185 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/dialog/RemoteDeduplicateActivity$RemoteDeduplicateDialogFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 00:38:14.061 17185 17185 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/dialog/RemoteDeduplicateActivity;--->onStart()V
+--------- beginning of crash
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: Process: org.sufficientlysecure.keychain, PID: 17185
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke interface method 'java.lang.Object java.util.List.get(int)' on a null object reference
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at org.sufficientlysecure.keychain.remote.ui.dialog.RemoteDeduplicateActivity.onStart(RemoteDeduplicateActivity.java:86)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 00:38:14.061 17185 17185 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 00:38:15.183 17247 17247 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:38:15.205 17247 17247 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 00:38:15.252 17247 17247 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

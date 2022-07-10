@@ -1,0 +1,49 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/Application;---><init>()V
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/ApplicationTemplate;---><init>()V
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/ApplicationTemplate;--->onCreate()V
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;---><clinit>()V
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;--->scheduleAllTasks(Landroid/content/Context;)V
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;---><clinit>()V
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;---><init>(Ljava/lang/String;IJLjava/lang/Class;)V
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;--->values()[Lnet/mabako/steamgifts/PeriodicTasks$Task;
+03-10 06:33:41.066  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;--->scheduleTask(Lnet/mabako/steamgifts/PeriodicTasks$Task;Landroid/content/Context;)V
+03-10 06:33:41.072  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$TaskData;---><init>(Landroid/app/AlarmManager;Landroid/app/PendingIntent;)V
+03-10 06:33:41.079  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/CommonActivity;---><clinit>()V
+03-10 06:33:41.079  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/DetailActivity;---><init>()V
+03-10 06:33:41.079  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/CommonActivity;---><init>()V
+03-10 06:33:41.079  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;---><init>()V
+03-10 06:33:41.080  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/CommonActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 06:33:41.084  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:33:41.084  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->setTheme()Z
+03-10 06:33:41.089  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><clinit>()V
+03-10 06:33:41.089  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><init>()V
+03-10 06:33:41.089  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;--->clear()V
+03-10 06:33:41.089  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><init>()V
+03-10 06:33:41.089  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/DetailActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:33:41.089  3025  3025 D M_InsDal: Lnet/mabako/steamgifts/activities/DetailActivity;--->initLayout(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: Process: net.mabako.steamgifts, PID: 3025
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{net.mabako.steamgifts/net.mabako.steamgifts.activities.DetailActivity}: java.lang.IllegalStateException: no detail activity, lacking any fragment to initialize
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: Caused by: java.lang.IllegalStateException: no detail activity, lacking any fragment to initialize
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at net.mabako.steamgifts.activities.DetailActivity.initLayout(DetailActivity.java:170)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at net.mabako.steamgifts.activities.DetailActivity.onCreate(DetailActivity.java:63)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 06:33:41.091  3025  3025 E AndroidRuntime: 	... 11 more

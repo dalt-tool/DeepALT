@@ -1,0 +1,369 @@
+app_name: PassAndroid
+package_name: org.ligi.passandroid
+
+act_name: org.ligi.passandroid.FullscreenMapActivity
+permission: 
+
+act_name: org.ligi.passandroid.ui.PassEditActivity
+permission: 
+
+act_name: org.ligi.passandroid.ui.HelpActivity
+permission: 
+
+act_name: org.ligi.passandroid.ui.TouchImageActivity
+permission: 
+
+act_name: org.ligi.passandroid.ui.quirk_fix.OpenIphoneWebView
+permission: 
+
+act_name: org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["pass-cloud.appspot.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["pass2u"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["passandroid"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["mci.aircanada.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["mci.aircanada.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["services.aircanada.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["services.aircanada.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["m.aircanada.ca"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["m.aircanada.ca"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["www.cathaypacific.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["mbp.swiss.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["mbp.swiss.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["prod.wap.ncrwebhost.mobi"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["prod.wap.ncrwebhost.mobi"]: [port]/[path]
+
+act_name: org.ligi.passandroid.ui.ExtractURLAsIphoneActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["mobile.aegeanair.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["mobile.virginaustralia.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["mobile.virginaustralia.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["check-in.virginaustralia.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["check-in.virginaustralia.com"]: [port]/[path]
+
+act_name: org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["www.usairwaysmobile.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["www.usairwaysmobile.com"]: [port]/[path]
+
+act_name: org.ligi.passandroid.ui.PreferenceActivity
+permission: 
+
+act_name: org.ligi.passandroid.ui.PassViewActivity
+mExported
+permission: 
+
+act_name: org.ligi.passandroid.ui.PassListActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: org.ligi.passandroid.ui.FullscreenBarcodeActivity
+permission: 
+
+act_name: org.ligi.passandroid.ui.PassImportActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/vnd.espass-espass" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/vnd.espass-espass+zip" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/vnd.apple.pkpass" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/pkpass" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/vndapplepkpass" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/vnd-com.apple.pkpass" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/x-pdf" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/pdf" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/vnd.apple.pkpass" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/vnd-com.apple.pkpass" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["http"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["file"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" mime: "*/*" 
+scheme: ["content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["www.eventbrite.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["www.eventbrite.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["mbk.thy.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["mbk.thy.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http"]://host: ["passbook.heathrow.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["passbook.heathrow.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["https"]://host: ["checkin.si.amadeus.net"]: [port]/[path]

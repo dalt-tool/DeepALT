@@ -1,0 +1,46 @@
+--------- beginning of main
+--------- beginning of system
+03-10 02:24:04.105 14666 14666 D M_InsDal: Lcom/etesync/syncadapter/App;--->attachBaseContext(Landroid/content/Context;)V
+03-10 02:24:04.164 14666 14666 D M_InsDal: Lcom/etesync/syncadapter/App;--->onCreate()V
+03-10 02:24:04.193 14666 14666 D M_InsDal: Lcom/etesync/syncadapter/ui/setup/LoginActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: Process: com.etesync.syncadapter, PID: 14666
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.etesync.syncadapter.MyParcelable
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.BaseBundle.getString(BaseBundle.java:1164)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.content.Intent.getStringExtra(Intent.java:8058)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at com.etesync.syncadapter.ui.setup.LoginCredentialsFragment.onCreateView(LoginCredentialsFragment.kt:49)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:2439)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.moveToState(FragmentManager.java:1460)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1784)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.moveToState(FragmentManager.java:1852)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:802)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.executeOps(FragmentManager.java:2625)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2411)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2366)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2273)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3273)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3229)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:201)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:620)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:178)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 02:24:04.255 14666 14666 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)

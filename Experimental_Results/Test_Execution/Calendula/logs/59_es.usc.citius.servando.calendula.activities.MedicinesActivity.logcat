@@ -1,0 +1,10 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:10:50.220 20056 20056 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 05:10:50.346 20056 20056 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:10:50.346 20056 20056 D M_InsDal: Les/usc/citius/servando/calendula/activities/MedicinesActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:10:50.374 20056 20056 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onResume()V
+03-10 05:10:50.392 20056 20056 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 05:10:50.393 20056 20056 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:10:50.472 20056 20056 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 05:10:50.472 20056 20056 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment;--->onResume()V

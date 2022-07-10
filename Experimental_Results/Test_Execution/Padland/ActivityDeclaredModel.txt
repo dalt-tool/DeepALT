@@ -1,0 +1,80 @@
+app_name: Padland
+package_name: com.mikifus.padland
+
+act_name: com.mikifus.padland.NewPadActivity
+permission: 
+
+act_name: com.mikifus.padland.PadLandDataActivity
+permission: 
+
+act_name: com.mikifus.padland.SplashActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: com.mikifus.padland.SettingsActivity
+permission: 
+
+act_name: com.mikifus.padland.PadViewActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["https"]://host: ["pad.riseup.net", host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["https"]://host: [host, "titanpad.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["http"]://host: [host, "meetingwords.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["http"]://host: [host, "piratepad.net"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["https"]://host: ["etherpad.mozilla.org", host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["https"]://host: ["framapad.org", host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["http"]://host: [host, "free.primarypad.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["https"]://host: [host, "piratenpad.de"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["https"]://host: [host, "piratenpad.de"]: [port]/[path]
+
+act_name: com.mikifus.padland.PadInfoActivity
+permission: 
+
+act_name: com.mikifus.padland.IntroActivity
+permission: 
+
+act_name: com.mikifus.padland.PadListActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" action: "android.intent.action.SEND" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: com.mikifus.padland.About
+permission: 
+
+act_name: com.mikifus.padland.ServerListActivity
+permission: 

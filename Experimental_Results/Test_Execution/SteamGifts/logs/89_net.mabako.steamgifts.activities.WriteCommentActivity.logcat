@@ -1,0 +1,37 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:58:19.691 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/Application;---><init>()V
+03-10 06:58:19.691 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/ApplicationTemplate;---><init>()V
+03-10 06:58:19.692 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/ApplicationTemplate;--->onCreate()V
+03-10 06:58:19.692 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;---><clinit>()V
+03-10 06:58:19.692 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;--->scheduleAllTasks(Landroid/content/Context;)V
+03-10 06:58:19.692 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;---><clinit>()V
+03-10 06:58:19.692 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;---><init>(Ljava/lang/String;IJLjava/lang/Class;)V
+03-10 06:58:19.692 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;--->values()[Lnet/mabako/steamgifts/PeriodicTasks$Task;
+03-10 06:58:19.692 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;--->scheduleTask(Lnet/mabako/steamgifts/PeriodicTasks$Task;Landroid/content/Context;)V
+03-10 06:58:19.698 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$TaskData;---><init>(Landroid/app/AlarmManager;Landroid/app/PendingIntent;)V
+03-10 06:58:19.707 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/activities/WriteCommentActivity;---><clinit>()V
+03-10 06:58:19.707 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/activities/WriteCommentActivity;---><init>()V
+03-10 06:58:19.707 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;---><init>()V
+03-10 06:58:19.713 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:58:19.713 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->setTheme()Z
+03-10 06:58:19.718 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><clinit>()V
+03-10 06:58:19.718 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><init>()V
+03-10 06:58:19.718 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;--->clear()V
+03-10 06:58:19.718 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><init>()V
+03-10 06:58:19.718 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/activities/WriteCommentActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:58:20.175 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/activities/WriteCommentActivity;--->onDestroy()V
+03-10 06:58:27.753 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/receivers/CheckForNewMessages;---><clinit>()V
+03-10 06:58:27.754 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/receivers/AbstractNotificationCheckReceiver$NotificationId;---><clinit>()V
+03-10 06:58:27.754 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/receivers/AbstractNotificationCheckReceiver$NotificationId;---><init>(Ljava/lang/String;I)V
+03-10 06:58:27.754 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/receivers/AbstractNotificationCheckReceiver$NotificationId;---><init>(Ljava/lang/String;I)V
+03-10 06:58:27.754 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/receivers/CheckForNewMessages;---><init>()V
+03-10 06:58:27.754 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/receivers/AbstractNotificationCheckReceiver;---><init>()V
+03-10 06:58:27.754 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/receivers/CheckForNewMessages;--->onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+03-10 06:58:27.755 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/receivers/AbstractNotificationCheckReceiver;--->shouldRunNetworkTask(Ljava/lang/String;Landroid/content/Context;)Z
+03-10 06:58:27.755 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;---><clinit>()V
+03-10 06:58:27.762 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;--->getCurrent(Landroid/content/Context;)Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;
+03-10 06:58:27.762 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;---><init>()V
+03-10 06:58:27.765 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;--->clear()V
+03-10 06:58:27.765 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;---><init>()V
+03-10 06:58:27.765 16405 16405 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SteamGiftsUserData;--->isLoggedIn()Z

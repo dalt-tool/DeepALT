@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:16:17.836 23228 23228 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 05:16:17.953 23228 23228 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:16:17.954 23228 23228 D M_InsDal: Les/usc/citius/servando/calendula/activities/AllergiesActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:16:17.983 23228 23228 D M_InsDal: Les/usc/citius/servando/calendula/activities/AllergiesActivity$LoadAllergiesTask;--->onPreExecute()V
+03-10 05:16:18.019 23228 23228 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onResume()V

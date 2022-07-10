@@ -1,0 +1,48 @@
+--------- beginning of system
+--------- beginning of main
+03-10 05:14:51.719 22367 22367 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 05:14:51.834 22367 22367 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:14:51.834 22367 22367 D M_InsDal: Les/usc/citius/servando/calendula/activities/MedicineInfoActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: Process: es.usc.citius.servando.calendula, PID: 22367
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{es.usc.citius.servando.calendula/es.usc.citius.servando.calendula.activities.MedicineInfoActivity}: java.lang.RuntimeException: Error finding model
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: Caused by: java.lang.RuntimeException: Error finding model
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at es.usc.citius.servando.calendula.database.GenericDao.findBy(Unknown Source:33)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at es.usc.citius.servando.calendula.activities.MedicineInfoActivity.processIntent(Unknown Source:92)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at es.usc.citius.servando.calendula.activities.MedicineInfoActivity.onCreate(Unknown Source:53)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	... 11 more
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: Caused by: java.sql.SQLException: argument for 'medicine' is null
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.query.BaseComparison.appendArgOrValue(Unknown Source:254)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.query.BaseComparison.appendValue(Unknown Source:8)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.query.SimpleComparison.appendValue(Unknown Source:0)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.query.BaseComparison.appendSql(Unknown Source:23)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.query.SimpleComparison.appendSql(Unknown Source:0)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.Where.appendSql(Unknown Source:19)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.StatementBuilder.appendWhereStatement(Unknown Source:26)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.QueryBuilder.appendWhereStatement(Unknown Source:11)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.StatementBuilder.appendStatementString(Unknown Source:5)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.StatementBuilder.buildStatementString(Unknown Source:7)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.StatementBuilder.prepareStatement(Unknown Source:5)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.QueryBuilder.prepare(Unknown Source:9)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.QueryBuilder.query(Unknown Source:2)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at com.j256.ormlite.stmt.Where.query(Unknown Source:6)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	at es.usc.citius.servando.calendula.database.GenericDao.findBy(Unknown Source:23)
+03-10 05:14:51.870 22367 22367 E AndroidRuntime: 	... 17 more
+03-10 05:14:52.975 22420 22420 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V

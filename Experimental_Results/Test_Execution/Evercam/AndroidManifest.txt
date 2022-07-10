@@ -1,0 +1,404 @@
+manifest
+- compileSdkVersionCodename: 9
+- package: io.evercam.androidapp
+- platformBuildVersionName: 2.1.9
+- compileSdkVersion: 28
+- versionName: 2.1.9
+- platformBuildVersionCode: 230
+- versionCode: 230
+	uses-sdk
+	- minSdkVersion: 19
+	- targetSdkVersion: 26
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.ACCESS_WIFI_STATE
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.GET_ACCOUNTS
+	uses-permission
+	- name: android.permission.READ_CONTACTS
+	uses-permission
+	- name: android.permission.READ_PROFILE
+	uses-permission
+	- name: com.android.launcher.permission.INSTALL_SHORTCUT
+	uses-permission
+	- name: android.permission.AUTHENTICATE_ACCOUNTS
+	uses-permission
+	- name: android.permission.MANAGE_ACCOUNTS
+	uses-permission
+	- name: android.permission.WRITE_SYNC_SETTINGS
+	uses-permission
+	- name: android.permission.READ_SYNC_SETTINGS
+	uses-permission
+	- name: android.permission.READ_SYNC_STATS
+	uses-feature
+	- required: true
+	- glEsVersion: 131072
+	uses-permission
+	- name: android.permission.ACCESS_FINE_LOCATION
+	uses-permission
+	- name: android.permission.ACCESS_COARSE_LOCATION
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: com.google.android.c2dm.permission.RECEIVE
+	uses-permission
+	- name: android.permission.VIBRATE
+	uses-permission
+	- name: android.permission.READ_PHONE_STATE
+	uses-permission
+	- name: android.permission.READ_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.MANAGE_DOCUMENTS
+	uses-permission
+	- name: com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+	application
+	- supportsRtl: true
+	- appComponentFactory: android.support.v4.app.CoreComponentFactory
+	- allowBackup: true
+	- icon: 2131230941
+	- name: io.evercam.androidapp.EvercamPlayApplication
+	- theme: 2131755022
+	- label: 2131689533
+	- largeHeap: true
+		meta-data
+		- name: com.google.android.gms.version
+		- value: 2131361800
+		meta-data
+		- name: com.google.android.geo.API_KEY
+		- value: 2131689649
+		meta-data
+		- name: com.mixpanel.android.MPConfig.ResourcePackageName
+		- value: io.evercam.androidapp
+		provider
+		- name: io.evercam.androidapp.sync.DummyProvider
+		- label: Cameras
+		- syncable: true
+		- authorities: 2131689585
+		service
+		- name: io.evercam.androidapp.authentication.EvercamAuthenticatorService
+			intent-filter
+				action
+				- name: android.accounts.AccountAuthenticator
+			meta-data
+			- name: android.accounts.AccountAuthenticator
+			- resource: 2131886081
+		service
+		- exported: true
+		- name: io.evercam.androidapp.sync.CameraListSyncService
+		- process: :sync
+			intent-filter
+				action
+				- name: android.content.SyncAdapter
+			meta-data
+			- name: android.content.SyncAdapter
+			- resource: 2131886084
+		service
+		- exported: true
+		- name: io.evercam.androidapp.AppIndexingService
+		- permission: com.google.android.gms.permission.APPINDEXING
+			intent-filter
+				action
+				- name: com.google.firebase.appindexing.UPDATE_INDEX
+		meta-data
+		- name: com.google.android.gms.analytics.globalConfigResource
+		- resource: 2131886080
+		activity
+		- name: io.evercam.androidapp.video.VideoActivity
+		- configChanges: 1184
+		- label: 
+		- screenOrientation: -1
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- host: 2131689593
+				- scheme: 2131689595
+				- pathPrefix: 2131689594
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .CamerasActivity
+		activity
+		- name: io.evercam.androidapp.OnBoardingActivity
+		- configChanges: 1152
+		activity
+		- name: io.evercam.androidapp.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: io.evercam.androidapp.LoginActivity
+		- windowSoftInputMode: 18
+		activity
+		- name: io.evercam.androidapp.SignUpActivity
+		- windowSoftInputMode: 2
+		- label: 2131689990
+		- parentActivityName: io.evercam.androidapp.OnBoardingActivity
+		activity
+		- name: io.evercam.androidapp.ManageAccountsActivity
+		- label: 2131689987
+		activity
+		- name: io.evercam.androidapp.CamerasActivity
+		- launchMode: 1
+		- configChanges: 1184
+		- label: 
+		activity
+		- name: io.evercam.androidapp.CameraPrefsActivity
+		- label: 2131690004
+		activity
+		- name: io.evercam.androidapp.EditCameraActivity
+		- windowSoftInputMode: 2
+		- label: 2131689998
+		activity
+		- name: io.evercam.androidapp.addeditcamera.AddCameraActivity
+		- windowSoftInputMode: 2
+		- label: 2131689995
+		activity
+		- name: io.evercam.androidapp.ViewCameraActivity
+		- windowSoftInputMode: 2
+		- label: 2131689991
+		activity
+		- name: io.evercam.androidapp.ScanActivity
+		- configChanges: 1184
+		- label: 
+		activity
+		- name: io.evercam.androidapp.ReleaseNotesActivity
+		- label: 2131690002
+		activity
+		- name: io.evercam.androidapp.recordings.RecordingWebActivity
+		- configChanges: 1200
+		- label: 2131689989
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .video.VideoActivity
+		activity
+		- icon: 2131230940
+		- name: io.evercam.androidapp.publiccameras.PublicCamerasWebActivity
+		- configChanges: 1200
+		- label: 2131689988
+		activity
+		- name: io.evercam.androidapp.SimpleWebActivity
+		- configChanges: 1200
+		- label: 2131689986
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- label: Test Multi Camera View
+			- value: .video.VideoActivity
+		meta-data
+		- name: io.fabric.ApiKey
+		- value: 85f1113ef6081830ad7d2a9ecae01bb60dfb0462
+		activity
+		- name: io.evercam.androidapp.photoview.ViewPagerActivity
+		- label: 2131690003
+		activity
+		- name: io.evercam.androidapp.sharing.SharingActivity
+		- label: 2131690005
+		activity
+		- name: io.evercam.androidapp.sharing.CreateShareActivity
+		- label: 2131689997
+		activity
+		- name: io.evercam.androidapp.scan.AllDevicesActivity
+		- label: 2131689992
+		activity
+		- name: io.evercam.androidapp.EditCameraLocationActivity
+		- label: 2131689603
+		activity
+		- name: io.evercam.androidapp.DeepLinkedActivity
+		- launchMode: 1
+			intent-filter
+			- autoVerify: true
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- host: evercam.io
+				- scheme: http
+				- pathPrefix: /gpocam
+				data
+				- host: evercam.io
+				- scheme: https
+				- pathPrefix: /gpocam
+		receiver
+		- exported: false
+		- name: com.google.android.gms.analytics.AnalyticsReceiver
+		- enabled: true
+		service
+		- exported: false
+		- name: com.google.android.gms.analytics.AnalyticsService
+		- enabled: true
+		service
+		- exported: false
+		- name: com.google.android.gms.analytics.AnalyticsJobService
+		- permission: android.permission.BIND_JOB_SERVICE
+		- enabled: true
+		activity
+		- exported: false
+		- name: com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+		- theme: 16973840
+		- excludeFromRecents: true
+		service
+		- exported: true
+		- name: com.google.android.gms.auth.api.signin.RevocationBoundService
+		- permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+		service
+		- exported: false
+		- name: com.google.firebase.components.ComponentDiscoveryService
+			meta-data
+			- name: com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+			- value: com.google.firebase.components.ComponentRegistrar
+			meta-data
+			- name: com.google.firebase.components:com.google.firebase.iid.Registrar
+			- value: com.google.firebase.components.ComponentRegistrar
+		receiver
+		- exported: false
+		- name: com.google.android.gms.measurement.AppMeasurementReceiver
+		- enabled: true
+		receiver
+		- exported: true
+		- name: com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+		- permission: android.permission.INSTALL_PACKAGES
+		- enabled: true
+			intent-filter
+				action
+				- name: com.android.vending.INSTALL_REFERRER
+		service
+		- exported: false
+		- name: com.google.android.gms.measurement.AppMeasurementService
+		- enabled: true
+		service
+		- exported: false
+		- name: com.google.android.gms.measurement.AppMeasurementJobService
+		- permission: android.permission.BIND_JOB_SERVICE
+		- enabled: true
+		service
+		- name: io.intercom.android.sdk.fcm.IntercomFcmMessengerService
+			intent-filter
+			- priority: -400
+				action
+				- name: com.google.firebase.MESSAGING_EVENT
+				action
+				- name: com.google.firebase.INSTANCE_ID_EVENT
+		service
+		- exported: true
+		- name: com.google.firebase.messaging.FirebaseMessagingService
+			intent-filter
+			- priority: -500
+				action
+				- name: com.google.firebase.MESSAGING_EVENT
+		receiver
+		- exported: true
+		- name: com.google.firebase.iid.FirebaseInstanceIdReceiver
+		- permission: com.google.android.c2dm.permission.SEND
+			intent-filter
+				action
+				- name: com.google.android.c2dm.intent.RECEIVE
+		service
+		- exported: true
+		- name: com.google.firebase.iid.FirebaseInstanceIdService
+			intent-filter
+			- priority: -500
+				action
+				- name: com.google.firebase.INSTANCE_ID_EVENT
+		activity
+		- exported: false
+		- name: com.google.android.gms.common.api.GoogleApiActivity
+		- theme: 16973840
+		provider
+		- exported: false
+		- name: com.google.firebase.provider.FirebaseInitProvider
+		- authorities: io.evercam.androidapp.firebaseinitprovider
+		- initOrder: 100
+		activity
+		- exported: false
+		- windowSoftInputMode: 17
+		- name: io.intercom.android.sdk.activities.IntercomMessengerActivity
+		- launchMode: 1
+		- configChanges: 1152
+		- theme: 2131755240
+		activity
+		- exported: false
+		- name: io.intercom.android.sdk.lightbox.LightBoxActivity
+		- windowSoftInputMode: 17
+		- configChanges: 1152
+		- theme: 2131755237
+		activity
+		- exported: false
+		- name: io.intercom.android.sdk.activities.IntercomArticleActivity
+		- launchMode: 1
+		- windowSoftInputMode: 2
+		- theme: 2131755238
+		activity
+		- exported: false
+		- windowSoftInputMode: 2
+		- name: io.intercom.android.sdk.activities.IntercomHelpCenterActivity
+		- launchMode: 1
+		- configChanges: 1152
+		- theme: 2131755238
+		activity
+		- exported: false
+		- windowSoftInputMode: 2
+		- name: io.intercom.android.sdk.activities.IntercomPostActivity
+		- launchMode: 2
+		- configChanges: 1152
+		- theme: 2131755241
+		activity
+		- exported: false
+		- windowSoftInputMode: 17
+		- name: io.intercom.android.sdk.activities.IntercomNoteActivity
+		- launchMode: 2
+		- configChanges: 1152
+		- theme: 2131755239
+		activity
+		- exported: false
+		- windowSoftInputMode: 2
+		- name: io.intercom.android.sdk.activities.IntercomSheetActivity
+		- launchMode: 1
+		- configChanges: 1152
+		- theme: 2131755238
+		activity
+		- exported: false
+		- windowSoftInputMode: 2
+		- name: io.intercom.android.sdk.activities.IntercomVideoActivity
+		- launchMode: 1
+		- configChanges: 1152
+		- theme: 2131755240
+		receiver
+		- exported: false
+		- name: io.intercom.android.sdk.push.IntercomPushBroadcastReceiver
+			intent-filter
+				action
+				- name: io.intercom.android.sdk.INTERCOM_PUSH_OPENED
+			intent-filter
+				action
+				- name: io.intercom.android.sdk.INTERCOM_PUSH_DISMISSED
+		provider
+		- exported: false
+		- name: io.intercom.android.sdk.IntercomInitializeContentProvider
+		- authorities: io.evercam.androidapp.IntercomInitializeContentProvider
+		provider
+		- exported: false
+		- name: com.crashlytics.android.CrashlyticsInitProvider
+		- authorities: io.evercam.androidapp.crashlyticsinitprovider
+		- initOrder: 90
+		provider
+		- exported: false
+		- name: com.squareup.picasso.PicassoProvider
+		- authorities: io.evercam.androidapp.com.squareup.picasso
+		activity
+		- name: com.intercom.input.gallery.GalleryInputFullScreenActivity
+		- theme: 2131755620
+		activity
+		- name: com.intercom.input.gallery.GalleryLightBoxActivity
+		- configChanges: 5504
+		- theme: 2131755620

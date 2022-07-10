@@ -1,0 +1,42 @@
+app_name: SteamGifts
+package_name: net.mabako.steamgifts
+
+act_name: net.mabako.steamgifts.activities.DetailActivity
+permission: 
+
+act_name: net.mabako.steamgifts.activities.UrlHandlingActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http", "https"]://host: ["steamgifts.com", host, "www.steamgifts.com"]: [port]/[path, "/giveaways/search"]
+
+act_name: net.mabako.steamgifts.activities.AboutActivity
+permission: 
+
+act_name: net.mabako.steamgifts.activities.MainActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: net.mabako.steamgifts.activities.LoginActivity
+permission: 
+
+act_name: net.mabako.steamgifts.activities.WebViewActivity
+permission: 
+
+act_name: net.mabako.steamgifts.activities.SettingsActivity
+permission: 
+
+act_name: net.mabako.steamgifts.intro.IntroActivity
+permission: 
+
+act_name: net.mabako.steamgifts.activities.WriteCommentActivity
+permission: 
+
+act_name: net.mabako.steamgifts.activities.SyncActivity
+permission: 

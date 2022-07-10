@@ -1,0 +1,63 @@
+app_name: EteSync
+package_name: com.etesync.syncadapter
+
+act_name: com.etesync.syncadapter.ui.CollectionMembersActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.DebugInfoActivity
+mExported
+permission: 
+
+act_name: com.etesync.syncadapter.ui.ViewCollectionActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.AccountActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.AppSettingsActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.JournalItemActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.AboutActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.setup.LoginActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+scheme: []://host: []: []/[]
+
+act_name: com.etesync.syncadapter.ui.WebViewActivity
+permission: 
+
+act_name: com.etesync.syncadapter.syncadapter.SyncNotification$NotificationHandlerActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.CreateCollectionActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.importlocal.ImportActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.ChangeEncryptionPasswordActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.PermissionsActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.EditCollectionActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.AccountSettingsActivity
+permission: 
+
+act_name: com.etesync.syncadapter.ui.AccountsActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]

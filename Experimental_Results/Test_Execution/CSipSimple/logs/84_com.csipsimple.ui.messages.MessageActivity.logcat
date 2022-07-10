@@ -1,0 +1,211 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:58:00.865 30768 30768 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><clinit>()V
+03-10 01:58:00.865 30768 30768 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><init>()V
+03-10 01:58:00.865 30768 30768 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->onCreate()Z
+03-10 01:58:00.866 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><clinit>()V
+03-10 01:58:00.866 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$1;---><init>()V
+03-10 01:58:00.866 30768 30768 D M_InsDal: Lcom/csipsimple/utils/CustomDistribution;--->getUserAgent()Ljava/lang/String;
+03-10 01:58:00.867 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$2;---><init>()V
+03-10 01:58:00.868 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$3;---><init>()V
+03-10 01:58:00.868 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><init>(Landroid/content/Context;)V
+03-10 01:58:00.869 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->needUpgrade()Ljava/lang/Integer;
+03-10 01:58:00.869 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;--->getCurrentPackageInfos(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
+03-10 01:58:00.871 30768 30768 D M_InsDal: Lcom/csipsimple/utils/Log;---><clinit>()V
+03-10 01:58:00.871 30768 30768 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:00.871 30768 30768 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:00.872 30768 30768 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->getApiLevel()I
+03-10 01:58:00.884 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageActivity;---><init>()V
+03-10 01:58:00.889 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:58:00.889 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageFragment;---><init>()V
+03-10 01:58:00.889 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageFragment$1;---><init>(Lcom/csipsimple/ui/messages/MessageFragment;)V
+03-10 01:58:00.890 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageFragment;--->setOnQuitListener(Lcom/csipsimple/ui/messages/MessageFragment$OnQuitListener;)V
+03-10 01:58:00.908 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 01:58:00.910 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:58:00.910 30768 30768 D M_InsDal: Lcom/csipsimple/utils/SmileyParser;---><clinit>()V
+03-10 01:58:00.910 30768 30768 D M_InsDal: Lcom/csipsimple/utils/SmileyParser$Smileys;---><clinit>()V
+03-10 01:58:00.910 30768 30768 D M_InsDal: Lcom/csipsimple/utils/SmileyParser$Smileys;--->getSmileyResource(I)I
+03-10 01:58:00.910 30768 30768 D M_InsDal: Lcom/csipsimple/utils/SmileyParser$Smileys;--->getSmileyResource(I)I
+03-10 01:58:00.910 30768 30768 D M_InsDal: Lcom/csipsimple/utils/SmileyParser;--->init(Landroid/content/Context;)V
+03-10 01:58:00.910 30768 30768 D M_InsDal: Lcom/csipsimple/utils/SmileyParser;---><init>(Landroid/content/Context;)V
+03-10 01:58:00.911 30768 30768 D M_InsDal: Lcom/csipsimple/utils/SmileyParser;--->buildSmileyToRes()Ljava/util/Map;
+03-10 01:58:00.911 30768 30768 D M_InsDal: Lcom/csipsimple/utils/SmileyParser;--->buildPattern()Ljava/util/regex/Pattern;
+03-10 01:58:00.914 30768 30768 D M_InsDal: Lcom/csipsimple/service/SipNotifications;---><clinit>()V
+03-10 01:58:00.914 30768 30768 D M_InsDal: Lcom/csipsimple/service/SipNotifications;---><init>(Landroid/content/Context;)V
+03-10 01:58:00.914 30768 30768 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelAll()V
+03-10 01:58:00.914 30768 30768 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelMessages()V
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelMissedCalls()V
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelVoicemails()V
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelCalls()V
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->isCompatible(I)Z
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/utils/clipboard/ClipboardWrapper;--->getInstance(Landroid/content/Context;)Lcom/csipsimple/utils/clipboard/ClipboardWrapper;
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->isCompatible(I)Z
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/utils/clipboard/Clipboard11;---><init>()V
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/utils/clipboard/ClipboardWrapper;---><init>()V
+03-10 01:58:00.915 30768 30768 D M_InsDal: Lcom/csipsimple/utils/clipboard/Clipboard11;--->setContext(Landroid/content/Context;)V
+03-10 01:58:00.916 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 01:58:00.917 30768 30768 D M_InsDal: Lcom/csipsimple/widgets/AccountChooserButton;---><clinit>()V
+03-10 01:58:00.917 30768 30768 D M_InsDal: Lcom/csipsimple/widgets/AccountChooserButton;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/widgets/AccountChooserButton;--->setAccount(Lcom/csipsimple/api/SipProfile;)V
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->canMakeGSMCall(Landroid/content/Context;)Z
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><init>(Landroid/content/Context;)V
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->getGsmIntegrationType()I
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->getPreferenceStringValue(Ljava/lang/String;)Ljava/lang/String;
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->gPrefStringValue(Landroid/content/SharedPreferences;Ljava/lang/String;)Ljava/lang/String;
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PhoneCapabilityTester;---><clinit>()V
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PhoneCapabilityTester;--->isPhone(Landroid/content/Context;)Z
+03-10 01:58:00.919 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PhoneCapabilityTester;--->initialize(Landroid/content/Context;)V
+03-10 01:58:00.922 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PhoneCapabilityTester;--->getPriviledgedIntent(Ljava/lang/String;)Landroid/content/Intent;
+03-10 01:58:00.922 30768 30768 D M_InsDal: Lcom/csipsimple/utils/PhoneCapabilityTester;--->getPossibleActivities(Landroid/content/Context;Landroid/content/Intent;)Ljava/util/List;
+03-10 01:58:00.940 30768 30768 D M_InsDal: Lcom/csipsimple/widgets/AccountChooserButton;--->setShowExternals(Z)V
+03-10 01:58:00.940 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 01:58:00.941 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageAdapter;---><clinit>()V
+03-10 01:58:00.943 30768 30768 D M_InsDal: Lcom/csipsimple/ui/messages/MessageAdapter;---><init>(Landroid/content/Context;Landroid/database/Cursor;)V
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/models/CallerInfo;---><clinit>()V
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/models/CallerInfo;---><init>()V
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/models/CallerInfo;--->getCallerInfoForSelf(Landroid/content/Context;)Lcom/csipsimple/models/CallerInfo;
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/utils/contacts/ContactsWrapper;---><clinit>()V
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/utils/contacts/ContactsWrapper;--->getInstance()Lcom/csipsimple/utils/contacts/ContactsWrapper;
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->isCompatible(I)Z
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/utils/contacts/ContactsUtils5;---><clinit>()V
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/utils/contacts/ContactsUtils14;---><init>()V
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/utils/contacts/ContactsUtils5;---><init>()V
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/utils/contacts/ContactsWrapper;---><init>()V
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/utils/contacts/ContactsUtils14;--->findSelfInfo(Landroid/content/Context;)Lcom/csipsimple/models/CallerInfo;
+03-10 01:58:00.944 30768 30768 D M_InsDal: Lcom/csipsimple/models/CallerInfo;---><init>()V
+--------- beginning of crash
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: Process: com.csipsimple, PID: 30768
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at com.csipsimple.ui.messages.MessageFragment.onViewCreated(MessageFragment.java:138)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:885)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1083)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.support.v4.app.BackStackRecord.run(BackStackRecord.java:635)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:1431)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:523)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at com.csipsimple.ui.messages.MessageActivity.onStart(MessageActivity.java:57)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.Activity.performStart(Activity.java:8109)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 01:58:00.958 30768 30768 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 01:58:00.961 30799 30799 D M_InsDal: Lcom/csipsimple/db/DBProvider;---><clinit>()V
+03-10 01:58:00.962 30799 30799 D M_InsDal: Lcom/csipsimple/db/DBProvider;---><init>()V
+03-10 01:58:00.962 30799 30799 D M_InsDal: Lcom/csipsimple/db/DBProvider;--->onCreate()Z
+03-10 01:58:00.963 30799 30799 D M_InsDal: Lcom/csipsimple/db/DBAdapter$DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 01:58:00.969 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService;---><clinit>()V
+03-10 01:58:00.969 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService;---><init>()V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService$1;---><init>(Lcom/csipsimple/service/SipService;)V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/api/ISipService$Stub;---><init>()V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService$2;---><init>(Lcom/csipsimple/service/SipService;)V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/api/ISipConfiguration$Stub;---><init>()V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService$ServiceHandler;---><init>(Lcom/csipsimple/service/SipService;)V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/api/SipManager$PresenceStatus;---><clinit>()V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/api/SipManager$PresenceStatus;---><init>(Ljava/lang/String;I)V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/api/SipManager$PresenceStatus;---><init>(Ljava/lang/String;I)V
+03-10 01:58:00.970 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService;--->onCreate()V
+03-10 01:58:00.971 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;---><clinit>()V
+03-10 01:58:00.971 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;--->i(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:00.971 30799 30799 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;---><init>(Landroid/content/Context;)V
+03-10 01:58:00.972 30799 30799 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;--->getLogLevel()I
+03-10 01:58:00.973 30799 30799 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;---><clinit>()V
+03-10 01:58:00.973 30799 30799 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;--->getPreferenceIntegerValue(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Integer;)Ljava/lang/Integer;
+03-10 01:58:00.973 30799 30799 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;--->getPrefUriForKey(Ljava/lang/String;)Landroid/net/Uri;
+03-10 01:58:01.081 30828 30828 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><clinit>()V
+03-10 01:58:01.081 30828 30828 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><init>()V
+03-10 01:58:01.081 30828 30828 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->onCreate()Z
+03-10 01:58:01.081 30828 30828 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><clinit>()V
+03-10 01:58:01.082 30828 30828 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$1;---><init>()V
+03-10 01:58:01.082 30828 30828 D M_InsDal: Lcom/csipsimple/utils/CustomDistribution;--->getUserAgent()Ljava/lang/String;
+03-10 01:58:01.082 30828 30828 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$2;---><init>()V
+03-10 01:58:01.083 30828 30828 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$3;---><init>()V
+03-10 01:58:01.083 30828 30828 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><init>(Landroid/content/Context;)V
+03-10 01:58:01.083 30828 30828 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->needUpgrade()Ljava/lang/Integer;
+03-10 01:58:01.084 30828 30828 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;--->getCurrentPackageInfos(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
+03-10 01:58:01.085 30828 30828 D M_InsDal: Lcom/csipsimple/utils/Log;---><clinit>()V
+03-10 01:58:01.085 30828 30828 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.086 30828 30828 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.086 30828 30828 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->getApiLevel()I
+03-10 01:58:01.092 30828 30855 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 01:58:01.093 30828 30855 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->getPreferenceIntegerValue(Ljava/lang/String;)Ljava/lang/Integer;
+03-10 01:58:01.093 30828 30855 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->getPreferenceStringValue(Ljava/lang/String;)Ljava/lang/String;
+03-10 01:58:01.093 30828 30855 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->gPrefStringValue(Landroid/content/SharedPreferences;Ljava/lang/String;)Ljava/lang/String;
+03-10 01:58:01.095 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;--->setLogLevel(I)V
+03-10 01:58:01.097 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;---><clinit>()V
+03-10 01:58:01.097 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;---><init>(Landroid/content/Context;)V
+03-10 01:58:01.097 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelAll()V
+03-10 01:58:01.097 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelMessages()V
+03-10 01:58:01.097 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelMissedCalls()V
+03-10 01:58:01.097 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelVoicemails()V
+03-10 01:58:01.098 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelCalls()V
+03-10 01:58:01.098 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->isCompatible(I)Z
+03-10 01:58:01.098 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->onServiceCreate()V
+03-10 01:58:01.098 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipWakeLock;---><init>(Landroid/os/PowerManager;)V
+03-10 01:58:01.099 30799 30799 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;--->getPreferenceBooleanValue(Ljava/lang/String;Z)Z
+03-10 01:58:01.099 30799 30799 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;--->getPreferenceBooleanValue(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
+03-10 01:58:01.099 30799 30799 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;--->getPrefUriForKey(Ljava/lang/String;)Landroid/net/Uri;
+03-10 01:58:01.099 30828 30847 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 01:58:01.099 30828 30847 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->getPreferenceBooleanValue(Ljava/lang/String;)Ljava/lang/Boolean;
+03-10 01:58:01.099 30828 30847 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->gPrefBooleanValue(Landroid/content/SharedPreferences;Ljava/lang/String;)Ljava/lang/Boolean;
+03-10 01:58:01.100 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.101 30799 30799 D M_InsDal: Lcom/csipsimple/service/PresenceManager;---><clinit>()V
+03-10 01:58:01.101 30799 30799 D M_InsDal: Lcom/csipsimple/service/PresenceManager;---><init>()V
+03-10 01:58:01.101 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService;--->onBind(Landroid/content/Intent;)Landroid/os/IBinder;
+03-10 01:58:01.101 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.101 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService;--->onDestroy()V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;--->i(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService;--->unregisterBroadcasts()V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->onServiceDestroy()V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelAll()V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelRegisters()V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->stopForegroundCompat(I)V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->invokeMethod(Ljava/lang/reflect/Method;[Ljava/lang/Object;)V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelMessages()V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelMissedCalls()V
+03-10 01:58:01.102 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelVoicemails()V
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelCalls()V
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService;--->getExecutor()Lcom/csipsimple/service/SipService$SipServiceExecutor;
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService$SipServiceExecutor;---><init>(Lcom/csipsimple/service/SipService;)V
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService;--->createLooper()Landroid/os/Looper;
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService$FinalizeDestroyRunnable;---><init>(Lcom/csipsimple/service/SipService;)V
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService$SipRunnable;---><init>()V
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipService$SipServiceExecutor;--->execute(Ljava/lang/Runnable;)V
+03-10 01:58:01.103 30799 30799 D M_InsDal: Lcom/csipsimple/service/SipWakeLock;--->acquire(Ljava/lang/Object;)V
+03-10 01:58:01.105 30799 30799 D M_InsDal: Lcom/csipsimple/utils/Log;--->v(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.105 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipService$SipServiceExecutor;--->handleMessage(Landroid/os/Message;)V
+03-10 01:58:01.105 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipService$SipServiceExecutor;--->executeInternal(Ljava/lang/Runnable;)V
+03-10 01:58:01.105 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipService$SipRunnable;--->run()V
+03-10 01:58:01.105 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipService$FinalizeDestroyRunnable;--->doRun()V
+03-10 01:58:01.105 30799 30862 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.105 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipWakeLock;--->reset()V
+03-10 01:58:01.105 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipWakeLock;--->release(Ljava/lang/Object;)V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/utils/Log;--->v(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/utils/Log;--->v(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipService;--->stopSipStack()Z
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/service/PresenceManager;--->stopMonitoring()V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->isCompatible(I)Z
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipService;--->unregisterBroadcasts()V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipService;--->releaseResources()V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelAll()V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelRegisters()V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->stopForegroundCompat(I)V
+03-10 01:58:01.106 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->invokeMethod(Ljava/lang/reflect/Method;[Ljava/lang/Object;)V
+03-10 01:58:01.108 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelMessages()V
+03-10 01:58:01.108 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelMissedCalls()V
+03-10 01:58:01.109 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelVoicemails()V
+03-10 01:58:01.110 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipNotifications;--->cancelCalls()V
+03-10 01:58:01.110 30799 30862 D M_InsDal: Lcom/csipsimple/utils/Log;--->i(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:58:01.110 30799 30862 D M_InsDal: Lcom/csipsimple/service/SipWakeLock;--->release(Ljava/lang/Object;)V
+03-10 01:58:01.111 30799 30862 D M_InsDal: Lcom/csipsimple/utils/Log;--->v(Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,28 @@
+app_name: Simple-Solitaire
+package_name: de.tobiasbielefeld.solitaire
+
+act_name: de.tobiasbielefeld.solitaire.ui.about.AboutActivity
+permission: 
+
+act_name: de.tobiasbielefeld.solitaire.ui.manual.Manual
+permission: 
+
+act_name: de.tobiasbielefeld.solitaire.ui.GameSelector
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: de.tobiasbielefeld.solitaire.ui.settings.Settings
+permission: 
+
+act_name: de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity
+permission: 
+
+act_name: de.tobiasbielefeld.solitaire.ui.GameManager
+permission: 
+
+act_name: de.tobiasbielefeld.solitaire.ui.settings.SettingsGames
+permission: 

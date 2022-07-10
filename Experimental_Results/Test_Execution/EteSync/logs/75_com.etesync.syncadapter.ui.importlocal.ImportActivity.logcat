@@ -1,0 +1,28 @@
+--------- beginning of main
+--------- beginning of system
+03-10 02:30:38.953 18340 18340 D M_InsDal: Lcom/etesync/syncadapter/App;--->attachBaseContext(Landroid/content/Context;)V
+03-10 02:30:39.010 18340 18340 D M_InsDal: Lcom/etesync/syncadapter/App;--->onCreate()V
+03-10 02:30:39.039 18340 18340 D M_InsDal: Lcom/etesync/syncadapter/ui/importlocal/ImportActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: Process: com.etesync.syncadapter, PID: 18340
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.etesync.syncadapter/com.etesync.syncadapter.ui.importlocal.ImportActivity}: kotlin.KotlinNullPointerException
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: Caused by: kotlin.KotlinNullPointerException
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at com.etesync.syncadapter.ui.importlocal.ImportActivity.onCreate(ImportActivity.kt:29)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 02:30:39.065 18340 18340 E AndroidRuntime: 	... 11 more

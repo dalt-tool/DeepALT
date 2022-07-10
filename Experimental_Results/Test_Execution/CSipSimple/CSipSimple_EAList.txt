@@ -1,0 +1,8 @@
+com.csipsimple.ui.prefs.hc.MainPrefs
+com.csipsimple.ui.prefs.PrefsFast
+com.csipsimple.widgets.ShortcutWidgetConfigure
+com.csipsimple.ui.SipHome
+com.csipsimple.widgets.AccountWidgetConfigure
+com.csipsimple.ui.prefs.cupcake.MainPrefs
+com.csipsimple.ui.outgoingcall.OutgoingCallChooser
+com.csipsimple.ui.incall.InCallActivity

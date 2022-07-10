@@ -1,0 +1,11 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:05:56.815 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 05:05:56.936 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:05:56.936 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/activities/ScheduleCreationActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:05:56.969 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onResume()V
+03-10 05:05:56.997 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/fragments/ScheduleSummaryFragment;--->setUserVisibleHint(Z)V
+03-10 05:05:56.997 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/fragments/SelectMedicineListFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 05:05:56.997 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:05:57.037 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 05:05:57.060 16209 16209 D M_InsDal: Les/usc/citius/servando/calendula/fragments/ScheduleTimetableFragment;--->onResume()V

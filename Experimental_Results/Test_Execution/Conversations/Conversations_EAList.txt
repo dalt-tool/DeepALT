@@ -1,0 +1,8 @@
+eu.siacs.conversations.ui.ShortcutActivity
+eu.siacs.conversations.ui.ChooseAccountForProfilePictureActivity
+eu.siacs.conversations.ui.StartConversationActivity
+eu.siacs.conversations.ui.SettingsActivity
+eu.siacs.conversations.ui.AboutActivity
+eu.siacs.conversations.ui.ConversationActivity
+eu.siacs.conversations.ui.UriHandlerActivity
+eu.siacs.conversations.ui.ShareWithActivity

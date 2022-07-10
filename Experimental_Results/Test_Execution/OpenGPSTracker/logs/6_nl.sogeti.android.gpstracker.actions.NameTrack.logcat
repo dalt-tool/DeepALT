@@ -1,0 +1,11 @@
+--------- beginning of system
+--------- beginning of main
+03-10 06:17:55.975 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 06:17:55.976 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 06:17:55.976 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 06:17:55.979 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 06:17:55.992 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/NameTrack;---><init>()V
+03-10 06:17:55.992 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/NameTrack$1;---><init>(Lnl/sogeti/android/gpstracker/actions/NameTrack;)V
+03-10 06:17:55.997 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/NameTrack;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:17:56.007 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/NameTrack;--->onResume()V
+03-10 06:17:56.016 25963 25963 D M_InsDal: Lnl/sogeti/android/gpstracker/actions/NameTrack;--->onPause()V

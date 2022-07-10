@@ -1,0 +1,35 @@
+--------- beginning of main
+--------- beginning of system
+03-09 23:29:04.901  7251  7251 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-09 23:29:04.924  7251  7251 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/OrbotRequiredDialogActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: FATAL EXCEPTION: main
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: Process: org.sufficientlysecure.keychain, PID: 7251
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.OrbotRequiredDialogActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.org.sufficientlysecure.keychain.MyParcelable
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.org.sufficientlysecure.keychain.MyParcelable
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.os.Bundle.getParcelable(Bundle.java:951)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.content.Intent.getParcelableExtra(Intent.java:8086)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at org.sufficientlysecure.keychain.ui.OrbotRequiredDialogActivity.onCreate(OrbotRequiredDialogActivity.java:77)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-09 23:29:04.926  7251  7251 E AndroidRuntime: 	... 11 more

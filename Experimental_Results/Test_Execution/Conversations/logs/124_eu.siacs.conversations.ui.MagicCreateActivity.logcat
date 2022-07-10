@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:36:25.817 10797 10797 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:36:25.859 10797 10797 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:36:25.863 10797 10797 D M_InsDal: Leu/siacs/conversations/ui/MagicCreateActivity;--->onStart()V
+03-10 07:36:25.864 10797 10797 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:36:25.873 10797 10797 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+03-10 07:36:25.922  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:36:37.956  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

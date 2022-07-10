@@ -1,0 +1,12 @@
+--------- beginning of system
+--------- beginning of main
+03-10 07:33:33.944  9033  9033 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:33:33.951  9033  9033 D M_InsDal: Leu/siacs/conversations/ui/ChooseAccountForProfilePictureActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:33:33.967  9033  9033 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:33:33.971  9033  9033 D M_InsDal: Leu/siacs/conversations/ui/ChooseAccountForProfilePictureActivity;--->onStart()V
+03-10 07:33:33.972  9033  9033 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:33:34.033  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:33:34.102  9033  9033 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+03-10 07:33:34.145  9033  9033 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onPause()V
+03-10 07:33:34.611  9033  9033 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStop()V
+03-10 07:33:46.001  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

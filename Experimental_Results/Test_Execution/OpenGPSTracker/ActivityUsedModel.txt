@@ -1,0 +1,45 @@
+nl.sogeti.android.gpstracker.viewer.ApplicationPreferenceActivity
+---------------------------------------
+
+nl.sogeti.android.gpstracker.actions.NameTrack
+data: "notEmpty"
+---------------------------------------
+
+nl.sogeti.android.gpstracker.viewer.LoggerMap
+data: "notEmpty"
+---------------------------------------
+
+nl.sogeti.android.gpstracker.actions.InsertNote
+---------------------------------------
+
+nl.sogeti.android.gpstracker.viewer.TrackList
+action: "android.intent.action.SEARCH"
+action: "android.intent.action.VIEW"
+data: "content://h:1/p"
+data: "file://h:1/p"
+extra: String-"query",
+---------------------------------------
+
+nl.sogeti.android.gpstracker.actions.Statistics
+data: "notEmpty"
+---------------------------------------
+
+nl.sogeti.android.gpstracker.actions.ShareTrack
+data: "notEmpty"
+---------------------------------------
+
+nl.sogeti.android.gpstracker.oauth.PrepareRequestTokenActivity
+extra: String-"REQUEST_URL",String-"CONSUMER_KEY",String-"CONSUMER_SECRET",String-"OAUTH_TOKEN_SECRET",String-"ACCESS_URL",String-"OAUTH_TOKEN",String-"AUTHORIZE_URL",
+---------------------------------------
+
+nl.sogeti.android.gpstracker.actions.DescribeTrack
+data: "notEmpty"
+---------------------------------------
+
+nl.sogeti.android.gpstracker.actions.ControlTracking
+---------------------------------------
+
+nl.sogeti.android.gpstracker.viewer.TracksLiveFolder
+action: "android.intent.action.CREATE_LIVE_FOLDER"
+---------------------------------------
+

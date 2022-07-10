@@ -1,0 +1,8 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:23:40.551 12303 12303 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 01:23:40.573 12303 12303 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/dialog/RemoteSelectIdKeyActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:23:40.612 12303 12303 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/dialog/RemoteSelectIdKeyActivity$RemoteSelectIdentityKeyDialogFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 01:23:40.637 12303 12303 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/dialog/RemoteSelectIdKeyActivity;--->onStart()V
+03-10 01:23:40.737 12303 12303 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 01:23:40.738 12303 12303 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/dialog/RemoteSelectIdKeyActivity$RemoteSelectIdentityKeyDialogFragment;--->onDismiss(Landroid/content/DialogInterface;)V

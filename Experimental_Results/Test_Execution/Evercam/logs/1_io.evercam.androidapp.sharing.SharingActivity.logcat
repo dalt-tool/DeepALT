@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:35:15.379 25568 25568 D M_InsDal: Lio/evercam/androidapp/EvercamPlayApplication;--->onCreate()V
+03-10 04:35:15.425 25568 25568 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:35:15.440 25568 25568 D M_InsDal: Lio/evercam/androidapp/sharing/SharingActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:35:15.475 25568 25568 D M_InsDal: Lio/evercam/androidapp/sharing/SharingListFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 04:35:15.476 25568 25568 D M_InsDal: Lio/evercam/androidapp/sharing/SharingListFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 04:35:15.480 25568 25568 D M_InsDal: Lio/evercam/androidapp/ParentAppCompatActivity;--->onStart()V
+03-10 04:35:15.611 25568 25568 D M_InsDal: Lio/evercam/androidapp/sharing/SharingActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z

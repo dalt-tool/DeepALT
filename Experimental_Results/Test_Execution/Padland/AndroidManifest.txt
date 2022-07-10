@@ -1,0 +1,187 @@
+manifest
+- compileSdkVersionCodename: 9
+- package: com.mikifus.padland
+- platformBuildVersionName: 9
+- compileSdkVersion: 28
+- versionName: 1.5
+- platformBuildVersionCode: 28
+- versionCode: 20
+	uses-sdk
+	- minSdkVersion: 14
+	- targetSdkVersion: 28
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	application
+	- appComponentFactory: android.support.v4.app.CoreComponentFactory
+	- allowBackup: true
+	- icon: 2131230834
+	- name: com.mikifus.padland.PadlandApp
+	- logo: 2131230834
+	- theme: 2131689478
+	- label: 2131623982
+		activity
+		- name: com.mikifus.padland.SplashActivity
+		- theme: 2131689976
+		- label: 2131623982
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: com.mikifus.padland.IntroActivity
+		- theme: 2131689976
+		- label: 2131624121
+		activity
+		- name: com.mikifus.padland.PadListActivity
+		- configChanges: 1200
+		- label: 2131624126
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/plain
+		activity
+		- name: com.mikifus.padland.PadViewActivity
+		- configChanges: 1200
+		- theme: 2131689976
+		- label: 2131624125
+		- parentActivityName: com.mikifus.padland.PadListActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .PadListActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- host: pad.riseup.net
+				- pathPrefix: /p/
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- host: titanpad.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: http
+				data
+				- host: meetingwords.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: http
+				data
+				- host: piratepad.net
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- host: etherpad.mozilla.org
+				- pathPrefix: /p/
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- host: framapad.org
+				- pathPrefix: /p/
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: http
+				data
+				- host: free.primarypad.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- host: piratenpad.de
+				- pathPrefix: /p/
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: https
+				data
+				- host: piratenpad.de
+				- pathPrefix: /p/
+		activity
+		- name: com.mikifus.padland.NewPadActivity
+		- configChanges: 1200
+		- label: 2131624122
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .PadListActivity
+		activity
+		- name: com.mikifus.padland.About
+		- label: 2131624120
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .SettingsActivity
+		activity
+		- name: com.mikifus.padland.SettingsActivity
+		- configChanges: 1200
+		- label: 2131624128
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .PadListActivity
+		activity
+		- name: com.mikifus.padland.PadInfoActivity
+		- configChanges: 1200
+		- label: 2131624123
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: com.mikifus.padland.PadInfoActivity
+		activity
+		- name: com.mikifus.padland.PadLandDataActivity
+		- configChanges: 1200
+		- label: 2131624124
+		activity
+		- name: com.mikifus.padland.ServerListActivity
+		- configChanges: 1200
+		- label: 2131624127
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .SettingsActivity
+		provider
+		- exported: false
+		- name: com.mikifus.padland.PadContentProvider
+		- enabled: true
+		- authorities: com.mikifus.padland.padlandcontentprovider

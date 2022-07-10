@@ -1,0 +1,84 @@
+manifest
+- package: felixwiemuth.lincal
+- versionName: 1.3.1
+- versionCode: 13
+	uses-sdk
+	- minSdkVersion: 16
+	- targetSdkVersion: 26
+	uses-permission
+	- name: android.permission.READ_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	application
+	- supportsRtl: true
+	- allowBackup: true
+	- icon: 2131558400
+	- name: felixwiemuth.lincal.Main
+	- theme: 2131755014
+	- label: 2131689511
+		receiver
+		- name: felixwiemuth.lincal.LinCalBroadcastReceiver
+		- enabled: true
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+		activity
+		- name: felixwiemuth.lincal.ui.CalendarListActivity
+		- launchMode: 1
+		- label: 2131689511
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: felixwiemuth.lincal.ui.CalendarViewActivity
+		- parentActivityName: felixwiemuth.lincal.ui.CalendarListActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .ui.CalendarListActivity
+		activity
+		- name: felixwiemuth.lincal.ui.AddCalendarActivity
+		- launchMode: 1
+		- label: 2131689604
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- host: *
+				- pathPattern: .*\.lincal
+				- scheme: file
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/plain
+		activity
+		- name: felixwiemuth.lincal.ui.SettingsActivity
+		- launchMode: 1
+		- label: 2131689605
+		service
+		- exported: false
+		- name: felixwiemuth.lincal.NotificationService
+		- enabled: true
+		meta-data
+		- name: android.support.VERSION
+		- value: 26.1.0
+		activity
+		- process: :acra
+		- name: org.acra.dialog.CrashReportDialog
+		- finishOnTaskLaunch: true
+		- launchMode: 3
+		- theme: 16973835
+		- excludeFromRecents: true
+		service
+		- exported: false
+		- name: org.acra.sender.SenderService
+		- process: :acra
+		meta-data
+		- name: android.arch.lifecycle.VERSION
+		- value: 27.0.0-SNAPSHOT

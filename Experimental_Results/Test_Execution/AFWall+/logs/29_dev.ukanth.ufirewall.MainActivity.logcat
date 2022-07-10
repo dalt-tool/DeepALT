@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:12:31.772 31531 31531 D M_InsDal: Ldev/ukanth/ufirewall/MainActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:12:31.827 31531 31531 D M_InsDal: Ldev/ukanth/ufirewall/MainActivity;--->onStart()V
+03-10 08:12:31.875 31531 31531 D M_InsDal: Ldev/ukanth/ufirewall/MainActivity;--->onResume()V
+03-10 08:12:32.008 31531 31531 D M_InsDal: Ldev/ukanth/ufirewall/MainActivity$RootCheck;--->onPostExecute(Ljava/lang/Void;)V

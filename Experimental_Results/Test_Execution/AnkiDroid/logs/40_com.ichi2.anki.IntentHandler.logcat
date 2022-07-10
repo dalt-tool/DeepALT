@@ -1,0 +1,327 @@
+--------- beginning of main
+--------- beginning of system
+03-10 03:29:08.823 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:29:08.823 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:29:08.826 12181 12181 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:29:08.826 12181 12181 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:29:08.826 12181 12181 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:29:08.826 12181 12181 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:29:08.826 12181 12181 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:29:08.828 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:29:08.828 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:08.832 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:08.888 12181 12181 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:29:08.888 12181 12181 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:29:08.888 12181 12181 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:29:08.888 12181 12181 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:29:08.894 12181 12181 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><clinit>()V
+03-10 03:29:08.894 12181 12181 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><init>()V
+03-10 03:29:08.899 12181 12181 D M_InsDal: Lcom/ichi2/anki/IntentHandler;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:29:08.908 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->i(Ljava/lang/String;[Ljava/lang/Object;)V
+03-10 03:29:08.908 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->formatString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+03-10 03:29:08.908 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getManualUrl()Ljava/lang/String;
+03-10 03:29:08.908 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:08.908 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:08.908 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:08.908 12181 12181 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+--------- beginning of crash
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: Process: com.ichi2.anki, PID: 12181
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at com.ichi2.anki.IntentHandler.onCreate(IntentHandler.java:53)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:29:08.910 12181 12181 E AndroidRuntime: 	... 11 more
+03-10 03:29:09.120 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:29:09.120 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:29:09.122 12256 12256 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:29:09.123 12256 12256 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:29:09.123 12256 12256 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:29:09.123 12256 12256 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:29:09.123 12256 12256 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:29:09.124 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:29:09.124 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.127 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:29:09.127 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:29:09.127 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:29:09.128 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:29:09.128 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.128 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.128 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.128 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.128 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.180 12256 12256 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:29:09.180 12256 12256 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:29:09.180 12256 12256 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:29:09.180 12256 12256 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:29:09.185 12256 12256 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><clinit>()V
+03-10 03:29:09.185 12256 12256 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><init>()V
+03-10 03:29:09.188 12256 12256 D M_InsDal: Lcom/ichi2/anki/IntentHandler;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:29:09.196 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->i(Ljava/lang/String;[Ljava/lang/Object;)V
+03-10 03:29:09.196 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->formatString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+03-10 03:29:09.196 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getManualUrl()Ljava/lang/String;
+03-10 03:29:09.196 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:09.196 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.196 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:09.196 12256 12256 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: Process: com.ichi2.anki, PID: 12256
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at com.ichi2.anki.IntentHandler.onCreate(IntentHandler.java:53)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:29:09.198 12256 12256 E AndroidRuntime: 	... 11 more
+03-10 03:29:09.352 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:29:09.352 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:29:09.354 12304 12304 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:29:09.354 12304 12304 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:29:09.354 12304 12304 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:29:09.355 12304 12304 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:29:09.355 12304 12304 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:29:09.356 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:29:09.356 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.360 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.411 12304 12304 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:29:09.411 12304 12304 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:29:09.411 12304 12304 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:29:09.411 12304 12304 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:29:09.416 12304 12304 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><clinit>()V
+03-10 03:29:09.416 12304 12304 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><init>()V
+03-10 03:29:09.420 12304 12304 D M_InsDal: Lcom/ichi2/anki/IntentHandler;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:29:09.428 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->i(Ljava/lang/String;[Ljava/lang/Object;)V
+03-10 03:29:09.428 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->formatString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+03-10 03:29:09.428 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getManualUrl()Ljava/lang/String;
+03-10 03:29:09.428 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:09.428 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.428 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:09.428 12304 12304 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: Process: com.ichi2.anki, PID: 12304
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at com.ichi2.anki.IntentHandler.onCreate(IntentHandler.java:53)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:29:09.430 12304 12304 E AndroidRuntime: 	... 11 more
+03-10 03:29:09.590 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:29:09.590 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:29:09.592 12353 12353 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:29:09.593 12353 12353 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:29:09.593 12353 12353 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:29:09.593 12353 12353 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:29:09.593 12353 12353 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:29:09.594 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:29:09.594 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.598 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.651 12353 12353 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:29:09.651 12353 12353 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:29:09.651 12353 12353 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:29:09.651 12353 12353 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:29:09.655 12353 12353 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><clinit>()V
+03-10 03:29:09.655 12353 12353 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><init>()V
+03-10 03:29:09.659 12353 12353 D M_InsDal: Lcom/ichi2/anki/IntentHandler;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:29:09.666 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->i(Ljava/lang/String;[Ljava/lang/Object;)V
+03-10 03:29:09.666 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->formatString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+03-10 03:29:09.666 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getManualUrl()Ljava/lang/String;
+03-10 03:29:09.666 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:09.666 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.667 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:09.667 12353 12353 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: Process: com.ichi2.anki, PID: 12353
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at com.ichi2.anki.IntentHandler.onCreate(IntentHandler.java:53)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:29:09.668 12353 12353 E AndroidRuntime: 	... 11 more
+03-10 03:29:09.827 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:29:09.827 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:29:09.829 12412 12412 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:29:09.829 12412 12412 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:29:09.829 12412 12412 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:29:09.829 12412 12412 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:29:09.829 12412 12412 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:29:09.830 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:29:09.830 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.833 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:29:09.833 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:29:09.833 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:29:09.833 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:29:09.833 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.833 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.833 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.833 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.834 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:09.884 12412 12412 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:29:09.885 12412 12412 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:29:09.885 12412 12412 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:29:09.885 12412 12412 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:29:09.888 12412 12412 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><clinit>()V
+03-10 03:29:09.889 12412 12412 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><init>()V
+03-10 03:29:09.892 12412 12412 D M_InsDal: Lcom/ichi2/anki/IntentHandler;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:29:09.900 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->i(Ljava/lang/String;[Ljava/lang/Object;)V
+03-10 03:29:09.900 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->formatString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+03-10 03:29:09.900 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getManualUrl()Ljava/lang/String;
+03-10 03:29:09.900 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:09.900 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.900 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:09.900 12412 12412 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: Process: com.ichi2.anki, PID: 12412
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at com.ichi2.anki.IntentHandler.onCreate(IntentHandler.java:53)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:29:09.902 12412 12412 E AndroidRuntime: 	... 11 more
+03-10 03:29:10.048 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:29:10.048 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:29:10.050 12460 12460 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:29:10.050 12460 12460 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:29:10.050 12460 12460 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:29:10.050 12460 12460 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:29:10.050 12460 12460 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:29:10.051 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:29:10.051 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:10.054 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:29:10.055 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:29:10.055 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:29:10.055 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:29:10.055 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:10.055 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:10.055 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:10.055 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:10.055 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:29:10.107 12460 12460 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:29:10.107 12460 12460 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:29:10.107 12460 12460 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:29:10.107 12460 12460 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:29:10.111 12460 12460 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><clinit>()V
+03-10 03:29:10.111 12460 12460 D M_InsDal: Lcom/ichi2/anki/IntentHandler;---><init>()V
+03-10 03:29:10.115 12460 12460 D M_InsDal: Lcom/ichi2/anki/IntentHandler;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:29:10.123 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->i(Ljava/lang/String;[Ljava/lang/Object;)V
+03-10 03:29:10.123 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;--->formatString(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+03-10 03:29:10.123 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getManualUrl()Ljava/lang/String;
+03-10 03:29:10.123 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:10.123 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:10.123 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->isCurrentLanguage(Ljava/lang/String;)Z
+03-10 03:29:10.123 12460 12460 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: Process: com.ichi2.anki, PID: 12460
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at com.ichi2.anki.IntentHandler.onCreate(IntentHandler.java:53)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:29:10.125 12460 12460 E AndroidRuntime: 	... 11 more

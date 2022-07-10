@@ -1,0 +1,19 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:57:38.232 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/UriHandlerActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:57:38.247 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/UriHandlerActivity;--->onStart()V
+03-10 07:57:38.290 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:57:38.297 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/StartConversationActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:57:38.335 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onStart()V
+03-10 07:57:38.339 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/StartConversationActivity;--->onStart()V
+03-10 07:57:38.339 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/XmppActivity;--->onResume()V
+03-10 07:57:38.419 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/service/EmojiService$1;--->onInitialized()V
+03-10 07:57:38.483 23089 23089 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/OpenPgpService;--->onCreate()V
+03-10 07:57:38.514 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/widget/SwipeRefreshListFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 07:57:38.517 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/StartConversationActivity$MyListFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 07:57:38.523 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/widget/SwipeRefreshListFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 07:57:38.523 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/StartConversationActivity$MyListFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 07:57:38.602 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/EnterJidDialog;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 07:57:38.602 23338 23338 D M_InsDal: Leu/siacs/conversations/ui/EnterJidDialog;--->onStart()V
+03-10 07:57:50.425 23089 23089 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 07:57:50.451 23089 23089 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

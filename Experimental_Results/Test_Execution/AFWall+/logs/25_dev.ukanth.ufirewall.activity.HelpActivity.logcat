@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:11:23.076 30840 30840 D M_InsDal: Ldev/ukanth/ufirewall/activity/HelpActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 08:11:23.115 30840 30840 D M_InsDal: Ldev/ukanth/ufirewall/util/SlidingTabLayout;--->onAttachedToWindow()V
+03-10 08:11:23.270 30840 30840 D M_InsDal: Ldev/ukanth/ufirewall/ui/about/AboutFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 08:11:23.288 30840 30840 D M_InsDal: Ldev/ukanth/ufirewall/ui/about/FAQFragment;--->onActivityCreated(Landroid/os/Bundle;)V

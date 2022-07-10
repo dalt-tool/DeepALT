@@ -1,0 +1,34 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:30:20.629 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App;---><clinit>()V
+03-10 05:30:20.630 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$Companion;---><init>()V
+03-10 05:30:20.631 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App;---><init>()V
+03-10 05:30:20.642 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App;--->onCreate()V
+03-10 05:30:20.643 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$onCreate$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:30:20.643 31589 31589 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt;--->a(Landroid/content/Context;)Lcom/github/salomonbrys/kodein/Kodein$Module;
+03-10 05:30:20.643 31589 31589 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:30:20.643 31589 31589 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$$special$$inlined$bind$1;---><init>()V
+03-10 05:30:20.644 31589 31589 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$$special$$inlined$singleton$1;---><init>()V
+03-10 05:30:20.645 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App;--->a()Lcom/github/salomonbrys/kodein/Kodein$Module;
+03-10 05:30:20.645 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:30:20.645 31589 31589 D M_InsDal: Lorg/ligi/passandroid/json_adapter/ZonedTimeAdapter;---><init>()V
+03-10 05:30:20.647 31589 31589 D M_InsDal: Lorg/ligi/passandroid/json_adapter/ColorAdapter;---><init>()V
+03-10 05:30:20.648 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$1;---><init>()V
+03-10 05:30:20.648 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$1;---><init>()V
+03-10 05:30:20.648 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$2;---><init>()V
+03-10 05:30:20.648 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$2;---><init>()V
+03-10 05:30:20.648 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$3;---><init>()V
+03-10 05:30:20.649 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$3;---><init>()V
+03-10 05:30:20.649 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App;--->b()V
+03-10 05:30:20.649 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App;--->g()V
+03-10 05:30:20.650 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$onCreate$$inlined$instance$1;---><init>()V
+03-10 05:30:20.650 31589 31589 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$2;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/model/AndroidSettings;
+03-10 05:30:20.650 31589 31589 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;---><init>(Landroid/content/Context;)V
+03-10 05:30:20.650 31589 31589 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getNightMode()I
+03-10 05:30:20.651 31589 31589 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings$sharedPreferences$2;--->invoke()Landroid/content/SharedPreferences;
+03-10 05:30:20.651 31589 31589 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getContext()Landroid/content/Context;
+03-10 05:30:20.659 31589 31589 D M_InsDal: Lorg/ligi/passandroid/ui/HelpActivity;---><init>()V
+03-10 05:30:20.673 31589 31589 D M_InsDal: Lorg/ligi/passandroid/ui/HelpActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:30:20.695 31589 31589 D M_InsDal: Lorg/ligi/passandroid/ui/HelpActivity$ListTagHandler;---><init>(Lorg/ligi/passandroid/ui/HelpActivity;)V
+03-10 05:30:20.695 31589 31589 D M_InsDal: Lorg/ligi/passandroid/ui/HelpActivity$ListTagHandler;--->handleTag(ZLjava/lang/String;Landroid/text/Editable;Lorg/xml/sax/XMLReader;)V
+03-10 05:30:20.698 31589 31589 D M_InsDal: Lorg/ligi/passandroid/ui/HelpActivity$ListTagHandler;--->handleTag(ZLjava/lang/String;Landroid/text/Editable;Lorg/xml/sax/XMLReader;)V

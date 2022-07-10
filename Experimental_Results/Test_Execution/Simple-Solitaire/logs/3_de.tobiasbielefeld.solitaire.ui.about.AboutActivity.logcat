@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:42:57.564  7341  7341 D M_InsDal: Lde/tobiasbielefeld/solitaire/classes/c;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:42:57.565  7341  7341 D M_InsDal: Lde/tobiasbielefeld/solitaire/ui/about/AboutActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:42:57.595  7341  7341 D M_InsDal: Lde/tobiasbielefeld/solitaire/classes/c;--->onResume()V

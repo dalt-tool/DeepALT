@@ -1,0 +1,248 @@
+manifest
+- compileSdkVersionCodename: 9
+- installLocation: 1
+- package: com.etesync.syncadapter
+- platformBuildVersionName: 1.4.6
+- compileSdkVersion: 28
+- versionName: 1.4.6
+- platformBuildVersionCode: 71
+- versionCode: 71
+	uses-sdk
+	- minSdkVersion: 19
+	- targetSdkVersion: 26
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.ACCESS_WIFI_STATE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.READ_SYNC_SETTINGS
+	uses-permission
+	- name: android.permission.READ_SYNC_STATS
+	uses-permission
+	- name: android.permission.WRITE_SYNC_SETTINGS
+	uses-permission
+	- name: android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+	uses-permission
+	- name: android.permission.AUTHENTICATE_ACCOUNTS
+	- maxSdkVersion: 22
+	uses-permission
+	- name: android.permission.GET_ACCOUNTS
+	- maxSdkVersion: 22
+	uses-permission
+	- name: android.permission.MANAGE_ACCOUNTS
+	- maxSdkVersion: 22
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	- maxSdkVersion: 18
+	uses-permission
+	- name: android.permission.READ_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.READ_CONTACTS
+	uses-permission
+	- name: android.permission.WRITE_CONTACTS
+	uses-permission
+	- name: android.permission.READ_CALENDAR
+	uses-permission
+	- name: android.permission.WRITE_CALENDAR
+	uses-permission
+	- name: org.dmfs.permission.READ_TASKS
+	uses-permission
+	- name: org.dmfs.permission.WRITE_TASKS
+	application
+	- networkSecurityConfig: 2131951620
+	- appComponentFactory: androidx.core.app.CoreComponentFactory
+	- allowBackup: true
+	- fullBackupContent: false
+	- icon: 2131623936
+	- name: com.etesync.syncadapter.App
+	- theme: 2131820550
+	- label: 2131755073
+		receiver
+		- exported: true
+		- name: com.etesync.syncadapter.App$AppUpdatedReceiver
+			intent-filter
+				action
+				- name: android.intent.action.PACKAGE_REPLACED
+				data
+				- scheme: package
+				- path: com.etesync.syncadapter
+		receiver
+		- exported: true
+		- name: com.etesync.syncadapter.AccountSettings$AppUpdatedReceiver
+			intent-filter
+				action
+				- name: android.intent.action.PACKAGE_REPLACED
+				data
+				- scheme: package
+				- path: com.etesync.syncadapter
+		service
+		- exported: false
+		- name: com.etesync.syncadapter.syncadapter.AccountAuthenticatorService
+			intent-filter
+				action
+				- name: android.accounts.AccountAuthenticator
+			meta-data
+			- name: android.accounts.AccountAuthenticator
+			- resource: 2131951616
+		service
+		- exported: true
+		- name: com.etesync.syncadapter.syncadapter.CalendarsSyncAdapterService
+			intent-filter
+				action
+				- name: android.content.SyncAdapter
+			meta-data
+			- name: android.content.SyncAdapter
+			- resource: 2131951624
+		service
+		- exported: true
+		- name: com.etesync.syncadapter.syncadapter.TasksSyncAdapterService
+			intent-filter
+				action
+				- name: android.content.SyncAdapter
+			meta-data
+			- name: android.content.SyncAdapter
+			- resource: 2131951627
+		service
+		- exported: false
+		- name: com.etesync.syncadapter.syncadapter.NullAuthenticatorService
+			intent-filter
+				action
+				- name: android.accounts.AccountAuthenticator
+			meta-data
+			- name: android.accounts.AccountAuthenticator
+			- resource: 2131951617
+		provider
+		- exported: false
+		- name: com.etesync.syncadapter.syncadapter.AddressBookProvider
+		- multiprocess: false
+		- label: 2131755072
+		- authorities: 2131755071
+		service
+		- exported: true
+		- name: com.etesync.syncadapter.syncadapter.AddressBooksSyncAdapterService
+			intent-filter
+				action
+				- name: android.content.SyncAdapter
+			meta-data
+			- name: android.content.SyncAdapter
+			- resource: 2131951623
+		service
+		- exported: true
+		- name: com.etesync.syncadapter.syncadapter.ContactsSyncAdapterService
+			intent-filter
+				action
+				- name: android.content.SyncAdapter
+			meta-data
+			- name: android.content.SyncAdapter
+			- resource: 2131951625
+			meta-data
+			- name: android.provider.CONTACTS_STRUCTURE
+			- resource: 2131951618
+		service
+		- name: com.etesync.syncadapter.AccountUpdateService
+		- enabled: true
+		receiver
+		- name: com.etesync.syncadapter.PackageChangedReceiver
+			intent-filter
+				action
+				- name: android.intent.action.PACKAGE_ADDED
+				action
+				- name: android.intent.action.PACKAGE_FULLY_REMOVED
+				data
+				- scheme: package
+		activity
+		- name: com.etesync.syncadapter.ui.AccountsActivity
+		- theme: 2131820552
+		- label: 2131755073
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: com.etesync.syncadapter.ui.AboutActivity
+		- theme: 2131820552
+		- label: 2131755073
+		- parentActivityName: com.etesync.syncadapter.ui.AccountsActivity
+		activity
+		- name: com.etesync.syncadapter.syncadapter.SyncNotification$NotificationHandlerActivity
+		- theme: 2131820934
+		activity
+		- name: com.etesync.syncadapter.ui.AppSettingsActivity
+		- label: 2131755074
+		- parentActivityName: com.etesync.syncadapter.ui.AccountsActivity
+		activity
+		- name: com.etesync.syncadapter.ui.PermissionsActivity
+		- label: 2131755274
+		- parentActivityName: com.etesync.syncadapter.ui.AccountsActivity
+		activity
+		- name: com.etesync.syncadapter.ui.setup.LoginActivity
+		- label: 2131755227
+		- parentActivityName: com.etesync.syncadapter.ui.AccountsActivity
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+		activity
+		- name: com.etesync.syncadapter.ui.AccountActivity
+		- parentActivityName: com.etesync.syncadapter.ui.AccountsActivity
+		activity
+		- name: com.etesync.syncadapter.ui.ViewCollectionActivity
+		activity
+		- name: com.etesync.syncadapter.ui.CollectionMembersActivity
+		activity
+		- name: com.etesync.syncadapter.ui.JournalItemActivity
+		activity
+		- name: com.etesync.syncadapter.ui.importlocal.ImportActivity
+		activity
+		- name: com.etesync.syncadapter.ui.AccountSettingsActivity
+		activity
+		- name: com.etesync.syncadapter.ui.ChangeEncryptionPasswordActivity
+		activity
+		- name: com.etesync.syncadapter.ui.CreateCollectionActivity
+		activity
+		- name: com.etesync.syncadapter.ui.EditCollectionActivity
+		activity
+		- exported: true
+		- name: com.etesync.syncadapter.ui.DebugInfoActivity
+		- label: 2131755149
+		activity
+		- name: com.etesync.syncadapter.ui.WebViewActivity
+		provider
+		- exported: false
+		- name: androidx.core.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: 2131755106
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2131951619
+		service
+		- name: at.bitfire.cert4android.CustomCertService
+		activity
+		- exported: true
+		- name: at.bitfire.cert4android.TrustCertificateActivity
+		- launchMode: 3
+		- excludeFromRecents: true
+		- label: 2131755109
+		receiver
+		- exported: false
+		- name: org.acra.receiver.NotificationBroadcastReceiver
+		- process: :acra
+		service
+		- exported: false
+		- name: org.acra.sender.LegacySenderService
+		- process: :acra
+		- enabled: 2131034116
+		service
+		- exported: false
+		- name: org.acra.sender.JobSenderService
+		- process: :acra
+		- permission: android.permission.BIND_JOB_SERVICE
+		- enabled: 2131034115
+		provider
+		- exported: false
+		- name: org.acra.attachment.AcraContentProvider
+		- process: :acra
+		- grantUriPermissions: true
+		- authorities: com.etesync.syncadapter.acra

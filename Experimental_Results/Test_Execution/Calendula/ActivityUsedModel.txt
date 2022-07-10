@@ -1,0 +1,94 @@
+es.usc.citius.servando.calendula.HomePagerActivity
+extra: boolean-"invalid_notification_error",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.AllergiesActivity
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.RoutinesActivity
+extra: long-"routine_id",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.PatientsActivity
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.ConfirmSchedulesActivity
+extra: String-"qr_data",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.ConfirmActivity
+extra: long-"schedule_id",long-"routine_id",String-"schedule_time",String-"action",int-"position",String-"date",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.WebViewActivity
+extra: Parcelable-"webview_param_request",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.AboutActivity
+---------------------------------------
+
+es.usc.citius.servando.calendula.pinlock.PinLockActivity
+action: "notEmpty"
+action: "PinLockActivity.action.new_pin"
+action: "PinLockActivity.action.verify_pin"
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.ScanActivity
+extra: String-"after_scan_cls",long-"patient_id",String-"after_scan_pkg",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.PatientDetailActivity
+extra: String-"qr_data",long-"patient_id",
+---------------------------------------
+
+es.usc.citius.servando.calendula.notifications.LockScreenAlarmActivity
+extra: Parcelable-"target",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.MaterialIntroActivity
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.SummaryCalendarActivity
+extra: 
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.SchedulesHelpActivity
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.UpdateFromFileActivity
+action: "android.intent.action.VIEW"
+data: "content://h:1/p"
+data: "file://h:1/p"
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.ScheduleCreationActivity
+extra: int-"scheduleType",long-"schedule_id",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.StartActivity
+extra: boolean-"StartActivity.extras.return_to_previous",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.CalendarActivity
+extra: int-"action",
+---------------------------------------
+
+es.usc.citius.servando.calendula.settings.CalendulaSettingsActivity
+extra: boolean-"show_db_dialog",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.MedicinesSearchActivity
+extra: String-"MedicinesSearchActivity.extras.EXTRA_SEARCH_TERM",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.AllergiesSearchActivity
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.MedicinesActivity
+extra: String-"MedicinesActivity.extras.SEARCH_TEXT",long-"medicine_id",String-"qr_data",String-"action",
+---------------------------------------
+
+es.usc.citius.servando.calendula.activities.MedicineInfoActivity
+extra: boolean-"show_alerts",long-"medicine_id",
+---------------------------------------
+

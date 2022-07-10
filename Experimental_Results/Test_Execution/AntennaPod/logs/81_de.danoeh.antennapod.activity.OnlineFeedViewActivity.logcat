@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:44:02.240 18983 18983 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V
+03-10 08:44:02.320 18983 18983 D M_InsDal: Lde/danoeh/antennapod/activity/OnlineFeedViewActivity;--->onResume()V
+03-10 08:44:02.320 18983 18983 D M_InsDal: Lde/danoeh/antennapod/core/feed/EventDistributor;--->addObserver(Ljava/util/Observer;)V

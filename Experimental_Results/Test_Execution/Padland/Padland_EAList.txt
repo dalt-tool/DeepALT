@@ -1,0 +1,3 @@
+com.mikifus.padland.SplashActivity
+com.mikifus.padland.PadViewActivity
+com.mikifus.padland.PadListActivity

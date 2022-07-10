@@ -1,0 +1,27 @@
+--------- beginning of main
+--------- beginning of system
+03-10 03:59:11.793  2840  2840 D M_InsDal: Lcom/nutomic/syncthingandroid/SyncthingApp;--->onCreate()V
+--------- beginning of crash
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: Process: com.nutomic.syncthingandroid, PID: 2840
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{com.nutomic.syncthingandroid/com.nutomic.syncthingandroid.activities.RestartActivity}: java.lang.ClassNotFoundException: Didn't find class "com.nutomic.syncthingandroid.activities.RestartActivity" on path: DexPathList[[zip file "/data/app/com.nutomic.syncthingandroid-KegQhwLE4gN0t8YEbzxjEg==/base.apk"],nativeLibraryDirectories=[/data/app/com.nutomic.syncthingandroid-KegQhwLE4gN0t8YEbzxjEg==/lib/arm64, /data/app/com.nutomic.syncthingandroid-KegQhwLE4gN0t8YEbzxjEg==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64, /hw_product/lib64, /system/product/lib64, /prets/lib64]]
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3700)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "com.nutomic.syncthingandroid.activities.RestartActivity" on path: DexPathList[[zip file "/data/app/com.nutomic.syncthingandroid-KegQhwLE4gN0t8YEbzxjEg==/base.apk"],nativeLibraryDirectories=[/data/app/com.nutomic.syncthingandroid-KegQhwLE4gN0t8YEbzxjEg==/lib/arm64, /data/app/com.nutomic.syncthingandroid-KegQhwLE4gN0t8YEbzxjEg==/base.apk!/lib/arm64-v8a, /system/lib64, /system/product/lib64, /hw_product/lib64, /system/product/lib64, /prets/lib64]]
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:196)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1257)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3685)
+03-10 03:59:11.912  2840  2840 E AndroidRuntime: 	... 11 more

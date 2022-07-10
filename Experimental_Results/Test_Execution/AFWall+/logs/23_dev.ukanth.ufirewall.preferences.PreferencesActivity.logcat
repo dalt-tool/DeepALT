@@ -1,0 +1,23 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:10:48.623 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.625 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.626 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.630 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.633 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.634 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.639 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onStart()V
+03-10 08:10:48.640 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 08:10:48.640 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onResume()V
+03-10 08:10:48.659 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.660 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.672 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.681 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.682 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.685 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.685 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.687 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.687 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.687 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.729 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:48.730 30412 30412 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;

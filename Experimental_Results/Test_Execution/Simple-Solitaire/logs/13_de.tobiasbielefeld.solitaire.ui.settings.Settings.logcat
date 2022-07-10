@@ -1,0 +1,6 @@
+--------- beginning of system
+--------- beginning of main
+03-10 05:45:49.579  8808  8808 D M_InsDal: Lde/tobiasbielefeld/solitaire/ui/settings/a;--->onTitleChanged(Ljava/lang/CharSequence;I)V
+03-10 05:45:49.579  8808  8808 D M_InsDal: Lde/tobiasbielefeld/solitaire/ui/settings/a;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 05:45:49.579  8808  8808 D M_InsDal: Lde/tobiasbielefeld/solitaire/ui/settings/a;--->onResume()V
+03-10 05:45:49.580  8808  8808 D M_InsDal: Lde/tobiasbielefeld/solitaire/ui/settings/a;--->onPostResume()V

@@ -1,0 +1,251 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:34:57.950 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:57.951 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:57.951 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:57.951 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:57.951 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:57.953 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:57.953 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:57.955 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:57.973 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:57.973 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:57.975 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:57.975 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:57.975 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:57.975 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:57.975 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:57.985 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:57.985 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:57.985 25149 25149 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 25149
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{felixwiemuth.lincal/felixwiemuth.lincal.ui.CalendarViewActivity}: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: Caused by: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewActivity.onCreate(CalendarViewActivity.java:59)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:34:58.014 25149 25149 E AndroidRuntime: 	... 11 more
+03-10 04:34:58.099 25188 25188 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:58.099 25188 25188 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:58.099 25188 25188 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.099 25188 25188 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.099 25188 25188 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.101 25188 25188 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.101 25188 25188 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.102 25188 25188 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:58.128 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:58.128 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:58.128 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.128 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.128 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.130 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.130 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.131 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:58.159 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:58.159 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:58.161 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.161 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.161 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.161 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.161 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.174 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.174 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.174 25208 25208 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 25208
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{felixwiemuth.lincal/felixwiemuth.lincal.ui.CalendarViewActivity}: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: Caused by: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewActivity.onCreate(CalendarViewActivity.java:59)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:34:58.211 25208 25208 E AndroidRuntime: 	... 11 more
+03-10 04:34:58.349 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:58.350 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:58.350 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.350 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.350 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.352 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.352 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.353 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:58.368 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:58.368 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:58.369 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.369 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.369 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.369 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.370 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.378 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.378 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.378 25270 25270 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 25270
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{felixwiemuth.lincal/felixwiemuth.lincal.ui.CalendarViewActivity}: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: Caused by: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewActivity.onCreate(CalendarViewActivity.java:59)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:34:58.406 25270 25270 E AndroidRuntime: 	... 11 more
+03-10 04:34:58.509 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:58.510 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:58.510 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.510 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.510 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.511 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.511 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.513 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:58.528 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:58.528 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:58.529 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.529 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.529 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.529 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.529 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.538 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.539 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.539 25317 25317 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 25317
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{felixwiemuth.lincal/felixwiemuth.lincal.ui.CalendarViewActivity}: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: Caused by: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewActivity.onCreate(CalendarViewActivity.java:59)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:34:58.567 25317 25317 E AndroidRuntime: 	... 11 more
+03-10 04:34:58.677 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:58.678 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:58.678 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.678 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.678 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.679 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.680 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.681 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:58.695 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:58.695 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:58.696 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.696 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.696 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.696 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.696 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.705 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.705 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.705 25380 25380 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 25380
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{felixwiemuth.lincal/felixwiemuth.lincal.ui.CalendarViewActivity}: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: Caused by: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewActivity.onCreate(CalendarViewActivity.java:59)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:34:58.732 25380 25380 E AndroidRuntime: 	... 11 more
+03-10 04:34:58.844 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:34:58.844 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:34:58.844 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.844 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.844 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.846 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.846 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.847 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:34:58.862 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;---><init>()V
+03-10 04:34:58.862 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:34:58.863 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:34:58.863 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:34:58.863 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.863 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:34:58.863 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:34:58.874 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.874 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:34:58.874 25432 25432 D M_InsDal: Lfelixwiemuth/lincal/ui/CalendarViewActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: Process: felixwiemuth.lincal, PID: 25432
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{felixwiemuth.lincal/felixwiemuth.lincal.ui.CalendarViewActivity}: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: Caused by: java.lang.RuntimeException: Missing argument: CalendarViewFragment.ARG_CALENDAR_POS
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at felixwiemuth.lincal.ui.CalendarViewActivity.onCreate(CalendarViewActivity.java:59)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:34:58.901 25432 25432 E AndroidRuntime: 	... 11 more

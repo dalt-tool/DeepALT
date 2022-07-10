@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:32:30.538 13739 13739 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:32:30.562 13739 13739 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/ImportKeysProxyActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:32:30.605 13739 13739 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-10 00:32:30.668 13739 13739 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/QrCodeCaptureActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:32:30.682 13739 13739 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/QrCodeCaptureActivity;--->onResume()V

@@ -1,0 +1,22 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:35:58.974 18537 18537 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><clinit>()V
+03-10 01:35:58.974 18537 18537 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><init>()V
+03-10 01:35:58.975 18537 18537 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->onCreate()Z
+03-10 01:35:58.975 18537 18537 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><clinit>()V
+03-10 01:35:58.975 18537 18537 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$1;---><init>()V
+03-10 01:35:58.975 18537 18537 D M_InsDal: Lcom/csipsimple/utils/CustomDistribution;--->getUserAgent()Ljava/lang/String;
+03-10 01:35:58.976 18537 18537 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$2;---><init>()V
+03-10 01:35:58.979 18537 18537 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$3;---><init>()V
+03-10 01:35:58.980 18537 18537 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><init>(Landroid/content/Context;)V
+03-10 01:35:58.980 18537 18537 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->needUpgrade()Ljava/lang/Integer;
+03-10 01:35:58.981 18537 18537 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;--->getCurrentPackageInfos(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
+03-10 01:35:58.982 18537 18537 D M_InsDal: Lcom/csipsimple/utils/Log;---><clinit>()V
+03-10 01:35:58.982 18537 18537 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:35:58.982 18537 18537 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:35:58.982 18537 18537 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->getApiLevel()I
+03-10 01:35:58.993 18537 18537 D M_InsDal: Lcom/csipsimple/widgets/ShortcutWidgetConfigure;---><clinit>()V
+03-10 01:35:58.993 18537 18537 D M_InsDal: Lcom/csipsimple/widgets/ShortcutWidgetConfigure$Shortcut;---><init>(IILandroid/content/Intent;)V
+03-10 01:35:58.994 18537 18537 D M_InsDal: Lcom/csipsimple/widgets/ShortcutWidgetConfigure$Shortcut;---><init>(IILandroid/content/Intent;)V
+03-10 01:35:58.994 18537 18537 D M_InsDal: Lcom/csipsimple/widgets/ShortcutWidgetConfigure;---><init>()V
+03-10 01:35:58.998 18537 18537 D M_InsDal: Lcom/csipsimple/widgets/ShortcutWidgetConfigure;--->onCreate(Landroid/os/Bundle;)V

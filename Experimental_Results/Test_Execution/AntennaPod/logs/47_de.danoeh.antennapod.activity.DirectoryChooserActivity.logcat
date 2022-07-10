@@ -1,0 +1,7 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:34:17.839 12916 12916 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V
+03-10 08:34:17.924 12916 12916 D M_InsDal: Lde/danoeh/antennapod/activity/DirectoryChooserActivity;--->onResume()V
+03-10 08:34:18.019 12916 12916 D M_InsDal: Lde/danoeh/antennapod/activity/DirectoryChooserActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z
+03-10 08:34:18.021 12916 12916 D M_InsDal: Lde/danoeh/antennapod/activity/DirectoryChooserActivity;--->onPrepareOptionsMenu(Landroid/view/Menu;)Z
+03-10 08:34:18.029 12916 12916 D M_InsDal: Lde/danoeh/antennapod/activity/DirectoryChooserActivity;--->onPrepareOptionsMenu(Landroid/view/Menu;)Z

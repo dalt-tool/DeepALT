@@ -1,0 +1,33 @@
+--------- beginning of main
+--------- beginning of system
+03-10 02:12:19.723  8145  8145 D M_InsDal: Lcom/etesync/syncadapter/App;--->attachBaseContext(Landroid/content/Context;)V
+03-10 02:12:19.783  8145  8145 D M_InsDal: Lcom/etesync/syncadapter/App;--->onCreate()V
+03-10 02:12:19.810  8145  8145 D M_InsDal: Lcom/etesync/syncadapter/ui/DebugInfoActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: FATAL EXCEPTION: AsyncTask #1
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: Process: com.etesync.syncadapter, PID: 8145
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: java.lang.RuntimeException: An error occurred while executing doInBackground()
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.AsyncTask$4.done(AsyncTask.java:399)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:383)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at java.util.concurrent.FutureTask.setException(FutureTask.java:252)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:271)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:929)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.etesync.syncadapter.MyParcelable
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.BaseBundle.getSerializable(BaseBundle.java:1236)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.Bundle.getSerializable(Bundle.java:1053)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at com.etesync.syncadapter.ui.DebugInfoActivity$ReportLoader.loadInBackground(DebugInfoActivity.kt:104)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at com.etesync.syncadapter.ui.DebugInfoActivity$ReportLoader.loadInBackground(DebugInfoActivity.kt:89)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:321)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:74)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:62)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at android.os.AsyncTask$3.call(AsyncTask.java:378)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-10 02:12:19.841  8145  8179 E AndroidRuntime: 	... 3 more

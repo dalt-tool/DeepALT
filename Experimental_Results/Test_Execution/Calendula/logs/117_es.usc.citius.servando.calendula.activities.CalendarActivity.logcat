@@ -1,0 +1,10 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:27:28.535 30085 30085 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 05:27:28.658 30085 30085 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:27:28.658 30085 30085 D M_InsDal: Les/usc/citius/servando/calendula/activities/CalendarActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:27:28.714 30085 30085 D M_InsDal: Les/usc/citius/servando/calendula/activities/CalendarActivity$UpdatePickupsTask;--->onPreExecute()V
+03-10 05:27:28.741 30085 30085 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onResume()V
+03-10 05:27:28.835 30085 30085 D M_InsDal: Les/usc/citius/servando/calendula/activities/CalendarActivity$UpdatePickupsTask;--->onPostExecute(Ljava/lang/Void;)V
+03-10 05:27:28.857 30085 30085 D M_InsDal: Les/usc/citius/servando/calendula/activities/CalendarActivity$UpdatePickupsTask;--->onPreExecute()V
+03-10 05:27:29.052 30085 30085 D M_InsDal: Les/usc/citius/servando/calendula/activities/CalendarActivity$UpdatePickupsTask;--->onPostExecute(Ljava/lang/Void;)V

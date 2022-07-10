@@ -1,0 +1,239 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:19:21.919 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 06:19:21.920 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 06:19:21.920 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 06:19:21.920 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 06:19:21.931 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;---><clinit>()V
+03-10 06:19:21.931 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;---><init>()V
+03-10 06:19:21.977 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:19:22.025 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;---><init>(Landroid/content/Context;)V
+03-10 06:19:22.025 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n$1;---><init>(Lnl/sogeti/android/gpstracker/util/UnitsI18n;)V
+03-10 06:19:22.026 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->initBasedOnPreferences(Landroid/content/SharedPreferences;)V
+03-10 06:19:22.026 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->setToDefault()V
+03-10 06:19:22.026 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->init(Landroid/content/res/Resources;)V
+03-10 06:19:22.027 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerServiceManager;---><init>(Landroid/content/Context;)V
+03-10 06:19:22.030 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$1;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;Ljava/lang/String;Ljava/util/concurrent/Semaphore;)V
+03-10 06:19:22.030 26727 26757 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$1;--->run()V
+03-10 06:19:22.031 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;---><init>()V
+03-10 06:19:22.031 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/ProjectionProxy;---><init>()V
+03-10 06:19:22.031 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;---><init>()V
+03-10 06:19:22.031 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateMapProvider()V
+03-10 06:19:22.031 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setMap(Landroid/view/View;)V
+03-10 06:19:22.031 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;--->setController(Ljava/lang/Object;)V
+03-10 06:19:22.032 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/ProjectionProxy;--->setProjection(Ljava/lang/Object;)V
+03-10 06:19:22.032 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setBuiltInZoomControls(Z)V
+03-10 06:19:22.032 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getOverlays()Ljava/util/List;
+03-10 06:19:22.032 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateGoogleOverlays()V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setSatellite(Z)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setTraffic(Z)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MyLocationOverlayProxy;---><init>(Landroid/content/Context;Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setBuiltInZoomControls(Z)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setClickable(Z)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->createListeners()V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$3;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$4;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$5;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$6;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$7;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$8;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$9;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$10;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$11;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;Landroid/os/Handler;)V
+03-10 06:19:22.033 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$12;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;Landroid/os/Handler;)V
+03-10 06:19:22.034 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$13;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;Landroid/os/Handler;)V
+03-10 06:19:22.034 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$14;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap;)V
+03-10 06:19:22.034 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->moveToLastTrack()V
+03-10 06:19:22.034 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStracking$Tracks;---><clinit>()V
+03-10 06:19:22.038 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 06:19:22.043 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->moveToTrack(JZ)V
+03-10 06:19:22.043 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 06:19:22.045 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getController()Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;
+03-10 06:19:22.045 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;--->setZoom(I)V
+03-10 06:19:22.045 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->getLastTrackPoint()Lcom/google/android/maps/GeoPoint;
+03-10 06:19:22.045 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerServiceManager;--->getLastWaypoint()Landroid/location/Location;
+03-10 06:19:22.045 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 06:19:22.045 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->getLastKnowGeopointLocation()Lcom/google/android/maps/GeoPoint;
+03-10 06:19:22.046 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getController()Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;
+03-10 06:19:22.046 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;--->animateTo(Lcom/google/android/maps/GeoPoint;)V
+03-10 06:19:22.050 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->onResume()V
+03-10 06:19:22.050 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerServiceManager;--->startup(Landroid/content/Context;Ljava/lang/Runnable;)V
+03-10 06:19:22.051 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerServiceManager$1;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerServiceManager;)V
+03-10 06:19:22.053 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->setUnitsChangeListener(Lnl/sogeti/android/gpstracker/util/UnitsI18n$UnitsChangeListener;)V
+03-10 06:19:22.053 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->initBasedOnPreferences(Landroid/content/SharedPreferences;)V
+03-10 06:19:22.053 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->setToDefault()V
+03-10 06:19:22.053 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->init(Landroid/content/res/Resources;)V
+03-10 06:19:22.053 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateTitleBar()V
+03-10 06:19:22.053 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateBlankingBehavior()V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateMapProvider()V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setMap(Landroid/view/View;)V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;--->setController(Ljava/lang/Object;)V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/ProjectionProxy;--->setProjection(Ljava/lang/Object;)V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setBuiltInZoomControls(Z)V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getOverlays()Ljava/util/List;
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateGoogleOverlays()V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setSatellite(Z)V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->setTraffic(Z)V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateDataOverlays()V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getOverlays()Ljava/util/List;
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->createDataOverlays()V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->clearOverlays()V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->addOverlay(Lnl/sogeti/android/gpstracker/viewer/proxy/OverlayProxy;)V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->addToMapsOverlays(Lnl/sogeti/android/gpstracker/viewer/proxy/OverlayProxy;)V
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MyLocationOverlayProxy;--->getGoogleOverlay()Lcom/google/android/maps/Overlay;
+03-10 06:19:22.054 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getMap()Landroid/view/View;
+03-10 06:19:22.056 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/FixedMyLocationOverlay;---><init>(Landroid/content/Context;Lcom/google/android/maps/MapView;)V
+03-10 06:19:22.056 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 06:19:22.057 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateSpeedColoring()V
+03-10 06:19:22.057 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getOverlays()Ljava/util/List;
+03-10 06:19:22.057 26727 26757 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$3;--->run()V
+03-10 06:19:22.057 26727 26757 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 06:19:22.057 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateSpeedDisplayVisibility()V
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateAltitudeDisplayVisibility()V
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateDistanceDisplayVisibility()V
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateCompassDisplayVisibility()V
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MyLocationOverlayProxy;--->disableCompass()V
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateLocationDisplayVisibility()V
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MyLocationOverlayProxy;--->disableMyLocation()V
+03-10 06:19:22.058 26727 26757 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$3$1;---><init>(Lnl/sogeti/android/gpstracker/viewer/LoggerMap$3;)V
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->executePostponedActions()V
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getController()Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;
+03-10 06:19:22.058 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapControllerProxy;--->executePostponedActions()V
+03-10 06:19:22.076 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;---><clinit>()V
+03-10 06:19:22.076 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;---><init>()V
+03-10 06:19:22.076 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$1;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 06:19:22.076 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$2;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 06:19:22.077 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$3;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 06:19:22.077 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/IGPSLoggerServiceRemote$Stub;---><init>()V
+03-10 06:19:22.077 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->onCreate()V
+03-10 06:19:22.077 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 06:19:22.077 26727 26758 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;--->run()V
+03-10 06:19:22.077 26727 26758 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread$1;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;)V
+03-10 06:19:22.078 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->stopNotification()V
+03-10 06:19:22.078 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->stopForegroundReflected(Z)V
+03-10 06:19:22.079 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->crashRestoreState()V
+03-10 06:19:22.079 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->broadCastLoggingState()V
+03-10 06:19:22.080 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->isLogging()Z
+03-10 06:19:22.080 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/StreamUtils;--->shutdownStreams(Landroid/content/Context;)V
+03-10 06:19:22.080 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/VoiceOver;---><clinit>()V
+03-10 06:19:22.080 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/VoiceOver;--->shutdownStreaming(Landroid/content/Context;)V
+03-10 06:19:22.080 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/CustomUpload;---><clinit>()V
+03-10 06:19:22.080 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/CustomUpload;--->shutdownStreaming(Landroid/content/Context;)V
+03-10 06:19:22.081 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->onStartCommand(Landroid/content/Intent;II)I
+03-10 06:19:22.081 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->handleCommand(Landroid/content/Intent;)V
+03-10 06:19:22.083 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->onBind(Landroid/content/Intent;)Landroid/os/IBinder;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$3$1;--->run()V
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateSpeedColoring()V
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->drawSpeedTexts(D)V
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->conversionFromMetersPerSecond(D)D
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->isUnitFlipped()Z
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->formatSpeed(DZ)Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->getSpeedUnit()Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->isUnitFlipped()Z
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->formatSpeed(DZ)Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->getSpeedUnit()Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->isUnitFlipped()Z
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->formatSpeed(DZ)Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->getSpeedUnit()Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->isUnitFlipped()Z
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->formatSpeed(DZ)Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->getSpeedUnit()Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->isUnitFlipped()Z
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->formatSpeed(DZ)Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->getSpeedUnit()Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->isUnitFlipped()Z
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->formatSpeed(DZ)Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/util/UnitsI18n;--->getSpeedUnit()Ljava/lang/String;
+03-10 06:19:22.087 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/proxy/MapViewProxy;--->getOverlays()Ljava/util/List;
+03-10 06:19:22.111 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->isLocationDisplayed()Z
+03-10 06:19:22.112 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerServiceManager;--->getLoggingState()I
+03-10 06:19:22.112 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->isRouteDisplayed()Z
+--------- beginning of crash
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: FATAL EXCEPTION: DataRequestDispatcher
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: Process: nl.sogeti.android.gpstracker, PID: 26727
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lorg/apache/http/client/HttpClient;
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at com.google.android.maps.MapActivity.<init>(MapActivity.java:356)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at nl.sogeti.android.gpstracker.viewer.LoggerMap.<init>(LoggerMap.java:102)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at java.lang.Class.newInstance(Native Method)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1257)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3685)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: org.apache.http.client.HttpClient
+03-10 06:19:22.127 26727 26766 E AndroidRuntime: 	... 17 more
+03-10 06:19:22.139 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;---><clinit>()V
+03-10 06:19:22.139 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;---><init>()V
+03-10 06:19:22.140 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+03-10 06:19:22.140 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateWidget(Landroid/content/Context;)V
+03-10 06:19:22.140 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->buildUpdate(Landroid/content/Context;I)Landroid/widget/RemoteViews;
+03-10 06:19:22.142 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 06:19:22.142 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 06:19:22.143 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateButtons(Landroid/widget/RemoteViews;Landroid/content/Context;)V
+03-10 06:19:22.143 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->setEnableInsertNote(Landroid/widget/RemoteViews;Z)V
+03-10 06:19:22.146 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateWidget(Landroid/content/Context;)V
+03-10 06:19:22.146 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->buildUpdate(Landroid/content/Context;I)Landroid/widget/RemoteViews;
+03-10 06:19:22.146 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 06:19:22.146 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 06:19:22.147 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateButtons(Landroid/widget/RemoteViews;Landroid/content/Context;)V
+03-10 06:19:22.147 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->setEnableInsertNote(Landroid/widget/RemoteViews;Z)V
+03-10 06:19:22.147 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerServiceManager$1;--->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
+03-10 06:19:22.147 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/IGPSLoggerServiceRemote$Stub;--->asInterface(Landroid/os/IBinder;)Lnl/sogeti/android/gpstracker/logger/IGPSLoggerServiceRemote;
+03-10 06:19:22.147 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap$4;--->run()V
+03-10 06:19:22.147 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->updateBlankingBehavior()V
+03-10 06:19:22.158 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->isLocationDisplayed()Z
+03-10 06:19:22.158 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerServiceManager;--->getLoggingState()I
+03-10 06:19:22.158 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$3;--->loggingState()I
+03-10 06:19:22.158 26727 26727 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/LoggerMap;--->isRouteDisplayed()Z
+03-10 06:19:23.259 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 06:19:23.260 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 06:19:23.260 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 06:19:23.260 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 06:19:23.266 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;---><clinit>()V
+03-10 06:19:23.266 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;---><init>()V
+03-10 06:19:23.266 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$1;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 06:19:23.266 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$2;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 06:19:23.267 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$3;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 06:19:23.267 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/IGPSLoggerServiceRemote$Stub;---><init>()V
+03-10 06:19:23.267 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->onCreate()V
+03-10 06:19:23.267 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;)V
+03-10 06:19:23.268 26781 26806 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;--->run()V
+03-10 06:19:23.268 26781 26806 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread$1;---><init>(Lnl/sogeti/android/gpstracker/logger/GPSLoggerService$GPSLoggerServiceThread;)V
+03-10 06:19:23.269 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->stopNotification()V
+03-10 06:19:23.269 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->stopForegroundReflected(Z)V
+03-10 06:19:23.272 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->crashRestoreState()V
+03-10 06:19:23.273 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->broadCastLoggingState()V
+03-10 06:19:23.273 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->isLogging()Z
+03-10 06:19:23.274 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/StreamUtils;--->shutdownStreams(Landroid/content/Context;)V
+03-10 06:19:23.274 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/VoiceOver;---><clinit>()V
+03-10 06:19:23.274 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/VoiceOver;--->shutdownStreaming(Landroid/content/Context;)V
+03-10 06:19:23.274 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/CustomUpload;---><clinit>()V
+03-10 06:19:23.274 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/streaming/CustomUpload;--->shutdownStreaming(Landroid/content/Context;)V
+03-10 06:19:23.274 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->onStartCommand(Landroid/content/Intent;II)I
+03-10 06:19:23.274 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/logger/GPSLoggerService;--->handleCommand(Landroid/content/Intent;)V
+03-10 06:19:23.275 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;---><clinit>()V
+03-10 06:19:23.276 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;---><init>()V
+03-10 06:19:23.276 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+03-10 06:19:23.276 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateWidget(Landroid/content/Context;)V
+03-10 06:19:23.276 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->buildUpdate(Landroid/content/Context;I)Landroid/widget/RemoteViews;
+03-10 06:19:23.276 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 06:19:23.277 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 06:19:23.277 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateButtons(Landroid/widget/RemoteViews;Landroid/content/Context;)V
+03-10 06:19:23.277 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->setEnableInsertNote(Landroid/widget/RemoteViews;Z)V
+03-10 06:19:23.278 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateWidget(Landroid/content/Context;)V
+03-10 06:19:23.279 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->buildUpdate(Landroid/content/Context;I)Landroid/widget/RemoteViews;
+03-10 06:19:23.279 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 06:19:23.279 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;
+03-10 06:19:23.279 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->updateButtons(Landroid/widget/RemoteViews;Landroid/content/Context;)V
+03-10 06:19:23.279 26781 26781 D M_InsDal: Lnl/sogeti/android/gpstracker/widget/ControlWidgetProvider;--->setEnableInsertNote(Landroid/widget/RemoteViews;Z)V

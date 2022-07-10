@@ -1,0 +1,2 @@
+felixwiemuth.lincal.ui.AddCalendarActivity
+felixwiemuth.lincal.ui.CalendarListActivity

@@ -1,0 +1,51 @@
+manifest
+- installLocation: 0
+- package: de.tobiasbielefeld.solitaire
+- versionName: 3.13
+- versionCode: 71
+	uses-sdk
+	- minSdkVersion: 11
+	- targetSdkVersion: 25
+	application
+	- allowBackup: true
+	- fullBackupContent: 2131886080
+	- icon: 2131558400
+	- name: de.tobiasbielefeld.solitaire.MainApplication
+	- theme: 2131755016
+	- label: 2131689549
+	- largeHeap: true
+		activity
+		- name: de.tobiasbielefeld.solitaire.ui.about.AboutActivity
+		- theme: 2131755015
+		- label: 2131690276
+		activity
+		- name: de.tobiasbielefeld.solitaire.ui.statistics.StatisticsActivity
+		- theme: 2131755015
+		- label: 2131690279
+		activity
+		- name: de.tobiasbielefeld.solitaire.ui.settings.Settings
+		- theme: 2131755015
+		- label: 2131690278
+		activity
+		- name: de.tobiasbielefeld.solitaire.ui.settings.SettingsGames
+		- theme: 2131755015
+		- label: 2131690147
+		activity
+		- name: de.tobiasbielefeld.solitaire.ui.GameManager
+		activity
+		- name: de.tobiasbielefeld.solitaire.ui.manual.Manual
+		- configChanges: 1184
+		- theme: 2131755016
+		- label: 2131689782
+		activity
+		- name: de.tobiasbielefeld.solitaire.ui.GameSelector
+		- theme: 2131755016
+		- label: 2131689549
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		meta-data
+		- name: android.support.VERSION
+		- value: 25.4.0

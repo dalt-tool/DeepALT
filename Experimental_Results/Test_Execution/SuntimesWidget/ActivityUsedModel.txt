@@ -1,0 +1,80 @@
+com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_2x1
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesWidgetListActivity
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesConfigActivity0_2x1
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SolsticeWidget0ConfigActivity
+---------------------------------------
+
+com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_3x1
+---------------------------------------
+
+com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity
+---------------------------------------
+
+com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity
+---------------------------------------
+
+com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity
+extra: boolean-"noselect",String-"selected",boolean-"useWallpaper",int-"previewID",
+---------------------------------------
+
+com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_3x1
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesSettingsActivity
+action: "com.forrestguice.suntimeswidget.PREFS_WIDGETLIST"
+action: "com.forrestguice.suntimeswidget.PREFS_LOCALE"
+action: "notEmpty"
+action: "com.forrestguice.suntimeswidget.PREFS_GENERAL"
+action: "com.forrestguice.suntimeswidget.PREFS_ALARMCLOCK"
+action: "com.forrestguice.suntimeswidget.PREFS_UI"
+action: "com.forrestguice.suntimeswidget.PREFS_PLACES"
+---------------------------------------
+
+com.forrestguice.suntimeswidget.alarmclock.ui.AlarmDismissActivity
+data: "notEmpty"
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesActivity
+action: "com.forrestguice.suntimeswidget.VIEW_SOLSTICE"
+action: "com.forrestguice.suntimeswidget.VIEW_MOON"
+action: "com.forrestguice.suntimeswidget.VIEW_SUN"
+action: "notEmpty"
+data: "notEmpty"
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesConfigActivity0
+extra: Extras-,(,int-"appWidgetId",),
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesConfigActivity1
+---------------------------------------
+
+com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity
+action: "com.forrestguice.suntimeswidget.alarmclock.ADD_NOTIFICATION"
+action: "suntimeswidget.alarm.delete"
+action: "notEmpty"
+action: "android.intent.action.SET_ALARM"
+action: "com.forrestguice.suntimeswidget.alarmclock.ADD_ALARM"
+data: "notEmpty"
+extra: long-"selectedAlarm",boolean-"android.intent.extra.alarm.VIBRATE",boolean-"showBack",int-"android.intent.extra.alarm.MINUTES",int-"android.intent.extra.alarm.HOUR",String-"android.intent.extra.alarm.RINGTONE",String-"solarevent",String-"android.intent.extra.alarm.MESSAGE",IntegerArrayList-"android.intent.extra.alarm.DAYS",
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesConfigActivity2
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x1
+---------------------------------------
+
+com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x2
+---------------------------------------
+
+com.forrestguice.suntimeswidget.themes.WidgetThemeConfigActivity
+extra: String-"name",Serializable-"mode",int-"previewID",boolean-"useWallpaper",
+---------------------------------------
+

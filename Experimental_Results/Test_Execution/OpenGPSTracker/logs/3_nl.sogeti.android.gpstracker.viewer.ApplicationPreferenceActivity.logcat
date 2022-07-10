@@ -1,0 +1,13 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:17:04.315 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 06:17:04.315 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 06:17:04.315 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 06:17:04.316 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 06:17:04.323 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity;---><init>()V
+03-10 06:17:04.352 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:17:04.375 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity;--->setEnabledCustomValues(Ljava/lang/Object;)V
+03-10 06:17:04.375 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity$1;---><init>(Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity;)V
+03-10 06:17:04.375 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity$2;---><init>(Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity;)V
+03-10 06:17:04.375 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity$3;---><init>(Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity;)V
+03-10 06:17:04.376 25532 25532 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity$4;---><init>(Lnl/sogeti/android/gpstracker/viewer/ApplicationPreferenceActivity;)V

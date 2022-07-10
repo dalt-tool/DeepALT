@@ -1,0 +1,4 @@
+--------- beginning of system
+--------- beginning of main
+03-10 07:41:18.034 13958 13958 D M_InsDal: Leu/siacs/conversations/ui/AboutActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 07:41:30.209  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

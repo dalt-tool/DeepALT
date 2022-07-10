@@ -1,0 +1,10 @@
+--------- beginning of main
+--------- beginning of system
+03-10 03:56:02.631 32400 32400 D M_InsDal: Lcom/nutomic/syncthingandroid/SyncthingApp;--->onCreate()V
+03-10 03:56:02.756 32400 32400 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/FolderPickerActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:56:02.782 32400 32400 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/SyncthingActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 03:56:02.783 32400 32400 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/SyncthingActivity;--->onResume()V
+03-10 03:56:02.816 32400 32400 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/FolderPickerActivity$RootsAdapter;--->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
+03-10 03:56:02.822 32400 32400 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/FolderPickerActivity$RootsAdapter;--->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
+03-10 03:56:02.881 32400 32400 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/FolderPickerActivity;--->onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
+03-10 03:56:03.351 32400 32400 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/FolderPickerActivity;--->onDestroy()V

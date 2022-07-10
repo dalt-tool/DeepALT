@@ -1,0 +1,14 @@
+1	felixwiemuth.lincal.ui.SettingsActivity	null;;null;;null;;null;;
+2	felixwiemuth.lincal.ui.SettingsActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+3	felixwiemuth.lincal.ui.SettingsActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+4	felixwiemuth.lincal.ui.AddCalendarActivity	null;;null;;null;;null;;
+5	felixwiemuth.lincal.ui.AddCalendarActivity	null;;null;;"A";;null;;
+6	felixwiemuth.lincal.ui.AddCalendarActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+7	felixwiemuth.lincal.ui.AddCalendarActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+8	felixwiemuth.lincal.ui.CalendarListActivity	null;;null;;null;;null;;
+9	felixwiemuth.lincal.ui.CalendarListActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+10	felixwiemuth.lincal.ui.CalendarListActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+11	felixwiemuth.lincal.ui.CalendarViewActivity	null;;null;;null;;null;;
+12	felixwiemuth.lincal.ui.CalendarViewActivity	null;;null;;null;;null;;int->felixwiemuth.lincal.CalendarListActivity.EXTRA_ARG_CALENDAR_POS->Integer.MAX_VALUE,
+13	felixwiemuth.lincal.ui.CalendarViewActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+14	felixwiemuth.lincal.ui.CalendarViewActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,

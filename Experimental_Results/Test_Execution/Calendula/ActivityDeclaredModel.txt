@@ -1,0 +1,85 @@
+app_name: Calendula
+package_name: es.usc.citius.servando.calendula
+
+act_name: es.usc.citius.servando.calendula.HomePagerActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.AllergiesActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.RoutinesActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.PatientsActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.ConfirmSchedulesActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.ConfirmActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.WebViewActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.AboutActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.pinlock.PinLockActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.ScanActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.PatientDetailActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.notifications.LockScreenAlarmActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.MaterialIntroActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.SummaryCalendarActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.SchedulesHelpActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.UpdateFromFileActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: es.usc.citius.servando.calendula.activities.ScheduleCreationActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.StartActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: es.usc.citius.servando.calendula.activities.CalendarActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.settings.CalendulaSettingsActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.MedicinesSearchActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.AllergiesSearchActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.MedicinesActivity
+permission: 
+
+act_name: es.usc.citius.servando.calendula.activities.MedicineInfoActivity
+permission: 

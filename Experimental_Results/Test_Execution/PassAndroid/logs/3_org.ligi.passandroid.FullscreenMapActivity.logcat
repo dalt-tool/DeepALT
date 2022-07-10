@@ -1,0 +1,96 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:28:54.662 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App;---><clinit>()V
+03-10 05:28:54.663 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$Companion;---><init>()V
+03-10 05:28:54.664 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App;---><init>()V
+03-10 05:28:54.675 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App;--->onCreate()V
+03-10 05:28:54.676 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$onCreate$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:28:54.676 30891 30891 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt;--->a(Landroid/content/Context;)Lcom/github/salomonbrys/kodein/Kodein$Module;
+03-10 05:28:54.676 30891 30891 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:28:54.676 30891 30891 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$$special$$inlined$bind$1;---><init>()V
+03-10 05:28:54.677 30891 30891 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$$special$$inlined$singleton$1;---><init>()V
+03-10 05:28:54.678 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App;--->a()Lcom/github/salomonbrys/kodein/Kodein$Module;
+03-10 05:28:54.678 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1;--->a(Lcom/github/salomonbrys/kodein/Kodein$Builder;)V
+03-10 05:28:54.678 30891 30891 D M_InsDal: Lorg/ligi/passandroid/json_adapter/ZonedTimeAdapter;---><init>()V
+03-10 05:28:54.679 30891 30891 D M_InsDal: Lorg/ligi/passandroid/json_adapter/ColorAdapter;---><init>()V
+03-10 05:28:54.680 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$1;---><init>()V
+03-10 05:28:54.680 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$1;---><init>()V
+03-10 05:28:54.680 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$2;---><init>()V
+03-10 05:28:54.680 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$2;---><init>()V
+03-10 05:28:54.681 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$bind$3;---><init>()V
+03-10 05:28:54.681 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$$special$$inlined$singleton$3;---><init>()V
+03-10 05:28:54.681 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App;--->b()V
+03-10 05:28:54.681 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App;--->g()V
+03-10 05:28:54.682 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$onCreate$$inlined$instance$1;---><init>()V
+03-10 05:28:54.682 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$2;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/model/AndroidSettings;
+03-10 05:28:54.682 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;---><init>(Landroid/content/Context;)V
+03-10 05:28:54.682 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getNightMode()I
+03-10 05:28:54.683 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings$sharedPreferences$2;--->invoke()Landroid/content/SharedPreferences;
+03-10 05:28:54.683 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getContext()Landroid/content/Context;
+03-10 05:28:54.692 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassViewActivityBase$Companion;---><init>()V
+03-10 05:28:54.692 30891 30891 D M_InsDal: Lorg/ligi/passandroid/FullscreenMapActivity;---><init>()V
+03-10 05:28:54.692 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassViewActivityBase;---><init>()V
+03-10 05:28:54.692 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity;---><init>()V
+03-10 05:28:54.693 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$Companion;--->a()Lcom/github/salomonbrys/kodein/Kodein;
+03-10 05:28:54.693 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity$$special$$inlined$instance$1;---><init>()V
+03-10 05:28:54.693 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$1;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;
+03-10 05:28:54.693 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$1$$special$$inlined$instance$1;---><init>()V
+03-10 05:28:54.693 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$1$$special$$inlined$instance$2;---><init>()V
+03-10 05:28:54.693 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$createKodein$1$3;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/greenrobot/eventbus/EventBus;
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;---><init>(Landroid/content/Context;Lorg/ligi/passandroid/model/Settings;Lcom/squareup/moshi/Moshi;Lorg/greenrobot/eventbus/EventBus;)V
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getPassesDir()Ljava/io/File;
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$Companion;--->a()Lcom/github/salomonbrys/kodein/Kodein;
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity$$special$$inlined$instance$2;---><init>()V
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$Companion;--->a()Lcom/github/salomonbrys/kodein/Kodein;
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity$$special$$inlined$instance$3;---><init>()V
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/App$Companion;--->a()Lcom/github/salomonbrys/kodein/Kodein;
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity$$special$$inlined$instance$4;---><init>()V
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/TrackerKodeinModuleKt$createTrackerKodeinModule$1$1;--->a(Lcom/github/salomonbrys/kodein/bindings/NoArgBindingKodein;)Lorg/ligi/passandroid/AnalyticsTracker;
+03-10 05:28:54.694 30891 30891 D M_InsDal: Lorg/ligi/passandroid/AnalyticsTracker;---><init>(Landroid/content/Context;)V
+03-10 05:28:54.715 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassViewActivityBase;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:28:54.716 30891 30891 D M_InsDal: Lorg/ligi/passandroid/FullscreenMapActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:28:54.739 30891 30891 D M_InsDal: Lorg/ligi/passandroid/LocationsMapFragment;---><init>()V
+03-10 05:28:54.940 30891 30891 D M_InsDal: Lorg/ligi/passandroid/LocationsMapFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 05:28:55.097 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity;--->onResume()V
+03-10 05:28:55.097 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidSettings;--->getNightMode()I
+03-10 05:28:55.097 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassViewActivityBase;--->onResume()V
+03-10 05:28:55.098 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity;--->b()Lorg/ligi/passandroid/model/PassStore;
+03-10 05:28:55.098 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;--->getCurrentPass()Lorg/ligi/passandroid/model/pass/Pass;
+03-10 05:28:55.098 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity;--->b()Lorg/ligi/passandroid/model/PassStore;
+03-10 05:28:55.098 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/State;---><clinit>()V
+03-10 05:28:55.098 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/State;---><init>()V
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;--->getPassbookForId(Ljava/lang/String;)Lorg/ligi/passandroid/model/pass/Pass;
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;--->getPassMap()Ljava/util/HashMap;
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;--->readPass(Ljava/lang/String;)Lorg/ligi/passandroid/model/pass/Pass;
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;--->getPathForID(Ljava/lang/String;)Ljava/io/File;
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity;--->b()Lorg/ligi/passandroid/model/PassStore;
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;--->setCurrentPass(Lorg/ligi/passandroid/model/pass/Pass;)V
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity;--->b()Lorg/ligi/passandroid/model/PassStore;
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/model/AndroidFileSystemPassStore;--->getCurrentPass()Lorg/ligi/passandroid/model/pass/Pass;
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassAndroidActivity;--->e()Lorg/ligi/passandroid/Tracker;
+03-10 05:28:55.100 30891 30891 D M_InsDal: Lorg/ligi/passandroid/AnalyticsTracker;--->a(Ljava/lang/String;Z)V
+03-10 05:28:55.107 30891 30891 D M_InsDal: Lorg/ligi/passandroid/LocationsMapFragment$onCreateView$1;--->a(Lcom/google/android/gms/maps/GoogleMap;)V
+03-10 05:28:55.108 30891 30891 D M_InsDal: Lorg/ligi/passandroid/ui/PassViewActivityBase;--->onPause()V
+--------- beginning of crash
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: Process: org.ligi.passandroid, PID: 30891
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: java.lang.RuntimeException: Unable to pause activity {org.ligi.passandroid/org.ligi.passandroid.FullscreenMapActivity}: kotlin.UninitializedPropertyAccessException: lateinit property currentPass has not been initialized
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:5127)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:5076)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:5016)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.servertransaction.PauseActivityItem.execute(PauseActivityItem.java:46)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:190)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: Caused by: kotlin.UninitializedPropertyAccessException: lateinit property currentPass has not been initialized
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at org.ligi.passandroid.ui.PassViewActivityBase.onPause(SourceFile:60)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.Activity.performPause(Activity.java:8272)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnPause(Instrumentation.java:1522)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:5117)
+03-10 05:28:55.111 30891 30891 E AndroidRuntime: 	... 12 more

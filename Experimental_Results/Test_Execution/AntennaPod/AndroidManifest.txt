@@ -1,0 +1,440 @@
+manifest
+- installLocation: 0
+- package: de.danoeh.antennapod
+- versionName: 1.7.1
+- versionCode: 1070195
+	uses-sdk
+	- minSdkVersion: 14
+	- targetSdkVersion: 26
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	supports-screens
+	- normalScreens: true
+	- smallScreens: true
+	- anyDensity: true
+	- largeScreens: true
+	- xlargeScreens: true
+	uses-feature
+	- name: android.hardware.screen.portrait
+	- required: false
+	uses-feature
+	- name: android.hardware.touchscreen
+	- required: false
+	uses-permission
+	- name: android.permission.ACCESS_WIFI_STATE
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	uses-permission
+	- name: android.permission.BLUETOOTH
+	uses-permission
+	- name: android.permission.VIBRATE
+	application
+	- backupAgent: de.danoeh.antennapod.core.backup.OpmlBackupAgent
+	- supportsRtl: true
+	- allowBackup: true
+	- icon: 2131689472
+	- name: de.danoeh.antennapod.PodcastApp
+	- logo: 2131689472
+	- restoreAnyVersion: true
+	- roundIcon: 2131689474
+	- label: 2131820591
+		meta-data
+		- name: com.google.android.gms.version
+		- value: 2131427347
+		meta-data
+		- name: com.google.android.gms.car.notification.SmallIcon
+		- resource: 2131231184
+		meta-data
+		- name: com.google.android.backup.api_key
+		- value: AEdPqrEAAAAI3a05VToCTlqBymJrbFGaKQMvF-bBAuLsOdavBA
+		activity
+		- name: de.danoeh.antennapod.activity.SplashActivity
+		- launchMode: 2
+		- configChanges: 1184
+		- theme: 2131886454
+		- label: 2131820591
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+			intent-filter
+				action
+				- name: android.media.action.MEDIA_PLAY_FROM_SEARCH
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- name: de.danoeh.antennapod.activity.MainActivity
+		- launchMode: 2
+		- configChanges: 1184
+		- label: 2131820591
+		activity
+		- name: de.danoeh.antennapod.activity.AudioplayerActivity
+		- launchMode: 1
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- mimeType: audio/*
+		activity
+		- name: de.danoeh.antennapod.activity.CastplayerActivity
+		- launchMode: 1
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.MainActivity
+		activity
+		- name: de.danoeh.antennapod.activity.DownloadAuthenticationActivity
+		- launchMode: 3
+		activity
+		- name: de.danoeh.antennapod.activity.PreferenceActivity
+		- configChanges: 1184
+		- label: 2131821330
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.MainActivity
+		activity
+		- name: de.danoeh.antennapod.activity.FeedInfoActivity
+		- label: 2131820902
+		activity
+		- name: de.danoeh.antennapod.activity.FeedSettingsActivity
+		- windowSoftInputMode: 2
+		- label: 2131820904
+		service
+		- exported: false
+		- name: de.danoeh.antennapod.core.service.PlayerWidgetJobService
+		- permission: android.permission.BIND_JOB_SERVICE
+		- enabled: true
+		receiver
+		- name: de.danoeh.antennapod.core.receiver.PlayerWidget
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+			intent-filter
+				action
+				- name: de.danoeh.antennapod.FORCE_WIDGET_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2132017154
+			intent-filter
+				action
+				- name: de.danoeh.antennapod.STOP_WIDGET_UPDATE
+		activity
+		- name: de.danoeh.antennapod.activity.StorageErrorActivity
+		activity
+		- name: de.danoeh.antennapod.activity.FlattrAuthActivity
+		- label: 2131820912
+			intent-filter
+				action
+				- name: .activities.FlattrAuthActivity
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: flattr4j
+				- host: de.danoeh.antennapod
+		activity
+		- name: de.danoeh.antennapod.activity.AboutActivity
+		- configChanges: 1184
+		- label: 2131820578
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.PreferenceActivity
+		activity
+		- name: de.danoeh.antennapod.activity.StatisticsActivity
+		- label: 2131821360
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.PreferenceActivity
+		activity
+		- name: de.danoeh.antennapod.activity.ImportExportActivity
+		- label: 2131820986
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.PreferenceActivity
+		activity
+		- name: de.danoeh.antennapod.activity.OpmlImportFromPathActivity
+		- configChanges: 1184
+		- label: 2131821093
+		activity
+		- name: de.danoeh.antennapod.activity.OpmlImportFromIntentActivity
+		- configChanges: 1184
+		- label: 2131821093
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: text/xml
+				data
+				- mimeType: text/x-opml
+				data
+				- mimeType: application/xml
+				data
+				- mimeType: application/octet-stream
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- host: *
+			intent-filter
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: text/xml
+				data
+				- mimeType: text/plain
+				data
+				- mimeType: text/x-opml
+				data
+				- mimeType: application/xml
+				data
+				- mimeType: application/octet-stream
+				data
+				- scheme: http
+				data
+				- scheme: https
+		activity
+		- name: de.danoeh.antennapod.activity.OpmlFeedChooserActivity
+		- label: 2131821093
+		activity
+		- name: de.danoeh.antennapod.activity.VideoplayerActivity
+		- supportsPictureInPicture: true
+		- configChanges: 3488
+		- screenOrientation: 6
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- mimeType: video/*
+		activity
+		- name: de.danoeh.antennapod.activity.DirectoryChooserActivity
+		- label: 2131820743
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.PreferenceActivity
+		activity
+		- name: de.danoeh.antennapod.activity.OnlineFeedViewActivity
+		- configChanges: 1152
+		- label: 2131820584
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: *
+				data
+				- pathPattern: .*\.xml
+				data
+				- pathPattern: .*\.rss
+				data
+				- pathPattern: .*\.atom
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: feeds.feedburner.com
+				data
+				- host: feedproxy.google.com
+				data
+				- host: feeds2.feedburner.com
+				data
+				- host: feedsproxy.google.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- mimeType: text/xml
+				data
+				- mimeType: application/rss+xml
+				data
+				- mimeType: application/atom+xml
+				data
+				- mimeType: application/xml
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: itpc
+				data
+				- scheme: pcast
+				data
+				- scheme: feed
+				data
+				- scheme: antennapod-subscribe
+			intent-filter
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/plain
+		activity
+		- name: de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity
+		- configChanges: 128
+		- label: 2131820942
+		- screenOrientation: 1
+			intent-filter
+				action
+				- name: .activity.gpoddernet.GpodnetAuthenticationActivity
+				category
+				- name: android.intent.category.DEFAULT
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: de.danoeh.antennapod.activity.PreferenceActivity
+		receiver
+		- name: de.danoeh.antennapod.receiver.ConnectivityActionReceiver
+			intent-filter
+				action
+				- name: android.net.conn.CONNECTIVITY_CHANGE
+		receiver
+		- name: de.danoeh.antennapod.receiver.PowerConnectionReceiver
+			intent-filter
+				action
+				- name: android.intent.action.ACTION_POWER_CONNECTED
+				action
+				- name: android.intent.action.ACTION_POWER_DISCONNECTED
+		receiver
+		- name: de.danoeh.antennapod.receiver.SPAReceiver
+			intent-filter
+				action
+				- name: de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS_RESPONSE
+		receiver
+		- name: de.danoeh.antennapod.core.receiver.AlarmUpdateReceiver
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+			intent-filter
+				action
+				- name: android.intent.action.PACKAGE_REPLACED
+				data
+				- scheme: package
+				- path: de.danoeh.antennapod
+		provider
+		- exported: false
+		- name: android.support.v4.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: 2131821261
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2132017164
+		meta-data
+		- name: de.danoeh.antennapod.core.glide.ApGlideModule
+		- value: GlideModule
+		meta-data
+		- name: com.google.android.gms.car.application
+		- resource: 2132017152
+		service
+		- name: de.danoeh.antennapod.core.service.download.DownloadService
+		- enabled: true
+		service
+		- exported: true
+		- name: de.danoeh.antennapod.core.service.playback.PlaybackService
+		- label: 2131820591
+		- enabled: true
+			intent-filter
+				action
+				- name: android.media.browse.MediaBrowserService
+		service
+		- name: de.danoeh.antennapod.core.service.GpodnetSyncService
+		- permission: android.permission.BIND_JOB_SERVICE
+		- enabled: true
+		receiver
+		- exported: true
+		- name: de.danoeh.antennapod.core.receiver.MediaButtonReceiver
+			intent-filter
+				action
+				- name: android.intent.action.MEDIA_BUTTON
+			intent-filter
+				action
+				- name: de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER
+		receiver
+		- exported: true
+		- name: de.danoeh.antennapod.core.receiver.FeedUpdateReceiver
+		- label: 2131820906
+		service
+		- name: de.danoeh.antennapod.core.service.FeedUpdateJobService
+		- permission: android.permission.BIND_JOB_SERVICE
+		meta-data
+		- name: android.support.VERSION
+		- value: 26.1.0
+		uses-library
+		- name: com.google.android.wearable
+		- required: false
+		activity
+		- exported: false
+		- name: com.google.android.gms.common.api.GoogleApiActivity
+		- theme: 16973840
+		meta-data
+		- name: com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+		- value: GlideModule
+		meta-data
+		- name: android.arch.lifecycle.VERSION
+		- value: 27.0.0-SNAPSHOT

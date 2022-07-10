@@ -1,0 +1,17 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:54:48.809 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:54:48.833 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:54:48.848 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:54:48.850 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptFilesActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:54:48.853 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptModeAsymmetricFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:54:48.883 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptModeAsymmetricFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 00:54:48.884 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptFilesFragment;--->onAttach(Landroid/content/Context;)V
+03-10 00:54:48.884 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/QueueingCryptoOperationFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:54:48.884 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/CachingCryptoOperationFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:54:48.884 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptFilesFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:54:48.885 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/QueueingCryptoOperationFragment;--->onViewStateRestored(Landroid/os/Bundle;)V
+03-10 00:54:48.887 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onResume()V
+03-10 00:54:48.890 27158 27197 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainDatabase$1;--->onOpen(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+03-10 00:54:48.965 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptFilesFragment;--->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V
+03-10 00:54:48.965 27158 27158 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/EncryptFilesFragment;--->onPrepareOptionsMenu(Landroid/view/Menu;)V

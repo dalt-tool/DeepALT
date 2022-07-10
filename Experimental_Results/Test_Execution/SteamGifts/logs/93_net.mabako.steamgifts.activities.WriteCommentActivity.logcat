@@ -1,0 +1,30 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:59:28.400 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/Application;---><init>()V
+03-10 06:59:28.401 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/ApplicationTemplate;---><init>()V
+03-10 06:59:28.401 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/ApplicationTemplate;--->onCreate()V
+03-10 06:59:28.401 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;---><clinit>()V
+03-10 06:59:28.401 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;--->scheduleAllTasks(Landroid/content/Context;)V
+03-10 06:59:28.401 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;---><clinit>()V
+03-10 06:59:28.401 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;---><init>(Ljava/lang/String;IJLjava/lang/Class;)V
+03-10 06:59:28.401 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$Task;--->values()[Lnet/mabako/steamgifts/PeriodicTasks$Task;
+03-10 06:59:28.401 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks;--->scheduleTask(Lnet/mabako/steamgifts/PeriodicTasks$Task;Landroid/content/Context;)V
+03-10 06:59:28.419 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/PeriodicTasks$TaskData;---><init>(Landroid/app/AlarmManager;Landroid/app/PendingIntent;)V
+03-10 06:59:28.425 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/WriteCommentActivity;---><clinit>()V
+03-10 06:59:28.425 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/WriteCommentActivity;---><init>()V
+03-10 06:59:28.425 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;---><init>()V
+03-10 06:59:28.430 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:59:28.430 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->setTheme()Z
+03-10 06:59:28.434 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><clinit>()V
+03-10 06:59:28.434 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><init>()V
+03-10 06:59:28.434 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;--->clear()V
+03-10 06:59:28.434 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/persistentdata/SGToolsUserData;---><init>()V
+03-10 06:59:28.434 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/WriteCommentActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:59:28.450 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/fragments/WriteCommentFragment;--->newInstance(Lnet/mabako/steamgifts/data/Comment;Ljava/lang/String;)Lnet/mabako/steamgifts/fragments/WriteCommentFragment;
+03-10 06:59:28.450 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/fragments/WriteCommentFragment;---><init>()V
+03-10 06:59:28.450 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->loadFragment(ILandroid/support/v4/app/Fragment;Ljava/lang/String;)V
+03-10 06:59:28.452 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/fragments/WriteCommentFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 06:59:28.452 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/fragments/WriteCommentFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 06:59:28.467 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->onResume()V
+03-10 06:59:28.467 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/activities/BaseActivity;--->setTheme()Z
+03-10 06:59:28.534 16951 16951 D M_InsDal: Lnet/mabako/steamgifts/fragments/WriteCommentFragment;--->onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V

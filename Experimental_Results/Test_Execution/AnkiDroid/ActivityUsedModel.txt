@@ -1,0 +1,101 @@
+com.ichi2.anki.DeckPicker
+---------------------------------------
+
+com.ichi2.anki.ModelFieldEditor
+extra: String-"title",long-"noteTypeID",
+---------------------------------------
+
+com.ichi2.anki.Info
+extra: int-"infoType",
+---------------------------------------
+
+com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity
+extra: int-"multim.card.ed.extra.field.index",Extras-,(,Serializable-"multim.card.ed.extra.field",),Serializable-"multim.card.ed.extra.whole.note",
+---------------------------------------
+
+com.ichi2.anki.VideoPlayer
+extra: String-"path",
+---------------------------------------
+
+com.ichi2.anki.FilteredDeckOptions
+extra: Extras-,(,long-"did",),
+---------------------------------------
+
+com.ichi2.anki.IntentHandler
+action: "android.intent.action.VIEW"
+action: "com.ichi2.anki.DO_SYNC"
+data: "content://h:1/p"
+data: "file://h:1/p"
+data: "notEmpty"
+data: "s://h:1/notEmpty"
+data: "s://h:1/.apkg"
+type: "notEmpty"
+type: "application/apkg"
+---------------------------------------
+
+com.ichi2.anki.dialogs.AnkiDroidCrashReportDialog
+---------------------------------------
+
+com.ichi2.anki.multimediacard.activity.LoadPronounciationActivity
+extra: Extras-,(,String-"com.ichi2.anki.LoadPronounciationActivity.extra.source",),
+---------------------------------------
+
+com.ichi2.anki.CardBrowser
+extra: long-"defaultDeckId",long-"selectedDeck",
+---------------------------------------
+
+com.ichi2.anki.MyAccount
+---------------------------------------
+
+com.ichi2.anki.CardTemplateEditor
+extra: long-"noteId",long-"modelId",
+---------------------------------------
+
+com.ichi2.anki.StudyOptionsActivity
+extra: Extras-,(,),Extras-,(,boolean-"withDeckOptions",),
+---------------------------------------
+
+com.ichi2.anki.Reviewer
+action: "notEmpty"
+action: "android.intent.action.VIEW"
+extra: Extras-,(,long-"deckId",),
+---------------------------------------
+
+com.ichi2.anki.Statistics
+extra: long-"selectedDeck",
+---------------------------------------
+
+com.ichi2.anki.Previewer
+extra: int-"index",longArray-"cardList",
+---------------------------------------
+
+com.ichi2.anki.multimediacard.activity.TranslationActivity
+extra: Extras-,(,String-"translation.activity.extra.source",),
+---------------------------------------
+
+com.ichi2.anki.NoteEditor
+action: "notEmpty"
+action: "org.openintents.action.CREATE_FLASHCARD"
+action: "android.intent.action.SEND"
+extra: String-"CONTENTS",int-"CALLER",Extras-,(,String-"android.intent.extra.TEXT",String-"android.intent.extra.SUBJECT",String-"TARGET_TEXT",String-"SOURCE_TEXT",),
+---------------------------------------
+
+com.ichi2.anki.Preferences
+action: "com.ichi2.anki.prefs.gestures"
+action: "com.ichi2.anki.prefs.custom_buttons"
+action: "com.ichi2.anki.prefs.advanced_statistics"
+action: "com.ichi2.anki.prefs.appearance"
+action: "com.ichi2.anki.prefs.custom_sync_server"
+action: "notEmpty"
+action: "com.ichi2.anki.prefs.general"
+action: "com.ichi2.anki.prefs.advanced"
+action: "com.ichi2.anki.prefs.reviewing"
+---------------------------------------
+
+com.ichi2.anki.DeckOptions
+extra: Extras-,(,long-"did",),
+---------------------------------------
+
+com.ichi2.anki.ModelBrowser
+---------------------------------------
+

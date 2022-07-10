@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:31:43.333 11554 11554 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V
+03-10 08:31:43.491 11554 11554 D M_InsDal: Lde/danoeh/antennapod/activity/OpmlFeedChooserActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z

@@ -1,0 +1,4 @@
+--------- beginning of main
+--------- beginning of system
+03-10 07:36:43.062 10954 10954 D M_InsDal: Leu/siacs/conversations/ui/ImportBackupActivity;--->onStart()V
+03-10 07:36:55.334  6883  6883 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

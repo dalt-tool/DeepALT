@@ -1,0 +1,24 @@
+com.integreight.onesheeld.plugin.condition.ConditionActivity
+extra: Bundle-"com.twofortyfouram.locale.intent.extra.BUNDLE",(,boolean-"com.integreight.condition.extra.OUTPUT",int-"com.integreight.condition.extra.PIN_NUMBER",),Extras-,(,),
+---------------------------------------
+
+com.integreight.onesheeld.MainActivity
+extra: String-"url",
+---------------------------------------
+
+com.integreight.onesheeld.plugin.action.ActionActivity
+extra: Bundle-"com.twofortyfouram.locale.intent.extra.BUNDLE",(,boolean-"com.integreight.onesheeld.extra.OUTPUT",int-"com.integreight.onesheeld.extra.PIN_NUMBER",),Extras-,(,),
+---------------------------------------
+
+com.integreight.onesheeld.Tutorial
+extra: Extras-,(,boolean-"isMenu",),Extras-,(,),
+---------------------------------------
+
+com.integreight.onesheeld.shields.controller.utils.NfcUtils
+action: "notEmpty"
+action: "android.nfc.action.TAG_DISCOVERED"
+action: "android.nfc.action.NDEF_DISCOVERED"
+action: "android.nfc.action.TECH_DISCOVERED"
+extra: Parcelable-"android.nfc.extra.TAG",
+---------------------------------------
+

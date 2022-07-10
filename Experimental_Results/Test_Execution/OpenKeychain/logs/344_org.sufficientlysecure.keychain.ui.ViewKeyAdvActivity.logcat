@@ -1,0 +1,10 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:55:22.974 27470 27470 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:55:23.005 27470 27470 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:55:23.027 27470 27470 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/ViewKeyAdvActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:55:23.039 27470 27470 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onResume()V
+03-10 00:55:23.041 27470 27499 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainDatabase$1;--->onOpen(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+03-10 00:55:23.065 27470 27470 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/adapter/PagerTabStripAdapter;--->instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
+03-10 00:55:23.065 27470 27470 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/adapter/PagerTabStripAdapter;--->instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
+03-10 00:55:23.086 27470 27470 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/ViewKeyAdvShareFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V

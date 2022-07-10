@@ -1,0 +1,229 @@
+org.sufficientlysecure.keychain.remote.ui.RemoteDisplayTransferCodeActivity
+extra: Extras-,(,),
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RequestKeyPermissionActivity
+extra: String-"package_name",longArray-"requested_key_ids",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.RedirectImportKeysActivity
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.UploadKeyActivity
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.RetryUploadDialogActivity
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.SettingsKeyServerActivity
+extra: ParcelableArrayList-"key_servers",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RemoteImportKeysActivity
+extra: Parcelable-"data",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.CertifyKeyActivity
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RemoteBackupActivity
+extra: boolean-"export_secret",longArray-"master_key_ids",Parcelable-"data",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.OrbotRequiredDialogActivity
+extra: Parcelable-"extra_crypto_input",boolean-"start_orbot",Parcelable-"messenger",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.QrCodeCaptureActivity
+action: "com.google.zxing.client.android.SCAN"
+extra: boolean-"SCAN_ORIENTATION_LOCKED",int-"SCAN_CAMERA_ID",boolean-"BARCODE_IMAGE_ENABLED",long-"TIMEOUT",String-"PROMPT_MESSAGE",String-"CHARACTER_SET",boolean-"BEEP_ENABLED",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.DecryptActivity
+action: "notEmpty"
+action: "org.sufficientlysecure.keychain.action.DECRYPT_DATA"
+action: "DECRYPT_DATA_CLIPBOARD"
+action: "android.intent.action.SEND_MULTIPLE"
+action: "android.intent.action.VIEW"
+action: "android.intent.action.SEND"
+data: "notEmpty"
+data: "s://com.android.email.attachmentprovider:1/p"
+type: "application/autocrypt-setup"
+extra: String-"android.intent.extra.TEXT",Parcelable-"android.intent.extra.STREAM",ParcelableArrayList-"android.intent.extra.STREAM",StringArrayList-"android.intent.extra.TEXT",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.UsbEventReceiverActivity
+action: "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+extra: Parcelable-"device",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RemoteSecurityProblemDialogActivity
+extra: Serializable-"security_problem",String-"package_name",boolean-"support_override",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.MainActivity
+extra: boolean-"skip_first_time",int-"init_frag",Parcelable-"operation_result",Parcelable-"android.nfc.extra.TAG",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.SelectSignKeyIdActivity
+extra: String-"package_name",byteArray-"package_signature",String-"user_id",Parcelable-"data",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.dialog.RemoteSelectAuthenticationKeyActivity
+extra: Parcelable-"data",String-"package_name",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.ImportKeysActivity
+action: "android.nfc.action.NDEF_DISCOVERED"
+action: "android.intent.action.VIEW"
+action: "android.intent.action.SEND"
+data: "notEmpty"
+data: "s://h:1//.well-known/openpgpkey/hu/"
+extra: Extras-,(,),
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RemoteRegisterActivity
+extra: byteArray-"package_signature",String-"package_name",Parcelable-"data",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.SettingsActivity
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.CertifyFingerprintActivity
+extra: Extras-,(,long-"master_key_id",),
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.EditKeyActivity
+extra: Parcelable-"save_keyring_parcel",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.PassphraseDialogActivity
+extra: Parcelable-"required_input",Extras-,(,),Parcelable-"crypto_input",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.DeleteKeyDialogActivity
+extra: longArray-"extra_delete_master_key_ids",boolean-"extra_has_secret",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.DebugActionsActivity
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.BackupActivity
+extra: boolean-"export_secret",longArray-"master_key_ids",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.DisplayTextActivity
+data: "notEmpty"
+extra: Parcelable-"result",Parcelable-"metadata",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity
+action: "org.sufficientlysecure.keychain.action.IMPORT_KEY_FROM_QR_CODE"
+action: "android.nfc.action.NDEF_DISCOVERED"
+action: "org.sufficientlysecure.keychain.action.SCAN_QR_CODE_IMPORT"
+action: "org.sufficientlysecure.keychain.action.SCAN_QR_CODE_WITH_RESULT"
+data: "notEmpty"
+extra: ParcelableArray-"android.nfc.extra.NDEF_MESSAGES",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.PanicExitActivity
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RemotePassphraseDialogActivity
+extra: Parcelable-"data",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.dialog.RemoteDeduplicateActivity
+extra: String-"package_name",StringArrayList-"duplicate_emails",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.SecurityTokenChangePinOperationActivity
+extra: Parcelable-"change_pin_parcel",Parcelable-"android.nfc.extra.TAG",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity
+data: "notEmpty"
+data: "s://com.android.contacts:1/p"
+extra: long-"master_key_id",Parcelable-"display_result",Parcelable-"android.nfc.extra.TAG",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.SecurityTokenOperationActivity
+extra: Extras-,(,Parcelable-"required_input",),Parcelable-"crypto_input",Parcelable-"android.nfc.extra.TAG",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.EncryptFilesActivity
+action: "android.intent.action.SEND_MULTIPLE"
+action: "android.intent.action.SEND"
+data: "notEmpty"
+type: "notEmpty"
+extra: ParcelableArrayList-"android.intent.extra.STREAM",Parcelable-"android.intent.extra.STREAM",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.ViewKeyAdvActivity
+extra: long-"master_key_id",int-"selected_tab",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.AppSettingsActivity
+extra: String-"package_name",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RemoteSelectPubKeyActivity
+extra: Extras-,(,),boolean-"no_user_ids",StringArrayList-"missing_emails",longArray-"master_key_ids",StringArrayList-"dublicate_emails",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.HelpActivity
+extra: Extras-,(,int-"selected_tab",),Extras-,(,),
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.SettingsSmartPGPAuthoritiesActivity
+extra: StringArray-"smartpgp_authorities",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.CreateKeyActivity
+action: "android.nfc.action.NDEF_DISCOVERED"
+extra: boolean-"first_time",String-"email",boolean-"create_yubi_key",Parcelable-"token_info",Parcelable-"android.nfc.extra.TAG",String-"name",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RemoteSecurityTokenOperationActivity
+extra: Extras-,(,Parcelable-"data",),Parcelable-"android.nfc.extra.TAG",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.LogDisplayActivity
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.EncryptTextActivity
+action: "android.intent.action.PROCESS_TEXT"
+action: "android.intent.action.SEND"
+type: "notEmpty"
+type: "text/plain"
+extra: Extras-,(,),
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.QrCodeViewActivity
+extra: long-"master_key_id",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.ShowNfcSweetspotActivity
+extra: Parcelable-"android.nfc.extra.TAG",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.linked.LinkedIdWizard
+extra: Extras-,(,long-"master_key_id",),
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.SafeSlingerActivity
+extra: long-"master_key_id",
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.RemoteErrorActivity
+extra: String-"error_message",
+---------------------------------------
+
+org.sufficientlysecure.keychain.ui.PanicResponderActivity
+action: "info.guardianproject.panic.action.TRIGGER"
+---------------------------------------
+
+org.sufficientlysecure.keychain.remote.ui.dialog.RemoteSelectIdKeyActivity
+extra: String-"user_id",byteArray-"package_signature",boolean-"show_autocrypt_hint",String-"package_name",
+---------------------------------------
+

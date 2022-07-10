@@ -1,0 +1,8 @@
+--------- beginning of main
+--------- beginning of system
+03-09 23:31:21.916  8895  8895 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-09 23:31:21.936  8895  8895 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/QrCodeCaptureActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:31:21.958  8895  8895 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/QrCodeCaptureActivity;--->onResume()V
+03-09 23:31:22.092  8895  8895 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/QrCodeCaptureActivity;--->onPause()V
+03-09 23:31:22.550  8895  8895 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V
+03-09 23:31:22.551  8895  8895 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/QrCodeCaptureActivity;--->onDestroy()V

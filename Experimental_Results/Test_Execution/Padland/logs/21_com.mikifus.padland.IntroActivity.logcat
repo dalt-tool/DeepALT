@@ -1,0 +1,5 @@
+--------- beginning of system
+--------- beginning of main
+03-10 01:29:41.323 15520 15520 D M_InsDal: Lcom/mikifus/padland/PadlandApp;--->onCreate()V
+03-10 01:29:41.345 15520 15520 D M_InsDal: Lcom/mikifus/padland/IntroActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:29:41.444 15520 15520 D M_InsDal: Lcom/mikifus/padland/IntroActivity;--->onSlideChanged(Landroid/support/v4/app/Fragment;Landroid/support/v4/app/Fragment;)V

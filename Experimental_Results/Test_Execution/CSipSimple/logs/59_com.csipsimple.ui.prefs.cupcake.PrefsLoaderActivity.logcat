@@ -1,0 +1,53 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:50:51.864 26821 26821 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><clinit>()V
+03-10 01:50:51.864 26821 26821 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><init>()V
+03-10 01:50:51.864 26821 26821 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->onCreate()Z
+03-10 01:50:51.864 26821 26821 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><clinit>()V
+03-10 01:50:51.865 26821 26821 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$1;---><init>()V
+03-10 01:50:51.865 26821 26821 D M_InsDal: Lcom/csipsimple/utils/CustomDistribution;--->getUserAgent()Ljava/lang/String;
+03-10 01:50:51.865 26821 26821 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$2;---><init>()V
+03-10 01:50:51.866 26821 26821 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$3;---><init>()V
+03-10 01:50:51.867 26821 26821 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><init>(Landroid/content/Context;)V
+03-10 01:50:51.867 26821 26821 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->needUpgrade()Ljava/lang/Integer;
+03-10 01:50:51.868 26821 26821 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;--->getCurrentPackageInfos(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
+03-10 01:50:51.872 26821 26821 D M_InsDal: Lcom/csipsimple/utils/Log;---><clinit>()V
+03-10 01:50:51.872 26821 26821 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:50:51.872 26821 26821 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 01:50:51.872 26821 26821 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->getApiLevel()I
+03-10 01:50:51.885 26821 26821 D M_InsDal: Lcom/csipsimple/ui/prefs/cupcake/PrefsLoaderActivity;---><init>()V
+03-10 01:50:51.885 26821 26821 D M_InsDal: Lcom/csipsimple/ui/prefs/GenericPrefs;---><init>()V
+--------- beginning of crash
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: Process: com.csipsimple, PID: 26821
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.csipsimple/com.csipsimple.ui.prefs.cupcake.PrefsLoaderActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.csipsimple.MyParcelable
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.csipsimple.MyParcelable
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.os.BaseBundle.getBoolean(BaseBundle.java:903)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.content.Intent.getBooleanExtra(Intent.java:7925)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.preference.PreferenceActivity.onIsHidingHeaders(PreferenceActivity.java:763)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.preference.PreferenceActivity.onCreate(PreferenceActivity.java:569)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at com.csipsimple.ui.prefs.GenericPrefs.onCreate(GenericPrefs.java:51)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at com.csipsimple.ui.prefs.cupcake.PrefsLoaderActivity.onCreate(PrefsLoaderActivity.java:45)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 01:50:51.925 26821 26821 E AndroidRuntime: 	... 11 more

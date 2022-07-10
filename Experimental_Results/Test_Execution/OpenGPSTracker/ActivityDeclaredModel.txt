@@ -1,0 +1,77 @@
+app_name: OpenGPSTracker
+package_name: nl.sogeti.android.gpstracker
+
+act_name: nl.sogeti.android.gpstracker.viewer.ApplicationPreferenceActivity
+permission: 
+
+act_name: nl.sogeti.android.gpstracker.actions.NameTrack
+permission: 
+
+act_name: nl.sogeti.android.gpstracker.viewer.LoggerMap
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+mime: "vnd.android.cursor.item/vnd.nl.sogeti.android.track" 
+scheme: ["content"]://host: ["nl.sogeti.android.gpstracker", host]: [port]/[path]
+
+act_name: nl.sogeti.android.gpstracker.actions.InsertNote
+permission: 
+
+act_name: nl.sogeti.android.gpstracker.viewer.TrackList
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.SEARCH" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" 
+scheme: ["file"]://host: [host, "*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "text/xml" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: nl.sogeti.android.gpstracker.actions.Statistics
+permission: 
+
+act_name: nl.sogeti.android.gpstracker.actions.ShareTrack
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.RUN" 
+category: "android.intent.category.DEFAULT" 
+mime: "vnd.android.cursor.item/vnd.nl.sogeti.android.track" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: nl.sogeti.android.gpstracker.oauth.PrepareRequestTokenActivity
+mExported
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["x-oauthflow-opengpstracker"]://host: ["callback"]: [port]/[path]
+
+act_name: nl.sogeti.android.gpstracker.actions.DescribeTrack
+permission: 
+
+act_name: nl.sogeti.android.gpstracker.actions.ControlTracking
+permission: 
+
+act_name: nl.sogeti.android.gpstracker.viewer.TracksLiveFolder
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.CREATE_LIVE_FOLDER" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]

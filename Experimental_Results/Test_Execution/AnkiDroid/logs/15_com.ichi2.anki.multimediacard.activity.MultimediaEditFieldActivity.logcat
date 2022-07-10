@@ -1,0 +1,339 @@
+--------- beginning of main
+--------- beginning of system
+03-10 03:21:59.704  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:21:59.704  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:21:59.708  6670  6670 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:21:59.708  6670  6670 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:21:59.708  6670  6670 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:21:59.708  6670  6670 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:21:59.708  6670  6670 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:21:59.713  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:21:59.713  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:21:59.720  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:21:59.772  6670  6670 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:21:59.772  6670  6670 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:21:59.772  6670  6670 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:21:59.772  6670  6670 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:21:59.777  6670  6670 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;---><init>()V
+03-10 03:21:59.777  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;---><init>()V
+03-10 03:21:59.777  6670  6670 D M_InsDal: Lcom/ichi2/anki/dialogs/DialogHandler;---><init>(Lcom/ichi2/anki/AnkiActivity;)V
+03-10 03:21:59.784  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:21:59.784  6670  6670 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:21:59.787  6670  6670 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:21:59.804  6670  6670 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->recreateEditingUi()V
+03-10 03:21:59.804  6670  6670 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->getInstance()Lcom/ichi2/anki/multimediacard/fields/IControllerFactory;
+03-10 03:21:59.804  6670  6670 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;---><init>()V
+03-10 03:21:59.804  6670  6670 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->createControllerForField(Lcom/ichi2/anki/multimediacard/fields/IField;)Lcom/ichi2/anki/multimediacard/fields/IFieldController;
+--------- beginning of crash
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: Process: com.ichi2.anki, PID: 6670
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.fields.BasicControllerFactory.createControllerForField(BasicControllerFactory.java:35)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.recreateEditingUi(MultimediaEditFieldActivity.java:120)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.onCreate(MultimediaEditFieldActivity.java:98)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:21:59.806  6670  6670 E AndroidRuntime: 	... 11 more
+03-10 03:21:59.993  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:21:59.993  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:21:59.996  6737  6737 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:21:59.996  6737  6737 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:21:59.996  6737  6737 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:21:59.996  6737  6737 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:21:59.996  6737  6737 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:21:59.997  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:21:59.997  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.001  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.053  6737  6737 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:22:00.054  6737  6737 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:22:00.054  6737  6737 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:22:00.054  6737  6737 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:22:00.064  6737  6737 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;---><init>()V
+03-10 03:22:00.064  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;---><init>()V
+03-10 03:22:00.064  6737  6737 D M_InsDal: Lcom/ichi2/anki/dialogs/DialogHandler;---><init>(Lcom/ichi2/anki/AnkiActivity;)V
+03-10 03:22:00.067  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:00.067  6737  6737 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.070  6737  6737 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:00.087  6737  6737 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->recreateEditingUi()V
+03-10 03:22:00.087  6737  6737 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->getInstance()Lcom/ichi2/anki/multimediacard/fields/IControllerFactory;
+03-10 03:22:00.087  6737  6737 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;---><init>()V
+03-10 03:22:00.087  6737  6737 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->createControllerForField(Lcom/ichi2/anki/multimediacard/fields/IField;)Lcom/ichi2/anki/multimediacard/fields/IFieldController;
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: Process: com.ichi2.anki, PID: 6737
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.fields.BasicControllerFactory.createControllerForField(BasicControllerFactory.java:35)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.recreateEditingUi(MultimediaEditFieldActivity.java:120)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.onCreate(MultimediaEditFieldActivity.java:98)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:22:00.089  6737  6737 E AndroidRuntime: 	... 11 more
+03-10 03:22:00.234  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:22:00.234  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:22:00.236  6785  6785 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:22:00.236  6785  6785 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:22:00.236  6785  6785 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:22:00.237  6785  6785 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:22:00.237  6785  6785 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:22:00.238  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:22:00.238  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.241  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.292  6785  6785 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:22:00.292  6785  6785 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:22:00.292  6785  6785 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:22:00.292  6785  6785 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:22:00.297  6785  6785 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;---><init>()V
+03-10 03:22:00.297  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;---><init>()V
+03-10 03:22:00.298  6785  6785 D M_InsDal: Lcom/ichi2/anki/dialogs/DialogHandler;---><init>(Lcom/ichi2/anki/AnkiActivity;)V
+03-10 03:22:00.301  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:00.301  6785  6785 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.304  6785  6785 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:00.321  6785  6785 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->recreateEditingUi()V
+03-10 03:22:00.321  6785  6785 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->getInstance()Lcom/ichi2/anki/multimediacard/fields/IControllerFactory;
+03-10 03:22:00.321  6785  6785 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;---><init>()V
+03-10 03:22:00.321  6785  6785 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->createControllerForField(Lcom/ichi2/anki/multimediacard/fields/IField;)Lcom/ichi2/anki/multimediacard/fields/IFieldController;
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: Process: com.ichi2.anki, PID: 6785
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.fields.BasicControllerFactory.createControllerForField(BasicControllerFactory.java:35)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.recreateEditingUi(MultimediaEditFieldActivity.java:120)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.onCreate(MultimediaEditFieldActivity.java:98)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:22:00.322  6785  6785 E AndroidRuntime: 	... 11 more
+03-10 03:22:00.480  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:22:00.480  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:22:00.482  6833  6833 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:22:00.482  6833  6833 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:22:00.482  6833  6833 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:22:00.482  6833  6833 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:22:00.482  6833  6833 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:22:00.483  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:22:00.483  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.486  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:22:00.487  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:22:00.487  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:22:00.487  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:22:00.487  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.487  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.487  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.487  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.487  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.537  6833  6833 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:22:00.537  6833  6833 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:22:00.537  6833  6833 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:22:00.537  6833  6833 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:22:00.543  6833  6833 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;---><init>()V
+03-10 03:22:00.543  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;---><init>()V
+03-10 03:22:00.543  6833  6833 D M_InsDal: Lcom/ichi2/anki/dialogs/DialogHandler;---><init>(Lcom/ichi2/anki/AnkiActivity;)V
+03-10 03:22:00.546  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:00.546  6833  6833 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.549  6833  6833 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:00.565  6833  6833 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->recreateEditingUi()V
+03-10 03:22:00.566  6833  6833 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->getInstance()Lcom/ichi2/anki/multimediacard/fields/IControllerFactory;
+03-10 03:22:00.566  6833  6833 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;---><init>()V
+03-10 03:22:00.566  6833  6833 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->createControllerForField(Lcom/ichi2/anki/multimediacard/fields/IField;)Lcom/ichi2/anki/multimediacard/fields/IFieldController;
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: Process: com.ichi2.anki, PID: 6833
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.fields.BasicControllerFactory.createControllerForField(BasicControllerFactory.java:35)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.recreateEditingUi(MultimediaEditFieldActivity.java:120)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.onCreate(MultimediaEditFieldActivity.java:98)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:22:00.567  6833  6833 E AndroidRuntime: 	... 11 more
+03-10 03:22:00.721  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:22:00.721  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:22:00.723  6884  6884 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:22:00.723  6884  6884 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:22:00.723  6884  6884 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:22:00.723  6884  6884 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:22:00.723  6884  6884 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:22:00.724  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:22:00.724  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.727  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:22:00.727  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:22:00.727  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:22:00.728  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:22:00.728  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.728  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.728  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.728  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.728  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.778  6884  6884 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:22:00.778  6884  6884 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:22:00.778  6884  6884 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:22:00.778  6884  6884 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:22:00.783  6884  6884 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;---><init>()V
+03-10 03:22:00.783  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;---><init>()V
+03-10 03:22:00.783  6884  6884 D M_InsDal: Lcom/ichi2/anki/dialogs/DialogHandler;---><init>(Lcom/ichi2/anki/AnkiActivity;)V
+03-10 03:22:00.786  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:00.786  6884  6884 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.789  6884  6884 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:00.806  6884  6884 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->recreateEditingUi()V
+03-10 03:22:00.806  6884  6884 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->getInstance()Lcom/ichi2/anki/multimediacard/fields/IControllerFactory;
+03-10 03:22:00.806  6884  6884 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;---><init>()V
+03-10 03:22:00.806  6884  6884 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->createControllerForField(Lcom/ichi2/anki/multimediacard/fields/IField;)Lcom/ichi2/anki/multimediacard/fields/IFieldController;
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: Process: com.ichi2.anki, PID: 6884
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.fields.BasicControllerFactory.createControllerForField(BasicControllerFactory.java:35)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.recreateEditingUi(MultimediaEditFieldActivity.java:120)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.onCreate(MultimediaEditFieldActivity.java:98)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:22:00.807  6884  6884 E AndroidRuntime: 	... 11 more
+03-10 03:22:00.966  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><clinit>()V
+03-10 03:22:00.966  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;---><init>()V
+03-10 03:22:00.968  6931  6931 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><clinit>()V
+03-10 03:22:00.968  6931  6931 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract$Note;---><clinit>()V
+03-10 03:22:00.968  6931  6931 D M_InsDal: Lcom/ichi2/anki/FlashCardsContract;---><clinit>()V
+03-10 03:22:00.969  6931  6931 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;---><init>()V
+03-10 03:22:00.969  6931  6931 D M_InsDal: Lcom/ichi2/anki/provider/CardContentProvider;--->onCreate()Z
+03-10 03:22:00.970  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->onCreate()V
+03-10 03:22:00.970  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><clinit>()V
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp$ProductionCrashReportingTree;---><init>()V
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setAcraReportingMode(Ljava/lang/String;)V
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->setLanguage(Ljava/lang/String;)V
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:00.973  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getInstance()Lcom/ichi2/anki/AnkiDroidApp;
+03-10 03:22:01.024  6931  6931 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->hasStorageAccessPermission(Landroid/content/Context;)Z
+03-10 03:22:01.025  6931  6931 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getCurrentAnkiDroidDirectory(Landroid/content/Context;)Ljava/lang/String;
+03-10 03:22:01.025  6931  6931 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->getDefaultAnkiDroidDirectory()Ljava/lang/String;
+03-10 03:22:01.025  6931  6931 D M_InsDal: Lcom/ichi2/anki/CollectionHelper;--->initializeAnkiDroidDirectory(Ljava/lang/String;)V
+03-10 03:22:01.029  6931  6931 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;---><init>()V
+03-10 03:22:01.029  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;---><init>()V
+03-10 03:22:01.030  6931  6931 D M_InsDal: Lcom/ichi2/anki/dialogs/DialogHandler;---><init>(Lcom/ichi2/anki/AnkiActivity;)V
+03-10 03:22:01.033  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:01.033  6931  6931 D M_InsDal: Lcom/ichi2/anki/AnkiDroidApp;--->getSharedPrefs(Landroid/content/Context;)Landroid/content/SharedPreferences;
+03-10 03:22:01.035  6931  6931 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 03:22:01.052  6931  6931 D M_InsDal: Lcom/ichi2/anki/multimediacard/activity/MultimediaEditFieldActivity;--->recreateEditingUi()V
+03-10 03:22:01.052  6931  6931 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->getInstance()Lcom/ichi2/anki/multimediacard/fields/IControllerFactory;
+03-10 03:22:01.052  6931  6931 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;---><init>()V
+03-10 03:22:01.052  6931  6931 D M_InsDal: Lcom/ichi2/anki/multimediacard/fields/BasicControllerFactory;--->createControllerForField(Lcom/ichi2/anki/multimediacard/fields/IField;)Lcom/ichi2/anki/multimediacard/fields/IFieldController;
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: Process: com.ichi2.anki, PID: 6931
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'com.ichi2.anki.multimediacard.fields.EFieldType com.ichi2.anki.multimediacard.fields.IField.getType()' on a null object reference
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.fields.BasicControllerFactory.createControllerForField(BasicControllerFactory.java:35)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.recreateEditingUi(MultimediaEditFieldActivity.java:120)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at com.ichi2.anki.multimediacard.activity.MultimediaEditFieldActivity.onCreate(MultimediaEditFieldActivity.java:98)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 03:22:01.054  6931  6931 E AndroidRuntime: 	... 11 more

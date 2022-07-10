@@ -1,0 +1,17 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:10:14.286 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.291 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.293 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.296 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.301 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onStart()V
+03-10 08:10:14.302 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onPostCreate(Landroid/os/Bundle;)V
+03-10 08:10:14.302 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onResume()V
+03-10 08:10:14.321 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.322 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.335 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.344 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.346 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.351 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.393 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+03-10 08:10:14.394 30138 30138 D M_InsDal: Ldev/ukanth/ufirewall/preferences/PreferencesActivity;--->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;

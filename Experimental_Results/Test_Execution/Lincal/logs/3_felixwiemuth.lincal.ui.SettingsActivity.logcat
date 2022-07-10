@@ -1,0 +1,27 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:31:48.966 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/Main;---><clinit>()V
+03-10 04:31:48.966 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/Main;---><init>()V
+03-10 04:31:48.966 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/Main;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:31:48.966 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:31:48.966 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:31:48.968 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:31:48.968 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:31:48.970 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/Main;--->onCreate()V
+03-10 04:31:48.987 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/SettingsActivity;---><init>()V
+03-10 04:31:48.987 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;---><init>()V
+03-10 04:31:48.989 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->attachBaseContext(Landroid/content/Context;)V
+03-10 04:31:48.989 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->onAttach(Landroid/content/Context;)Landroid/content/Context;
+03-10 04:31:48.989 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:31:48.989 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->setLocale(Landroid/content/Context;Ljava/lang/String;)Landroid/content/Context;
+03-10 04:31:48.989 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->updateResources(Landroid/content/Context;Ljava/util/Locale;)Landroid/content/Context;
+03-10 04:31:48.998 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:31:48.998 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:31:48.998 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/SettingsActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:31:48.998 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/SettingsFragment;---><init>()V
+03-10 04:31:48.999 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/SettingsFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:31:49.026 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/SettingsFragment;--->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+03-10 04:31:49.031 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onResume()V
+03-10 04:31:49.032 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/LocaleHelper;--->getPersistedLocale(Landroid/content/Context;)Ljava/lang/String;
+03-10 04:31:49.032 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/SettingsFragment;--->onResume()V
+03-10 04:31:49.103 22649 22649 D M_InsDal: Lfelixwiemuth/lincal/ui/LinCalMenuAppCompatActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z

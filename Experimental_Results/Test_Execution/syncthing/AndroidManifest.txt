@@ -1,0 +1,167 @@
+manifest
+- package: com.nutomic.syncthingandroid
+- versionName: 1.2.0
+- versionCode: 4180
+	uses-sdk
+	- minSdkVersion: 16
+	- targetSdkVersion: 26
+	uses-feature
+	- name: android.software.leanback
+	- required: false
+	uses-feature
+	- name: android.hardware.touchscreen
+	- required: false
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.ACCESS_WIFI_STATE
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.READ_SYNC_SETTINGS
+	uses-permission
+	- name: android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+	uses-permission
+	- name: android.permission.ACCESS_COARSE_LOCATION
+	application
+	- installLocation: 1
+	- supportsRtl: true
+	- allowBackup: false
+	- fullBackupContent: false
+	- icon: 2131558402
+	- name: com.nutomic.syncthingandroid.SyncthingApp
+	- description: 2131689511
+	- banner: 2131230811
+	- theme: 2131755303
+	- label: 2131689512
+		activity
+		- name: com.nutomic.syncthingandroid.activities.FirstStartActivity
+		- launchMode: 3
+		- label: 2131689512
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LEANBACK_LAUNCHER
+		activity
+		- name: com.nutomic.syncthingandroid.activities.MainActivity
+		- launchMode: 2
+		- label: 2131689512
+		activity
+		- name: com.nutomic.syncthingandroid.activities.WebGuiActivity
+		- configChanges: 1184
+		- label: 2131689829
+		- parentActivityName: com.nutomic.syncthingandroid.activities.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .activities.MainActivity
+		activity
+		- name: com.nutomic.syncthingandroid.activities.ShareActivity
+		- windowSoftInputMode: 16
+		- excludeFromRecents: true
+		- label: 2131689732
+		- taskAffinity: 
+			intent-filter
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: */*
+			intent-filter
+				action
+				- name: android.intent.action.SEND_MULTIPLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: */*
+		activity
+		- name: com.nutomic.syncthingandroid.activities.LogActivity
+		- parentActivityName: com.nutomic.syncthingandroid.activities.SettingsActivity
+			intent-filter
+				action
+				- name: .activities.LogActivity
+				category
+				- name: android.intent.category.DEFAULT
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .activities.SettingsActivity
+		activity
+		- name: com.nutomic.syncthingandroid.activities.FolderPickerActivity
+		- label: 2131689608
+			meta-data
+			- name: android.support.UI_OPTIONS
+			- value: splitActionBarWhenNarrow
+		activity
+		- name: com.nutomic.syncthingandroid.activities.RestartActivity
+		- launchMode: 1
+		- theme: 2131755310
+		activity
+		- name: com.nutomic.syncthingandroid.activities.DeviceActivity
+		- parentActivityName: com.nutomic.syncthingandroid.activities.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .activities.MainActivity
+		activity
+		- name: com.nutomic.syncthingandroid.activities.FolderActivity
+		- parentActivityName: com.nutomic.syncthingandroid.activities.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .activities.MainActivity
+		activity
+		- name: com.nutomic.syncthingandroid.activities.SettingsActivity
+		- parentActivityName: com.nutomic.syncthingandroid.activities.MainActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .activities.MainActivity
+		service
+		- name: com.nutomic.syncthingandroid.service.SyncthingService
+		receiver
+		- name: com.nutomic.syncthingandroid.receiver.BootReceiver
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.intent.action.MY_PACKAGE_REPLACED
+		receiver
+		- name: com.nutomic.syncthingandroid.receiver.AppConfigReceiver
+			intent-filter
+				action
+				- name: com.nutomic.syncthingandroid.action.START
+				action
+				- name: com.nutomic.syncthingandroid.action.STOP
+		activity
+		- name: com.nutomic.syncthingandroid.activities.FolderTypeDialogActivity
+		- theme: 2131755307
+		- label: 2131689612
+		- parentActivityName: com.nutomic.syncthingandroid.activities.FolderActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: com.nutomic.syncthingandroid.activities.FolderActivity
+		activity
+		- name: com.nutomic.syncthingandroid.activities.PullOrderDialogActivity
+		- theme: 2131755307
+		- label: 2131689682
+		- parentActivityName: com.nutomic.syncthingandroid.activities.FolderActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: com.nutomic.syncthingandroid.activities.FolderActivity
+		activity
+		- name: com.nutomic.syncthingandroid.activities.VersioningDialogActivity
+		- theme: 2131755307
+		- label: 2131689596
+		- parentActivityName: com.nutomic.syncthingandroid.activities.FolderActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: com.nutomic.syncthingandroid.activities.FolderActivity

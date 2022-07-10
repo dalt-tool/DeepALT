@@ -1,0 +1,247 @@
+manifest
+- package: dev.ukanth.ufirewall
+- platformBuildVersionName: 3.1.0
+- versionName: 3.1.0
+- platformBuildVersionCode: 17111
+- versionCode: 17111
+	uses-sdk
+	- minSdkVersion: 21
+	- targetSdkVersion: 26
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.ACCESS_WIFI_STATE
+	uses-permission
+	- name: android.permission.USE_FINGERPRINT
+	supports-screens
+	- normalScreens: true
+	- smallScreens: true
+	- anyDensity: true
+	- largeScreens: true
+	- xlargeScreens: true
+	application
+	- supportsRtl: true
+	- allowBackup: false
+	- hardwareAccelerated: true
+	- icon: 2131558400
+	- name: dev.ukanth.ufirewall.util.G
+	- launchMode: 1
+	- theme: 2131820576
+	- label: 2131755090
+	- largeHeap: true
+	- resizeableActivity: true
+		meta-data
+		- name: xposedmodule
+		- value: true
+		meta-data
+		- name: xposeddescription
+		- value: Xposed related fixes for AFWall+
+		meta-data
+		- name: xposedminversion
+		- value: 53
+		activity
+		- name: dev.ukanth.ufirewall.MainActivity
+		- configChanges: 1460
+		- label: 2131755090
+		- hardwareAccelerated: true
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.MULTIWINDOW_LAUNCHER
+			meta-data
+			- name: android.app.shortcuts
+			- resource: 2131951625
+		activity
+		- name: dev.ukanth.ufirewall.preferences.PreferencesActivity
+		- configChanges: 420
+		- hardwareAccelerated: true
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: dev.ukanth.ufirewall.MainActivity
+		activity
+		- name: dev.ukanth.ufirewall.activity.HelpActivity
+		- configChanges: 1188
+		- hardwareAccelerated: true
+		activity
+		- name: dev.ukanth.ufirewall.activity.RulesActivity
+		- configChanges: 420
+		activity
+		- name: dev.ukanth.ufirewall.activity.ProfileActivity
+		- configChanges: 420
+		activity
+		- name: dev.ukanth.ufirewall.activity.AppDetailActivity
+		- configChanges: 420
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: dev.ukanth.ufirewall.MainActivity
+		activity
+		- name: dev.ukanth.ufirewall.activity.LogActivity
+		- configChanges: 420
+		activity
+		- name: dev.ukanth.ufirewall.activity.OldLogActivity
+		- configChanges: 420
+		activity
+		- name: dev.ukanth.ufirewall.activity.LogDetailActivity
+		- configChanges: 420
+		activity
+		- name: dev.ukanth.ufirewall.activity.DataDumpActivity
+		- configChanges: 420
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: dev.ukanth.ufirewall.MainActivity
+		activity
+		- name: dev.ukanth.ufirewall.widget.ToggleWidgetActivity
+		- launchMode: 3
+		- theme: 2131820869
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		activity
+		- name: dev.ukanth.ufirewall.widget.ToggleWidgetOldActivity
+		- launchMode: 3
+		- theme: 2131820869
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		activity
+		- name: dev.ukanth.ufirewall.activity.CustomScriptActivity
+		- configChanges: 420
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: dev.ukanth.ufirewall.MainActivity
+		receiver
+		- name: dev.ukanth.ufirewall.broadcast.OnBootReceiver
+			intent-filter
+			- priority: 500
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.intent.action.QUICKBOOT_POWERON
+				action
+				- name: android.intent.action.MEDIA_MOUNTED
+				category
+				- name: android.intent.category.DEFAULT
+		service
+		- name: dev.ukanth.ufirewall.service.ApplyOnBootService
+		service
+		- exported: true
+		- name: dev.ukanth.ufirewall.service.FirewallService
+		- launchMode: 1
+		service
+		- icon: 2131230896
+		- name: dev.ukanth.ufirewall.service.ToggleTileService
+		- permission: android.permission.BIND_QUICK_SETTINGS_TILE
+		- label: 2131755533
+			intent-filter
+				action
+				- name: android.service.quicksettings.action.QS_TILE
+		receiver
+		- icon: 2131230905
+		- name: dev.ukanth.ufirewall.widget.StatusWidget
+		- label: 2131755533
+		- enabled: true
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951620
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: dev.ukanth.ufirewall.intent.action.STATUS_CHANGED
+				action
+				- name: dev.ukanth.ufirewall.intent.action.TOGGLE_REQUEST
+		receiver
+		- icon: 2131230903
+		- name: dev.ukanth.ufirewall.widget.ToggleWidget
+		- label: 2131755531
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2131951626
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: dev.ukanth.ufirewall.intent.action.STATUS_CHANGED
+				action
+				- name: dev.ukanth.ufirewall.intent.action.TOGGLE_REQUEST
+		receiver
+		- name: dev.ukanth.ufirewall.widget.ToggleWidgetOld
+		- label: 2131755532
+			meta-data
+			- icon: 2131230904
+			- name: android.appwidget.provider
+			- resource: 2131951627
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: dev.ukanth.ufirewall.intent.action.STATUS_CHANGED
+				action
+				- name: dev.ukanth.ufirewall.intent.action.TOGGLE_REQUEST
+		activity
+		- exported: false
+		- screenOrientation: 2
+		- name: haibison.android.lockpattern.LockPatternActivity
+		- configChanges: 3504
+		- theme: 2131820561
+		- excludeFromRecents: true
+		activity
+		- exported: true
+		- windowSoftInputMode: 16
+		- icon: 2131230849
+		- name: dev.ukanth.ufirewall.plugin.LocaleEdit
+		- label: 2131755481
+		- uiOptions: 1
+			intent-filter
+				action
+				- name: com.twofortyfouram.locale.intent.action.EDIT_SETTING
+		receiver
+		- exported: true
+		- name: dev.ukanth.ufirewall.plugin.FireReceiver
+			intent-filter
+				action
+				- name: com.twofortyfouram.locale.intent.action.FIRE_SETTING
+		service
+		- exported: false
+		- name: dev.ukanth.ufirewall.service.RootShellService
+		service
+		- name: dev.ukanth.ufirewall.service.LogService
+		- label: AFWallLogService
+		- enabled: true
+		uses-library
+		- name: com.sec.android.app.multiwindow
+		- required: false
+		meta-data
+		- name: com.sec.android.multiwindow.DEFAULT_SIZE_W
+		- resource: 2131165268
+		meta-data
+		- name: com.sec.android.multiwindow.DEFAULT_SIZE_H
+		- resource: 2131165267
+		meta-data
+		- name: com.sec.android.multiwindow.MINIMUM_SIZE_W
+		- resource: 2131165270
+		meta-data
+		- name: com.sec.android.multiwindow.MINIMUM_SIZE_H
+		- resource: 2131165269
+		provider
+		- exported: true
+		- name: dev.ukanth.ufirewall.preferences.ShareProfilePreference
+		- authorities: dev.ukanth.ufirewall
+		service
+		- exported: false
+		- name: dev.ukanth.ufirewall.service.RulesApplyService
+		provider
+		- exported: true
+		- name: dev.ukanth.ufirewall.util.XPreferenceProvider
+		- authorities: dev.ukanth.ufirewall

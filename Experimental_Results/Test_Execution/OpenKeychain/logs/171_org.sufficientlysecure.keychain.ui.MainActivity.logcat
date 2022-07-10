@@ -1,0 +1,15 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:05:55.680 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:05:55.697 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/MainActivity;---><clinit>()V
+03-10 00:05:55.703 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:05:55.715 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseSecurityTokenActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:05:55.717 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/MainActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:05:55.769 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/RecyclerFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 00:05:55.769 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/KeyListFragment;--->onActivityCreated(Landroid/os/Bundle;)V
+03-10 00:05:55.771 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/KeyListFragment;--->onStart()V
+03-10 00:05:55.773 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseSecurityTokenActivity;--->onStart()V
+03-10 00:05:55.775 28987 29026 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainDatabase$1;--->onOpen(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+03-10 00:05:55.776 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onResume()V
+03-10 00:05:55.776 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseSecurityTokenActivity;--->onResume()V
+03-10 00:05:55.854 28987 28987 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/KeyListFragment$3;--->onPostExecute(Ljava/lang/Boolean;)V

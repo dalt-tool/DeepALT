@@ -1,0 +1,15 @@
+--------- beginning of main
+--------- beginning of system
+03-10 05:11:59.346 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 05:11:59.459 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:11:59.459 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/activities/MedicinesActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:11:59.501 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onResume()V
+03-10 05:11:59.512 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/activities/MedicinesActivity;--->onPause()V
+03-10 05:11:59.526 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment;--->onAttach(Landroid/app/Activity;)V
+03-10 05:11:59.526 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:11:59.606 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment;--->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+03-10 05:11:59.616 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:11:59.616 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/activities/MedicinesSearchActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 05:11:59.654 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onResume()V
+03-10 05:11:59.654 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/activities/MedicinesSearchActivity;--->onResume()V
+03-10 05:11:59.742 20688 20688 D M_InsDal: Les/usc/citius/servando/calendula/fragments/MedicineCreateOrEditFragment;--->onSaveInstanceState(Landroid/os/Bundle;)V

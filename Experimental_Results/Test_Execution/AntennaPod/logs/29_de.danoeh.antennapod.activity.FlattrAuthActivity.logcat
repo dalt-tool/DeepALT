@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 08:29:08.625 10235 10235 D M_InsDal: Lde/danoeh/antennapod/PodcastApp;--->onCreate()V
+03-10 08:29:08.698 10235 10235 D M_InsDal: Lde/danoeh/antennapod/activity/FlattrAuthActivity;--->onResume()V
+03-10 08:29:08.700 10235 10235 D M_InsDal: Lde/danoeh/antennapod/core/asynctask/FlattrTokenFetcher;--->onPreExecute()V
+03-10 08:29:08.858 10235 10235 D M_InsDal: Lde/danoeh/antennapod/activity/FlattrAuthActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z

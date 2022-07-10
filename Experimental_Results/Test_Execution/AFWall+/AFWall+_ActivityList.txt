@@ -1,0 +1,14 @@
+dev.ukanth.ufirewall.activity.AppDetailActivity
+dev.ukanth.ufirewall.activity.LogDetailActivity
+dev.ukanth.ufirewall.activity.LogActivity
+dev.ukanth.ufirewall.widget.ToggleWidgetActivity
+dev.ukanth.ufirewall.preferences.PreferencesActivity
+dev.ukanth.ufirewall.activity.HelpActivity
+dev.ukanth.ufirewall.MainActivity
+dev.ukanth.ufirewall.widget.ToggleWidgetOldActivity
+dev.ukanth.ufirewall.activity.RulesActivity
+dev.ukanth.ufirewall.activity.OldLogActivity
+dev.ukanth.ufirewall.activity.CustomScriptActivity
+dev.ukanth.ufirewall.activity.DataDumpActivity
+dev.ukanth.ufirewall.activity.ProfileActivity
+dev.ukanth.ufirewall.plugin.LocaleEdit

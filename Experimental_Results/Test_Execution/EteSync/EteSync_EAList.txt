@@ -1,0 +1,3 @@
+com.etesync.syncadapter.ui.DebugInfoActivity
+com.etesync.syncadapter.ui.setup.LoginActivity
+com.etesync.syncadapter.ui.AccountsActivity

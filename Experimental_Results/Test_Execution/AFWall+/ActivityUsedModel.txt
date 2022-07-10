@@ -1,0 +1,48 @@
+dev.ukanth.ufirewall.activity.AppDetailActivity
+extra: int-"appid",String-"package",
+---------------------------------------
+
+dev.ukanth.ufirewall.activity.LogDetailActivity
+extra: int-"DATA",
+---------------------------------------
+
+dev.ukanth.ufirewall.activity.LogActivity
+extra: Extras-,(,String-"validate",),
+---------------------------------------
+
+dev.ukanth.ufirewall.widget.ToggleWidgetActivity
+---------------------------------------
+
+dev.ukanth.ufirewall.preferences.PreferencesActivity
+extra: Extras-,(,String-"validate",),
+---------------------------------------
+
+dev.ukanth.ufirewall.activity.HelpActivity
+---------------------------------------
+
+dev.ukanth.ufirewall.MainActivity
+---------------------------------------
+
+dev.ukanth.ufirewall.widget.ToggleWidgetOldActivity
+---------------------------------------
+
+dev.ukanth.ufirewall.activity.RulesActivity
+extra: Extras-,(,String-"validate",),
+---------------------------------------
+
+dev.ukanth.ufirewall.activity.OldLogActivity
+---------------------------------------
+
+dev.ukanth.ufirewall.activity.CustomScriptActivity
+---------------------------------------
+
+dev.ukanth.ufirewall.activity.DataDumpActivity
+---------------------------------------
+
+dev.ukanth.ufirewall.activity.ProfileActivity
+---------------------------------------
+
+dev.ukanth.ufirewall.plugin.LocaleEdit
+extra: Bundle-"com.twofortyfouram.locale.intent.extra.BUNDLE",(,String-"dev.ukanth.ufirewall.plugin.APPLY_PROFILE",),Bundle-"com.twofortyfouram.locale.intent.extra.BUNDLE",(,),Extras-,(,),
+---------------------------------------
+

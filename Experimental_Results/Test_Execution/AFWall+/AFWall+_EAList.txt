@@ -1,0 +1,4 @@
+dev.ukanth.ufirewall.widget.ToggleWidgetActivity
+dev.ukanth.ufirewall.MainActivity
+dev.ukanth.ufirewall.widget.ToggleWidgetOldActivity
+dev.ukanth.ufirewall.plugin.LocaleEdit

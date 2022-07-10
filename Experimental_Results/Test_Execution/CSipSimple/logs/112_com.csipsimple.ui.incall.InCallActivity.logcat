@@ -1,0 +1,98 @@
+--------- beginning of main
+--------- beginning of system
+03-10 02:06:01.231  4578  4578 D M_InsDal: Lcom/csipsimple/db/DBProvider;---><clinit>()V
+03-10 02:06:01.232  4578  4578 D M_InsDal: Lcom/csipsimple/db/DBProvider;---><init>()V
+03-10 02:06:01.232  4578  4578 D M_InsDal: Lcom/csipsimple/db/DBProvider;--->onCreate()Z
+03-10 02:06:01.232  4578  4578 D M_InsDal: Lcom/csipsimple/db/DBAdapter$DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 02:06:01.244  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallActivity;---><init>()V
+03-10 02:06:01.244  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallActivity$1;---><init>(Lcom/csipsimple/ui/incall/InCallActivity;)V
+03-10 02:06:01.244  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallActivity$2;---><init>(Lcom/csipsimple/ui/incall/InCallActivity;)V
+03-10 02:06:01.251  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 02:06:01.252  4578  4578 D M_InsDal: Lcom/csipsimple/utils/Log;---><clinit>()V
+03-10 02:06:01.252  4578  4578 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 02:06:01.260  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallInfoGrid;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 02:06:01.260  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallInfoGrid$1;---><init>(Lcom/csipsimple/ui/incall/InCallInfoGrid;)V
+03-10 02:06:01.260  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallInfoGrid;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 02:06:01.260  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallInfoGrid$1;---><init>(Lcom/csipsimple/ui/incall/InCallInfoGrid;)V
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallAnswerControls;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallAnswerControls;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/utils/accessibility/AccessibilityWrapper;--->getInstance()Lcom/csipsimple/utils/accessibility/AccessibilityWrapper;
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->isCompatible(I)Z
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/utils/accessibility/Accessibility4;---><init>()V
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/utils/accessibility/AccessibilityWrapper;---><init>()V
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/utils/accessibility/Accessibility4;--->init(Landroid/content/Context;)V
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/utils/accessibility/Accessibility4;--->isEnabled()Z
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;---><clinit>()V
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;--->getPreferenceBooleanValue(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
+03-10 02:06:01.261  4578  4578 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;--->getPrefUriForKey(Ljava/lang/String;)Landroid/net/Uri;
+03-10 02:06:01.306  4606  4606 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><clinit>()V
+03-10 02:06:01.306  4606  4606 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;---><init>()V
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->onCreate()Z
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><clinit>()V
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$1;---><init>()V
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/utils/CustomDistribution;--->getUserAgent()Ljava/lang/String;
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$2;---><init>()V
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper$3;---><init>()V
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;---><init>(Landroid/content/Context;)V
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->needUpgrade()Ljava/lang/Integer;
+03-10 02:06:01.307  4606  4606 D M_InsDal: Lcom/csipsimple/utils/PreferencesProviderWrapper;--->getCurrentPackageInfos(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
+03-10 02:06:01.308  4606  4606 D M_InsDal: Lcom/csipsimple/utils/Log;---><clinit>()V
+03-10 02:06:01.308  4606  4606 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 02:06:01.308  4606  4606 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 02:06:01.308  4606  4606 D M_InsDal: Lcom/csipsimple/utils/Compatibility;--->getApiLevel()I
+03-10 02:06:01.315  4606  4637 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 02:06:01.315  4606  4637 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->getPreferenceBooleanValue(Ljava/lang/String;)Ljava/lang/Boolean;
+03-10 02:06:01.315  4606  4637 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->gPrefBooleanValue(Landroid/content/SharedPreferences;Ljava/lang/String;)Ljava/lang/Boolean;
+03-10 02:06:01.317  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallAnswerControls;--->onFinishInflate()V
+03-10 02:06:01.317  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 02:06:01.318  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+03-10 02:06:01.318  4578  4578 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;--->getPreferenceBooleanValue(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
+03-10 02:06:01.318  4578  4578 D M_InsDal: Lcom/csipsimple/api/SipConfigManager;--->getPrefUriForKey(Ljava/lang/String;)Landroid/net/Uri;
+03-10 02:06:01.318  4606  4637 D M_InsDal: Lcom/csipsimple/service/PreferenceProvider;--->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+03-10 02:06:01.318  4606  4637 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->getPreferenceBooleanValue(Ljava/lang/String;)Ljava/lang/Boolean;
+03-10 02:06:01.318  4606  4637 D M_InsDal: Lcom/csipsimple/utils/PreferencesWrapper;--->gPrefBooleanValue(Landroid/content/SharedPreferences;Ljava/lang/String;)Ljava/lang/Boolean;
+03-10 02:06:01.319  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls$1;---><init>(Lcom/csipsimple/ui/incall/InCallControls;Landroid/content/Context;)V
+03-10 02:06:01.341  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls$1;--->bindItemView(Lcom/actionbarsherlock/internal/view/menu/MenuItemImpl;Lcom/actionbarsherlock/internal/view/menu/MenuView$ItemView;)V
+03-10 02:06:01.346  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls$1;--->bindItemView(Lcom/actionbarsherlock/internal/view/menu/MenuItemImpl;Lcom/actionbarsherlock/internal/view/menu/MenuView$ItemView;)V
+03-10 02:06:01.346  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls$1;--->bindItemView(Lcom/actionbarsherlock/internal/view/menu/MenuItemImpl;Lcom/actionbarsherlock/internal/view/menu/MenuView$ItemView;)V
+03-10 02:06:01.346  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls;--->onFinishInflate()V
+03-10 02:06:01.347  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls;--->setEnabledMediaButtons(Z)V
+03-10 02:06:01.347  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls;--->setMediaState(Lcom/csipsimple/api/MediaState;)V
+03-10 02:06:01.347  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls$1;--->bindItemView(Lcom/actionbarsherlock/internal/view/menu/MenuItemImpl;Lcom/actionbarsherlock/internal/view/menu/MenuView$ItemView;)V
+03-10 02:06:01.347  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls$1;--->bindItemView(Lcom/actionbarsherlock/internal/view/menu/MenuItemImpl;Lcom/actionbarsherlock/internal/view/menu/MenuView$ItemView;)V
+03-10 02:06:01.347  4578  4578 D M_InsDal: Lcom/csipsimple/utils/Log;--->d(Ljava/lang/String;Ljava/lang/String;)V
+03-10 02:06:01.348  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls$1;--->bindItemView(Lcom/actionbarsherlock/internal/view/menu/MenuItemImpl;Lcom/actionbarsherlock/internal/view/menu/MenuView$ItemView;)V
+03-10 02:06:01.348  4578  4578 D M_InsDal: Lcom/csipsimple/ui/incall/InCallControls$1;--->bindItemView(Lcom/actionbarsherlock/internal/view/menu/MenuItemImpl;Lcom/actionbarsherlock/internal/view/menu/MenuView$ItemView;)V
+03-10 02:06:01.348  4578  4578 D M_InsDal: Lcom/csipsimple/widgets/ScreenLocker;---><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+03-10 02:06:01.349  4578  4578 D M_InsDal: Lcom/csipsimple/widgets/ScreenLocker$ShowHideHandler;---><init>(Lcom/csipsimple/widgets/ScreenLocker;)V
+--------- beginning of crash
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: Process: com.csipsimple:sipStack, PID: 4578
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.csipsimple/com.csipsimple.ui.incall.InCallActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.csipsimple.MyParcelable
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.com.csipsimple.MyParcelable
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.os.Bundle.getParcelable(Bundle.java:951)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.content.Intent.getParcelableExtra(Intent.java:8086)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at com.csipsimple.ui.incall.InCallActivity.onCreate(InCallActivity.java:143)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 02:06:01.350  4578  4578 E AndroidRuntime: 	... 11 more

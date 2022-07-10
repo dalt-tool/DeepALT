@@ -1,0 +1,318 @@
+app_name: OpenKeychain
+package_name: org.sufficientlysecure.keychain
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemoteDisplayTransferCodeActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RequestKeyPermissionActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.RedirectImportKeysActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.BROWSABLE" category: "android.intent.category.DEFAULT" 
+scheme: ["OpenPGP4fpr", "OPENPGP4FPR", "OpenPGP4FPR", "OpenPGP4Fpr", "openpgp4fpr"]://host: [host]: [port]/[path]
+
+act_name: org.sufficientlysecure.keychain.ui.UploadKeyActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.RetryUploadDialogActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.SettingsKeyServerActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemoteImportKeysActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.CertifyKeyActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemoteBackupActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.OrbotRequiredDialogActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.QrCodeCaptureActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.DecryptActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.BROWSABLE" category: "android.intent.category.DEFAULT" 
+mime: "application/pgp-message" mime: "application/octet-stream" mime: "application/pgp" mime: "text/pgp" mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "org.sufficientlysecure.keychain.action.DECRYPT_DATA" 
+category: "android.intent.category.DEFAULT" 
+mime: "*/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "org.sufficientlysecure.keychain.action.DECRYPT_TEXT" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.SEND" action: "android.intent.action.SEND_MULTIPLE" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/*" mime: "message/*" mime: "image/*" mime: "audio/*" mime: "video/*" mime: "application/*" mime: "multipart/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: [scheme, "file", "content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" 
+scheme: [scheme, "file", "content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "application/autocrypt-setup" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: org.sufficientlysecure.keychain.ui.UsbEventReceiverActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.hardware.usb.action.USB_DEVICE_ATTACHED" 
+scheme: []://host: []: []/[]
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemoteSecurityProblemDialogActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.MainActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: org.sufficientlysecure.keychain.remote.ui.SelectSignKeyIdActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.dialog.RemoteSelectAuthenticationKeyActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.ImportKeysActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" action: "android.intent.action.SEND" 
+category: "android.intent.category.BROWSABLE" category: "android.intent.category.DEFAULT" 
+mime: "application/pgp-keys" mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" action: "android.intent.action.SEND" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: [scheme, "file", "content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "*/*" 
+scheme: [scheme, "file", "content"]://host: ["*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.BROWSABLE" category: "android.intent.category.DEFAULT" 
+scheme: ["http", "https"]://host: [host, "*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.BROWSABLE" category: "android.intent.category.DEFAULT" 
+scheme: ["http", "https"]://host: ["www.facebook.com", host, "facebook.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.BROWSABLE" category: "android.intent.category.DEFAULT" 
+scheme: ["https"]://host: [host, "*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.BROWSABLE" category: "android.intent.category.DEFAULT" 
+mime: "application/octet-stream" mime: "application/pgp-keys" 
+scheme: ["https"]://host: [host, "*"]: [port]/[path]
+intent_filter: 
+action: "org.sufficientlysecure.keychain.action.IMPORT_KEY" 
+category: "android.intent.category.DEFAULT" 
+mime: "*/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "org.sufficientlysecure.keychain.action.IMPORT_KEY" 
+category: "android.intent.category.DEFAULT" 
+mime: "application/pgp-keys" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "org.sufficientlysecure.keychain.action.IMPORT_KEY" action: "org.sufficientlysecure.keychain.action.IMPORT_KEY_FROM_KEYSERVER" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.nfc.action.NDEF_DISCOVERED" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["OpenPGP4fpr", "OPENPGP4FPR", "OpenPGP4FPR", "OpenPGP4Fpr", "openpgp4fpr"]://host: [host]: [port]/[path]
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemoteRegisterActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.SettingsActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "org.sufficientlysecure.keychain.ui.PREFS_GEN" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "org.sufficientlysecure.keychain.ui.PREFS_ADV" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: org.sufficientlysecure.keychain.ui.CertifyFingerprintActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.EditKeyActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.PassphraseDialogActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.DeleteKeyDialogActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.DebugActionsActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "org.sufficientlysecure.keychain.debug" 
+scheme: []://host: []: []/[]
+
+act_name: org.sufficientlysecure.keychain.ui.BackupActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.DisplayTextActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "org.sufficientlysecure.keychain.action.IMPORT_KEY_FROM_QR_CODE" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.nfc.action.NDEF_DISCOVERED" 
+category: "android.intent.category.DEFAULT" 
+mime: "application/pgp-keys" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: org.sufficientlysecure.keychain.ui.PanicExitActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemotePassphraseDialogActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.dialog.RemoteDeduplicateActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.SecurityTokenChangePinOperationActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+mime: "vnd.android.cursor.item/vnd.org.sufficientlysecure.keychain.key" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: org.sufficientlysecure.keychain.ui.SecurityTokenOperationActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.EncryptFilesActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "org.sufficientlysecure.keychain.action.ENCRYPT_DATA" 
+category: "android.intent.category.DEFAULT" 
+mime: "*/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.SEND" action: "android.intent.action.SEND_MULTIPLE" 
+category: "android.intent.category.DEFAULT" 
+mime: "image/*" mime: "audio/*" mime: "video/*" mime: "application/*" mime: "multipart/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: org.sufficientlysecure.keychain.ui.ViewKeyAdvActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.AppSettingsActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemoteSelectPubKeyActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.HelpActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.SettingsSmartPGPAuthoritiesActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.CreateKeyActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.nfc.action.NDEF_DISCOVERED" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["https"]://host: ["my.yubico.com"]: [port]/[path]
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemoteSecurityTokenOperationActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.LogDisplayActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.EncryptTextActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "org.sufficientlysecure.keychain.action.ENCRYPT_TEXT" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.SEND" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/*" mime: "message/*" 
+scheme: [scheme]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.PROCESS_TEXT" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: org.sufficientlysecure.keychain.ui.QrCodeViewActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.ShowNfcSweetspotActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.linked.LinkedIdWizard
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.SafeSlingerActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.remote.ui.RemoteErrorActivity
+permission: 
+
+act_name: org.sufficientlysecure.keychain.ui.PanicResponderActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "info.guardianproject.panic.action.TRIGGER" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: org.sufficientlysecure.keychain.remote.ui.dialog.RemoteSelectIdKeyActivity
+permission: 

@@ -1,0 +1,9 @@
+--------- beginning of main
+--------- beginning of system
+03-10 01:30:49.918 16045 16045 D M_InsDal: Lcom/mikifus/padland/PadlandApp;--->onCreate()V
+03-10 01:30:49.929 16045 16045 D M_InsDal: Lcom/mikifus/padland/PadLandActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:30:49.929 16045 16045 D M_InsDal: Lcom/mikifus/padland/PadLandDataActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:30:49.930 16045 16045 D M_InsDal: Lcom/mikifus/padland/PadListActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 01:30:49.977 16045 16045 D M_InsDal: Lcom/mikifus/padland/PadListActivity;--->onStart()V
+03-10 01:30:50.077 16045 16045 D M_InsDal: Lcom/mikifus/padland/PadLandDataActivity;--->a(Landroid/view/Menu;I)Z
+03-10 01:30:50.077 16045 16045 D M_InsDal: Lcom/mikifus/padland/PadListActivity;--->onCreateOptionsMenu(Landroid/view/Menu;)Z

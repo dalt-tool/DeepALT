@@ -1,0 +1,6 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:01:04.545 26462 26462 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 00:01:04.657 26518 26518 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:01:04.704 26518 26518 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/UsbEventReceiverActivity;--->onResume()V
+03-10 00:01:04.735 26518 26518 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

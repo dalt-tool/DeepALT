@@ -1,0 +1,37 @@
+--------- beginning of main
+--------- beginning of system
+03-10 04:59:55.296 12710 12710 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V
+03-10 04:59:55.412 12710 12710 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:59:55.412 12710 12710 D M_InsDal: Les/usc/citius/servando/calendula/activities/PatientDetailActivity;--->onCreate(Landroid/os/Bundle;)V
+--------- beginning of crash
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: Process: es.usc.citius.servando.calendula, PID: 12710
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{es.usc.citius.servando.calendula/es.usc.citius.servando.calendula.activities.PatientDetailActivity}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.es.usc.citius.servando.calendula.MyParcelable
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: fax.es.usc.citius.servando.calendula.MyParcelable
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.Parcel.readParcelableCreator(Parcel.java:3042)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.Parcel.readParcelable(Parcel.java:2964)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.Parcel.readValue(Parcel.java:2866)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3244)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:292)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.BaseBundle.unparcel(BaseBundle.java:236)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.os.BaseBundle.getLong(BaseBundle.java:1073)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.content.Intent.getLongExtra(Intent.java:8010)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at es.usc.citius.servando.calendula.activities.PatientDetailActivity.onCreate(Unknown Source:92)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 04:59:55.483 12710 12710 E AndroidRuntime: 	... 11 more
+03-10 04:59:56.588 12763 12763 D M_InsDal: Les/usc/citius/servando/calendula/CalendulaApp;--->onCreate()V

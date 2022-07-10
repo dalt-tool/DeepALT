@@ -1,0 +1,5 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:01:55.995 26887 26887 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:01:56.030 26887 26887 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/UsbEventReceiverActivity;--->onResume()V
+03-10 00:01:56.063 26887 26887 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onTrimMemory(I)V

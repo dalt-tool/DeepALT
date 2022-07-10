@@ -1,0 +1,31 @@
+--------- beginning of main
+--------- beginning of system
+03-10 00:57:05.723 28362 28362 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-10 00:57:05.747 28362 28362 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:57:05.774 28362 28362 D M_InsDal: Lorg/sufficientlysecure/keychain/remote/ui/AppSettingsActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 00:57:05.776 28362 28362 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainDatabase$1;--->onOpen(Landroid/arch/persistence/db/SupportSQLiteDatabase;)V
+--------- beginning of crash
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: Process: org.sufficientlysecure.keychain, PID: 28362
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.remote.ui.AppSettingsActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String org.sufficientlysecure.keychain.model.ApiApp.package_name()' on a null object reference
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3782)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3961)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:213)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8178)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String org.sufficientlysecure.keychain.model.ApiApp.package_name()' on a null object reference
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at org.sufficientlysecure.keychain.remote.ui.AppSettingsActivity.loadData(AppSettingsActivity.java:180)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at org.sufficientlysecure.keychain.remote.ui.AppSettingsActivity.onCreate(AppSettingsActivity.java:81)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8086)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8074)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1313)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3755)
+03-10 00:57:05.779 28362 28362 E AndroidRuntime: 	... 11 more
+03-10 00:57:06.878 28416 28416 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V

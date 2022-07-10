@@ -1,0 +1,6 @@
+--------- beginning of system
+--------- beginning of main
+03-09 23:20:12.734  1409  1409 D M_InsDal: Lorg/sufficientlysecure/keychain/KeychainApplication;--->onCreate()V
+03-09 23:20:12.783  1409  1409 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:20:12.800  1409  1409 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/RedirectImportKeysActivity;--->onCreate(Landroid/os/Bundle;)V
+03-09 23:20:12.837  1409  1409 D M_InsDal: Lorg/sufficientlysecure/keychain/ui/base/BaseActivity;--->onResume()V

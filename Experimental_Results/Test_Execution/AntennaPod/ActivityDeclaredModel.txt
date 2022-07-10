@@ -1,0 +1,131 @@
+app_name: AntennaPod
+package_name: de.danoeh.antennapod
+
+act_name: de.danoeh.antennapod.activity.CastplayerActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.StorageErrorActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.FeedInfoActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.FeedSettingsActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.AboutActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.OpmlImportFromPathActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.VideoplayerActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "video/*" 
+scheme: ["file"]://host: [host]: [port]/[path]
+
+act_name: de.danoeh.antennapod.activity.FlattrAuthActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: ".activities.FlattrAuthActivity" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["flattr4j"]://host: ["de.danoeh.antennapod"]: [port]/[path]
+
+act_name: de.danoeh.antennapod.activity.DownloadAuthenticationActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.OpmlFeedChooserActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.ImportExportActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.SplashActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.media.action.MEDIA_PLAY_FROM_SEARCH" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: de.danoeh.antennapod.activity.DirectoryChooserActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.StatisticsActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.MainActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.AudioplayerActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "audio/*" 
+scheme: ["file"]://host: [host]: [port]/[path]
+
+act_name: de.danoeh.antennapod.activity.PreferenceActivity
+permission: 
+
+act_name: de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: ".activity.gpoddernet.GpodnetAuthenticationActivity" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+
+act_name: de.danoeh.antennapod.activity.OnlineFeedViewActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http", "https"]://host: [host, "*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["http", "https"]://host: ["feedsproxy.google.com", host, "feedproxy.google.com", "feeds2.feedburner.com", "feeds.feedburner.com"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "text/xml" mime: "application/rss+xml" mime: "application/atom+xml" mime: "application/xml" 
+scheme: ["http", "https"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+scheme: ["itpc", "feed", "pcast", "antennapod-subscribe"]://host: [host]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.SEND" 
+category: "android.intent.category.DEFAULT" 
+mime: "text/plain" 
+scheme: [scheme]://host: [host]: [port]/[path]
+
+act_name: de.danoeh.antennapod.activity.OpmlImportFromIntentActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "text/xml" mime: "text/x-opml" mime: "application/xml" mime: "application/octet-stream" 
+scheme: [scheme, "file", "content"]://host: [host, "*"]: [port]/[path]
+intent_filter: 
+action: "android.intent.action.SEND" 
+category: "android.intent.category.DEFAULT" category: "android.intent.category.BROWSABLE" 
+mime: "text/xml" mime: "text/plain" mime: "text/x-opml" mime: "application/xml" mime: "application/octet-stream" 
+scheme: [scheme, "http", "https"]://host: [host]: [port]/[path]

@@ -1,0 +1,6 @@
+--------- beginning of system
+--------- beginning of main
+03-10 04:01:11.955  4071  4071 D M_InsDal: Lcom/nutomic/syncthingandroid/SyncthingApp;--->onCreate()V
+03-10 04:01:12.078  4071  4071 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/StateDialogActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:01:12.078  4071  4071 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/ShareActivity;--->onCreate(Landroid/os/Bundle;)V
+03-10 04:01:12.581  4071  4071 D M_InsDal: Lcom/nutomic/syncthingandroid/activities/StateDialogActivity;--->onDestroy()V

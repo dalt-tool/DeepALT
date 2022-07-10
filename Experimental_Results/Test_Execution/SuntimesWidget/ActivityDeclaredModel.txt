@@ -1,0 +1,126 @@
+app_name: SuntimesWidget
+package_name: com.forrestguice.suntimeswidget
+
+act_name: com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_2x1
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.SuntimesWidgetListActivity
+permission: 
+
+act_name: com.forrestguice.suntimeswidget.SuntimesConfigActivity0_2x1
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.SolsticeWidget0ConfigActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_3x1
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.themes.WidgetThemeListActivity
+permission: 
+
+act_name: com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_3x1
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.SuntimesSettingsActivity
+permission: 
+
+act_name: com.forrestguice.suntimeswidget.alarmclock.ui.AlarmDismissActivity
+mExported
+permission: 
+
+act_name: com.forrestguice.suntimeswidget.SuntimesActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.VIEW" 
+category: "android.intent.category.DEFAULT" 
+scheme: ["geo"]://host: [host]: [port]/[path]
+
+act_name: com.forrestguice.suntimeswidget.SuntimesConfigActivity0
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.SuntimesConfigActivity1
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.intent.action.SET_ALARM" 
+category: "android.intent.category.DEFAULT" 
+scheme: []://host: []: []/[]
+intent_filter: 
+action: "android.intent.action.MAIN" 
+category: "android.intent.category.LAUNCHER" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.SuntimesConfigActivity2
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x1
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x2
+permission: 
+mIntentFilter
+intent_filter: 
+action: "android.appwidget.action.APPWIDGET_CONFIGURE" 
+scheme: []://host: []: []/[]
+
+act_name: com.forrestguice.suntimeswidget.themes.WidgetThemeConfigActivity
+permission: 

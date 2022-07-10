@@ -1,0 +1,8 @@
+--------- beginning of main
+--------- beginning of system
+03-10 06:32:32.017  2167  2167 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><clinit>()V
+03-10 06:32:32.018  2167  2167 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;---><init>()V
+03-10 06:32:32.018  2167  2167 D M_InsDal: Lnl/sogeti/android/gpstracker/db/GPStrackingProvider;--->onCreate()Z
+03-10 06:32:32.018  2167  2167 D M_InsDal: Lnl/sogeti/android/gpstracker/db/DatabaseHelper;---><init>(Landroid/content/Context;)V
+03-10 06:32:32.029  2167  2167 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/TracksLiveFolder;---><init>()V
+03-10 06:32:32.032  2167  2167 D M_InsDal: Lnl/sogeti/android/gpstracker/viewer/TracksLiveFolder;--->onCreate(Landroid/os/Bundle;)V
