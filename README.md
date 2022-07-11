@@ -20,7 +20,7 @@ An activity-launching-test tool to generate intents as test cases that can reach
   * add java.library.path into the enviroment variable file [enviroment_path], e.g., ~/.bash_profile, /etc/profile.
 	   i.e., "export LD\_LIBRARY\_PATH=$LD\_LIBRARY\_PATH:[your\_library\_path]" to file [enviroment\_path].
   * save the modification (source [enviroment\_path])
-* Android environment
+* Android enviroment
   * Install Android sdk (usually includes tool Ant and ADB)
   * Install Ant
   * Install ADB
