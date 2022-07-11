@@ -8,7 +8,7 @@ An activity-launching-test tool to generate intents as test cases that can reach
   - Instrumented_Apps: the exposed and instrumented apps in the experiments
   - Tool: DALT tools 
   - Experimental_Results
-    - Manually_Examined_Paths
+    - Manual_Examination
     - F-Droid_Summary: summaries of each app in F-Droid
     - Test_Execution: summaries of static analysis, generated test cases, and  execution logs
   
